@@ -11,10 +11,10 @@ BookForge is a platform-agnostic, specification-driven framework for turning a g
 
 ```bash
 # Install from npm
-npm install -g @joynagassi-cyber/bookforge
+npm install -g bookforge-framework
 
 # Initialize in your project
-npx @joynagassi-cyber/bookforge install --host auto
+npx bookforge-framework install --host auto
 
 # Validate your project
 bookforge validate
@@ -37,13 +37,13 @@ bookforge validate
 
 ```bash
 # From npm (after publication)
-npm install -g @joynagassi-cyber/bookforge
+npm install -g bookforge-framework
 
 # From GitHub (development)
 npx --yes github:joynagassi-cyber/bookforge install --host auto
 
 # All hosts
-npx @joynagassi-cyber/bookforge install --host all
+npx bookforge-framework install --host all
 ```
 
 ## 🛠️ CLI Commands
@@ -51,20 +51,20 @@ npx @joynagassi-cyber/bookforge install --host all
 ```bash
 # Core commands
 bookforge validate                      # Validate project state
-@joynagassi-cyber/bookforge route "write chapter 3"       # Route task to appropriate workflow
-@joynagassi-cyber/bookforge context-pack "write chapter 3" # Pack context for task
-@joynagassi-cyber/bookforge workflow plan draft-chapter   # Plan workflow execution
+bookforge-framework route "write chapter 3"       # Route task to appropriate workflow
+bookforge-framework context-pack "write chapter 3" # Pack context for task
+bookforge-framework workflow plan draft-chapter   # Plan workflow execution
 
 # Plugin management
-@joynagassi-cyber/bookforge plugin add --source github:owner/plugin
-@joynagassi-cyber/bookforge plugin list
-@joynagassi-cyber/bookforge plugin enable <id>
-@joynagassi-cyber/bookforge plugin disable <id>
-@joynagassi-cyber/bookforge plugin remove <id>
+bookforge-framework plugin add --source github:owner/plugin
+bookforge-framework plugin list
+bookforge-framework plugin enable <id>
+bookforge-framework plugin disable <id>
+bookforge-framework plugin remove <id>
 
 # Graph synchronization
-@joynagassi-cyber/bookforge graph-sync                    # Sync events to graph
-@joynagassi-cyber/bookforge watch --sync                  # Watch for changes
+bookforge-framework graph-sync                    # Sync events to graph
+bookforge-framework watch --sync                  # Watch for changes
 
 # Party mode (multi-agent)
 bookforge-party create my-party
@@ -167,13 +167,13 @@ npm run pack:check
 
 ```javascript
 // Install from GitHub
-@joynagassi-cyber/bookforge plugin add --source github:owner/bookforge-plugin
+bookforge-framework plugin add --source github:owner/bookforge-plugin
 
 // Install from npm
-@joynagassi-cyber/bookforge plugin add --source npm:bookforge-plugin
+bookforge-framework plugin add --source npm:bookforge-plugin
 
 // Install from local file
-@joynagassi-cyber/bookforge plugin add --source file:./my-plugin
+bookforge-framework plugin add --source file:./my-plugin
 ```
 
 Plugins provide:
