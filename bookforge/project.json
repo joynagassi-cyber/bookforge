@@ -3,7 +3,7 @@
   "template": "book",
   "host": "auto",
   "graph": "none",
-  "created_at": "2026-08-14T21:23:57.197Z",
+  "created_at": "2026-08-14T21:54:35.084Z",
   "canonical": {
     "artifacts": "bookforge/artifacts",
     "state": "bookforge/state",
