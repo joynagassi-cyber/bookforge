@@ -1,5 +1,14 @@
-import fs from 'node:fs'; import path from 'node:path'; import { readJson, writeText, writeJson, mkdir, bfPath } from '../core/io.js';
-const hostSpec=()=>readJson(path.resolve(process.cwd(),'specs','hosts','host-adapters.json'));
+import fs from 'node:fs'; import path from 'node:path'; import { fileURLToPath } from 'node:url';
+import { readJson, writeText, writeJson, mkdir, bfPath } from '../core/io.js';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const pkgRoot = path.resolve(__dirname, '../..');
+
+const hostSpec=() => {
+  const specPath = path.join(pkgRoot, 'specs', 'hosts', 'host-adapters.json');
+  return readJson(specPath);
+};
 const target=(project,host)=>({
   'claude-code':'.claude/skills','cursor':'.agents/skills','windsurf':'.agents/skills','antigravity':'.agent/skills','antigravity-cli':'.agents/skills','github-copilot':'.agents/skills','gemini':'.agents/skills','kiro':'bookforge/generated/skills','devin':'bookforge/generated/skills','codex-cli':'bookforge/generated/skills','opencode':'bookforge/generated/skills','kilocode':'bookforge/generated/skills','generic':'bookforge/generated/skills'
 }[host]||'bookforge/generated/skills');
