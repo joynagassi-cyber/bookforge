@@ -1,0 +1,682 @@
+[
+  {
+    "id": "genres.romance",
+    "name": "Romance",
+    "type": "catalog_entry",
+    "domain": "conception",
+    "definition": null,
+    "purpose": "Genres, sous-genres, conventions, reader expectations et possibilités de subversion.",
+    "tags": [
+      "fiction",
+      "nonfiction",
+      "commercial",
+      "literary",
+      "educational"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "genres.mystery",
+    "name": "Mystery",
+    "type": "catalog_entry",
+    "domain": "conception",
+    "definition": null,
+    "purpose": "Genres, sous-genres, conventions, reader expectations et possibilités de subversion.",
+    "tags": [
+      "fiction",
+      "nonfiction",
+      "commercial",
+      "literary",
+      "educational"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "genres.thriller",
+    "name": "Thriller",
+    "type": "catalog_entry",
+    "domain": "conception",
+    "definition": null,
+    "purpose": "Genres, sous-genres, conventions, reader expectations et possibilités de subversion.",
+    "tags": [
+      "fiction",
+      "nonfiction",
+      "commercial",
+      "literary",
+      "educational"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "genres.crime",
+    "name": "Crime",
+    "type": "catalog_entry",
+    "domain": "conception",
+    "definition": null,
+    "purpose": "Genres, sous-genres, conventions, reader expectations et possibilités de subversion.",
+    "tags": [
+      "fiction",
+      "nonfiction",
+      "commercial",
+      "literary",
+      "educational"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "genres.horror",
+    "name": "Horror",
+    "type": "catalog_entry",
+    "domain": "conception",
+    "definition": null,
+    "purpose": "Genres, sous-genres, conventions, reader expectations et possibilités de subversion.",
+    "tags": [
+      "fiction",
+      "nonfiction",
+      "commercial",
+      "literary",
+      "educational"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "genres.fantasy",
+    "name": "Fantasy",
+    "type": "catalog_entry",
+    "domain": "conception",
+    "definition": null,
+    "purpose": "Genres, sous-genres, conventions, reader expectations et possibilités de subversion.",
+    "tags": [
+      "fiction",
+      "nonfiction",
+      "commercial",
+      "literary",
+      "educational"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "genres.science_fiction",
+    "name": "Science Fiction",
+    "type": "catalog_entry",
+    "domain": "conception",
+    "definition": null,
+    "purpose": "Genres, sous-genres, conventions, reader expectations et possibilités de subversion.",
+    "tags": [
+      "fiction",
+      "nonfiction",
+      "commercial",
+      "literary",
+      "educational"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "genres.historical_fiction",
+    "name": "Historical Fiction",
+    "type": "catalog_entry",
+    "domain": "conception",
+    "definition": null,
+    "purpose": "Genres, sous-genres, conventions, reader expectations et possibilités de subversion.",
+    "tags": [
+      "fiction",
+      "nonfiction",
+      "commercial",
+      "literary",
+      "educational"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "genres.literary_fiction",
+    "name": "Literary Fiction",
+    "type": "catalog_entry",
+    "domain": "conception",
+    "definition": null,
+    "purpose": "Genres, sous-genres, conventions, reader expectations et possibilités de subversion.",
+    "tags": [
+      "fiction",
+      "nonfiction",
+      "commercial",
+      "literary",
+      "educational"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "genres.adventure",
+    "name": "Adventure",
+    "type": "catalog_entry",
+    "domain": "conception",
+    "definition": null,
+    "purpose": "Genres, sous-genres, conventions, reader expectations et possibilités de subversion.",
+    "tags": [
+      "fiction",
+      "nonfiction",
+      "commercial",
+      "literary",
+      "educational"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "genres.western",
+    "name": "Western",
+    "type": "catalog_entry",
+    "domain": "conception",
+    "definition": null,
+    "purpose": "Genres, sous-genres, conventions, reader expectations et possibilités de subversion.",
+    "tags": [
+      "fiction",
+      "nonfiction",
+      "commercial",
+      "literary",
+      "educational"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "genres.satire",
+    "name": "Satire",
+    "type": "catalog_entry",
+    "domain": "conception",
+    "definition": null,
+    "purpose": "Genres, sous-genres, conventions, reader expectations et possibilités de subversion.",
+    "tags": [
+      "fiction",
+      "nonfiction",
+      "commercial",
+      "literary",
+      "educational"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "genres.comedy",
+    "name": "Comedy",
+    "type": "catalog_entry",
+    "domain": "conception",
+    "definition": null,
+    "purpose": "Genres, sous-genres, conventions, reader expectations et possibilités de subversion.",
+    "tags": [
+      "fiction",
+      "nonfiction",
+      "commercial",
+      "literary",
+      "educational"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "genres.drama",
+    "name": "Drama",
+    "type": "catalog_entry",
+    "domain": "conception",
+    "definition": null,
+    "purpose": "Genres, sous-genres, conventions, reader expectations et possibilités de subversion.",
+    "tags": [
+      "fiction",
+      "nonfiction",
+      "commercial",
+      "literary",
+      "educational"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "genres.dystopian",
+    "name": "Dystopian",
+    "type": "catalog_entry",
+    "domain": "conception",
+    "definition": null,
+    "purpose": "Genres, sous-genres, conventions, reader expectations et possibilités de subversion.",
+    "tags": [
+      "fiction",
+      "nonfiction",
+      "commercial",
+      "literary",
+      "educational"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "genres.cozy_mystery",
+    "name": "Cozy Mystery",
+    "type": "catalog_entry",
+    "domain": "conception",
+    "definition": null,
+    "purpose": "Genres, sous-genres, conventions, reader expectations et possibilités de subversion.",
+    "tags": [
+      "fiction",
+      "nonfiction",
+      "commercial",
+      "literary",
+      "educational"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "genres.psychological_thriller",
+    "name": "Psychological Thriller",
+    "type": "catalog_entry",
+    "domain": "conception",
+    "definition": null,
+    "purpose": "Genres, sous-genres, conventions, reader expectations et possibilités de subversion.",
+    "tags": [
+      "fiction",
+      "nonfiction",
+      "commercial",
+      "literary",
+      "educational"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "genres.domestic_thriller",
+    "name": "Domestic Thriller",
+    "type": "catalog_entry",
+    "domain": "conception",
+    "definition": null,
+    "purpose": "Genres, sous-genres, conventions, reader expectations et possibilités de subversion.",
+    "tags": [
+      "fiction",
+      "nonfiction",
+      "commercial",
+      "literary",
+      "educational"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "genres.epic_fantasy",
+    "name": "Epic Fantasy",
+    "type": "catalog_entry",
+    "domain": "conception",
+    "definition": null,
+    "purpose": "Genres, sous-genres, conventions, reader expectations et possibilités de subversion.",
+    "tags": [
+      "fiction",
+      "nonfiction",
+      "commercial",
+      "literary",
+      "educational"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "genres.urban_fantasy",
+    "name": "Urban Fantasy",
+    "type": "catalog_entry",
+    "domain": "conception",
+    "definition": null,
+    "purpose": "Genres, sous-genres, conventions, reader expectations et possibilités de subversion.",
+    "tags": [
+      "fiction",
+      "nonfiction",
+      "commercial",
+      "literary",
+      "educational"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "genres.dark_fantasy",
+    "name": "Dark Fantasy",
+    "type": "catalog_entry",
+    "domain": "conception",
+    "definition": null,
+    "purpose": "Genres, sous-genres, conventions, reader expectations et possibilités de subversion.",
+    "tags": [
+      "fiction",
+      "nonfiction",
+      "commercial",
+      "literary",
+      "educational"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "genres.magical_realism",
+    "name": "Magical Realism",
+    "type": "catalog_entry",
+    "domain": "conception",
+    "definition": null,
+    "purpose": "Genres, sous-genres, conventions, reader expectations et possibilités de subversion.",
+    "tags": [
+      "fiction",
+      "nonfiction",
+      "commercial",
+      "literary",
+      "educational"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "genres.memoir",
+    "name": "Memoir",
+    "type": "catalog_entry",
+    "domain": "conception",
+    "definition": null,
+    "purpose": "Genres, sous-genres, conventions, reader expectations et possibilités de subversion.",
+    "tags": [
+      "fiction",
+      "nonfiction",
+      "commercial",
+      "literary",
+      "educational"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "genres.biography",
+    "name": "Biography",
+    "type": "catalog_entry",
+    "domain": "conception",
+    "definition": null,
+    "purpose": "Genres, sous-genres, conventions, reader expectations et possibilités de subversion.",
+    "tags": [
+      "fiction",
+      "nonfiction",
+      "commercial",
+      "literary",
+      "educational"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "genres.self_help",
+    "name": "Self Help",
+    "type": "catalog_entry",
+    "domain": "conception",
+    "definition": null,
+    "purpose": "Genres, sous-genres, conventions, reader expectations et possibilités de subversion.",
+    "tags": [
+      "fiction",
+      "nonfiction",
+      "commercial",
+      "literary",
+      "educational"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "genres.business",
+    "name": "Business",
+    "type": "catalog_entry",
+    "domain": "conception",
+    "definition": null,
+    "purpose": "Genres, sous-genres, conventions, reader expectations et possibilités de subversion.",
+    "tags": [
+      "fiction",
+      "nonfiction",
+      "commercial",
+      "literary",
+      "educational"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "genres.popular_science",
+    "name": "Popular Science",
+    "type": "catalog_entry",
+    "domain": "conception",
+    "definition": null,
+    "purpose": "Genres, sous-genres, conventions, reader expectations et possibilités de subversion.",
+    "tags": [
+      "fiction",
+      "nonfiction",
+      "commercial",
+      "literary",
+      "educational"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "genres.history",
+    "name": "History",
+    "type": "catalog_entry",
+    "domain": "conception",
+    "definition": null,
+    "purpose": "Genres, sous-genres, conventions, reader expectations et possibilités de subversion.",
+    "tags": [
+      "fiction",
+      "nonfiction",
+      "commercial",
+      "literary",
+      "educational"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "genres.philosophy",
+    "name": "Philosophy",
+    "type": "catalog_entry",
+    "domain": "conception",
+    "definition": null,
+    "purpose": "Genres, sous-genres, conventions, reader expectations et possibilités de subversion.",
+    "tags": [
+      "fiction",
+      "nonfiction",
+      "commercial",
+      "literary",
+      "educational"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "genres.how_to",
+    "name": "How To",
+    "type": "catalog_entry",
+    "domain": "conception",
+    "definition": null,
+    "purpose": "Genres, sous-genres, conventions, reader expectations et possibilités de subversion.",
+    "tags": [
+      "fiction",
+      "nonfiction",
+      "commercial",
+      "literary",
+      "educational"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "genres.textbook",
+    "name": "Textbook",
+    "type": "catalog_entry",
+    "domain": "conception",
+    "definition": null,
+    "purpose": "Genres, sous-genres, conventions, reader expectations et possibilités de subversion.",
+    "tags": [
+      "fiction",
+      "nonfiction",
+      "commercial",
+      "literary",
+      "educational"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "genres.creative_nonfiction",
+    "name": "Creative Nonfiction",
+    "type": "catalog_entry",
+    "domain": "conception",
+    "definition": null,
+    "purpose": "Genres, sous-genres, conventions, reader expectations et possibilités de subversion.",
+    "tags": [
+      "fiction",
+      "nonfiction",
+      "commercial",
+      "literary",
+      "educational"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "genres.young_adult",
+    "name": "Young Adult",
+    "type": "catalog_entry",
+    "domain": "conception",
+    "definition": null,
+    "purpose": "Genres, sous-genres, conventions, reader expectations et possibilités de subversion.",
+    "tags": [
+      "fiction",
+      "nonfiction",
+      "commercial",
+      "literary",
+      "educational"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "genres.middle_grade",
+    "name": "Middle Grade",
+    "type": "catalog_entry",
+    "domain": "conception",
+    "definition": null,
+    "purpose": "Genres, sous-genres, conventions, reader expectations et possibilités de subversion.",
+    "tags": [
+      "fiction",
+      "nonfiction",
+      "commercial",
+      "literary",
+      "educational"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  }
+]

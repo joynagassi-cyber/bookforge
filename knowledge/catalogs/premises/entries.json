@@ -1,0 +1,212 @@
+[
+  {
+    "id": "premises.what_if",
+    "name": "What If",
+    "type": "catalog_entry",
+    "domain": "conception",
+    "definition": null,
+    "purpose": "Patterns for turning raw ideas into testable book premises.",
+    "tags": [
+      "character_driven",
+      "plot_driven",
+      "concept_driven",
+      "theme_driven",
+      "world_driven",
+      "question_driven"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "premises.fish_out_of_water",
+    "name": "Fish Out Of Water",
+    "type": "catalog_entry",
+    "domain": "conception",
+    "definition": null,
+    "purpose": "Patterns for turning raw ideas into testable book premises.",
+    "tags": [
+      "character_driven",
+      "plot_driven",
+      "concept_driven",
+      "theme_driven",
+      "world_driven",
+      "question_driven"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "premises.ironic_premise",
+    "name": "Ironic Premise",
+    "type": "catalog_entry",
+    "domain": "conception",
+    "definition": null,
+    "purpose": "Patterns for turning raw ideas into testable book premises.",
+    "tags": [
+      "character_driven",
+      "plot_driven",
+      "concept_driven",
+      "theme_driven",
+      "world_driven",
+      "question_driven"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "premises.forbidden_goal",
+    "name": "Forbidden Goal",
+    "type": "catalog_entry",
+    "domain": "conception",
+    "definition": null,
+    "purpose": "Patterns for turning raw ideas into testable book premises.",
+    "tags": [
+      "character_driven",
+      "plot_driven",
+      "concept_driven",
+      "theme_driven",
+      "world_driven",
+      "question_driven"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "premises.impossible_choice",
+    "name": "Impossible Choice",
+    "type": "catalog_entry",
+    "domain": "conception",
+    "definition": null,
+    "purpose": "Patterns for turning raw ideas into testable book premises.",
+    "tags": [
+      "character_driven",
+      "plot_driven",
+      "concept_driven",
+      "theme_driven",
+      "world_driven",
+      "question_driven"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "premises.countdown",
+    "name": "Countdown",
+    "type": "catalog_entry",
+    "domain": "conception",
+    "definition": null,
+    "purpose": "Patterns for turning raw ideas into testable book premises.",
+    "tags": [
+      "character_driven",
+      "plot_driven",
+      "concept_driven",
+      "theme_driven",
+      "world_driven",
+      "question_driven"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "premises.hidden_identity",
+    "name": "Hidden Identity",
+    "type": "catalog_entry",
+    "domain": "conception",
+    "definition": null,
+    "purpose": "Patterns for turning raw ideas into testable book premises.",
+    "tags": [
+      "character_driven",
+      "plot_driven",
+      "concept_driven",
+      "theme_driven",
+      "world_driven",
+      "question_driven"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "premises.ordinary_person_extraordinary_problem",
+    "name": "Ordinary Person Extraordinary Problem",
+    "type": "catalog_entry",
+    "domain": "conception",
+    "definition": null,
+    "purpose": "Patterns for turning raw ideas into testable book premises.",
+    "tags": [
+      "character_driven",
+      "plot_driven",
+      "concept_driven",
+      "theme_driven",
+      "world_driven",
+      "question_driven"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "premises.power_with_cost",
+    "name": "Power With Cost",
+    "type": "catalog_entry",
+    "domain": "conception",
+    "definition": null,
+    "purpose": "Patterns for turning raw ideas into testable book premises.",
+    "tags": [
+      "character_driven",
+      "plot_driven",
+      "concept_driven",
+      "theme_driven",
+      "world_driven",
+      "question_driven"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "premises.moral_dilemma",
+    "name": "Moral Dilemma",
+    "type": "catalog_entry",
+    "domain": "conception",
+    "definition": null,
+    "purpose": "Patterns for turning raw ideas into testable book premises.",
+    "tags": [
+      "character_driven",
+      "plot_driven",
+      "concept_driven",
+      "theme_driven",
+      "world_driven",
+      "question_driven"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  }
+]

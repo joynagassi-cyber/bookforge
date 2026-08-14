@@ -1,0 +1,222 @@
+[
+  {
+    "id": "style.minimalist",
+    "name": "Minimalist",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Catalogue de profils stylistiques descriptifs sans imiter des auteurs contemporains.",
+    "tags": [
+      "minimalist",
+      "lyrical",
+      "literary",
+      "commercial",
+      "genre_forward",
+      "experimental",
+      "journalistic"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "style.lush",
+    "name": "Lush",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Catalogue de profils stylistiques descriptifs sans imiter des auteurs contemporains.",
+    "tags": [
+      "minimalist",
+      "lyrical",
+      "literary",
+      "commercial",
+      "genre_forward",
+      "experimental",
+      "journalistic"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "style.cinematic",
+    "name": "Cinematic",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Catalogue de profils stylistiques descriptifs sans imiter des auteurs contemporains.",
+    "tags": [
+      "minimalist",
+      "lyrical",
+      "literary",
+      "commercial",
+      "genre_forward",
+      "experimental",
+      "journalistic"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "style.introspective",
+    "name": "Introspective",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Catalogue de profils stylistiques descriptifs sans imiter des auteurs contemporains.",
+    "tags": [
+      "minimalist",
+      "lyrical",
+      "literary",
+      "commercial",
+      "genre_forward",
+      "experimental",
+      "journalistic"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "style.fast_cut",
+    "name": "Fast Cut",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Catalogue de profils stylistiques descriptifs sans imiter des auteurs contemporains.",
+    "tags": [
+      "minimalist",
+      "lyrical",
+      "literary",
+      "commercial",
+      "genre_forward",
+      "experimental",
+      "journalistic"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "style.meditative",
+    "name": "Meditative",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Catalogue de profils stylistiques descriptifs sans imiter des auteurs contemporains.",
+    "tags": [
+      "minimalist",
+      "lyrical",
+      "literary",
+      "commercial",
+      "genre_forward",
+      "experimental",
+      "journalistic"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "style.reportorial",
+    "name": "Reportorial",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Catalogue de profils stylistiques descriptifs sans imiter des auteurs contemporains.",
+    "tags": [
+      "minimalist",
+      "lyrical",
+      "literary",
+      "commercial",
+      "genre_forward",
+      "experimental",
+      "journalistic"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "style.poetic",
+    "name": "Poetic",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Catalogue de profils stylistiques descriptifs sans imiter des auteurs contemporains.",
+    "tags": [
+      "minimalist",
+      "lyrical",
+      "literary",
+      "commercial",
+      "genre_forward",
+      "experimental",
+      "journalistic"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "style.plainspoken",
+    "name": "Plainspoken",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Catalogue de profils stylistiques descriptifs sans imiter des auteurs contemporains.",
+    "tags": [
+      "minimalist",
+      "lyrical",
+      "literary",
+      "commercial",
+      "genre_forward",
+      "experimental",
+      "journalistic"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "style.highly_compressed",
+    "name": "Highly Compressed",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Catalogue de profils stylistiques descriptifs sans imiter des auteurs contemporains.",
+    "tags": [
+      "minimalist",
+      "lyrical",
+      "literary",
+      "commercial",
+      "genre_forward",
+      "experimental",
+      "journalistic"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  }
+]

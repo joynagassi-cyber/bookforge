@@ -1,0 +1,54 @@
+{
+  "id": "fallacies",
+  "name": "Reasoning Fallacies & Argument Risks",
+  "domain": "nonfiction",
+  "purpose": "Détecte les défauts de raisonnement dans la nonfiction argumentative.",
+  "priority": "P1",
+  "entry_schema": [
+    "id",
+    "name",
+    "type",
+    "definition",
+    "purpose",
+    "when_to_use",
+    "when_not_to_use",
+    "variants",
+    "strengths",
+    "risks",
+    "anti_patterns",
+    "related_ids",
+    "tags",
+    "genres",
+    "formats",
+    "agent_hints",
+    "confidence",
+    "sources",
+    "fallacy_pattern",
+    "diagnostic",
+    "why_invalid",
+    "repair"
+  ],
+  "taxonomies": [
+    "relevance",
+    "causality",
+    "generalization",
+    "framing",
+    "authority"
+  ],
+  "relations": [
+    "detected_in",
+    "repaired_by",
+    "related_to"
+  ],
+  "primary_consumers": [
+    "Logic Critic",
+    "Nonfiction Architect",
+    "Research Agent"
+  ],
+  "reference_sources": [
+    "Internal synthesis"
+  ],
+  "master_version": "1.0.0",
+  "integration_status": "new",
+  "legacy_source": null
+}

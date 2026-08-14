@@ -1,0 +1,42 @@
+version: "0.5.0"
+framework:
+  id: bookforge
+  mode: artifact-first
+  platform_agnostic: true
+context:
+  progressive_disclosure: true
+  default_budget: medium
+  compaction_threshold: 0.75
+  canonical_state_dir: bookforge/state
+routing:
+  scale_adaptive: true
+quality:
+  require_human_gate_before_release: true
+  fail_on_unresolved_critical_findings: true
+adapters:
+  directory: adapters
+catalogs:
+  directory: catalogs
+
+knowledge:
+  master_catalog: knowledge/master/bookforge-knowledge-catalog-master-v1.0.json
+  catalog_directory: knowledge/catalogs
+  index_directory: knowledge/indexes
+  source_registry: knowledge/sources/registry.json
+  progressive_disclosure: true
+  deterministic_indexes: true
+quality_controls:
+  similarity_is_not_plagiarism_verdict: true
+  human_voice_is_not_detector_evasion: true
+  require_human_review_for_suspected_plagiarism: true
+
+plugins:
+  registry: bookforge/plugins/registry.json
+  manifest_schema: specs/plugins/plugin.schema.json
+hosts:
+  adapter_spec: specs/hosts/host-adapters.json
+graph:
+  canonical_store: files
+  projection: event-log
+  providers: specs/graph/providers.yaml
+  event_contract: specs/graph/graph-contract.schema.json

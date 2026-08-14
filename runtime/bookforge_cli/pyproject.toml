@@ -1,0 +1,9 @@
+[project]
+name = "bookforge-cli"
+version = "0.3.0"
+description = "Reference CLI for BookForge"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+bookforge = "bookforge.cli:main"

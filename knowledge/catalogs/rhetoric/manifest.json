@@ -1,0 +1,56 @@
+{
+  "id": "rhetoric",
+  "name": "Rhetorical & Literary Devices",
+  "domain": "prose",
+  "purpose": "Catalogue des procédés rhétoriques et de leurs effets.",
+  "priority": "P1",
+  "entry_schema": [
+    "id",
+    "name",
+    "type",
+    "definition",
+    "purpose",
+    "when_to_use",
+    "when_not_to_use",
+    "variants",
+    "strengths",
+    "risks",
+    "anti_patterns",
+    "related_ids",
+    "tags",
+    "genres",
+    "formats",
+    "agent_hints",
+    "confidence",
+    "sources",
+    "device_type",
+    "effect",
+    "intensity",
+    "best_contexts",
+    "risk_of_overuse"
+  ],
+  "taxonomies": [
+    "sound",
+    "syntax",
+    "semantic",
+    "argumentative",
+    "figurative"
+  ],
+  "relations": [
+    "enhances",
+    "contrasts_with",
+    "supports_theme",
+    "supports_voice"
+  ],
+  "primary_consumers": [
+    "Style Agent",
+    "Line Editor",
+    "Rhetoric Agent"
+  ],
+  "reference_sources": [
+    "Internal synthesis"
+  ],
+  "master_version": "1.0.0",
+  "integration_status": "extension",
+  "legacy_source": "catalogs/rhetorical-devices.csv"
+}

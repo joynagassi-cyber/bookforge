@@ -1,0 +1,62 @@
+{
+  "id": "locations",
+  "name": "Locations, Spaces & Atmosphere",
+  "domain": "world",
+  "purpose": "Catalogue des fonctions narratives et sensorielles des lieux.",
+  "priority": "P1",
+  "entry_schema": [
+    "id",
+    "name",
+    "type",
+    "definition",
+    "purpose",
+    "when_to_use",
+    "when_not_to_use",
+    "variants",
+    "strengths",
+    "risks",
+    "anti_patterns",
+    "related_ids",
+    "tags",
+    "genres",
+    "formats",
+    "agent_hints",
+    "confidence",
+    "sources",
+    "location_type",
+    "sensory_profile",
+    "social_meaning",
+    "history",
+    "hazards",
+    "symbolic_role",
+    "scene_functions"
+  ],
+  "taxonomies": [
+    "domestic",
+    "public",
+    "institutional",
+    "natural",
+    "urban",
+    "rural",
+    "fantastical",
+    "liminal"
+  ],
+  "relations": [
+    "hosts_scene",
+    "symbolizes",
+    "contains",
+    "connects_to",
+    "changes_character"
+  ],
+  "primary_consumers": [
+    "Worldbuilder",
+    "Scene Architect",
+    "Description Agent"
+  ],
+  "reference_sources": [
+    "Internal synthesis"
+  ],
+  "master_version": "1.0.0",
+  "integration_status": "new",
+  "legacy_source": null
+}

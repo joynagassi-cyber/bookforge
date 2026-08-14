@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "task_id",
+    "intent",
+    "scope",
+    "required_artifacts",
+    "constraints"
+  ],
+  "properties": {
+    "task_id": {
+      "type": "string"
+    },
+    "intent": {
+      "type": "string"
+    },
+    "scope": {
+      "type": "object"
+    },
+    "required_artifacts": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "optional_artifacts": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "constraints": {
+      "type": "object"
+    },
+    "quality_targets": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

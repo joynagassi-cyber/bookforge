@@ -1,0 +1,10 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "type":"object","required":["event_id","operation","entity"],
+  "properties":{
+    "event_id":{"type":"string"},"operation":{"enum":["upsert_node","upsert_edge","delete_node","delete_edge","snapshot"]},
+    "entity":{"type":"object","required":["id","type"],"properties":{"id":{"type":"string"},"type":{"type":"string"},"properties":{"type":"object"}}},
+    "edge":{"type":"object","properties":{"from":{"type":"string"},"to":{"type":"string"},"type":{"type":"string"},"properties":{"type":"object"}}},
+    "source_artifact":{"type":"string"},"source_hash":{"type":"string"},"timestamp":{"type":"string"},"actor":{"type":"string"}
+  }
+}

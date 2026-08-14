@@ -1,0 +1,59 @@
+{
+  "id": "foreshadowing",
+  "name": "Foreshadowing, Plants, Setups & Payoffs",
+  "domain": "narrative",
+  "purpose": "Catalogue des mécanismes qui plantent, retardent, rappellent et paient les éléments narratifs.",
+  "priority": "P0",
+  "entry_schema": [
+    "id",
+    "name",
+    "type",
+    "definition",
+    "purpose",
+    "when_to_use",
+    "when_not_to_use",
+    "variants",
+    "strengths",
+    "risks",
+    "anti_patterns",
+    "related_ids",
+    "tags",
+    "genres",
+    "formats",
+    "agent_hints",
+    "confidence",
+    "sources",
+    "plant",
+    "delay",
+    "signal_strength",
+    "payoff",
+    "reinterpretation",
+    "reader_awareness"
+  ],
+  "taxonomies": [
+    "explicit",
+    "subtle",
+    "symbolic",
+    "dialogue",
+    "visual",
+    "structural"
+  ],
+  "relations": [
+    "plants",
+    "precedes",
+    "pays_off",
+    "reinterprets"
+  ],
+  "primary_consumers": [
+    "Plot Architect",
+    "Continuity Agent",
+    "Mystery Agent",
+    "Theme Agent"
+  ],
+  "reference_sources": [
+    "Internal synthesis"
+  ],
+  "master_version": "1.0.0",
+  "integration_status": "new",
+  "legacy_source": null
+}

@@ -1,0 +1,9 @@
+schema_id,diagram_type,purpose,best_for,complexity,default_direction
+mnd-001,flowchart,Process / workflow,how-to; business process,low,TD
+mnd-002,sequence,Interaction timeline,systems; conversations,medium,TB
+mnd-003,mindmap,Concept hierarchy,education; brainstorming,low,TB
+mnd-004,timeline,Chronology,history; memoir; project history,low,LR
+mnd-005,state,State transitions,systems; behavioral models,medium,TB
+mnd-006,quadrant,2-axis comparison,strategy; positioning,medium,TB
+mnd-007,journey,Reader/user journey,self-help; service design,medium,LR
+mnd-008,class,Conceptual structure,technical books,medium,TB

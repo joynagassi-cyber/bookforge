@@ -1,0 +1,5 @@
+agent: writer
+override:
+  tone: "measured"
+  max_passes: 2
+  require_chapter_packet: true

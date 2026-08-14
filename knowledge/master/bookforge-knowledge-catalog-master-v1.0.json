@@ -1,0 +1,4076 @@
+{
+  "name": "BookForge Knowledge Catalog Master Specification",
+  "version": "1.0.0",
+  "created": "2026-08-14",
+  "purpose": "Master blueprint for splitting BookForge knowledge into specialized agent-consumable catalogs.",
+  "important_note": "This is a knowledge architecture and seed catalog, not a dump of copyrighted books or proprietary databases. Entries should be expanded from licensed, public-domain, official, or independently authored sources.",
+  "design_principles": [
+    "Separate ontology, catalogs, and long-form reference corpus.",
+    "Use stable IDs and explicit relationships.",
+    "Record provenance and confidence for every nontrivial claim.",
+    "Do not treat heuristics or literary scores as objective truth.",
+    "Keep genre conventions descriptive rather than prescriptive.",
+    "Keep AI-slop signals probabilistic; never claim they prove AI authorship.",
+    "Avoid reproducing copyrighted source text; store summaries, concepts, metadata and short lawful references.",
+    "Make catalogs retrievable by domain, genre, format, task, agent and workflow.",
+    "Allow fiction and nonfiction to share primitives but diverge in domain-specific catalogs.",
+    "Design for progressive disclosure: metadata -> entry -> related entries -> source."
+  ],
+  "retrieval_dimensions": [
+    "catalog_id",
+    "entry_id",
+    "domain",
+    "subdomain",
+    "genre",
+    "format",
+    "audience",
+    "task_type",
+    "agent",
+    "workflow",
+    "difficulty",
+    "confidence",
+    "source_quality",
+    "language"
+  ],
+  "entry_contract": {
+    "required": [
+      "id",
+      "name",
+      "type",
+      "definition",
+      "purpose",
+      "tags",
+      "confidence",
+      "sources"
+    ],
+    "recommended": [
+      "when_to_use",
+      "when_not_to_use",
+      "variants",
+      "risks",
+      "anti_patterns",
+      "related_ids",
+      "agent_hints"
+    ],
+    "source_policy": "Every externally-derived rule, taxonomy, standard, or factual claim must carry a source record.",
+    "versioning": "Entries should be versioned independently and never silently overwritten when meaning changes."
+  },
+  "catalog_count": 54,
+  "catalogs": [
+    {
+      "id": "book_primitives",
+      "name": "Book Primitives",
+      "domain": "foundation",
+      "purpose": "Vocabulaire canonique partagé par tous les agents et catalogues.",
+      "priority": "P0",
+      "entry_schema": [
+        "id",
+        "name",
+        "type",
+        "definition",
+        "purpose",
+        "when_to_use",
+        "when_not_to_use",
+        "variants",
+        "strengths",
+        "risks",
+        "anti_patterns",
+        "related_ids",
+        "tags",
+        "genres",
+        "formats",
+        "agent_hints",
+        "confidence",
+        "sources",
+        "canonical_term",
+        "aliases",
+        "parent",
+        "children"
+      ],
+      "taxonomies": [
+        "creative",
+        "narrative",
+        "editorial",
+        "production"
+      ],
+      "seed_entries": [
+        "book",
+        "idea",
+        "concept",
+        "premise",
+        "promise",
+        "theme",
+        "question",
+        "claim",
+        "character",
+        "role",
+        "goal",
+        "need",
+        "desire",
+        "fear",
+        "wound",
+        "belief",
+        "conflict",
+        "obstacle",
+        "choice",
+        "action",
+        "event",
+        "consequence",
+        "scene",
+        "beat",
+        "chapter",
+        "part",
+        "arc",
+        "relationship",
+        "location",
+        "object",
+        "symbol",
+        "motif",
+        "emotion",
+        "information",
+        "reveal",
+        "secret",
+        "clue",
+        "foreshadow",
+        "payoff",
+        "voice",
+        "style",
+        "tone",
+        "image",
+        "metaphor",
+        "dialogue",
+        "description",
+        "fact",
+        "source",
+        "evidence",
+        "revision"
+      ],
+      "relations": [
+        "is_a",
+        "part_of",
+        "causes",
+        "supports",
+        "contrasts_with",
+        "implements"
+      ],
+      "primary_consumers": [
+        "all_agents"
+      ],
+      "reference_sources": [
+        "WordNet lexical/semantic model",
+        "BookForge internal ontology"
+      ]
+    },
+    {
+      "id": "book_types",
+      "name": "Book Types & Formats",
+      "domain": "conception",
+      "purpose": "Taxonomie des formes de livres et de leurs contraintes de conception.",
+      "priority": "P0",
+      "entry_schema": [
+        "id",
+        "name",
+        "type",
+        "definition",
+        "purpose",
+        "when_to_use",
+        "when_not_to_use",
+        "variants",
+        "strengths",
+        "risks",
+        "anti_patterns",
+        "related_ids",
+        "tags",
+        "genres",
+        "formats",
+        "agent_hints",
+        "confidence",
+        "sources",
+        "typical_length",
+        "reader_contract",
+        "structural_norms",
+        "production_outputs"
+      ],
+      "taxonomies": [
+        "fiction",
+        "nonfiction",
+        "educational",
+        "professional",
+        "children",
+        "illustrated",
+        "reference"
+      ],
+      "seed_entries": [
+        "novel",
+        "novella",
+        "short_story_collection",
+        "memoir",
+        "biography",
+        "essay_collection",
+        "business_book",
+        "self_help",
+        "textbook",
+        "manual",
+        "workbook",
+        "academic_monograph",
+        "poetry_collection",
+        "picture_book",
+        "middle_grade",
+        "young_adult",
+        "screenplay",
+        "graphic_novel",
+        "reference_book"
+      ],
+      "relations": [
+        "compatible_with_genre",
+        "uses_structure",
+        "uses_layout",
+        "targets_audience"
+      ],
+      "primary_consumers": [
+        "Idea Architect",
+        "Book Architect",
+        "Book Designer",
+        "Publishing Agent"
+      ],
+      "reference_sources": [
+        "W3C EPUB 3.3",
+        "Library of Congress MARC 21"
+      ]
+    },
+    {
+      "id": "genres",
+      "name": "Genre System",
+      "domain": "conception",
+      "purpose": "Genres, sous-genres, conventions, reader expectations et possibilités de subversion.",
+      "priority": "P0",
+      "entry_schema": [
+        "id",
+        "name",
+        "type",
+        "definition",
+        "purpose",
+        "when_to_use",
+        "when_not_to_use",
+        "variants",
+        "strengths",
+        "risks",
+        "anti_patterns",
+        "related_ids",
+        "tags",
+        "genres",
+        "formats",
+        "agent_hints",
+        "confidence",
+        "sources",
+        "core_promise",
+        "mandatory_conventions",
+        "optional_conventions",
+        "reader_expectations",
+        "typical_pacing",
+        "typical_stakes",
+        "typical_arcs",
+        "subgenre_of"
+      ],
+      "taxonomies": [
+        "fiction",
+        "nonfiction",
+        "commercial",
+        "literary",
+        "educational"
+      ],
+      "seed_entries": [
+        "romance",
+        "mystery",
+        "thriller",
+        "crime",
+        "horror",
+        "fantasy",
+        "science_fiction",
+        "historical_fiction",
+        "literary_fiction",
+        "adventure",
+        "western",
+        "satire",
+        "comedy",
+        "drama",
+        "dystopian",
+        "cozy_mystery",
+        "psychological_thriller",
+        "domestic_thriller",
+        "epic_fantasy",
+        "urban_fantasy",
+        "dark_fantasy",
+        "magical_realism",
+        "memoir",
+        "biography",
+        "self_help",
+        "business",
+        "popular_science",
+        "history",
+        "philosophy",
+        "how_to",
+        "textbook",
+        "creative_nonfiction",
+        "young_adult",
+        "middle_grade"
+      ],
+      "relations": [
+        "genre_of",
+        "subgenre_of",
+        "expects",
+        "subverts",
+        "combines_with"
+      ],
+      "primary_consumers": [
+        "Genre Agent",
+        "Plot Architect",
+        "Audience Agent",
+        "Critic"
+      ],
+      "reference_sources": [
+        "Editor World fiction-writing overview",
+        "Story Grid genre methodology"
+      ]
+    },
+    {
+      "id": "premises",
+      "name": "Ideas, Concepts & Premises",
+      "domain": "conception",
+      "purpose": "Patterns for turning raw ideas into testable book premises.",
+      "priority": "P0",
+      "entry_schema": [
+        "id",
+        "name",
+        "type",
+        "definition",
+        "purpose",
+        "when_to_use",
+        "when_not_to_use",
+        "variants",
+        "strengths",
+        "risks",
+        "anti_patterns",
+        "related_ids",
+        "tags",
+        "genres",
+        "formats",
+        "agent_hints",
+        "confidence",
+        "sources",
+        "logline",
+        "central_question",
+        "central_conflict",
+        "emotional_core",
+        "novelty",
+        "scope",
+        "stakes",
+        "transformation",
+        "promise"
+      ],
+      "taxonomies": [
+        "character_driven",
+        "plot_driven",
+        "concept_driven",
+        "theme_driven",
+        "world_driven",
+        "question_driven"
+      ],
+      "seed_entries": [
+        "what_if",
+        "fish_out_of_water",
+        "ironic_premise",
+        "forbidden_goal",
+        "impossible_choice",
+        "countdown",
+        "hidden_identity",
+        "ordinary_person_extraordinary_problem",
+        "power_with_cost",
+        "moral_dilemma"
+      ],
+      "relations": [
+        "supports_theme",
+        "creates_conflict",
+        "implies_structure",
+        "targets_genre"
+      ],
+      "primary_consumers": [
+        "Idea Architect",
+        "Brainstorming Agent",
+        "Genre Agent"
+      ],
+      "reference_sources": [
+        "BookForge internal creative methodology"
+      ]
+    },
+    {
+      "id": "promises",
+      "name": "Reader Promise & Book Contract",
+      "domain": "conception",
+      "purpose": "Modélise ce que le livre promet de faire ressentir, comprendre ou obtenir au lecteur.",
+      "priority": "P0",
+      "entry_schema": [
+        "id",
+        "name",
+        "type",
+        "definition",
+        "purpose",
+        "when_to_use",
+        "when_not_to_use",
+        "variants",
+        "strengths",
+        "risks",
+        "anti_patterns",
+        "related_ids",
+        "tags",
+        "genres",
+        "formats",
+        "agent_hints",
+        "confidence",
+        "sources",
+        "promise_type",
+        "reader_expectation",
+        "delivery_mechanisms",
+        "failure_signals"
+      ],
+      "taxonomies": [
+        "emotional",
+        "informational",
+        "transformational",
+        "experiential",
+        "practical",
+        "entertainment"
+      ],
+      "seed_entries": [
+        "mystery_resolution",
+        "romantic_satisfaction",
+        "fear",
+        "wonder",
+        "mastery",
+        "transformation",
+        "practical_result",
+        "identity_shift",
+        "insight",
+        "belonging"
+      ],
+      "relations": [
+        "genre",
+        "audience",
+        "theme",
+        "plot",
+        "reader_effect"
+      ],
+      "primary_consumers": [
+        "Book Architect",
+        "Genre Agent",
+        "Reader Experience Agent",
+        "Critic"
+      ],
+      "reference_sources": [
+        "Internal synthesis of genre/reader-contract concepts"
+      ]
+    },
+    {
+      "id": "themes",
+      "name": "Themes, Questions & Philosophical Tensions",
+      "domain": "conception",
+      "purpose": "Bibliothèque de thèmes et tensions pouvant relier intrigue, personnages, symboles et scènes.",
+      "priority": "P0",
+      "entry_schema": [
+        "id",
+        "name",
+        "type",
+        "definition",
+        "purpose",
+        "when_to_use",
+        "when_not_to_use",
+        "variants",
+        "strengths",
+        "risks",
+        "anti_patterns",
+        "related_ids",
+        "tags",
+        "genres",
+        "formats",
+        "agent_hints",
+        "confidence",
+        "sources",
+        "theme_question",
+        "opposing_values",
+        "theme_claim",
+        "counterclaim",
+        "manifestations"
+      ],
+      "taxonomies": [
+        "moral",
+        "psychological",
+        "social",
+        "political",
+        "existential",
+        "philosophical",
+        "relational"
+      ],
+      "seed_entries": [
+        "freedom_vs_security",
+        "truth_vs_belonging",
+        "love_vs_duty",
+        "order_vs_chaos",
+        "identity_vs_role",
+        "individual_vs_society",
+        "revenge_vs_forgiveness",
+        "progress_vs_tradition",
+        "power_vs_ethics",
+        "meaning_vs_absurdity",
+        "nature_vs_civilization",
+        "memory_vs_identity"
+      ],
+      "relations": [
+        "manifests_in",
+        "contrasted_by",
+        "embodied_by",
+        "symbolized_by",
+        "resolved_by"
+      ],
+      "primary_consumers": [
+        "Theme Architect",
+        "Character Architect",
+        "Plot Architect",
+        "Symbolism Agent"
+      ],
+      "reference_sources": [
+        "Internal synthesis"
+      ]
+    },
+    {
+      "id": "story_structures",
+      "name": "Story Structures",
+      "domain": "narrative",
+      "purpose": "Catalogue des architectures macro-narratives et de leurs étapes/fonctions.",
+      "priority": "P0",
+      "entry_schema": [
+        "id",
+        "name",
+        "type",
+        "definition",
+        "purpose",
+        "when_to_use",
+        "when_not_to_use",
+        "variants",
+        "strengths",
+        "risks",
+        "anti_patterns",
+        "related_ids",
+        "tags",
+        "genres",
+        "formats",
+        "agent_hints",
+        "confidence",
+        "sources",
+        "stages",
+        "stage_functions",
+        "tension_profile",
+        "requirements",
+        "optional_stages",
+        "compatible_genres",
+        "combination_rules"
+      ],
+      "taxonomies": [
+        "linear",
+        "nonlinear",
+        "episodic",
+        "frame",
+        "multi_thread",
+        "cyclical"
+      ],
+      "seed_entries": [
+        "three_act",
+        "five_act",
+        "hero_journey",
+        "story_circle",
+        "save_the_cat",
+        "snowflake",
+        "seven_point",
+        "fichtean_curve",
+        "freytag_pyramid",
+        "kishotenketsu",
+        "in_medias_res",
+        "quest_structure",
+        "mystery_structure",
+        "romance_structure",
+        "tragedy_structure",
+        "bildungsroman",
+        "frame_narrative"
+      ],
+      "relations": [
+        "implements",
+        "combines_with",
+        "alternative_to",
+        "fits_genre"
+      ],
+      "primary_consumers": [
+        "Plot Architect",
+        "Book Architect",
+        "Structure Critic"
+      ],
+      "reference_sources": [
+        "Common narrative-structure literature",
+        "Internal synthesis; named models require source tracking"
+      ]
+    },
+    {
+      "id": "beats",
+      "name": "Narrative Beats & Turning Points",
+      "domain": "narrative",
+      "purpose": "Fonctions narratives atomiques qui peuvent être mappées sur différentes structures.",
+      "priority": "P0",
+      "entry_schema": [
+        "id",
+        "name",
+        "type",
+        "definition",
+        "purpose",
+        "when_to_use",
+        "when_not_to_use",
+        "variants",
+        "strengths",
+        "risks",
+        "anti_patterns",
+        "related_ids",
+        "tags",
+        "genres",
+        "formats",
+        "agent_hints",
+        "confidence",
+        "sources",
+        "function",
+        "reader_effect",
+        "character_effect",
+        "plot_effect",
+        "preconditions",
+        "postconditions",
+        "requiredness"
+      ],
+      "taxonomies": [
+        "setup",
+        "turn",
+        "reversal",
+        "revelation",
+        "decision",
+        "consequence",
+        "payoff"
+      ],
+      "seed_entries": [
+        "hook",
+        "setup",
+        "inciting_incident",
+        "call_to_action",
+        "refusal",
+        "commitment",
+        "first_threshold",
+        "progressive_complications",
+        "midpoint",
+        "major_reversal",
+        "crisis",
+        "dark_night",
+        "climax",
+        "resolution",
+        "revelation",
+        "sacrifice",
+        "false_victory",
+        "false_defeat",
+        "decision",
+        "payoff",
+        "callback"
+      ],
+      "relations": [
+        "part_of_structure",
+        "precedes",
+        "follows",
+        "causes",
+        "pays_off"
+      ],
+      "primary_consumers": [
+        "Plot Architect",
+        "Scene Architect",
+        "Pacing Agent",
+        "Critic"
+      ],
+      "reference_sources": [
+        "Internal synthesis"
+      ]
+    },
+    {
+      "id": "plot_patterns",
+      "name": "Plot & Causality Patterns",
+      "domain": "narrative",
+      "purpose": "Patterns de causalité, escalade, enquête, quête, transformation et résolution.",
+      "priority": "P0",
+      "entry_schema": [
+        "id",
+        "name",
+        "type",
+        "definition",
+        "purpose",
+        "when_to_use",
+        "when_not_to_use",
+        "variants",
+        "strengths",
+        "risks",
+        "anti_patterns",
+        "related_ids",
+        "tags",
+        "genres",
+        "formats",
+        "agent_hints",
+        "confidence",
+        "sources",
+        "causal_chain",
+        "escalation_logic",
+        "resolution_logic",
+        "failure_modes"
+      ],
+      "taxonomies": [
+        "goal_obstacle",
+        "mystery",
+        "quest",
+        "survival",
+        "transformation",
+        "competition",
+        "relationship"
+      ],
+      "seed_entries": [
+        "quest",
+        "escape",
+        "heist",
+        "investigation",
+        "revenge",
+        "rescue",
+        "race_against_time",
+        "rags_to_riches",
+        "coming_of_age",
+        "corruption",
+        "redemption",
+        "rise_and_fall",
+        "stranger_in_a_strange_land",
+        "monster_hunt",
+        "conspiracy",
+        "political_intrigue"
+      ],
+      "relations": [
+        "uses_conflict",
+        "uses_stakes",
+        "uses_beats",
+        "creates_subplots"
+      ],
+      "primary_consumers": [
+        "Plot Architect",
+        "Genre Agent",
+        "Conflict Agent"
+      ],
+      "reference_sources": [
+        "Internal synthesis"
+      ]
+    },
+    {
+      "id": "scenes",
+      "name": "Scene Functions & Scene Architecture",
+      "domain": "narrative",
+      "purpose": "Catalogue des fonctions de scène et du moteur Goal–Conflict–Turn–Consequence.",
+      "priority": "P0",
+      "entry_schema": [
+        "id",
+        "name",
+        "type",
+        "definition",
+        "purpose",
+        "when_to_use",
+        "when_not_to_use",
+        "variants",
+        "strengths",
+        "risks",
+        "anti_patterns",
+        "related_ids",
+        "tags",
+        "genres",
+        "formats",
+        "agent_hints",
+        "confidence",
+        "sources",
+        "scene_function",
+        "goal",
+        "obstacle",
+        "conflict",
+        "escalation",
+        "turn",
+        "decision",
+        "consequence",
+        "reader_effect",
+        "entry_state",
+        "exit_state"
+      ],
+      "taxonomies": [
+        "action",
+        "reaction",
+        "revelation",
+        "confrontation",
+        "bonding",
+        "transition",
+        "setup",
+        "payoff",
+        "aftermath"
+      ],
+      "seed_entries": [
+        "exposition",
+        "confrontation",
+        "discovery",
+        "decision",
+        "interrogation",
+        "negotiation",
+        "seduction",
+        "argument",
+        "escape",
+        "chase",
+        "fight",
+        "planning",
+        "aftermath",
+        "quiet_reflection",
+        "worldbuilding_scene",
+        "relationship_scene",
+        "revelation_scene",
+        "comic_relief"
+      ],
+      "relations": [
+        "advances_plot",
+        "changes_character",
+        "reveals_information",
+        "changes_relationship"
+      ],
+      "primary_consumers": [
+        "Scene Architect",
+        "Pacing Agent",
+        "Dialogue Agent",
+        "Continuity Agent"
+      ],
+      "reference_sources": [
+        "Internal synthesis of scene-craft principles"
+      ]
+    },
+    {
+      "id": "conflict",
+      "name": "Conflict Systems",
+      "domain": "narrative",
+      "purpose": "Taxonomie des conflits internes, interpersonnels, sociaux, environnementaux et systémiques.",
+      "priority": "P0",
+      "entry_schema": [
+        "id",
+        "name",
+        "type",
+        "definition",
+        "purpose",
+        "when_to_use",
+        "when_not_to_use",
+        "variants",
+        "strengths",
+        "risks",
+        "anti_patterns",
+        "related_ids",
+        "tags",
+        "genres",
+        "formats",
+        "agent_hints",
+        "confidence",
+        "sources",
+        "conflict_type",
+        "parties",
+        "goal_collision",
+        "stakes",
+        "escalation_paths",
+        "resolution_modes"
+      ],
+      "taxonomies": [
+        "internal",
+        "interpersonal",
+        "social",
+        "institutional",
+        "environmental",
+        "technological",
+        "existential"
+      ],
+      "seed_entries": [
+        "person_vs_self",
+        "person_vs_person",
+        "person_vs_society",
+        "person_vs_nature",
+        "person_vs_technology",
+        "person_vs_institution",
+        "person_vs_time",
+        "person_vs_fate",
+        "moral_dilemma",
+        "resource_conflict",
+        "status_conflict",
+        "information_conflict",
+        "value_conflict"
+      ],
+      "relations": [
+        "creates_stakes",
+        "drives_scene",
+        "affects_character",
+        "escalates_into"
+      ],
+      "primary_consumers": [
+        "Conflict Agent",
+        "Plot Architect",
+        "Scene Architect"
+      ],
+      "reference_sources": [
+        "Internal synthesis"
+      ]
+    },
+    {
+      "id": "stakes",
+      "name": "Stakes & Consequences",
+      "domain": "narrative",
+      "purpose": "Modélise ce qui peut être perdu, gagné, irréversiblement changé ou moralement compromis.",
+      "priority": "P0",
+      "entry_schema": [
+        "id",
+        "name",
+        "type",
+        "definition",
+        "purpose",
+        "when_to_use",
+        "when_not_to_use",
+        "variants",
+        "strengths",
+        "risks",
+        "anti_patterns",
+        "related_ids",
+        "tags",
+        "genres",
+        "formats",
+        "agent_hints",
+        "confidence",
+        "sources",
+        "stake_type",
+        "severity",
+        "immediacy",
+        "reversibility",
+        "personal_relevance",
+        "escalation"
+      ],
+      "taxonomies": [
+        "physical",
+        "emotional",
+        "relational",
+        "social",
+        "financial",
+        "professional",
+        "moral",
+        "existential",
+        "symbolic"
+      ],
+      "seed_entries": [
+        "life",
+        "freedom",
+        "identity",
+        "love",
+        "family",
+        "reputation",
+        "career",
+        "wealth",
+        "safety",
+        "belonging",
+        "truth",
+        "justice",
+        "future",
+        "legacy"
+      ],
+      "relations": [
+        "escalates",
+        "threatens",
+        "protects",
+        "is_worth"
+      ],
+      "primary_consumers": [
+        "Plot Architect",
+        "Conflict Agent",
+        "Critic"
+      ],
+      "reference_sources": [
+        "Internal synthesis"
+      ]
+    },
+    {
+      "id": "pacing",
+      "name": "Pacing, Rhythm & Tension",
+      "domain": "narrative",
+      "purpose": "Catalogue des profils de rythme, de tension et de compression/dilatation narrative.",
+      "priority": "P0",
+      "entry_schema": [
+        "id",
+        "name",
+        "type",
+        "definition",
+        "purpose",
+        "when_to_use",
+        "when_not_to_use",
+        "variants",
+        "strengths",
+        "risks",
+        "anti_patterns",
+        "related_ids",
+        "tags",
+        "genres",
+        "formats",
+        "agent_hints",
+        "confidence",
+        "sources",
+        "speed",
+        "tension_curve",
+        "scene_density",
+        "information_density",
+        "variation_rules"
+      ],
+      "taxonomies": [
+        "slow",
+        "moderate",
+        "fast",
+        "accelerating",
+        "decelerating",
+        "wave",
+        "pulse",
+        "breath",
+        "stop_release"
+      ],
+      "seed_entries": [
+        "slow_burn",
+        "rapid_fire",
+        "escalating",
+        "alternating",
+        "wave_pattern",
+        "false_calm",
+        "sprint_to_climax",
+        "cooldown_after_climax"
+      ],
+      "relations": [
+        "uses_scene_length",
+        "uses_information_rate",
+        "affects_reader_state"
+      ],
+      "primary_consumers": [
+        "Pacing Agent",
+        "Plot Architect",
+        "Scene Architect",
+        "Critic"
+      ],
+      "reference_sources": [
+        "Internal synthesis"
+      ]
+    },
+    {
+      "id": "information",
+      "name": "Information, Knowledge & Reveal Control",
+      "domain": "narrative",
+      "purpose": "Suit qui sait quoi, quand, comment et avec quel degré de certitude.",
+      "priority": "P0",
+      "entry_schema": [
+        "id",
+        "name",
+        "type",
+        "definition",
+        "purpose",
+        "when_to_use",
+        "when_not_to_use",
+        "variants",
+        "strengths",
+        "risks",
+        "anti_patterns",
+        "related_ids",
+        "tags",
+        "genres",
+        "formats",
+        "agent_hints",
+        "confidence",
+        "sources",
+        "information_type",
+        "known_by",
+        "revealed_to",
+        "hidden_from",
+        "suspected_by",
+        "certainty",
+        "reveal_method",
+        "reveal_timing"
+      ],
+      "taxonomies": [
+        "fact",
+        "secret",
+        "clue",
+        "misbelief",
+        "rumor",
+        "revelation",
+        "question",
+        "answer"
+      ],
+      "seed_entries": [
+        "secret",
+        "clue",
+        "red_herring",
+        "reveal",
+        "misdirection",
+        "dramatic_irony",
+        "information_gap",
+        "knowledge_asymmetry",
+        "false_belief"
+      ],
+      "relations": [
+        "supports_mystery",
+        "creates_suspense",
+        "causes_action",
+        "pays_off"
+      ],
+      "primary_consumers": [
+        "Continuity Agent",
+        "Mystery Agent",
+        "Plot Architect",
+        "Reader Experience Agent"
+      ],
+      "reference_sources": [
+        "Internal synthesis"
+      ]
+    },
+    {
+      "id": "foreshadowing",
+      "name": "Foreshadowing, Plants, Setups & Payoffs",
+      "domain": "narrative",
+      "purpose": "Catalogue des mécanismes qui plantent, retardent, rappellent et paient les éléments narratifs.",
+      "priority": "P0",
+      "entry_schema": [
+        "id",
+        "name",
+        "type",
+        "definition",
+        "purpose",
+        "when_to_use",
+        "when_not_to_use",
+        "variants",
+        "strengths",
+        "risks",
+        "anti_patterns",
+        "related_ids",
+        "tags",
+        "genres",
+        "formats",
+        "agent_hints",
+        "confidence",
+        "sources",
+        "plant",
+        "delay",
+        "signal_strength",
+        "payoff",
+        "reinterpretation",
+        "reader_awareness"
+      ],
+      "taxonomies": [
+        "explicit",
+        "subtle",
+        "symbolic",
+        "dialogue",
+        "visual",
+        "structural"
+      ],
+      "seed_entries": [
+        "chekhov_object",
+        "verbal_foreshadowing",
+        "symbolic_foreshadowing",
+        "parallel_event",
+        "prophecy",
+        "ominous_detail",
+        "setup_payoff",
+        "callback",
+        "echo",
+        "recontextualization"
+      ],
+      "relations": [
+        "plants",
+        "precedes",
+        "pays_off",
+        "reinterprets"
+      ],
+      "primary_consumers": [
+        "Plot Architect",
+        "Continuity Agent",
+        "Mystery Agent",
+        "Theme Agent"
+      ],
+      "reference_sources": [
+        "Internal synthesis"
+      ]
+    },
+    {
+      "id": "characters",
+      "name": "Character Construction",
+      "domain": "character",
+      "purpose": "Modèle multidimensionnel pour créer des personnages cohérents et dramatiquement utiles.",
+      "priority": "P0",
+      "entry_schema": [
+        "id",
+        "name",
+        "type",
+        "definition",
+        "purpose",
+        "when_to_use",
+        "when_not_to_use",
+        "variants",
+        "strengths",
+        "risks",
+        "anti_patterns",
+        "related_ids",
+        "tags",
+        "genres",
+        "formats",
+        "agent_hints",
+        "confidence",
+        "sources",
+        "role",
+        "goal",
+        "need",
+        "desire",
+        "fear",
+        "wound",
+        "belief",
+        "lie",
+        "truth",
+        "values",
+        "flaw",
+        "strength",
+        "secret",
+        "contradiction",
+        "motivation",
+        "boundaries",
+        "triggers"
+      ],
+      "taxonomies": [
+        "protagonist",
+        "antagonist",
+        "deuteragonist",
+        "mentor",
+        "ally",
+        "foil",
+        "love_interest",
+        "rival",
+        "guardian",
+        "trickster",
+        "threshold_guardian",
+        "herald",
+        "shapeshifter",
+        "comic_relief",
+        "witness"
+      ],
+      "seed_entries": [
+        "want_need_gap",
+        "wound",
+        "false_belief",
+        "moral_line",
+        "secret",
+        "contradiction",
+        "competence",
+        "vulnerability",
+        "obsession",
+        "attachment",
+        "identity"
+      ],
+      "relations": [
+        "has_arc",
+        "appears_in",
+        "conflicts_with",
+        "loves",
+        "fears",
+        "trusts",
+        "betrays"
+      ],
+      "primary_consumers": [
+        "Character Architect",
+        "Dialogue Agent",
+        "Relationship Agent",
+        "Continuity Agent"
+      ],
+      "reference_sources": [
+        "Internal synthesis",
+        "Archetypal literature; source per entry required"
+      ]
+    },
+    {
+      "id": "character_archetypes",
+      "name": "Character Archetypes & Functional Roles",
+      "domain": "character",
+      "purpose": "Catalogue d'archétypes et rôles fonctionnels, sans les traiter comme des personnages figés.",
+      "priority": "P0",
+      "entry_schema": [
+        "id",
+        "name",
+        "type",
+        "definition",
+        "purpose",
+        "when_to_use",
+        "when_not_to_use",
+        "variants",
+        "strengths",
+        "risks",
+        "anti_patterns",
+        "related_ids",
+        "tags",
+        "genres",
+        "formats",
+        "agent_hints",
+        "confidence",
+        "sources",
+        "function",
+        "psychological_pattern",
+        "strength",
+        "shadow",
+        "common_arc",
+        "subversion"
+      ],
+      "taxonomies": [
+        "plot_function",
+        "psychological",
+        "social",
+        "symbolic"
+      ],
+      "seed_entries": [
+        "hero",
+        "mentor",
+        "threshold_guardian",
+        "herald",
+        "shapeshifter",
+        "trickster",
+        "shadow",
+        "caregiver",
+        "ruler",
+        "sage",
+        "innocent",
+        "explorer",
+        "rebel",
+        "lover",
+        "creator",
+        "jester",
+        "everyman"
+      ],
+      "relations": [
+        "instantiates",
+        "subverts",
+        "combines_with",
+        "has_shadow"
+      ],
+      "primary_consumers": [
+        "Character Architect",
+        "Plot Architect"
+      ],
+      "reference_sources": [
+        "Internal synthesis; archetype source must be recorded per taxonomy"
+      ]
+    },
+    {
+      "id": "character_arcs",
+      "name": "Character Arcs & Transformation",
+      "domain": "character",
+      "purpose": "Modèles de transformation positive, négative, plate et relationnelle.",
+      "priority": "P0",
+      "entry_schema": [
+        "id",
+        "name",
+        "type",
+        "definition",
+        "purpose",
+        "when_to_use",
+        "when_not_to_use",
+        "variants",
+        "strengths",
+        "risks",
+        "anti_patterns",
+        "related_ids",
+        "tags",
+        "genres",
+        "formats",
+        "agent_hints",
+        "confidence",
+        "sources",
+        "starting_state",
+        "false_belief",
+        "pressure",
+        "turning_points",
+        "ending_state",
+        "arc_direction",
+        "proof_events"
+      ],
+      "taxonomies": [
+        "positive",
+        "negative",
+        "flat",
+        "cyclical",
+        "relational",
+        "identity"
+      ],
+      "seed_entries": [
+        "positive_change",
+        "negative_change",
+        "flat_arc",
+        "redemption",
+        "corruption",
+        "disillusionment",
+        "awakening",
+        "acceptance",
+        "revenge",
+        "sacrifice",
+        "identity_reconstruction",
+        "maturation"
+      ],
+      "relations": [
+        "uses_character",
+        "uses_theme",
+        "uses_conflict",
+        "uses_choices"
+      ],
+      "primary_consumers": [
+        "Character Architect",
+        "Plot Architect",
+        "Theme Agent"
+      ],
+      "reference_sources": [
+        "Internal synthesis"
+      ]
+    },
+    {
+      "id": "relationships",
+      "name": "Relationships & Dynamics",
+      "domain": "character",
+      "purpose": "Modélise les relations et leur évolution dramatique.",
+      "priority": "P0",
+      "entry_schema": [
+        "id",
+        "name",
+        "type",
+        "definition",
+        "purpose",
+        "when_to_use",
+        "when_not_to_use",
+        "variants",
+        "strengths",
+        "risks",
+        "anti_patterns",
+        "related_ids",
+        "tags",
+        "genres",
+        "formats",
+        "agent_hints",
+        "confidence",
+        "sources",
+        "relationship_type",
+        "power_balance",
+        "trust",
+        "dependency",
+        "history",
+        "desired_state",
+        "current_state",
+        "turning_points"
+      ],
+      "taxonomies": [
+        "family",
+        "romantic",
+        "friendship",
+        "professional",
+        "political",
+        "adversarial",
+        "mentor"
+      ],
+      "seed_entries": [
+        "love",
+        "friendship",
+        "rivalry",
+        "mentorship",
+        "parent_child",
+        "siblings",
+        "enemy",
+        "ally",
+        "betrayal",
+        "dependency",
+        "obligation",
+        "competition",
+        "attraction",
+        "resentment",
+        "admiration",
+        "fear",
+        "debt"
+      ],
+      "relations": [
+        "changes_through",
+        "conflicts_with",
+        "supports",
+        "betrays",
+        "mirrors"
+      ],
+      "primary_consumers": [
+        "Relationship Agent",
+        "Character Architect",
+        "Dialogue Agent"
+      ],
+      "reference_sources": [
+        "Internal synthesis"
+      ]
+    },
+    {
+      "id": "worldbuilding",
+      "name": "Worldbuilding Systems",
+      "domain": "world",
+      "purpose": "Systèmes pour construire des mondes cohérents : physique, social, culturel, politique et historique.",
+      "priority": "P0",
+      "entry_schema": [
+        "id",
+        "name",
+        "type",
+        "definition",
+        "purpose",
+        "when_to_use",
+        "when_not_to_use",
+        "variants",
+        "strengths",
+        "risks",
+        "anti_patterns",
+        "related_ids",
+        "tags",
+        "genres",
+        "formats",
+        "agent_hints",
+        "confidence",
+        "sources",
+        "world_layer",
+        "rules",
+        "constraints",
+        "exceptions",
+        "history",
+        "implications"
+      ],
+      "taxonomies": [
+        "physical",
+        "ecological",
+        "social",
+        "cultural",
+        "political",
+        "economic",
+        "technological",
+        "religious",
+        "historical"
+      ],
+      "seed_entries": [
+        "geography",
+        "climate",
+        "ecology",
+        "settlement",
+        "technology",
+        "magic_system",
+        "government",
+        "law",
+        "economy",
+        "class",
+        "religion",
+        "education",
+        "medicine",
+        "transport",
+        "communication",
+        "warfare",
+        "calendar"
+      ],
+      "relations": [
+        "contains",
+        "depends_on",
+        "constrains",
+        "causes",
+        "contradicts"
+      ],
+      "primary_consumers": [
+        "Worldbuilder",
+        "Continuity Agent",
+        "Research Agent"
+      ],
+      "reference_sources": [
+        "Internal synthesis"
+      ]
+    },
+    {
+      "id": "locations",
+      "name": "Locations, Spaces & Atmosphere",
+      "domain": "world",
+      "purpose": "Catalogue des fonctions narratives et sensorielles des lieux.",
+      "priority": "P1",
+      "entry_schema": [
+        "id",
+        "name",
+        "type",
+        "definition",
+        "purpose",
+        "when_to_use",
+        "when_not_to_use",
+        "variants",
+        "strengths",
+        "risks",
+        "anti_patterns",
+        "related_ids",
+        "tags",
+        "genres",
+        "formats",
+        "agent_hints",
+        "confidence",
+        "sources",
+        "location_type",
+        "sensory_profile",
+        "social_meaning",
+        "history",
+        "hazards",
+        "symbolic_role",
+        "scene_functions"
+      ],
+      "taxonomies": [
+        "domestic",
+        "public",
+        "institutional",
+        "natural",
+        "urban",
+        "rural",
+        "fantastical",
+        "liminal"
+      ],
+      "seed_entries": [
+        "home",
+        "workplace",
+        "school",
+        "market",
+        "court",
+        "hospital",
+        "prison",
+        "forest",
+        "desert",
+        "ocean",
+        "mountain",
+        "road",
+        "border",
+        "ruin",
+        "temple",
+        "laboratory",
+        "battlefield",
+        "hotel",
+        "bar"
+      ],
+      "relations": [
+        "hosts_scene",
+        "symbolizes",
+        "contains",
+        "connects_to",
+        "changes_character"
+      ],
+      "primary_consumers": [
+        "Worldbuilder",
+        "Scene Architect",
+        "Description Agent"
+      ],
+      "reference_sources": [
+        "Internal synthesis"
+      ]
+    },
+    {
+      "id": "culture",
+      "name": "Culture, Society & Representation",
+      "domain": "world",
+      "purpose": "Éléments culturels à modéliser avec cohérence et prudence.",
+      "priority": "P1",
+      "entry_schema": [
+        "id",
+        "name",
+        "type",
+        "definition",
+        "purpose",
+        "when_to_use",
+        "when_not_to_use",
+        "variants",
+        "strengths",
+        "risks",
+        "anti_patterns",
+        "related_ids",
+        "tags",
+        "genres",
+        "formats",
+        "agent_hints",
+        "confidence",
+        "sources",
+        "culture_domain",
+        "norm",
+        "variation",
+        "power_context",
+        "historical_context",
+        "representation_risks"
+      ],
+      "taxonomies": [
+        "language",
+        "family",
+        "food",
+        "dress",
+        "ritual",
+        "custom",
+        "law",
+        "gender_roles",
+        "class",
+        "status",
+        "religion",
+        "art",
+        "education",
+        "work",
+        "kinship"
+      ],
+      "seed_entries": [
+        "greeting",
+        "mourning",
+        "marriage",
+        "coming_of_age",
+        "hospitality",
+        "taboo",
+        "gift_exchange",
+        "honor",
+        "shame",
+        "status_markers",
+        "kinship",
+        "ritual"
+      ],
+      "relations": [
+        "belongs_to",
+        "varies_by",
+        "influences",
+        "conflicts_with"
+      ],
+      "primary_consumers": [
+        "Worldbuilder",
+        "Research Agent",
+        "Sensitivity Reviewer"
+      ],
+      "reference_sources": [
+        "Research required; no unsupported cultural claims"
+      ]
+    },
+    {
+      "id": "pov",
+      "name": "Point of View & Narrative Perspective",
+      "domain": "prose",
+      "purpose": "Catalogue des choix de perspective et de leurs effets.",
+      "priority": "P0",
+      "entry_schema": [
+        "id",
+        "name",
+        "type",
+        "definition",
+        "purpose",
+        "when_to_use",
+        "when_not_to_use",
+        "variants",
+        "strengths",
+        "risks",
+        "anti_patterns",
+        "related_ids",
+        "tags",
+        "genres",
+        "formats",
+        "agent_hints",
+        "confidence",
+        "sources",
+        "person",
+        "knowledge_scope",
+        "distance",
+        "reliability",
+        "access",
+        "tense",
+        "effects"
+      ],
+      "taxonomies": [
+        "first_person",
+        "second_person",
+        "third_limited",
+        "third_omniscient",
+        "objective",
+        "free_indirect"
+      ],
+      "seed_entries": [
+        "single_pov",
+        "multiple_pov",
+        "rotating_pov",
+        "frame_narrator",
+        "unreliable_narrator",
+        "epistolary",
+        "collective_we",
+        "stream_of_consciousness"
+      ],
+      "relations": [
+        "controls_information",
+        "affects_voice",
+        "affects_reliability",
+        "supports_genre"
+      ],
+      "primary_consumers": [
+        "Voice Designer",
+        "POV Agent",
+        "Continuity Agent",
+        "Plot Architect"
+      ],
+      "reference_sources": [
+        "Internal synthesis"
+      ]
+    },
+    {
+      "id": "narrative_distance",
+      "name": "Narrative Distance & Focalization",
+      "domain": "prose",
+      "purpose": "Degré de proximité entre lecteur, narrateur et conscience du personnage.",
+      "priority": "P0",
+      "entry_schema": [
+        "id",
+        "name",
+        "type",
+        "definition",
+        "purpose",
+        "when_to_use",
+        "when_not_to_use",
+        "variants",
+        "strengths",
+        "risks",
+        "anti_patterns",
+        "related_ids",
+        "tags",
+        "genres",
+        "formats",
+        "agent_hints",
+        "confidence",
+        "sources",
+        "distance_level",
+        "cognitive_access",
+        "sensory_access",
+        "linguistic_effect"
+      ],
+      "taxonomies": [
+        "intimate",
+        "close",
+        "medium",
+        "distant",
+        "objective"
+      ],
+      "seed_entries": [
+        "deep_pov",
+        "close_third",
+        "cinematic",
+        "omniscient",
+        "objective_camera"
+      ],
+      "relations": [
+        "combines_with_pov",
+        "changes_voice",
+        "changes_emotional_access"
+      ],
+      "primary_consumers": [
+        "Voice Designer",
+        "POV Agent",
+        "Line Editor"
+      ],
+      "reference_sources": [
+        "Internal synthesis"
+      ]
+    },
+    {
+      "id": "voice",
+      "name": "Voice DNA",
+      "domain": "prose",
+      "purpose": "Dimensions permettant de caractériser la voix d'un narrateur ou personnage.",
+      "priority": "P0",
+      "entry_schema": [
+        "id",
+        "name",
+        "type",
+        "definition",
+        "purpose",
+        "when_to_use",
+        "when_not_to_use",
+        "variants",
+        "strengths",
+        "risks",
+        "anti_patterns",
+        "related_ids",
+        "tags",
+        "genres",
+        "formats",
+        "agent_hints",
+        "confidence",
+        "sources",
+        "sentence_length",
+        "syntax",
+        "vocabulary",
+        "rhythm",
+        "formality",
+        "humor",
+        "certainty",
+        "intimacy",
+        "figurative_density",
+        "sensory_density"
+      ],
+      "taxonomies": [
+        "narrator",
+        "character",
+        "authorial"
+      ],
+      "seed_entries": [
+        "plain",
+        "lyrical",
+        "witty",
+        "deadpan",
+        "formal",
+        "colloquial",
+        "intimate",
+        "clinical",
+        "ornate",
+        "minimalist",
+        "conversational",
+        "meditative"
+      ],
+      "relations": [
+        "belongs_to_character",
+        "contrasts_with",
+        "evolves_into",
+        "is_consistent_with"
+      ],
+      "primary_consumers": [
+        "Voice Designer",
+        "Dialogue Agent",
+        "Style Editor"
+      ],
+      "reference_sources": [
+        "Internal synthesis"
+      ]
+    },
+    {
+      "id": "style",
+      "name": "Prose Styles",
+      "domain": "prose",
+      "purpose": "Catalogue de profils stylistiques descriptifs sans imiter des auteurs contemporains.",
+      "priority": "P0",
+      "entry_schema": [
+        "id",
+        "name",
+        "type",
+        "definition",
+        "purpose",
+        "when_to_use",
+        "when_not_to_use",
+        "variants",
+        "strengths",
+        "risks",
+        "anti_patterns",
+        "related_ids",
+        "tags",
+        "genres",
+        "formats",
+        "agent_hints",
+        "confidence",
+        "sources",
+        "density",
+        "rhythm",
+        "syntax",
+        "imagery",
+        "abstraction",
+        "dialogue_ratio",
+        "description_ratio",
+        "rhetorical_density"
+      ],
+      "taxonomies": [
+        "minimalist",
+        "lyrical",
+        "literary",
+        "commercial",
+        "genre_forward",
+        "experimental",
+        "journalistic"
+      ],
+      "seed_entries": [
+        "minimalist",
+        "lush",
+        "cinematic",
+        "introspective",
+        "fast_cut",
+        "meditative",
+        "reportorial",
+        "poetic",
+        "plainspoken",
+        "highly_compressed"
+      ],
+      "relations": [
+        "affects_voice",
+        "affects_pacing",
+        "affects_reader_effect"
+      ],
+      "primary_consumers": [
+        "Style Agent",
+        "Voice Designer",
+        "Line Editor"
+      ],
+      "reference_sources": [
+        "Internal synthesis"
+      ]
+    },
+    {
+      "id": "tone",
+      "name": "Tone & Emotional Register",
+      "domain": "prose",
+      "purpose": "Catalogue des tonalités et de leurs combinaisons.",
+      "priority": "P0",
+      "entry_schema": [
+        "id",
+        "name",
+        "type",
+        "definition",
+        "purpose",
+        "when_to_use",
+        "when_not_to_use",
+        "variants",
+        "strengths",
+        "risks",
+        "anti_patterns",
+        "related_ids",
+        "tags",
+        "genres",
+        "formats",
+        "agent_hints",
+        "confidence",
+        "sources",
+        "emotional_valence",
+        "intensity",
+        "stability",
+        "contrast_patterns"
+      ],
+      "taxonomies": [
+        "warm",
+        "cold",
+        "dark",
+        "light",
+        "serious",
+        "comic",
+        "melancholic",
+        "hopeful",
+        "ominous",
+        "tender"
+      ],
+      "seed_entries": [
+        "tense",
+        "playful",
+        "bleak",
+        "hopeful",
+        "ironic",
+        "satirical",
+        "intimate",
+        "menacing",
+        "whimsical",
+        "melancholic",
+        "absurd",
+        "reverent"
+      ],
+      "relations": [
+        "combines_with_genre",
+        "changes_by_scene",
+        "contrasts_with"
+      ],
+      "primary_consumers": [
+        "Tone Agent",
+        "Style Agent",
+        "Scene Architect"
+      ],
+      "reference_sources": [
+        "Internal synthesis"
+      ]
+    },
+    {
+      "id": "dialogue",
+      "name": "Dialogue Craft",
+      "domain": "prose",
+      "purpose": "Techniques de dialogue naturel, conflictuel, distinctif et fonctionnel.",
+      "priority": "P0",
+      "entry_schema": [
+        "id",
+        "name",
+        "type",
+        "definition",
+        "purpose",
+        "when_to_use",
+        "when_not_to_use",
+        "variants",
+        "strengths",
+        "risks",
+        "anti_patterns",
+        "related_ids",
+        "tags",
+        "genres",
+        "formats",
+        "agent_hints",
+        "confidence",
+        "sources",
+        "dialogue_function",
+        "speech_pattern",
+        "subtext",
+        "power_dynamic",
+        "exposition_risk"
+      ],
+      "taxonomies": [
+        "information",
+        "conflict",
+        "relationship",
+        "characterization",
+        "humor",
+        "misdirection"
+      ],
+      "seed_entries": [
+        "questioning",
+        "evasion",
+        "interruption",
+        "silence",
+        "negotiation",
+        "threat",
+        "confession",
+        "flirtation",
+        "banter",
+        "argument",
+        "interrogation",
+        "reassurance",
+        "manipulation",
+        "small_talk"
+      ],
+      "relations": [
+        "uses_voice",
+        "uses_subtext",
+        "reveals_information",
+        "changes_relationship"
+      ],
+      "primary_consumers": [
+        "Dialogue Agent",
+        "Voice Designer",
+        "Relationship Agent"
+      ],
+      "reference_sources": [
+        "Internal synthesis"
+      ]
+    },
+    {
+      "id": "subtext",
+      "name": "Subtext & Implicit Meaning",
+      "domain": "prose",
+      "purpose": "Catalogue des écarts entre paroles, intentions, émotions et rapports de pouvoir.",
+      "priority": "P0",
+      "entry_schema": [
+        "id",
+        "name",
+        "type",
+        "definition",
+        "purpose",
+        "when_to_use",
+        "when_not_to_use",
+        "variants",
+        "strengths",
+        "risks",
+        "anti_patterns",
+        "related_ids",
+        "tags",
+        "genres",
+        "formats",
+        "agent_hints",
+        "confidence",
+        "sources",
+        "surface_meaning",
+        "hidden_intent",
+        "emotional_truth",
+        "power_move",
+        "signals"
+      ],
+      "taxonomies": [
+        "avoidance",
+        "deception",
+        "seduction",
+        "intimidation",
+        "reassurance",
+        "testing",
+        "concealment",
+        "manipulation",
+        "deflection",
+        "status_negotiation"
+      ],
+      "seed_entries": [
+        "saying_no_while_saying_yes",
+        "polite_hostility",
+        "false_reassurance",
+        "strategic_silence",
+        "topic_shift",
+        "loaded_question",
+        "understatement"
+      ],
+      "relations": [
+        "implemented_by_dialogue",
+        "changes_relationship",
+        "reveals_character"
+      ],
+      "primary_consumers": [
+        "Dialogue Agent",
+        "Relationship Agent",
+        "Line Editor"
+      ],
+      "reference_sources": [
+        "Internal synthesis"
+      ]
+    },
+    {
+      "id": "description",
+      "name": "Description & Sensory Writing",
+      "domain": "prose",
+      "purpose": "Techniques de description fonctionnelle : orientation, atmosphère, caractérisation, symbole et rythme.",
+      "priority": "P0",
+      "entry_schema": [
+        "id",
+        "name",
+        "type",
+        "definition",
+        "purpose",
+        "when_to_use",
+        "when_not_to_use",
+        "variants",
+        "strengths",
+        "risks",
+        "anti_patterns",
+        "related_ids",
+        "tags",
+        "genres",
+        "formats",
+        "agent_hints",
+        "confidence",
+        "sources",
+        "sensory_channels",
+        "function",
+        "specificity",
+        "metaphoricity",
+        "spatial_logic"
+      ],
+      "taxonomies": [
+        "visual",
+        "auditory",
+        "tactile",
+        "olfactory",
+        "gustatory",
+        "temperature",
+        "proprioceptive",
+        "spatial"
+      ],
+      "seed_entries": [
+        "orientation",
+        "atmosphere",
+        "characterization",
+        "worldbuilding",
+        "symbolism",
+        "foreshadowing",
+        "pacing",
+        "emotional_amplification"
+      ],
+      "relations": [
+        "supports_scene",
+        "supports_tone",
+        "supports_symbol",
+        "affects_pacing"
+      ],
+      "primary_consumers": [
+        "Description Agent",
+        "Worldbuilder",
+        "Line Editor"
+      ],
+      "reference_sources": [
+        "Internal synthesis"
+      ]
+    },
+    {
+      "id": "rhetoric",
+      "name": "Rhetorical & Literary Devices",
+      "domain": "prose",
+      "purpose": "Catalogue des procédés rhétoriques et de leurs effets.",
+      "priority": "P1",
+      "entry_schema": [
+        "id",
+        "name",
+        "type",
+        "definition",
+        "purpose",
+        "when_to_use",
+        "when_not_to_use",
+        "variants",
+        "strengths",
+        "risks",
+        "anti_patterns",
+        "related_ids",
+        "tags",
+        "genres",
+        "formats",
+        "agent_hints",
+        "confidence",
+        "sources",
+        "device_type",
+        "effect",
+        "intensity",
+        "best_contexts",
+        "risk_of_overuse"
+      ],
+      "taxonomies": [
+        "sound",
+        "syntax",
+        "semantic",
+        "argumentative",
+        "figurative"
+      ],
+      "seed_entries": [
+        "metaphor",
+        "simile",
+        "analogy",
+        "personification",
+        "imagery",
+        "symbolism",
+        "irony",
+        "paradox",
+        "antithesis",
+        "anaphora",
+        "epiphora",
+        "parallelism",
+        "chiasmus",
+        "repetition",
+        "rhetorical_question",
+        "hyperbole",
+        "understatement",
+        "litotes",
+        "allusion",
+        "juxtaposition"
+      ],
+      "relations": [
+        "enhances",
+        "contrasts_with",
+        "supports_theme",
+        "supports_voice"
+      ],
+      "primary_consumers": [
+        "Style Agent",
+        "Line Editor",
+        "Rhetoric Agent"
+      ],
+      "reference_sources": [
+        "Internal synthesis"
+      ]
+    },
+    {
+      "id": "emotion",
+      "name": "Emotion & Affect",
+      "domain": "reader",
+      "purpose": "Modèle d'émotions utilisable pour personnages, scènes et expérience lecteur.",
+      "priority": "P0",
+      "entry_schema": [
+        "id",
+        "name",
+        "type",
+        "definition",
+        "purpose",
+        "when_to_use",
+        "when_not_to_use",
+        "variants",
+        "strengths",
+        "risks",
+        "anti_patterns",
+        "related_ids",
+        "tags",
+        "genres",
+        "formats",
+        "agent_hints",
+        "confidence",
+        "sources",
+        "triggers",
+        "physiology",
+        "cognition",
+        "behavior",
+        "speech_signals",
+        "suppression",
+        "escalation",
+        "deescalation"
+      ],
+      "taxonomies": [
+        "positive",
+        "negative",
+        "mixed",
+        "social",
+        "self_conscious",
+        "high_arousal",
+        "low_arousal"
+      ],
+      "seed_entries": [
+        "fear",
+        "anger",
+        "sadness",
+        "joy",
+        "disgust",
+        "surprise",
+        "anticipation",
+        "trust",
+        "shame",
+        "guilt",
+        "envy",
+        "jealousy",
+        "love",
+        "grief",
+        "relief",
+        "hope",
+        "despair",
+        "awe",
+        "pride",
+        "embarrassment"
+      ],
+      "relations": [
+        "triggered_by",
+        "expressed_as",
+        "suppressed_as",
+        "transforms_into",
+        "affects_reader"
+      ],
+      "primary_consumers": [
+        "Character Agent",
+        "Emotion Agent",
+        "Scene Architect",
+        "Dialogue Agent"
+      ],
+      "reference_sources": [
+        "Internal synthesis"
+      ]
+    },
+    {
+      "id": "reader_experience",
+      "name": "Reader Experience & Cognitive Effects",
+      "domain": "reader",
+      "purpose": "Modélise les états du lecteur et leur progression.",
+      "priority": "P0",
+      "entry_schema": [
+        "id",
+        "name",
+        "type",
+        "definition",
+        "purpose",
+        "when_to_use",
+        "when_not_to_use",
+        "variants",
+        "strengths",
+        "risks",
+        "anti_patterns",
+        "related_ids",
+        "tags",
+        "genres",
+        "formats",
+        "agent_hints",
+        "confidence",
+        "sources",
+        "reader_state",
+        "trigger",
+        "intensity",
+        "duration",
+        "desired_transition"
+      ],
+      "taxonomies": [
+        "orientation",
+        "curiosity",
+        "anticipation",
+        "tension",
+        "uncertainty",
+        "surprise",
+        "empathy",
+        "immersion",
+        "recognition",
+        "catharsis",
+        "satisfaction",
+        "reflection"
+      ],
+      "seed_entries": [
+        "hook",
+        "curiosity_gap",
+        "dramatic_irony",
+        "suspense",
+        "surprise",
+        "relief",
+        "wonder",
+        "dread",
+        "emotional_payoff",
+        "intellectual_payoff"
+      ],
+      "relations": [
+        "caused_by",
+        "precedes",
+        "resolves",
+        "strengthened_by"
+      ],
+      "primary_consumers": [
+        "Reader Experience Agent",
+        "Pacing Agent",
+        "Critic"
+      ],
+      "reference_sources": [
+        "Internal synthesis"
+      ]
+    },
+    {
+      "id": "tropes",
+      "name": "Tropes & Conventions",
+      "domain": "literary",
+      "purpose": "Catalogue de motifs conventionnels et de leurs variations/subversions, avec provenance.",
+      "priority": "P0",
+      "entry_schema": [
+        "id",
+        "name",
+        "type",
+        "definition",
+        "purpose",
+        "when_to_use",
+        "when_not_to_use",
+        "variants",
+        "strengths",
+        "risks",
+        "anti_patterns",
+        "related_ids",
+        "tags",
+        "genres",
+        "formats",
+        "agent_hints",
+        "confidence",
+        "sources",
+        "trope_type",
+        "reader_expectation",
+        "variants",
+        "subversions",
+        "genre_frequency",
+        "cliche_risk",
+        "provenance_required"
+      ],
+      "taxonomies": [
+        "character",
+        "plot",
+        "world",
+        "relationship",
+        "dialogue",
+        "setting"
+      ],
+      "seed_entries": [
+        "chosen_one",
+        "love_triangle",
+        "mentor_dies",
+        "secret_identity",
+        "forbidden_love",
+        "enemies_to_lovers",
+        "found_family",
+        "fish_out_of_water",
+        "reluctant_hero",
+        "unreliable_narrator",
+        "red_herring",
+        "locked_room",
+        "rags_to_riches",
+        "quest",
+        "revenge"
+      ],
+      "relations": [
+        "appears_in",
+        "subverts",
+        "combines_with",
+        "risks_becoming_cliche"
+      ],
+      "primary_consumers": [
+        "Genre Agent",
+        "Originality Agent",
+        "Critic"
+      ],
+      "reference_sources": [
+        "TV Tropes-like concepts should be independently sourced/curated; avoid copying proprietary text"
+      ]
+    },
+    {
+      "id": "antipatterns",
+      "name": "Writing Anti-Patterns & Failure Modes",
+      "domain": "quality",
+      "purpose": "Catalogue des défauts récurrents et des symptômes observables.",
+      "priority": "P0",
+      "entry_schema": [
+        "id",
+        "name",
+        "type",
+        "definition",
+        "purpose",
+        "when_to_use",
+        "when_not_to_use",
+        "variants",
+        "strengths",
+        "risks",
+        "anti_patterns",
+        "related_ids",
+        "tags",
+        "genres",
+        "formats",
+        "agent_hints",
+        "confidence",
+        "sources",
+        "symptoms",
+        "causes",
+        "severity",
+        "diagnostic_signals",
+        "fix_strategies"
+      ],
+      "taxonomies": [
+        "structure",
+        "character",
+        "prose",
+        "dialogue",
+        "pacing",
+        "logic",
+        "research",
+        "AI_specific"
+      ],
+      "seed_entries": [
+        "info_dump",
+        "exposition_dump",
+        "telling_instead_of_showing",
+        "purple_prose",
+        "cliche",
+        "generic_opening",
+        "weak_verbs",
+        "adverb_overuse",
+        "repetitive_sentence_structure",
+        "flat_scene",
+        "no_scene_turn",
+        "passive_character",
+        "contrived_conflict",
+        "deus_ex_machina",
+        "plot_convenience",
+        "character_voice_convergence",
+        "emotional_labeling",
+        "theme_restatement",
+        "false_depth"
+      ],
+      "relations": [
+        "detected_in",
+        "caused_by",
+        "fixed_by",
+        "related_metric"
+      ],
+      "primary_consumers": [
+        "Critic",
+        "Line Editor",
+        "Structural Editor",
+        "AI-Slop Detector"
+      ],
+      "reference_sources": [
+        "Internal synthesis"
+      ]
+    },
+    {
+      "id": "ai_slop",
+      "name": "AI-Slop & Synthetic-Prose Patterns",
+      "domain": "quality",
+      "purpose": "Catalogue de signaux de prose générique ou mécaniquement produite; jamais une preuve d'origine IA.",
+      "priority": "P0",
+      "entry_schema": [
+        "id",
+        "name",
+        "type",
+        "definition",
+        "purpose",
+        "when_to_use",
+        "when_not_to_use",
+        "variants",
+        "strengths",
+        "risks",
+        "anti_patterns",
+        "related_ids",
+        "tags",
+        "genres",
+        "formats",
+        "agent_hints",
+        "confidence",
+        "sources",
+        "signal",
+        "false_positive_risk",
+        "detection_method",
+        "human_review_required"
+      ],
+      "taxonomies": [
+        "lexical",
+        "syntactic",
+        "rhetorical",
+        "structural",
+        "discourse"
+      ],
+      "seed_entries": [
+        "generic_transition",
+        "formulaic_summary",
+        "excessive_balanced_contrast",
+        "repetitive_emphasis",
+        "fake_specificity",
+        "over_explaining",
+        "generic_emotional_label",
+        "synthetic_enthusiasm",
+        "overuse_of_headings",
+        "bulletization_of_prose",
+        "repetitive_conclusion",
+        "hedging_clusters"
+      ],
+      "relations": [
+        "detected_by",
+        "mitigated_by",
+        "can_cooccur_with"
+      ],
+      "primary_consumers": [
+        "AI Quality Agent",
+        "Critic",
+        "Line Editor"
+      ],
+      "reference_sources": [
+        "Internal heuristics; must not be represented as definitive AI detection"
+      ]
+    },
+    {
+      "id": "continuity",
+      "name": "Continuity & Consistency",
+      "domain": "quality",
+      "purpose": "Catalogue des invariants à vérifier dans personnages, chronologie, lieux, objets et faits.",
+      "priority": "P0",
+      "entry_schema": [
+        "id",
+        "name",
+        "type",
+        "definition",
+        "purpose",
+        "when_to_use",
+        "when_not_to_use",
+        "variants",
+        "strengths",
+        "risks",
+        "anti_patterns",
+        "related_ids",
+        "tags",
+        "genres",
+        "formats",
+        "agent_hints",
+        "confidence",
+        "sources",
+        "entity_type",
+        "invariant",
+        "violation_signal",
+        "repair_options"
+      ],
+      "taxonomies": [
+        "timeline",
+        "character",
+        "location",
+        "object",
+        "knowledge",
+        "causality",
+        "world_rule"
+      ],
+      "seed_entries": [
+        "age_mismatch",
+        "injury_mismatch",
+        "location_mismatch",
+        "object_mismatch",
+        "knowledge_leak",
+        "timeline_gap",
+        "travel_impossibility",
+        "world_rule_violation",
+        "relationship_state_mismatch",
+        "name_inconsistency"
+      ],
+      "relations": [
+        "validates",
+        "contradicts",
+        "depends_on",
+        "repaired_by"
+      ],
+      "primary_consumers": [
+        "Continuity Agent",
+        "Validator",
+        "Research Agent"
+      ],
+      "reference_sources": [
+        "Internal synthesis"
+      ]
+    },
+    {
+      "id": "editing",
+      "name": "Editorial Editing Methods",
+      "domain": "editing",
+      "purpose": "Sépare les niveaux d'intervention éditoriale et leurs objectifs.",
+      "priority": "P0",
+      "entry_schema": [
+        "id",
+        "name",
+        "type",
+        "definition",
+        "purpose",
+        "when_to_use",
+        "when_not_to_use",
+        "variants",
+        "strengths",
+        "risks",
+        "anti_patterns",
+        "related_ids",
+        "tags",
+        "genres",
+        "formats",
+        "agent_hints",
+        "confidence",
+        "sources",
+        "scope",
+        "input_state",
+        "output_state",
+        "diagnostic_questions",
+        "do_not_do"
+      ],
+      "taxonomies": [
+        "developmental",
+        "structural",
+        "scene",
+        "character",
+        "thematic",
+        "line",
+        "copy",
+        "proof",
+        "fact"
+      ],
+      "seed_entries": [
+        "developmental_edit",
+        "structural_edit",
+        "character_edit",
+        "scene_edit",
+        "line_edit",
+        "copyedit",
+        "proofread",
+        "fact_check",
+        "sensitivity_review",
+        "consistency_edit"
+      ],
+      "relations": [
+        "follows",
+        "precedes",
+        "uses_anti_pattern",
+        "produces_validator_report"
+      ],
+      "primary_consumers": [
+        "Editorial Agent",
+        "Revision Agent",
+        "Proofreader",
+        "Fact Checker"
+      ],
+      "reference_sources": [
+        "Professional editing process guidance"
+      ]
+    },
+    {
+      "id": "revision_strategies",
+      "name": "Revision Strategies",
+      "domain": "editing",
+      "purpose": "Catalogue d'opérations de réécriture contrôlées.",
+      "priority": "P0",
+      "entry_schema": [
+        "id",
+        "name",
+        "type",
+        "definition",
+        "purpose",
+        "when_to_use",
+        "when_not_to_use",
+        "variants",
+        "strengths",
+        "risks",
+        "anti_patterns",
+        "related_ids",
+        "tags",
+        "genres",
+        "formats",
+        "agent_hints",
+        "confidence",
+        "sources",
+        "operation",
+        "target_level",
+        "expected_effect",
+        "risk",
+        "validation"
+      ],
+      "taxonomies": [
+        "delete",
+        "compress",
+        "expand",
+        "reorder",
+        "merge",
+        "split",
+        "invert",
+        "replace",
+        "deepen",
+        "externalize",
+        "internalize",
+        "foreshadow",
+        "payoff",
+        "clarify",
+        "subtilize",
+        "intensify",
+        "neutralize"
+      ],
+      "seed_entries": [
+        "cut",
+        "expand",
+        "reorder",
+        "merge",
+        "split",
+        "replace",
+        "deepen",
+        "compress",
+        "slow",
+        "accelerate",
+        "clarify",
+        "subtilize",
+        "intensify",
+        "reframe"
+      ],
+      "relations": [
+        "fixes",
+        "preserves",
+        "can_damage"
+      ],
+      "primary_consumers": [
+        "Revision Agent",
+        "Structural Editor",
+        "Line Editor"
+      ],
+      "reference_sources": [
+        "Internal synthesis"
+      ]
+    },
+    {
+      "id": "research",
+      "name": "Research & Evidence",
+      "domain": "research",
+      "purpose": "Modèle de recherche documentaire pour livres, claims, preuves et incertitudes.",
+      "priority": "P0",
+      "entry_schema": [
+        "id",
+        "name",
+        "type",
+        "definition",
+        "purpose",
+        "when_to_use",
+        "when_not_to_use",
+        "variants",
+        "strengths",
+        "risks",
+        "anti_patterns",
+        "related_ids",
+        "tags",
+        "genres",
+        "formats",
+        "agent_hints",
+        "confidence",
+        "sources",
+        "research_question",
+        "source_type",
+        "evidence_type",
+        "claim",
+        "confidence",
+        "verification_status",
+        "date",
+        "author",
+        "citation"
+      ],
+      "taxonomies": [
+        "primary",
+        "secondary",
+        "tertiary",
+        "expert",
+        "empirical",
+        "archival",
+        "legal",
+        "scientific"
+      ],
+      "seed_entries": [
+        "source",
+        "claim",
+        "fact",
+        "quote",
+        "paraphrase",
+        "interpretation",
+        "hypothesis",
+        "uncertainty",
+        "counterevidence",
+        "citation"
+      ],
+      "relations": [
+        "supports",
+        "contradicts",
+        "derived_from",
+        "cited_in",
+        "verified_by"
+      ],
+      "primary_consumers": [
+        "Research Agent",
+        "Fact Checker",
+        "Citation Agent"
+      ],
+      "reference_sources": [
+        "Library of Congress MARC",
+        "W3C publishing standards",
+        "domain-specific primary sources"
+      ]
+    },
+    {
+      "id": "argumentation",
+      "name": "Argumentation & Reasoning",
+      "domain": "nonfiction",
+      "purpose": "Architecture des arguments pour essais, business books, guides et ouvrages analytiques.",
+      "priority": "P0",
+      "entry_schema": [
+        "id",
+        "name",
+        "type",
+        "definition",
+        "purpose",
+        "when_to_use",
+        "when_not_to_use",
+        "variants",
+        "strengths",
+        "risks",
+        "anti_patterns",
+        "related_ids",
+        "tags",
+        "genres",
+        "formats",
+        "agent_hints",
+        "confidence",
+        "sources",
+        "claim",
+        "grounds",
+        "warrant",
+        "counterargument",
+        "rebuttal",
+        "implication"
+      ],
+      "taxonomies": [
+        "explanatory",
+        "causal",
+        "comparative",
+        "evaluative",
+        "prescriptive",
+        "interpretive"
+      ],
+      "seed_entries": [
+        "claim_evidence_reasoning",
+        "problem_solution",
+        "cause_effect",
+        "compare_contrast",
+        "principle_application",
+        "case_study",
+        "counterargument_rebuttal"
+      ],
+      "relations": [
+        "supports",
+        "contradicts",
+        "qualifies",
+        "depends_on"
+      ],
+      "primary_consumers": [
+        "Nonfiction Architect",
+        "Research Agent",
+        "Logic Critic"
+      ],
+      "reference_sources": [
+        "Purdue OWL-style rhetorical writing concepts",
+        "Internal synthesis"
+      ]
+    },
+    {
+      "id": "fallacies",
+      "name": "Reasoning Fallacies & Argument Risks",
+      "domain": "nonfiction",
+      "purpose": "Détecte les défauts de raisonnement dans la nonfiction argumentative.",
+      "priority": "P1",
+      "entry_schema": [
+        "id",
+        "name",
+        "type",
+        "definition",
+        "purpose",
+        "when_to_use",
+        "when_not_to_use",
+        "variants",
+        "strengths",
+        "risks",
+        "anti_patterns",
+        "related_ids",
+        "tags",
+        "genres",
+        "formats",
+        "agent_hints",
+        "confidence",
+        "sources",
+        "fallacy_pattern",
+        "diagnostic",
+        "why_invalid",
+        "repair"
+      ],
+      "taxonomies": [
+        "relevance",
+        "causality",
+        "generalization",
+        "framing",
+        "authority"
+      ],
+      "seed_entries": [
+        "straw_man",
+        "false_dilemma",
+        "ad_hominem",
+        "slippery_slope",
+        "circular_reasoning",
+        "hasty_generalization",
+        "appeal_to_authority",
+        "false_equivalence",
+        "post_hoc",
+        "cherry_picking",
+        "loaded_question",
+        "appeal_to_emotion"
+      ],
+      "relations": [
+        "detected_in",
+        "repaired_by",
+        "related_to"
+      ],
+      "primary_consumers": [
+        "Logic Critic",
+        "Nonfiction Architect",
+        "Research Agent"
+      ],
+      "reference_sources": [
+        "Internal synthesis"
+      ]
+    },
+    {
+      "id": "pedagogy",
+      "name": "Educational Book & Learning Design",
+      "domain": "nonfiction",
+      "purpose": "Modèles pour transformer un contenu en progression pédagogique.",
+      "priority": "P1",
+      "entry_schema": [
+        "id",
+        "name",
+        "type",
+        "definition",
+        "purpose",
+        "when_to_use",
+        "when_not_to_use",
+        "variants",
+        "strengths",
+        "risks",
+        "anti_patterns",
+        "related_ids",
+        "tags",
+        "genres",
+        "formats",
+        "agent_hints",
+        "confidence",
+        "sources",
+        "learning_objective",
+        "prerequisites",
+        "difficulty",
+        "activity",
+        "assessment",
+        "expected_outcome"
+      ],
+      "taxonomies": [
+        "explain",
+        "demonstrate",
+        "practice",
+        "retrieve",
+        "apply",
+        "reflect",
+        "assess"
+      ],
+      "seed_entries": [
+        "concept_introduction",
+        "scaffolding",
+        "worked_example",
+        "practice",
+        "retrieval_question",
+        "case_study",
+        "reflection",
+        "exercise",
+        "quiz",
+        "assessment"
+      ],
+      "relations": [
+        "supports_learning_objective",
+        "precedes",
+        "requires",
+        "assesses"
+      ],
+      "primary_consumers": [
+        "Educational Architect",
+        "Nonfiction Agent",
+        "Exercise Agent"
+      ],
+      "reference_sources": [
+        "Bloom taxonomy concepts",
+        "Internal synthesis"
+      ]
+    },
+    {
+      "id": "examples",
+      "name": "Examples, Cases & Analogies",
+      "domain": "nonfiction",
+      "purpose": "Catalogue des formes d'exemples utilisables pour expliquer et mémoriser.",
+      "priority": "P1",
+      "entry_schema": [
+        "id",
+        "name",
+        "type",
+        "definition",
+        "purpose",
+        "when_to_use",
+        "when_not_to_use",
+        "variants",
+        "strengths",
+        "risks",
+        "anti_patterns",
+        "related_ids",
+        "tags",
+        "genres",
+        "formats",
+        "agent_hints",
+        "confidence",
+        "sources",
+        "example_type",
+        "abstraction_level",
+        "purpose",
+        "limitations"
+      ],
+      "taxonomies": [
+        "concrete",
+        "hypothetical",
+        "historical",
+        "personal",
+        "quantitative",
+        "comparative"
+      ],
+      "seed_entries": [
+        "anecdote",
+        "case_study",
+        "hypothetical",
+        "counterexample",
+        "analogy",
+        "thought_experiment",
+        "numerical_example",
+        "before_after",
+        "worked_example"
+      ],
+      "relations": [
+        "illustrates",
+        "supports_claim",
+        "contrasts_with",
+        "risks_misleading"
+      ],
+      "primary_consumers": [
+        "Nonfiction Architect",
+        "Pedagogy Agent",
+        "Research Agent"
+      ],
+      "reference_sources": [
+        "Internal synthesis"
+      ]
+    },
+    {
+      "id": "language",
+      "name": "Language, Lexicon & Semantics",
+      "domain": "language",
+      "purpose": "Couche lexicale et sémantique pour choix de mots, champs lexicaux et relations de sens.",
+      "priority": "P0",
+      "entry_schema": [
+        "id",
+        "name",
+        "type",
+        "definition",
+        "purpose",
+        "when_to_use",
+        "when_not_to_use",
+        "variants",
+        "strengths",
+        "risks",
+        "anti_patterns",
+        "related_ids",
+        "tags",
+        "genres",
+        "formats",
+        "agent_hints",
+        "confidence",
+        "sources",
+        "lemma",
+        "sense",
+        "part_of_speech",
+        "synsets",
+        "hypernyms",
+        "hyponyms",
+        "antonyms",
+        "meronyms",
+        "collocations",
+        "morphology"
+      ],
+      "taxonomies": [
+        "noun",
+        "verb",
+        "adjective",
+        "adverb"
+      ],
+      "seed_entries": [
+        "synonym",
+        "antonym",
+        "hypernym",
+        "hyponym",
+        "meronym",
+        "holonym",
+        "entailment",
+        "morphosemantic",
+        "collocation",
+        "word_family"
+      ],
+      "relations": [
+        "related_to",
+        "contrasts_with",
+        "part_of",
+        "derives_from"
+      ],
+      "primary_consumers": [
+        "Language Agent",
+        "Style Agent",
+        "Line Editor"
+      ],
+      "reference_sources": [
+        "Princeton WordNet",
+        "Open English WordNet"
+      ]
+    },
+    {
+      "id": "quality_metrics",
+      "name": "Writing Quality Metrics",
+      "domain": "quality",
+      "purpose": "Métriques heuristiques pour analyser texte, scènes, chapitres et manuscrit.",
+      "priority": "P0",
+      "entry_schema": [
+        "id",
+        "name",
+        "type",
+        "definition",
+        "purpose",
+        "when_to_use",
+        "when_not_to_use",
+        "variants",
+        "strengths",
+        "risks",
+        "anti_patterns",
+        "related_ids",
+        "tags",
+        "genres",
+        "formats",
+        "agent_hints",
+        "confidence",
+        "sources",
+        "metric_level",
+        "formula_or_heuristic",
+        "interpretation",
+        "caveats",
+        "target_ranges"
+      ],
+      "taxonomies": [
+        "sentence",
+        "paragraph",
+        "scene",
+        "chapter",
+        "book"
+      ],
+      "seed_entries": [
+        "sentence_length",
+        "readability",
+        "lexical_diversity",
+        "repetition_rate",
+        "dialogue_ratio",
+        "description_ratio",
+        "scene_turn_density",
+        "tension_estimate",
+        "pacing_variation",
+        "pov_distribution",
+        "character_presence",
+        "subplot_balance",
+        "unresolved_threads"
+      ],
+      "relations": [
+        "measures",
+        "correlates_with",
+        "must_not_be_interpreted_as"
+      ],
+      "primary_consumers": [
+        "Quality Analyst",
+        "Pacing Agent",
+        "Critic",
+        "Dashboard"
+      ],
+      "reference_sources": [
+        "ProWritingAid feature taxonomy",
+        "Internal heuristics"
+      ]
+    },
+    {
+      "id": "book_structure",
+      "name": "Book Architecture & Front/Back Matter",
+      "domain": "production",
+      "purpose": "Organisation physique et éditoriale du livre.",
+      "priority": "P0",
+      "entry_schema": [
+        "id",
+        "name",
+        "type",
+        "definition",
+        "purpose",
+        "when_to_use",
+        "when_not_to_use",
+        "variants",
+        "strengths",
+        "risks",
+        "anti_patterns",
+        "related_ids",
+        "tags",
+        "genres",
+        "formats",
+        "agent_hints",
+        "confidence",
+        "sources",
+        "position",
+        "optional",
+        "print_behavior",
+        "ebook_behavior",
+        "pagination_rules"
+      ],
+      "taxonomies": [
+        "front_matter",
+        "body",
+        "back_matter"
+      ],
+      "seed_entries": [
+        "half_title",
+        "title_page",
+        "copyright",
+        "dedication",
+        "epigraph",
+        "toc",
+        "foreword",
+        "preface",
+        "acknowledgements",
+        "introduction",
+        "parts",
+        "chapters",
+        "epilogue",
+        "afterword",
+        "appendix",
+        "notes",
+        "glossary",
+        "bibliography",
+        "index",
+        "author_bio"
+      ],
+      "relations": [
+        "precedes",
+        "follows",
+        "belongs_to",
+        "required_for_format"
+      ],
+      "primary_consumers": [
+        "Book Designer",
+        "Production Agent",
+        "Publishing Agent"
+      ],
+      "reference_sources": [
+        "Chicago-style conventions via secondary publishing guide",
+        "W3C EPUB 3.3"
+      ]
+    },
+    {
+      "id": "typography",
+      "name": "Book Typography & Typesetting",
+      "domain": "production",
+      "purpose": "Règles et composants de typographie et de mise en page pour livres.",
+      "priority": "P1",
+      "entry_schema": [
+        "id",
+        "name",
+        "type",
+        "definition",
+        "purpose",
+        "when_to_use",
+        "when_not_to_use",
+        "variants",
+        "strengths",
+        "risks",
+        "anti_patterns",
+        "related_ids",
+        "tags",
+        "genres",
+        "formats",
+        "agent_hints",
+        "confidence",
+        "sources",
+        "font_role",
+        "measure",
+        "leading",
+        "tracking",
+        "hierarchy",
+        "alignment",
+        "page_effect"
+      ],
+      "taxonomies": [
+        "body",
+        "display",
+        "heading",
+        "caption",
+        "note",
+        "metadata"
+      ],
+      "seed_entries": [
+        "serif_body",
+        "sans_interface",
+        "display_face",
+        "monospace",
+        "small_caps",
+        "drop_cap",
+        "running_head",
+        "folio",
+        "widow",
+        "orphan",
+        "hyphenation",
+        "justification",
+        "ragged_right"
+      ],
+      "relations": [
+        "supports",
+        "contrasts_with",
+        "used_in_format"
+      ],
+      "primary_consumers": [
+        "Book Designer",
+        "Typesetting Agent"
+      ],
+      "reference_sources": [
+        "Book design/typesetting guidance",
+        "W3C CSS/EPUB typography"
+      ]
+    },
+    {
+      "id": "layout",
+      "name": "Book Layout & Page Architecture",
+      "domain": "production",
+      "purpose": "Systèmes de grille, marges, gabarits, ouvertures de chapitres et éléments non textuels.",
+      "priority": "P1",
+      "entry_schema": [
+        "id",
+        "name",
+        "type",
+        "definition",
+        "purpose",
+        "when_to_use",
+        "when_not_to_use",
+        "variants",
+        "strengths",
+        "risks",
+        "anti_patterns",
+        "related_ids",
+        "tags",
+        "genres",
+        "formats",
+        "agent_hints",
+        "confidence",
+        "sources",
+        "trim_size",
+        "margins",
+        "gutter",
+        "grid",
+        "template",
+        "page_elements",
+        "print_constraints"
+      ],
+      "taxonomies": [
+        "trade",
+        "academic",
+        "children",
+        "illustrated",
+        "workbook",
+        "reference"
+      ],
+      "seed_entries": [
+        "chapter_opener",
+        "running_header",
+        "footer",
+        "folio",
+        "quote_block",
+        "table",
+        "figure",
+        "caption",
+        "sidebar",
+        "callout",
+        "footnote",
+        "endnote",
+        "index_entry"
+      ],
+      "relations": [
+        "uses_typography",
+        "uses_book_structure",
+        "supports_accessibility"
+      ],
+      "primary_consumers": [
+        "Book Designer",
+        "Production Agent"
+      ],
+      "reference_sources": [
+        "Book design/typesetting guidance"
+      ]
+    },
+    {
+      "id": "digital_publishing",
+      "name": "Digital Publishing & EPUB",
+      "domain": "production",
+      "purpose": "Catalogue des concepts de production numérique et de conformité EPUB.",
+      "priority": "P0",
+      "entry_schema": [
+        "id",
+        "name",
+        "type",
+        "definition",
+        "purpose",
+        "when_to_use",
+        "when_not_to_use",
+        "variants",
+        "strengths",
+        "risks",
+        "anti_patterns",
+        "related_ids",
+        "tags",
+        "genres",
+        "formats",
+        "agent_hints",
+        "confidence",
+        "sources",
+        "standard",
+        "version",
+        "conformance_requirement",
+        "implementation_notes"
+      ],
+      "taxonomies": [
+        "epub",
+        "web",
+        "pdf",
+        "audiobook"
+      ],
+      "seed_entries": [
+        "container",
+        "package_document",
+        "navigation_document",
+        "content_document",
+        "manifest",
+        "spine",
+        "metadata",
+        "fixed_layout",
+        "reflowable",
+        "media_overlay",
+        "accessibility"
+      ],
+      "relations": [
+        "implements",
+        "requires",
+        "conforms_to",
+        "tested_by"
+      ],
+      "primary_consumers": [
+        "EPUB Agent",
+        "Production Agent",
+        "Accessibility Agent"
+      ],
+      "reference_sources": [
+        "W3C EPUB 3.3 Recommendation",
+        "W3C EPUB Accessibility 1.1"
+      ]
+    },
+    {
+      "id": "accessibility",
+      "name": "Book Accessibility",
+      "domain": "production",
+      "purpose": "Exigences et pratiques pour rendre livres numériques et documents plus accessibles.",
+      "priority": "P0",
+      "entry_schema": [
+        "id",
+        "name",
+        "type",
+        "definition",
+        "purpose",
+        "when_to_use",
+        "when_not_to_use",
+        "variants",
+        "strengths",
+        "risks",
+        "anti_patterns",
+        "related_ids",
+        "tags",
+        "genres",
+        "formats",
+        "agent_hints",
+        "confidence",
+        "sources",
+        "accessibility_feature",
+        "requirement_level",
+        "test_method",
+        "metadata_expression"
+      ],
+      "taxonomies": [
+        "content",
+        "navigation",
+        "visual",
+        "audio",
+        "language",
+        "interaction"
+      ],
+      "seed_entries": [
+        "logical_reading_order",
+        "toc_navigation",
+        "alt_text",
+        "extended_description",
+        "accessible_tables",
+        "text_resizing",
+        "reflow",
+        "language_metadata",
+        "page_navigation",
+        "semantic_structure"
+      ],
+      "relations": [
+        "conforms_to",
+        "declared_by",
+        "tested_by",
+        "exposed_in_metadata"
+      ],
+      "primary_consumers": [
+        "Accessibility Agent",
+        "EPUB Agent",
+        "Book Designer"
+      ],
+      "reference_sources": [
+        "W3C EPUB Accessibility",
+        "ISO/IEC 23761",
+        "DAISY Accessible Publishing Knowledge Base"
+      ]
+    },
+    {
+      "id": "metadata",
+      "name": "Book Metadata & Bibliographic Description",
+      "domain": "publishing",
+      "purpose": "Catalogue des métadonnées nécessaires à la découverte, distribution et gestion bibliographique.",
+      "priority": "P0",
+      "entry_schema": [
+        "id",
+        "name",
+        "type",
+        "definition",
+        "purpose",
+        "when_to_use",
+        "when_not_to_use",
+        "variants",
+        "strengths",
+        "risks",
+        "anti_patterns",
+        "related_ids",
+        "tags",
+        "genres",
+        "formats",
+        "agent_hints",
+        "confidence",
+        "sources",
+        "field",
+        "standard",
+        "requiredness",
+        "format",
+        "example",
+        "validation_rule"
+      ],
+      "taxonomies": [
+        "bibliographic",
+        "commercial",
+        "distribution",
+        "accessibility",
+        "discovery"
+      ],
+      "seed_entries": [
+        "title",
+        "subtitle",
+        "creator",
+        "contributor",
+        "role",
+        "publisher",
+        "publication_date",
+        "language",
+        "isbn",
+        "format",
+        "edition",
+        "subject",
+        "bisac",
+        "audience",
+        "price",
+        "rights",
+        "description",
+        "keywords",
+        "accessibility"
+      ],
+      "relations": [
+        "describes",
+        "required_for",
+        "maps_to",
+        "validated_by"
+      ],
+      "primary_consumers": [
+        "Metadata Agent",
+        "Publishing Agent",
+        "Distribution Agent"
+      ],
+      "reference_sources": [
+        "ONIX 3.x guidance",
+        "Library of Congress MARC 21",
+        "JSTOR metadata requirements"
+      ]
+    },
+    {
+      "id": "marketing",
+      "name": "Book Positioning & Marketing",
+      "domain": "publishing",
+      "purpose": "Catalogue des artefacts et angles nécessaires pour positionner et présenter un livre.",
+      "priority": "P1",
+      "entry_schema": [
+        "id",
+        "name",
+        "type",
+        "definition",
+        "purpose",
+        "when_to_use",
+        "when_not_to_use",
+        "variants",
+        "strengths",
+        "risks",
+        "anti_patterns",
+        "related_ids",
+        "tags",
+        "genres",
+        "formats",
+        "agent_hints",
+        "confidence",
+        "sources",
+        "audience",
+        "promise",
+        "angle",
+        "channel",
+        "length_constraints",
+        "proof_points"
+      ],
+      "taxonomies": [
+        "discovery",
+        "conversion",
+        "retention",
+        "author_platform"
+      ],
+      "seed_entries": [
+        "logline",
+        "tagline",
+        "elevator_pitch",
+        "back_cover_copy",
+        "book_description",
+        "subtitle",
+        "positioning_statement",
+        "reader_persona",
+        "comparable_titles",
+        "keywords",
+        "category",
+        "launch_angle",
+        "review_request"
+      ],
+      "relations": [
+        "derived_from_promise",
+        "targets_audience",
+        "supports_metadata"
+      ],
+      "primary_consumers": [
+        "Marketing Agent",
+        "Audience Agent",
+        "Publishing Agent"
+      ],
+      "reference_sources": [
+        "Internal synthesis"
+      ]
+    },
+    {
+      "id": "sources_registry",
+      "name": "Source Registry & Provenance",
+      "domain": "governance",
+      "purpose": "Registre des sources et de leur qualité, licence, date et statut de vérification.",
+      "priority": "P0",
+      "entry_schema": [
+        "id",
+        "title",
+        "author",
+        "publisher",
+        "url",
+        "license",
+        "source_type",
+        "date_accessed",
+        "reliability",
+        "scope",
+        "notes",
+        "used_by_entries"
+      ],
+      "taxonomies": [
+        "primary",
+        "standard",
+        "official",
+        "academic",
+        "professional",
+        "community",
+        "secondary"
+      ],
+      "seed_entries": [
+        "official_standard",
+        "academic_paper",
+        "book",
+        "professional_guide",
+        "dataset",
+        "open_lexicon",
+        "industry_metadata",
+        "community_resource"
+      ],
+      "relations": [
+        "supports_entry",
+        "contradicts_entry",
+        "supersedes",
+        "derived_from"
+      ],
+      "primary_consumers": [
+        "Research Agent",
+        "Catalog Curator",
+        "All knowledge-consuming agents"
+      ],
+      "reference_sources": [
+        "W3C",
+        "Library of Congress",
+        "Princeton WordNet",
+        "Open English WordNet",
+        "DAISY",
+        "ISO"
+      ]
+    }
+  ],
+  "research_basis": [
+    {
+      "source": "W3C EPUB 3.3",
+      "url": "https://www.w3.org/TR/epub-33/",
+      "used_for": [
+        "digital_publishing",
+        "accessibility",
+        "book_structure"
+      ]
+    },
+    {
+      "source": "Library of Congress MARC 21 Bibliographic",
+      "url": "https://www.loc.gov/marc/bibliographic/",
+      "used_for": [
+        "metadata",
+        "bibliographic_description"
+      ]
+    },
+    {
+      "source": "Princeton WordNet",
+      "url": "https://wordnet.princeton.edu/front",
+      "used_for": [
+        "language",
+        "semantics",
+        "lexical_relations"
+      ]
+    },
+    {
+      "source": "Open English WordNet",
+      "url": "https://en-word.net/downloads",
+      "used_for": [
+        "language",
+        "open_lexical_resource"
+      ]
+    },
+    {
+      "source": "DAISY Accessible Publishing Knowledge Base",
+      "url": "https://kb.daisy.org/publishing/docs/metadata/onix/",
+      "used_for": [
+        "accessibility",
+        "ONIX"
+      ]
+    },
+    {
+      "source": "ISO/IEC 23761:2021",
+      "url": "https://www.iso.org/standard/76860.html",
+      "used_for": [
+        "accessibility"
+      ]
+    },
+    {
+      "source": "W3C Accessibility Metadata Display Guide",
+      "url": "https://www.w3.org/publishing/a11y/metadata-display-guide/guidelines/",
+      "used_for": [
+        "accessibility",
+        "metadata"
+      ]
+    },
+    {
+      "source": "JSTOR Metadata Requirements",
+      "url": "https://support.publishers.jstor.org/hc/en-us/articles/360049235333-Metadata-Requirements",
+      "used_for": [
+        "metadata",
+        "distribution"
+      ]
+    },
+    {
+      "source": "Professional editing process overview",
+      "url": "https://www.thegoodearthpublishers.com/editing-processes-guide",
+      "used_for": [
+        "editing",
+        "revision"
+      ]
+    },
+    {
+      "source": "Book design and typesetting overview",
+      "url": "https://www.thegoodearthpublishers.com/book-design-typesetting-guide",
+      "used_for": [
+        "typography",
+        "layout"
+      ]
+    },
+    {
+      "source": "Fiction writing overview",
+      "url": "https://www.editorworld.com/article/fiction-writing-guide",
+      "used_for": [
+        "fiction",
+        "character",
+        "plot",
+        "pov",
+        "dialogue",
+        "pacing",
+        "worldbuilding"
+      ]
+    }
+  ]
+}

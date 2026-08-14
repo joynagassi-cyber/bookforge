@@ -1,0 +1,275 @@
+[
+  {
+    "id": "layout.chapter_opener",
+    "name": "Chapter Opener",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Systèmes de grille, marges, gabarits, ouvertures de chapitres et éléments non textuels.",
+    "tags": [
+      "trade",
+      "academic",
+      "children",
+      "illustrated",
+      "workbook",
+      "reference"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "layout.running_header",
+    "name": "Running Header",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Systèmes de grille, marges, gabarits, ouvertures de chapitres et éléments non textuels.",
+    "tags": [
+      "trade",
+      "academic",
+      "children",
+      "illustrated",
+      "workbook",
+      "reference"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "layout.footer",
+    "name": "Footer",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Systèmes de grille, marges, gabarits, ouvertures de chapitres et éléments non textuels.",
+    "tags": [
+      "trade",
+      "academic",
+      "children",
+      "illustrated",
+      "workbook",
+      "reference"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "layout.folio",
+    "name": "Folio",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Systèmes de grille, marges, gabarits, ouvertures de chapitres et éléments non textuels.",
+    "tags": [
+      "trade",
+      "academic",
+      "children",
+      "illustrated",
+      "workbook",
+      "reference"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "layout.quote_block",
+    "name": "Quote Block",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Systèmes de grille, marges, gabarits, ouvertures de chapitres et éléments non textuels.",
+    "tags": [
+      "trade",
+      "academic",
+      "children",
+      "illustrated",
+      "workbook",
+      "reference"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "layout.table",
+    "name": "Table",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Systèmes de grille, marges, gabarits, ouvertures de chapitres et éléments non textuels.",
+    "tags": [
+      "trade",
+      "academic",
+      "children",
+      "illustrated",
+      "workbook",
+      "reference"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "layout.figure",
+    "name": "Figure",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Systèmes de grille, marges, gabarits, ouvertures de chapitres et éléments non textuels.",
+    "tags": [
+      "trade",
+      "academic",
+      "children",
+      "illustrated",
+      "workbook",
+      "reference"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "layout.caption",
+    "name": "Caption",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Systèmes de grille, marges, gabarits, ouvertures de chapitres et éléments non textuels.",
+    "tags": [
+      "trade",
+      "academic",
+      "children",
+      "illustrated",
+      "workbook",
+      "reference"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "layout.sidebar",
+    "name": "Sidebar",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Systèmes de grille, marges, gabarits, ouvertures de chapitres et éléments non textuels.",
+    "tags": [
+      "trade",
+      "academic",
+      "children",
+      "illustrated",
+      "workbook",
+      "reference"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "layout.callout",
+    "name": "Callout",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Systèmes de grille, marges, gabarits, ouvertures de chapitres et éléments non textuels.",
+    "tags": [
+      "trade",
+      "academic",
+      "children",
+      "illustrated",
+      "workbook",
+      "reference"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "layout.footnote",
+    "name": "Footnote",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Systèmes de grille, marges, gabarits, ouvertures de chapitres et éléments non textuels.",
+    "tags": [
+      "trade",
+      "academic",
+      "children",
+      "illustrated",
+      "workbook",
+      "reference"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "layout.endnote",
+    "name": "Endnote",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Systèmes de grille, marges, gabarits, ouvertures de chapitres et éléments non textuels.",
+    "tags": [
+      "trade",
+      "academic",
+      "children",
+      "illustrated",
+      "workbook",
+      "reference"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "layout.index_entry",
+    "name": "Index Entry",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Systèmes de grille, marges, gabarits, ouvertures de chapitres et éléments non textuels.",
+    "tags": [
+      "trade",
+      "academic",
+      "children",
+      "illustrated",
+      "workbook",
+      "reference"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  }
+]

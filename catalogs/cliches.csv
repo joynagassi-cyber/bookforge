@@ -1,0 +1,8 @@
+pattern_id,category,example,severity_default,replacement_strategy
+cl-001,generic promise,This will change your life,medium,replace with a concrete outcome
+cl-002,generic journey,a journey of self-discovery,low,name the actual transformation
+cl-003,generic opener,In today's fast-paced world,high,"start with a concrete fact, scene, question or claim"
+cl-004,generic conclusion,In conclusion,medium,use a substantive closing transition or none
+cl-005,dead metaphor,at the end of the day,medium,state the exact idea
+cl-006,marketing cliche,game changer,high,specify what changes and by how much
+cl-007,formulaic contrast,"not only X, but also Y",low,use only when rhetorical contrast is intentional

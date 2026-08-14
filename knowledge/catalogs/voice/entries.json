@@ -1,0 +1,218 @@
+[
+  {
+    "id": "voice.plain",
+    "name": "Plain",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Dimensions permettant de caractériser la voix d'un narrateur ou personnage.",
+    "tags": [
+      "narrator",
+      "character",
+      "authorial"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "voice.lyrical",
+    "name": "Lyrical",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Dimensions permettant de caractériser la voix d'un narrateur ou personnage.",
+    "tags": [
+      "narrator",
+      "character",
+      "authorial"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "voice.witty",
+    "name": "Witty",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Dimensions permettant de caractériser la voix d'un narrateur ou personnage.",
+    "tags": [
+      "narrator",
+      "character",
+      "authorial"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "voice.deadpan",
+    "name": "Deadpan",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Dimensions permettant de caractériser la voix d'un narrateur ou personnage.",
+    "tags": [
+      "narrator",
+      "character",
+      "authorial"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "voice.formal",
+    "name": "Formal",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Dimensions permettant de caractériser la voix d'un narrateur ou personnage.",
+    "tags": [
+      "narrator",
+      "character",
+      "authorial"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "voice.colloquial",
+    "name": "Colloquial",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Dimensions permettant de caractériser la voix d'un narrateur ou personnage.",
+    "tags": [
+      "narrator",
+      "character",
+      "authorial"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "voice.intimate",
+    "name": "Intimate",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Dimensions permettant de caractériser la voix d'un narrateur ou personnage.",
+    "tags": [
+      "narrator",
+      "character",
+      "authorial"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "voice.clinical",
+    "name": "Clinical",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Dimensions permettant de caractériser la voix d'un narrateur ou personnage.",
+    "tags": [
+      "narrator",
+      "character",
+      "authorial"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "voice.ornate",
+    "name": "Ornate",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Dimensions permettant de caractériser la voix d'un narrateur ou personnage.",
+    "tags": [
+      "narrator",
+      "character",
+      "authorial"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "voice.minimalist",
+    "name": "Minimalist",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Dimensions permettant de caractériser la voix d'un narrateur ou personnage.",
+    "tags": [
+      "narrator",
+      "character",
+      "authorial"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "voice.conversational",
+    "name": "Conversational",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Dimensions permettant de caractériser la voix d'un narrateur ou personnage.",
+    "tags": [
+      "narrator",
+      "character",
+      "authorial"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "voice.meditative",
+    "name": "Meditative",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Dimensions permettant de caractériser la voix d'un narrateur ou personnage.",
+    "tags": [
+      "narrator",
+      "character",
+      "authorial"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  }
+]

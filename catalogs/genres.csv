@@ -1,0 +1,9 @@
+genre_id,family,reader_expectation,core_structural_patterns,common_risks
+romance,fiction,relationship progression; emotional payoff,meet; complications; turning point; resolution,weak chemistry
+thriller,fiction,tension; escalating stakes,setup; escalation; reversals; climax,flat pacing
+fantasy,fiction,immersive world; stakes,world setup; quest/conflict; revelation,lore dumping
+memoir,nonfiction,truthful perspective; transformation,selected episodes; reflection; arc,scope sprawl
+self-help,nonfiction,practical transformation,problem; framework; application; exercises,generic advice
+business,nonfiction,clarity; evidence; utility,problem; market; framework; cases,overclaiming
+devotional,nonfiction,reflection and practice,text; reflection; application; prayer/action,repetition
+cookbook,nonfiction,usable recipes and organization,context; recipe; method; variations,inconsistent measures

@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Genre System",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "type",
+    "definition",
+    "purpose",
+    "when_to_use",
+    "when_not_to_use",
+    "variants",
+    "strengths"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "id": {
+      "description": "Field id"
+    },
+    "name": {
+      "description": "Field name"
+    },
+    "type": {
+      "description": "Field type"
+    },
+    "definition": {
+      "description": "Field definition"
+    },
+    "purpose": {
+      "description": "Field purpose"
+    },
+    "when_to_use": {
+      "description": "Field when_to_use"
+    },
+    "when_not_to_use": {
+      "description": "Field when_not_to_use"
+    },
+    "variants": {
+      "description": "Field variants"
+    },
+    "strengths": {
+      "description": "Field strengths"
+    },
+    "risks": {
+      "description": "Field risks"
+    },
+    "anti_patterns": {
+      "description": "Field anti_patterns"
+    },
+    "related_ids": {
+      "description": "Field related_ids"
+    },
+    "tags": {
+      "description": "Field tags"
+    },
+    "genres": {
+      "description": "Field genres"
+    },
+    "formats": {
+      "description": "Field formats"
+    },
+    "agent_hints": {
+      "description": "Field agent_hints"
+    },
+    "confidence": {
+      "description": "Field confidence"
+    },
+    "sources": {
+      "description": "Field sources"
+    },
+    "core_promise": {
+      "description": "Field core_promise"
+    },
+    "mandatory_conventions": {
+      "description": "Field mandatory_conventions"
+    },
+    "optional_conventions": {
+      "description": "Field optional_conventions"
+    },
+    "reader_expectations": {
+      "description": "Field reader_expectations"
+    },
+    "typical_pacing": {
+      "description": "Field typical_pacing"
+    },
+    "typical_stakes": {
+      "description": "Field typical_stakes"
+    },
+    "typical_arcs": {
+      "description": "Field typical_arcs"
+    },
+    "subgenre_of": {
+      "description": "Field subgenre_of"
+    }
+  }
+}

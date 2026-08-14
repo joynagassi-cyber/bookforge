@@ -1,0 +1,143 @@
+{
+  "version": "1.0.0",
+  "sources": [
+    {
+      "id": "source.w3c-epub-3-3",
+      "title": "W3C EPUB 3.3",
+      "url": "https://www.w3.org/TR/epub-33/",
+      "source_type": "reference",
+      "used_for": [
+        "digital_publishing",
+        "accessibility",
+        "book_structure"
+      ],
+      "reliability": "unreviewed",
+      "license_status": "needs_review"
+    },
+    {
+      "id": "source.library-of-congress-marc-21-bibliographic",
+      "title": "Library of Congress MARC 21 Bibliographic",
+      "url": "https://www.loc.gov/marc/bibliographic/",
+      "source_type": "reference",
+      "used_for": [
+        "metadata",
+        "bibliographic_description"
+      ],
+      "reliability": "unreviewed",
+      "license_status": "needs_review"
+    },
+    {
+      "id": "source.princeton-wordnet",
+      "title": "Princeton WordNet",
+      "url": "https://wordnet.princeton.edu/front",
+      "source_type": "reference",
+      "used_for": [
+        "language",
+        "semantics",
+        "lexical_relations"
+      ],
+      "reliability": "unreviewed",
+      "license_status": "needs_review"
+    },
+    {
+      "id": "source.open-english-wordnet",
+      "title": "Open English WordNet",
+      "url": "https://en-word.net/downloads",
+      "source_type": "reference",
+      "used_for": [
+        "language",
+        "open_lexical_resource"
+      ],
+      "reliability": "unreviewed",
+      "license_status": "needs_review"
+    },
+    {
+      "id": "source.daisy-accessible-publishing-knowledge-base",
+      "title": "DAISY Accessible Publishing Knowledge Base",
+      "url": "https://kb.daisy.org/publishing/docs/metadata/onix/",
+      "source_type": "reference",
+      "used_for": [
+        "accessibility",
+        "ONIX"
+      ],
+      "reliability": "unreviewed",
+      "license_status": "needs_review"
+    },
+    {
+      "id": "source.iso-iec-23761-2021",
+      "title": "ISO/IEC 23761:2021",
+      "url": "https://www.iso.org/standard/76860.html",
+      "source_type": "reference",
+      "used_for": [
+        "accessibility"
+      ],
+      "reliability": "unreviewed",
+      "license_status": "needs_review"
+    },
+    {
+      "id": "source.w3c-accessibility-metadata-display-guide",
+      "title": "W3C Accessibility Metadata Display Guide",
+      "url": "https://www.w3.org/publishing/a11y/metadata-display-guide/guidelines/",
+      "source_type": "reference",
+      "used_for": [
+        "accessibility",
+        "metadata"
+      ],
+      "reliability": "unreviewed",
+      "license_status": "needs_review"
+    },
+    {
+      "id": "source.jstor-metadata-requirements",
+      "title": "JSTOR Metadata Requirements",
+      "url": "https://support.publishers.jstor.org/hc/en-us/articles/360049235333-Metadata-Requirements",
+      "source_type": "reference",
+      "used_for": [
+        "metadata",
+        "distribution"
+      ],
+      "reliability": "unreviewed",
+      "license_status": "needs_review"
+    },
+    {
+      "id": "source.professional-editing-process-overview",
+      "title": "Professional editing process overview",
+      "url": "https://www.thegoodearthpublishers.com/editing-processes-guide",
+      "source_type": "reference",
+      "used_for": [
+        "editing",
+        "revision"
+      ],
+      "reliability": "unreviewed",
+      "license_status": "needs_review"
+    },
+    {
+      "id": "source.book-design-and-typesetting-overview",
+      "title": "Book design and typesetting overview",
+      "url": "https://www.thegoodearthpublishers.com/book-design-typesetting-guide",
+      "source_type": "reference",
+      "used_for": [
+        "typography",
+        "layout"
+      ],
+      "reliability": "unreviewed",
+      "license_status": "needs_review"
+    },
+    {
+      "id": "source.fiction-writing-overview",
+      "title": "Fiction writing overview",
+      "url": "https://www.editorworld.com/article/fiction-writing-guide",
+      "source_type": "reference",
+      "used_for": [
+        "fiction",
+        "character",
+        "plot",
+        "pov",
+        "dialogue",
+        "pacing",
+        "worldbuilding"
+      ],
+      "reliability": "unreviewed",
+      "license_status": "needs_review"
+    }
+  ]
+}

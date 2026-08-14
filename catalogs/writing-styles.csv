@@ -1,0 +1,9 @@
+style_id,name,description,signals,avoid,best_for
+plain_expository,Plain Expository,"Direct, clear informational prose",concrete nouns; short-to-medium sentences,ornate filler,nonfiction
+literary,Literary,Image-rich and layered prose,sensory detail; controlled ambiguity,purple prose,literary fiction
+conversational,Conversational,Natural spoken cadence,contractions; varied rhythm,fake informality,memoir; self-help
+academic,Academic,Precise analytical style,definitions; citations; hedging,unsupported certainty,scholarly nonfiction
+journalistic,Journalistic,Evidence-led explanatory prose,facts first; attribution,editorializing as fact,reported nonfiction
+devotional,Devotional,"Reflective, accessible, spiritually oriented",meditation; application; gentle cadence,generic inspiration,devotional
+technical,Technical,Instructional and precise,procedures; constraints; examples,vague claims,technical books
+minimalist,Minimalist,Economical prose,high information density,repetition,literary; essays

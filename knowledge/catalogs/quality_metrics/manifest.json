@@ -1,0 +1,57 @@
+{
+  "id": "quality_metrics",
+  "name": "Writing Quality Metrics",
+  "domain": "quality",
+  "purpose": "Métriques heuristiques pour analyser texte, scènes, chapitres et manuscrit.",
+  "priority": "P0",
+  "entry_schema": [
+    "id",
+    "name",
+    "type",
+    "definition",
+    "purpose",
+    "when_to_use",
+    "when_not_to_use",
+    "variants",
+    "strengths",
+    "risks",
+    "anti_patterns",
+    "related_ids",
+    "tags",
+    "genres",
+    "formats",
+    "agent_hints",
+    "confidence",
+    "sources",
+    "metric_level",
+    "formula_or_heuristic",
+    "interpretation",
+    "caveats",
+    "target_ranges"
+  ],
+  "taxonomies": [
+    "sentence",
+    "paragraph",
+    "scene",
+    "chapter",
+    "book"
+  ],
+  "relations": [
+    "measures",
+    "correlates_with",
+    "must_not_be_interpreted_as"
+  ],
+  "primary_consumers": [
+    "Quality Analyst",
+    "Pacing Agent",
+    "Critic",
+    "Dashboard"
+  ],
+  "reference_sources": [
+    "ProWritingAid feature taxonomy",
+    "Internal heuristics"
+  ],
+  "master_version": "1.0.0",
+  "integration_status": "extension",
+  "legacy_source": "catalogs/quality-metrics.csv"
+}

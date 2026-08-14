@@ -1,0 +1,17 @@
+{
+  "id": "route-004",
+  "description": "Change central promise of book should route to correct-course with large complexity",
+  "input": "Change the central promise of the book",
+  "expected": {
+    "workflow": "correct-course",
+    "complexity": "large",
+    "scale": "large",
+    "required_catalogs_min": 5,
+    "required_catalogs_max": 15
+  },
+  "fixtures": {
+    "task": "Change the central promise of the book",
+    "agent": null,
+    "workflow": null
+  }
+}

@@ -1,0 +1,1312 @@
+{
+  "relations": [
+    {
+      "relation": "is_a",
+      "source_catalog": "book_primitives",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "part_of",
+      "source_catalog": "book_primitives",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "causes",
+      "source_catalog": "book_primitives",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "supports",
+      "source_catalog": "book_primitives",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "contrasts_with",
+      "source_catalog": "book_primitives",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "implements",
+      "source_catalog": "book_primitives",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "compatible_with_genre",
+      "source_catalog": "book_types",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "uses_structure",
+      "source_catalog": "book_types",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "uses_layout",
+      "source_catalog": "book_types",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "targets_audience",
+      "source_catalog": "book_types",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "genre_of",
+      "source_catalog": "genres",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "subgenre_of",
+      "source_catalog": "genres",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "expects",
+      "source_catalog": "genres",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "subverts",
+      "source_catalog": "genres",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "combines_with",
+      "source_catalog": "genres",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "supports_theme",
+      "source_catalog": "premises",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "creates_conflict",
+      "source_catalog": "premises",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "implies_structure",
+      "source_catalog": "premises",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "targets_genre",
+      "source_catalog": "premises",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "genre",
+      "source_catalog": "promises",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "audience",
+      "source_catalog": "promises",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "theme",
+      "source_catalog": "promises",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "plot",
+      "source_catalog": "promises",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "reader_effect",
+      "source_catalog": "promises",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "manifests_in",
+      "source_catalog": "themes",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "contrasted_by",
+      "source_catalog": "themes",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "embodied_by",
+      "source_catalog": "themes",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "symbolized_by",
+      "source_catalog": "themes",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "resolved_by",
+      "source_catalog": "themes",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "implements",
+      "source_catalog": "story_structures",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "combines_with",
+      "source_catalog": "story_structures",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "alternative_to",
+      "source_catalog": "story_structures",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "fits_genre",
+      "source_catalog": "story_structures",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "part_of_structure",
+      "source_catalog": "beats",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "precedes",
+      "source_catalog": "beats",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "follows",
+      "source_catalog": "beats",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "causes",
+      "source_catalog": "beats",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "pays_off",
+      "source_catalog": "beats",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "uses_conflict",
+      "source_catalog": "plot_patterns",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "uses_stakes",
+      "source_catalog": "plot_patterns",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "uses_beats",
+      "source_catalog": "plot_patterns",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "creates_subplots",
+      "source_catalog": "plot_patterns",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "advances_plot",
+      "source_catalog": "scenes",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "changes_character",
+      "source_catalog": "scenes",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "reveals_information",
+      "source_catalog": "scenes",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "changes_relationship",
+      "source_catalog": "scenes",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "creates_stakes",
+      "source_catalog": "conflict",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "drives_scene",
+      "source_catalog": "conflict",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "affects_character",
+      "source_catalog": "conflict",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "escalates_into",
+      "source_catalog": "conflict",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "escalates",
+      "source_catalog": "stakes",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "threatens",
+      "source_catalog": "stakes",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "protects",
+      "source_catalog": "stakes",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "is_worth",
+      "source_catalog": "stakes",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "uses_scene_length",
+      "source_catalog": "pacing",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "uses_information_rate",
+      "source_catalog": "pacing",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "affects_reader_state",
+      "source_catalog": "pacing",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "supports_mystery",
+      "source_catalog": "information",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "creates_suspense",
+      "source_catalog": "information",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "causes_action",
+      "source_catalog": "information",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "pays_off",
+      "source_catalog": "information",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "plants",
+      "source_catalog": "foreshadowing",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "precedes",
+      "source_catalog": "foreshadowing",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "pays_off",
+      "source_catalog": "foreshadowing",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "reinterprets",
+      "source_catalog": "foreshadowing",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "has_arc",
+      "source_catalog": "characters",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "appears_in",
+      "source_catalog": "characters",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "conflicts_with",
+      "source_catalog": "characters",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "loves",
+      "source_catalog": "characters",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "fears",
+      "source_catalog": "characters",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "trusts",
+      "source_catalog": "characters",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "betrays",
+      "source_catalog": "characters",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "instantiates",
+      "source_catalog": "character_archetypes",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "subverts",
+      "source_catalog": "character_archetypes",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "combines_with",
+      "source_catalog": "character_archetypes",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "has_shadow",
+      "source_catalog": "character_archetypes",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "uses_character",
+      "source_catalog": "character_arcs",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "uses_theme",
+      "source_catalog": "character_arcs",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "uses_conflict",
+      "source_catalog": "character_arcs",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "uses_choices",
+      "source_catalog": "character_arcs",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "changes_through",
+      "source_catalog": "relationships",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "conflicts_with",
+      "source_catalog": "relationships",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "supports",
+      "source_catalog": "relationships",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "betrays",
+      "source_catalog": "relationships",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "mirrors",
+      "source_catalog": "relationships",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "contains",
+      "source_catalog": "worldbuilding",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "depends_on",
+      "source_catalog": "worldbuilding",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "constrains",
+      "source_catalog": "worldbuilding",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "causes",
+      "source_catalog": "worldbuilding",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "contradicts",
+      "source_catalog": "worldbuilding",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "hosts_scene",
+      "source_catalog": "locations",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "symbolizes",
+      "source_catalog": "locations",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "contains",
+      "source_catalog": "locations",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "connects_to",
+      "source_catalog": "locations",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "changes_character",
+      "source_catalog": "locations",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "belongs_to",
+      "source_catalog": "culture",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "varies_by",
+      "source_catalog": "culture",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "influences",
+      "source_catalog": "culture",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "conflicts_with",
+      "source_catalog": "culture",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "controls_information",
+      "source_catalog": "pov",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "affects_voice",
+      "source_catalog": "pov",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "affects_reliability",
+      "source_catalog": "pov",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "supports_genre",
+      "source_catalog": "pov",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "combines_with_pov",
+      "source_catalog": "narrative_distance",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "changes_voice",
+      "source_catalog": "narrative_distance",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "changes_emotional_access",
+      "source_catalog": "narrative_distance",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "belongs_to_character",
+      "source_catalog": "voice",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "contrasts_with",
+      "source_catalog": "voice",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "evolves_into",
+      "source_catalog": "voice",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "is_consistent_with",
+      "source_catalog": "voice",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "affects_voice",
+      "source_catalog": "style",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "affects_pacing",
+      "source_catalog": "style",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "affects_reader_effect",
+      "source_catalog": "style",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "combines_with_genre",
+      "source_catalog": "tone",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "changes_by_scene",
+      "source_catalog": "tone",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "contrasts_with",
+      "source_catalog": "tone",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "uses_voice",
+      "source_catalog": "dialogue",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "uses_subtext",
+      "source_catalog": "dialogue",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "reveals_information",
+      "source_catalog": "dialogue",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "changes_relationship",
+      "source_catalog": "dialogue",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "implemented_by_dialogue",
+      "source_catalog": "subtext",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "changes_relationship",
+      "source_catalog": "subtext",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "reveals_character",
+      "source_catalog": "subtext",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "supports_scene",
+      "source_catalog": "description",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "supports_tone",
+      "source_catalog": "description",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "supports_symbol",
+      "source_catalog": "description",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "affects_pacing",
+      "source_catalog": "description",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "enhances",
+      "source_catalog": "rhetoric",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "contrasts_with",
+      "source_catalog": "rhetoric",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "supports_theme",
+      "source_catalog": "rhetoric",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "supports_voice",
+      "source_catalog": "rhetoric",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "triggered_by",
+      "source_catalog": "emotion",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "expressed_as",
+      "source_catalog": "emotion",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "suppressed_as",
+      "source_catalog": "emotion",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "transforms_into",
+      "source_catalog": "emotion",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "affects_reader",
+      "source_catalog": "emotion",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "caused_by",
+      "source_catalog": "reader_experience",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "precedes",
+      "source_catalog": "reader_experience",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "resolves",
+      "source_catalog": "reader_experience",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "strengthened_by",
+      "source_catalog": "reader_experience",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "appears_in",
+      "source_catalog": "tropes",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "subverts",
+      "source_catalog": "tropes",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "combines_with",
+      "source_catalog": "tropes",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "risks_becoming_cliche",
+      "source_catalog": "tropes",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "detected_in",
+      "source_catalog": "antipatterns",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "caused_by",
+      "source_catalog": "antipatterns",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "fixed_by",
+      "source_catalog": "antipatterns",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "related_metric",
+      "source_catalog": "antipatterns",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "detected_by",
+      "source_catalog": "ai_slop",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "mitigated_by",
+      "source_catalog": "ai_slop",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "can_cooccur_with",
+      "source_catalog": "ai_slop",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "validates",
+      "source_catalog": "continuity",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "contradicts",
+      "source_catalog": "continuity",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "depends_on",
+      "source_catalog": "continuity",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "repaired_by",
+      "source_catalog": "continuity",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "follows",
+      "source_catalog": "editing",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "precedes",
+      "source_catalog": "editing",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "uses_anti_pattern",
+      "source_catalog": "editing",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "produces_validator_report",
+      "source_catalog": "editing",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "fixes",
+      "source_catalog": "revision_strategies",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "preserves",
+      "source_catalog": "revision_strategies",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "can_damage",
+      "source_catalog": "revision_strategies",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "supports",
+      "source_catalog": "research",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "contradicts",
+      "source_catalog": "research",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "derived_from",
+      "source_catalog": "research",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "cited_in",
+      "source_catalog": "research",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "verified_by",
+      "source_catalog": "research",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "supports",
+      "source_catalog": "argumentation",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "contradicts",
+      "source_catalog": "argumentation",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "qualifies",
+      "source_catalog": "argumentation",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "depends_on",
+      "source_catalog": "argumentation",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "detected_in",
+      "source_catalog": "fallacies",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "repaired_by",
+      "source_catalog": "fallacies",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "related_to",
+      "source_catalog": "fallacies",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "supports_learning_objective",
+      "source_catalog": "pedagogy",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "precedes",
+      "source_catalog": "pedagogy",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "requires",
+      "source_catalog": "pedagogy",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "assesses",
+      "source_catalog": "pedagogy",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "illustrates",
+      "source_catalog": "examples",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "supports_claim",
+      "source_catalog": "examples",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "contrasts_with",
+      "source_catalog": "examples",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "risks_misleading",
+      "source_catalog": "examples",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "related_to",
+      "source_catalog": "language",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "contrasts_with",
+      "source_catalog": "language",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "part_of",
+      "source_catalog": "language",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "derives_from",
+      "source_catalog": "language",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "measures",
+      "source_catalog": "quality_metrics",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "correlates_with",
+      "source_catalog": "quality_metrics",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "must_not_be_interpreted_as",
+      "source_catalog": "quality_metrics",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "precedes",
+      "source_catalog": "book_structure",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "follows",
+      "source_catalog": "book_structure",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "belongs_to",
+      "source_catalog": "book_structure",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "required_for_format",
+      "source_catalog": "book_structure",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "supports",
+      "source_catalog": "typography",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "contrasts_with",
+      "source_catalog": "typography",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "used_in_format",
+      "source_catalog": "typography",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "uses_typography",
+      "source_catalog": "layout",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "uses_book_structure",
+      "source_catalog": "layout",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "supports_accessibility",
+      "source_catalog": "layout",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "implements",
+      "source_catalog": "digital_publishing",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "requires",
+      "source_catalog": "digital_publishing",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "conforms_to",
+      "source_catalog": "digital_publishing",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "tested_by",
+      "source_catalog": "digital_publishing",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "conforms_to",
+      "source_catalog": "accessibility",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "declared_by",
+      "source_catalog": "accessibility",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "tested_by",
+      "source_catalog": "accessibility",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "exposed_in_metadata",
+      "source_catalog": "accessibility",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "describes",
+      "source_catalog": "metadata",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "required_for",
+      "source_catalog": "metadata",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "maps_to",
+      "source_catalog": "metadata",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "validated_by",
+      "source_catalog": "metadata",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "derived_from_promise",
+      "source_catalog": "marketing",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "targets_audience",
+      "source_catalog": "marketing",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "supports_metadata",
+      "source_catalog": "marketing",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "supports_entry",
+      "source_catalog": "sources_registry",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "contradicts_entry",
+      "source_catalog": "sources_registry",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "supersedes",
+      "source_catalog": "sources_registry",
+      "status": "candidate",
+      "target": "unresolved"
+    },
+    {
+      "relation": "derived_from",
+      "source_catalog": "sources_registry",
+      "status": "candidate",
+      "target": "unresolved"
+    }
+  ]
+}

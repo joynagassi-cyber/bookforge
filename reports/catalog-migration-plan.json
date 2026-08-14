@@ -1,0 +1,398 @@
+{
+  "master_catalog_count": 54,
+  "existing_catalog_files": 18,
+  "extensions": 15,
+  "new": 39,
+  "seed_entries": 750,
+  "categories": [
+    {
+      "catalog_id": "book_primitives",
+      "status": "NEW",
+      "existing_source": null,
+      "priority": "P0",
+      "seed_entries": 50
+    },
+    {
+      "catalog_id": "book_types",
+      "status": "NEW",
+      "existing_source": null,
+      "priority": "P0",
+      "seed_entries": 19
+    },
+    {
+      "catalog_id": "genres",
+      "status": "EXTENSION",
+      "existing_source": "genres.csv",
+      "priority": "P0",
+      "seed_entries": 34
+    },
+    {
+      "catalog_id": "premises",
+      "status": "NEW",
+      "existing_source": null,
+      "priority": "P0",
+      "seed_entries": 10
+    },
+    {
+      "catalog_id": "promises",
+      "status": "NEW",
+      "existing_source": null,
+      "priority": "P0",
+      "seed_entries": 10
+    },
+    {
+      "catalog_id": "themes",
+      "status": "NEW",
+      "existing_source": null,
+      "priority": "P0",
+      "seed_entries": 12
+    },
+    {
+      "catalog_id": "story_structures",
+      "status": "EXTENSION",
+      "existing_source": "chapter-patterns.csv",
+      "priority": "P0",
+      "seed_entries": 17
+    },
+    {
+      "catalog_id": "beats",
+      "status": "NEW",
+      "existing_source": null,
+      "priority": "P0",
+      "seed_entries": 21
+    },
+    {
+      "catalog_id": "plot_patterns",
+      "status": "NEW",
+      "existing_source": null,
+      "priority": "P0",
+      "seed_entries": 16
+    },
+    {
+      "catalog_id": "scenes",
+      "status": "NEW",
+      "existing_source": null,
+      "priority": "P0",
+      "seed_entries": 18
+    },
+    {
+      "catalog_id": "conflict",
+      "status": "NEW",
+      "existing_source": null,
+      "priority": "P0",
+      "seed_entries": 13
+    },
+    {
+      "catalog_id": "stakes",
+      "status": "NEW",
+      "existing_source": null,
+      "priority": "P0",
+      "seed_entries": 14
+    },
+    {
+      "catalog_id": "pacing",
+      "status": "NEW",
+      "existing_source": null,
+      "priority": "P0",
+      "seed_entries": 8
+    },
+    {
+      "catalog_id": "information",
+      "status": "NEW",
+      "existing_source": null,
+      "priority": "P0",
+      "seed_entries": 9
+    },
+    {
+      "catalog_id": "foreshadowing",
+      "status": "NEW",
+      "existing_source": null,
+      "priority": "P0",
+      "seed_entries": 10
+    },
+    {
+      "catalog_id": "characters",
+      "status": "NEW",
+      "existing_source": null,
+      "priority": "P0",
+      "seed_entries": 11
+    },
+    {
+      "catalog_id": "character_archetypes",
+      "status": "NEW",
+      "existing_source": null,
+      "priority": "P0",
+      "seed_entries": 17
+    },
+    {
+      "catalog_id": "character_arcs",
+      "status": "NEW",
+      "existing_source": null,
+      "priority": "P0",
+      "seed_entries": 12
+    },
+    {
+      "catalog_id": "relationships",
+      "status": "NEW",
+      "existing_source": null,
+      "priority": "P0",
+      "seed_entries": 17
+    },
+    {
+      "catalog_id": "worldbuilding",
+      "status": "NEW",
+      "existing_source": null,
+      "priority": "P0",
+      "seed_entries": 17
+    },
+    {
+      "catalog_id": "locations",
+      "status": "NEW",
+      "existing_source": null,
+      "priority": "P1",
+      "seed_entries": 19
+    },
+    {
+      "catalog_id": "culture",
+      "status": "NEW",
+      "existing_source": null,
+      "priority": "P1",
+      "seed_entries": 12
+    },
+    {
+      "catalog_id": "pov",
+      "status": "NEW",
+      "existing_source": null,
+      "priority": "P0",
+      "seed_entries": 8
+    },
+    {
+      "catalog_id": "narrative_distance",
+      "status": "NEW",
+      "existing_source": null,
+      "priority": "P0",
+      "seed_entries": 5
+    },
+    {
+      "catalog_id": "voice",
+      "status": "EXTENSION",
+      "existing_source": "voices.csv",
+      "priority": "P0",
+      "seed_entries": 12
+    },
+    {
+      "catalog_id": "style",
+      "status": "EXTENSION",
+      "existing_source": "writing-styles.csv",
+      "priority": "P0",
+      "seed_entries": 10
+    },
+    {
+      "catalog_id": "tone",
+      "status": "EXTENSION",
+      "existing_source": "tones.csv",
+      "priority": "P0",
+      "seed_entries": 12
+    },
+    {
+      "catalog_id": "dialogue",
+      "status": "NEW",
+      "existing_source": null,
+      "priority": "P0",
+      "seed_entries": 14
+    },
+    {
+      "catalog_id": "subtext",
+      "status": "NEW",
+      "existing_source": null,
+      "priority": "P0",
+      "seed_entries": 7
+    },
+    {
+      "catalog_id": "description",
+      "status": "NEW",
+      "existing_source": null,
+      "priority": "P0",
+      "seed_entries": 8
+    },
+    {
+      "catalog_id": "rhetoric",
+      "status": "EXTENSION",
+      "existing_source": "rhetorical-devices.csv",
+      "priority": "P1",
+      "seed_entries": 20
+    },
+    {
+      "catalog_id": "emotion",
+      "status": "NEW",
+      "existing_source": null,
+      "priority": "P0",
+      "seed_entries": 20
+    },
+    {
+      "catalog_id": "reader_experience",
+      "status": "EXTENSION",
+      "existing_source": "reader-profiles.csv",
+      "priority": "P0",
+      "seed_entries": 10
+    },
+    {
+      "catalog_id": "tropes",
+      "status": "NEW",
+      "existing_source": null,
+      "priority": "P0",
+      "seed_entries": 15
+    },
+    {
+      "catalog_id": "antipatterns",
+      "status": "NEW",
+      "existing_source": null,
+      "priority": "P0",
+      "seed_entries": 19
+    },
+    {
+      "catalog_id": "ai_slop",
+      "status": "EXTENSION",
+      "existing_source": "ai-slop-patterns.csv",
+      "priority": "P0",
+      "seed_entries": 12
+    },
+    {
+      "catalog_id": "continuity",
+      "status": "NEW",
+      "existing_source": null,
+      "priority": "P0",
+      "seed_entries": 10
+    },
+    {
+      "catalog_id": "editing",
+      "status": "NEW",
+      "existing_source": null,
+      "priority": "P0",
+      "seed_entries": 10
+    },
+    {
+      "catalog_id": "revision_strategies",
+      "status": "NEW",
+      "existing_source": null,
+      "priority": "P0",
+      "seed_entries": 14
+    },
+    {
+      "catalog_id": "research",
+      "status": "NEW",
+      "existing_source": null,
+      "priority": "P0",
+      "seed_entries": 10
+    },
+    {
+      "catalog_id": "argumentation",
+      "status": "NEW",
+      "existing_source": null,
+      "priority": "P0",
+      "seed_entries": 7
+    },
+    {
+      "catalog_id": "fallacies",
+      "status": "NEW",
+      "existing_source": null,
+      "priority": "P1",
+      "seed_entries": 12
+    },
+    {
+      "catalog_id": "pedagogy",
+      "status": "NEW",
+      "existing_source": null,
+      "priority": "P1",
+      "seed_entries": 10
+    },
+    {
+      "catalog_id": "examples",
+      "status": "NEW",
+      "existing_source": null,
+      "priority": "P1",
+      "seed_entries": 9
+    },
+    {
+      "catalog_id": "language",
+      "status": "NEW",
+      "existing_source": null,
+      "priority": "P0",
+      "seed_entries": 10
+    },
+    {
+      "catalog_id": "quality_metrics",
+      "status": "EXTENSION",
+      "existing_source": "quality-metrics.csv",
+      "priority": "P0",
+      "seed_entries": 13
+    },
+    {
+      "catalog_id": "book_structure",
+      "status": "EXTENSION",
+      "existing_source": "packaging-patterns.csv",
+      "priority": "P0",
+      "seed_entries": 20
+    },
+    {
+      "catalog_id": "typography",
+      "status": "EXTENSION",
+      "existing_source": "design-patterns.csv",
+      "priority": "P1",
+      "seed_entries": 13
+    },
+    {
+      "catalog_id": "layout",
+      "status": "EXTENSION",
+      "existing_source": "design-patterns.csv",
+      "priority": "P1",
+      "seed_entries": 13
+    },
+    {
+      "catalog_id": "digital_publishing",
+      "status": "EXTENSION",
+      "existing_source": "packaging-patterns.csv",
+      "priority": "P0",
+      "seed_entries": 11
+    },
+    {
+      "catalog_id": "accessibility",
+      "status": "EXTENSION",
+      "existing_source": "design-patterns.csv",
+      "priority": "P0",
+      "seed_entries": 10
+    },
+    {
+      "catalog_id": "metadata",
+      "status": "NEW",
+      "existing_source": null,
+      "priority": "P0",
+      "seed_entries": 19
+    },
+    {
+      "catalog_id": "marketing",
+      "status": "EXTENSION",
+      "existing_source": "marketing-assets.csv",
+      "priority": "P1",
+      "seed_entries": 13
+    },
+    {
+      "catalog_id": "sources_registry",
+      "status": "NEW",
+      "existing_source": null,
+      "priority": "P0",
+      "seed_entries": 8
+    }
+  ],
+  "quality_extension": [
+    "originality_similarity",
+    "cliche_library",
+    "human_voice"
+  ],
+  "notes": [
+    "Existing catalogs are preserved.",
+    "Master seed entries are generated drafts, not verified knowledge.",
+    "Similarity is evidence for review, not a plagiarism verdict.",
+    "Human-voice refinement is not an AI-detector evasion mechanism."
+  ]
+}

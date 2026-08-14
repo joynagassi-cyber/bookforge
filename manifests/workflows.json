@@ -1,0 +1,189 @@
+[
+  {
+    "id": "book-contract",
+    "version": "0.2.0",
+    "phase": "upstream",
+    "purpose": "Create/update canonical book contract",
+    "entry": "workflows/book-contract/WORKFLOW.md",
+    "requires": [
+      "bookforge/manifest.yaml"
+    ],
+    "human_approval": false
+  },
+  {
+    "id": "book-edit",
+    "version": "0.2.0",
+    "phase": "editing",
+    "purpose": "Run manuscript-level editing",
+    "entry": "workflows/book-edit/WORKFLOW.md",
+    "requires": [
+      "bookforge/manifest.yaml"
+    ],
+    "human_approval": false
+  },
+  {
+    "id": "chapter-plan",
+    "version": "0.2.0",
+    "phase": "execution",
+    "purpose": "Prepare a bounded chapter packet",
+    "entry": "workflows/chapter-plan/WORKFLOW.md",
+    "requires": [
+      "bookforge/manifest.yaml"
+    ],
+    "human_approval": false
+  },
+  {
+    "id": "chapter-qa",
+    "version": "0.2.0",
+    "phase": "quality",
+    "purpose": "Run local validation and revision loop",
+    "entry": "workflows/chapter-qa/WORKFLOW.md",
+    "requires": [
+      "bookforge/manifest.yaml"
+    ],
+    "human_approval": false
+  },
+  {
+    "id": "correct-course",
+    "version": "0.2.0",
+    "phase": "governance",
+    "purpose": "Reconcile major changes and reroute workflow",
+    "entry": "workflows/correct-course/WORKFLOW.md",
+    "requires": [
+      "bookforge/manifest.yaml"
+    ],
+    "human_approval": false
+  },
+  {
+    "id": "deep-research",
+    "version": "0.2.0",
+    "phase": "upstream",
+    "purpose": "Research topic and maintain source ledger",
+    "entry": "workflows/deep-research/WORKFLOW.md",
+    "requires": [
+      "bookforge/manifest.yaml"
+    ],
+    "human_approval": false
+  },
+  {
+    "id": "draft-chapter",
+    "version": "0.2.0",
+    "phase": "execution",
+    "purpose": "Write one chapter from a complete packet",
+    "entry": "workflows/draft-chapter/WORKFLOW.md",
+    "requires": [
+      "bookforge/manifest.yaml"
+    ],
+    "human_approval": false
+  },
+  {
+    "id": "help",
+    "version": "0.2.0",
+    "phase": "routing",
+    "purpose": "Inspect project state and propose next safe workflow",
+    "entry": "workflows/help/WORKFLOW.md",
+    "requires": [
+      "bookforge/manifest.yaml"
+    ],
+    "human_approval": false
+  },
+  {
+    "id": "idea-validation",
+    "version": "0.2.0",
+    "phase": "upstream",
+    "purpose": "Stress-test idea, audience and promise",
+    "entry": "workflows/idea-validation/WORKFLOW.md",
+    "requires": [
+      "bookforge/manifest.yaml"
+    ],
+    "human_approval": false
+  },
+  {
+    "id": "integrity-audit",
+    "version": "0.2.0",
+    "phase": "integrity",
+    "purpose": "Run fact, citation, originality and slop audits",
+    "entry": "workflows/integrity-audit/WORKFLOW.md",
+    "requires": [
+      "bookforge/manifest.yaml"
+    ],
+    "human_approval": false
+  },
+  {
+    "id": "launch",
+    "version": "0.2.0",
+    "phase": "marketing",
+    "purpose": "Create launch and retention assets",
+    "entry": "workflows/launch/WORKFLOW.md",
+    "requires": [
+      "bookforge/manifest.yaml"
+    ],
+    "human_approval": false
+  },
+  {
+    "id": "metadata",
+    "version": "0.2.0",
+    "phase": "publishing",
+    "purpose": "Create marketplace metadata",
+    "entry": "workflows/metadata/WORKFLOW.md",
+    "requires": [
+      "bookforge/manifest.yaml"
+    ],
+    "human_approval": false
+  },
+  {
+    "id": "outline",
+    "version": "0.2.0",
+    "phase": "upstream",
+    "purpose": "Create/update hierarchical book outline",
+    "entry": "workflows/outline/WORKFLOW.md",
+    "requires": [
+      "bookforge/manifest.yaml"
+    ],
+    "human_approval": false
+  },
+  {
+    "id": "packaging",
+    "version": "0.2.0",
+    "phase": "packaging",
+    "purpose": "Create production/design specifications",
+    "entry": "workflows/packaging/WORKFLOW.md",
+    "requires": [
+      "bookforge/manifest.yaml"
+    ],
+    "human_approval": false
+  },
+  {
+    "id": "readiness-check",
+    "version": "0.2.0",
+    "phase": "governance",
+    "purpose": "Verify upstream completeness before drafting",
+    "entry": "workflows/readiness-check/WORKFLOW.md",
+    "requires": [
+      "bookforge/manifest.yaml"
+    ],
+    "human_approval": true
+  },
+  {
+    "id": "release-gate",
+    "version": "0.2.0",
+    "phase": "governance",
+    "purpose": "Final human release gate",
+    "entry": "workflows/release-gate/WORKFLOW.md",
+    "requires": [
+      "bookforge/manifest.yaml"
+    ],
+    "human_approval": true
+  },
+  {
+    "id": "voice-profile",
+    "version": "0.2.0",
+    "phase": "upstream",
+    "purpose": "Create voice/style profile and style bible",
+    "entry": "workflows/voice-profile/WORKFLOW.md",
+    "requires": [
+      "bookforge/manifest.yaml"
+    ],
+    "human_approval": false
+  }
+]

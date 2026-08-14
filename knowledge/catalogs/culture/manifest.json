@@ -1,0 +1,67 @@
+{
+  "id": "culture",
+  "name": "Culture, Society & Representation",
+  "domain": "world",
+  "purpose": "Éléments culturels à modéliser avec cohérence et prudence.",
+  "priority": "P1",
+  "entry_schema": [
+    "id",
+    "name",
+    "type",
+    "definition",
+    "purpose",
+    "when_to_use",
+    "when_not_to_use",
+    "variants",
+    "strengths",
+    "risks",
+    "anti_patterns",
+    "related_ids",
+    "tags",
+    "genres",
+    "formats",
+    "agent_hints",
+    "confidence",
+    "sources",
+    "culture_domain",
+    "norm",
+    "variation",
+    "power_context",
+    "historical_context",
+    "representation_risks"
+  ],
+  "taxonomies": [
+    "language",
+    "family",
+    "food",
+    "dress",
+    "ritual",
+    "custom",
+    "law",
+    "gender_roles",
+    "class",
+    "status",
+    "religion",
+    "art",
+    "education",
+    "work",
+    "kinship"
+  ],
+  "relations": [
+    "belongs_to",
+    "varies_by",
+    "influences",
+    "conflicts_with"
+  ],
+  "primary_consumers": [
+    "Worldbuilder",
+    "Research Agent",
+    "Sensitivity Reviewer"
+  ],
+  "reference_sources": [
+    "Research required; no unsupported cultural claims"
+  ],
+  "master_version": "1.0.0",
+  "integration_status": "new",
+  "legacy_source": null
+}

@@ -1,0 +1,11 @@
+metric_id,name,type,direction,default_gate
+qm-001,specificity,textual,higher,medium
+qm-002,voice_consistency,textual,higher,high
+qm-003,novel_information_rate,textual,higher,medium
+qm-004,repetition_density,textual,lower,medium
+qm-005,cliche_density,textual,lower,medium
+qm-006,slop_density,textual,lower,medium
+qm-007,unverified_claim_rate,integrity,lower,critical
+qm-008,continuity_conflict_rate,integrity,lower,critical
+qm-009,citation_coverage,integrity,higher,high
+qm-010,reader_value,human,higher,high

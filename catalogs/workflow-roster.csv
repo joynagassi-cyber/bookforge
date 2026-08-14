@@ -1,0 +1,18 @@
+workflow_id,phase,purpose
+help,routing,Inspect project state and propose next safe workflow
+idea-validation,upstream,"Stress-test idea, audience and promise"
+deep-research,upstream,Research topic and maintain source ledger
+book-contract,upstream,Create/update canonical book contract
+outline,upstream,Create/update hierarchical book outline
+voice-profile,upstream,Create voice/style profile and style bible
+readiness-check,governance,Verify upstream completeness before drafting
+chapter-plan,execution,Prepare a bounded chapter packet
+draft-chapter,execution,Write one chapter from a complete packet
+chapter-qa,quality,Run local validation and revision loop
+book-edit,editing,Run manuscript-level editing
+integrity-audit,integrity,"Run fact, citation, originality and slop audits"
+packaging,packaging,Create production/design specifications
+metadata,publishing,Create marketplace metadata
+launch,marketing,Create launch and retention assets
+release-gate,governance,Final human release gate
+correct-course,governance,Reconcile major changes and reroute workflow

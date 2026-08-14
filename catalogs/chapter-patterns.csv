@@ -1,0 +1,7 @@
+pattern_id,genre,pattern,best_for,warning
+ch-001,nonfiction,problem → mechanism → example → application,self-help/business,avoid repeating framework language
+ch-002,nonfiction,question → evidence → interpretation → implication,research/expository,do not hide weak evidence
+ch-003,fiction,scene → complication → choice → consequence,literary/thriller,avoid repetitive beat cadence
+ch-004,fiction,setup → reversal → escalation → hook,thriller/fantasy,watch artificial cliffhangers
+ch-005,memoir,event → sensory detail → reflection → meaning,memoir,do not over-explain meaning
+ch-006,devotional,text → reflection → application → response,devotional,avoid generic inspirational repetition

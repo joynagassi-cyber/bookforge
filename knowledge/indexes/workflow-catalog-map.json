@@ -1,0 +1,211 @@
+{
+  "book-contract": {
+    "required": [
+      "book_primitives",
+      "book_types",
+      "genres",
+      "premises",
+      "promises",
+      "themes"
+    ],
+    "optional": []
+  },
+  "book-edit": {
+    "required": [
+      "antipatterns",
+      "editing",
+      "revision_strategies",
+      "quality_metrics",
+      "ai_slop",
+      "continuity",
+      "rhetoric",
+      "language"
+    ],
+    "optional": []
+  },
+  "chapter-plan": {
+    "required": [
+      "story_structures",
+      "beats",
+      "scenes",
+      "conflict",
+      "stakes",
+      "pacing",
+      "information",
+      "foreshadowing",
+      "characters",
+      "relationships",
+      "pov"
+    ],
+    "optional": []
+  },
+  "chapter-qa": {
+    "required": [
+      "continuity",
+      "antipatterns",
+      "ai_slop",
+      "quality_metrics",
+      "rhetoric",
+      "reader_experience"
+    ],
+    "optional": []
+  },
+  "correct-course": {
+    "required": [
+      "book_primitives",
+      "promises",
+      "themes",
+      "story_structures",
+      "characters",
+      "character_arcs",
+      "conflict",
+      "pacing",
+      "voice"
+    ],
+    "optional": []
+  },
+  "deep-research": {
+    "required": [
+      "research",
+      "argumentation",
+      "fallacies",
+      "examples",
+      "sources_registry",
+      "language"
+    ],
+    "optional": []
+  },
+  "draft-chapter": {
+    "required": [
+      "scenes",
+      "characters",
+      "relationships",
+      "pov",
+      "narrative_distance",
+      "voice",
+      "style",
+      "tone",
+      "dialogue",
+      "subtext",
+      "description",
+      "emotion",
+      "reader_experience"
+    ],
+    "optional": []
+  },
+  "help": {
+    "required": [
+      "book_primitives",
+      "quality_metrics",
+      "sources_registry"
+    ],
+    "optional": []
+  },
+  "idea-validation": {
+    "required": [
+      "book_types",
+      "genres",
+      "premises",
+      "promises",
+      "reader_experience"
+    ],
+    "optional": []
+  },
+  "integrity-audit": {
+    "required": [
+      "research",
+      "sources_registry",
+      "continuity",
+      "ai_slop",
+      "antipatterns",
+      "quality_metrics",
+      "originality_similarity",
+      "cliche_library",
+      "human_voice"
+    ],
+    "optional": []
+  },
+  "launch": {
+    "required": [
+      "marketing",
+      "metadata",
+      "genres",
+      "reader_experience"
+    ],
+    "optional": []
+  },
+  "metadata": {
+    "required": [
+      "metadata",
+      "book_structure",
+      "accessibility"
+    ],
+    "optional": []
+  },
+  "outline": {
+    "required": [
+      "story_structures",
+      "beats",
+      "plot_patterns",
+      "conflict",
+      "stakes",
+      "pacing",
+      "characters",
+      "character_arcs",
+      "relationships",
+      "themes"
+    ],
+    "optional": []
+  },
+  "packaging": {
+    "required": [
+      "book_structure",
+      "typography",
+      "layout",
+      "digital_publishing",
+      "accessibility"
+    ],
+    "optional": []
+  },
+  "readiness-check": {
+    "required": [
+      "book_primitives",
+      "book_types",
+      "genres",
+      "promises",
+      "story_structures",
+      "voice",
+      "research",
+      "sources_registry"
+    ],
+    "optional": []
+  },
+  "release-gate": {
+    "required": [
+      "quality_metrics",
+      "continuity",
+      "research",
+      "sources_registry",
+      "ai_slop",
+      "antipatterns",
+      "originality_similarity",
+      "cliche_library",
+      "human_voice",
+      "digital_publishing",
+      "accessibility",
+      "metadata"
+    ],
+    "optional": []
+  },
+  "voice-profile": {
+    "required": [
+      "pov",
+      "narrative_distance",
+      "voice",
+      "style",
+      "tone",
+      "language"
+    ],
+    "optional": []
+  }
+}

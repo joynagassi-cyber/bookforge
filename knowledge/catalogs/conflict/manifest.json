@@ -1,0 +1,59 @@
+{
+  "id": "conflict",
+  "name": "Conflict Systems",
+  "domain": "narrative",
+  "purpose": "Taxonomie des conflits internes, interpersonnels, sociaux, environnementaux et systémiques.",
+  "priority": "P0",
+  "entry_schema": [
+    "id",
+    "name",
+    "type",
+    "definition",
+    "purpose",
+    "when_to_use",
+    "when_not_to_use",
+    "variants",
+    "strengths",
+    "risks",
+    "anti_patterns",
+    "related_ids",
+    "tags",
+    "genres",
+    "formats",
+    "agent_hints",
+    "confidence",
+    "sources",
+    "conflict_type",
+    "parties",
+    "goal_collision",
+    "stakes",
+    "escalation_paths",
+    "resolution_modes"
+  ],
+  "taxonomies": [
+    "internal",
+    "interpersonal",
+    "social",
+    "institutional",
+    "environmental",
+    "technological",
+    "existential"
+  ],
+  "relations": [
+    "creates_stakes",
+    "drives_scene",
+    "affects_character",
+    "escalates_into"
+  ],
+  "primary_consumers": [
+    "Conflict Agent",
+    "Plot Architect",
+    "Scene Architect"
+  ],
+  "reference_sources": [
+    "Internal synthesis"
+  ],
+  "master_version": "1.0.0",
+  "integration_status": "new",
+  "legacy_source": null
+}

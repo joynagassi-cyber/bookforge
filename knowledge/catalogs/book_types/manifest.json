@@ -1,0 +1,59 @@
+{
+  "id": "book_types",
+  "name": "Book Types & Formats",
+  "domain": "conception",
+  "purpose": "Taxonomie des formes de livres et de leurs contraintes de conception.",
+  "priority": "P0",
+  "entry_schema": [
+    "id",
+    "name",
+    "type",
+    "definition",
+    "purpose",
+    "when_to_use",
+    "when_not_to_use",
+    "variants",
+    "strengths",
+    "risks",
+    "anti_patterns",
+    "related_ids",
+    "tags",
+    "genres",
+    "formats",
+    "agent_hints",
+    "confidence",
+    "sources",
+    "typical_length",
+    "reader_contract",
+    "structural_norms",
+    "production_outputs"
+  ],
+  "taxonomies": [
+    "fiction",
+    "nonfiction",
+    "educational",
+    "professional",
+    "children",
+    "illustrated",
+    "reference"
+  ],
+  "relations": [
+    "compatible_with_genre",
+    "uses_structure",
+    "uses_layout",
+    "targets_audience"
+  ],
+  "primary_consumers": [
+    "Idea Architect",
+    "Book Architect",
+    "Book Designer",
+    "Publishing Agent"
+  ],
+  "reference_sources": [
+    "W3C EPUB 3.3",
+    "Library of Congress MARC 21"
+  ],
+  "master_version": "1.0.0",
+  "integration_status": "new",
+  "legacy_source": null
+}

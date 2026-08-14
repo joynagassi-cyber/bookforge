@@ -1,0 +1,9 @@
+rule_id,signal,complexity,workflow,human_gate,notes
+r-001,typo|grammar|punctuation,tiny,revision-loop,false,local edit only
+r-002,paragraph rewrite,small,revision-loop,false,keep surrounding context minimal
+r-003,new section,medium,chapter-plan,false,create bounded packet
+r-004,new chapter,medium,draft-chapter,false,requires approved outline node
+r-005,chapter restructuring,large,correct-course,false,reconcile outline and dependencies
+r-006,new book,book-scale,idea-validation,true,full upstream path
+r-007,publication,large,release-gate,true,integrity + packaging required
+r-008,claim uncertain,medium,fact-checker,false,block affected output until verified

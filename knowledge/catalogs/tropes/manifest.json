@@ -1,0 +1,59 @@
+{
+  "id": "tropes",
+  "name": "Tropes & Conventions",
+  "domain": "literary",
+  "purpose": "Catalogue de motifs conventionnels et de leurs variations/subversions, avec provenance.",
+  "priority": "P0",
+  "entry_schema": [
+    "id",
+    "name",
+    "type",
+    "definition",
+    "purpose",
+    "when_to_use",
+    "when_not_to_use",
+    "variants",
+    "strengths",
+    "risks",
+    "anti_patterns",
+    "related_ids",
+    "tags",
+    "genres",
+    "formats",
+    "agent_hints",
+    "confidence",
+    "sources",
+    "trope_type",
+    "reader_expectation",
+    "variants",
+    "subversions",
+    "genre_frequency",
+    "cliche_risk",
+    "provenance_required"
+  ],
+  "taxonomies": [
+    "character",
+    "plot",
+    "world",
+    "relationship",
+    "dialogue",
+    "setting"
+  ],
+  "relations": [
+    "appears_in",
+    "subverts",
+    "combines_with",
+    "risks_becoming_cliche"
+  ],
+  "primary_consumers": [
+    "Genre Agent",
+    "Originality Agent",
+    "Critic"
+  ],
+  "reference_sources": [
+    "TV Tropes-like concepts should be independently sourced/curated; avoid copying proprietary text"
+  ],
+  "master_version": "1.0.0",
+  "integration_status": "new",
+  "legacy_source": null
+}

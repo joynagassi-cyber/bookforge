@@ -1,0 +1,61 @@
+{
+  "id": "stakes",
+  "name": "Stakes & Consequences",
+  "domain": "narrative",
+  "purpose": "Modélise ce qui peut être perdu, gagné, irréversiblement changé ou moralement compromis.",
+  "priority": "P0",
+  "entry_schema": [
+    "id",
+    "name",
+    "type",
+    "definition",
+    "purpose",
+    "when_to_use",
+    "when_not_to_use",
+    "variants",
+    "strengths",
+    "risks",
+    "anti_patterns",
+    "related_ids",
+    "tags",
+    "genres",
+    "formats",
+    "agent_hints",
+    "confidence",
+    "sources",
+    "stake_type",
+    "severity",
+    "immediacy",
+    "reversibility",
+    "personal_relevance",
+    "escalation"
+  ],
+  "taxonomies": [
+    "physical",
+    "emotional",
+    "relational",
+    "social",
+    "financial",
+    "professional",
+    "moral",
+    "existential",
+    "symbolic"
+  ],
+  "relations": [
+    "escalates",
+    "threatens",
+    "protects",
+    "is_worth"
+  ],
+  "primary_consumers": [
+    "Plot Architect",
+    "Conflict Agent",
+    "Critic"
+  ],
+  "reference_sources": [
+    "Internal synthesis"
+  ],
+  "master_version": "1.0.0",
+  "integration_status": "new",
+  "legacy_source": null
+}

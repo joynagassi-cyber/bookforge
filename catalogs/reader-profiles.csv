@@ -1,0 +1,6 @@
+reader_id,name,needs,friction,preferred_behavior
+rd-001,busy-professional,rapid utility,long preambles,scans headings and examples
+rd-002,deep-reader,depth and nuance,generic claims,reads arguments fully
+rd-003,beginner,orientation and confidence,jargon,needs definitions and examples
+rd-004,expert,novelty and precision,basic exposition,tests assumptions
+rd-005,reflective-reader,meaning and application,forced certainty,responds to questions

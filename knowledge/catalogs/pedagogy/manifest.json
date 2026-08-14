@@ -1,0 +1,60 @@
+{
+  "id": "pedagogy",
+  "name": "Educational Book & Learning Design",
+  "domain": "nonfiction",
+  "purpose": "Modèles pour transformer un contenu en progression pédagogique.",
+  "priority": "P1",
+  "entry_schema": [
+    "id",
+    "name",
+    "type",
+    "definition",
+    "purpose",
+    "when_to_use",
+    "when_not_to_use",
+    "variants",
+    "strengths",
+    "risks",
+    "anti_patterns",
+    "related_ids",
+    "tags",
+    "genres",
+    "formats",
+    "agent_hints",
+    "confidence",
+    "sources",
+    "learning_objective",
+    "prerequisites",
+    "difficulty",
+    "activity",
+    "assessment",
+    "expected_outcome"
+  ],
+  "taxonomies": [
+    "explain",
+    "demonstrate",
+    "practice",
+    "retrieve",
+    "apply",
+    "reflect",
+    "assess"
+  ],
+  "relations": [
+    "supports_learning_objective",
+    "precedes",
+    "requires",
+    "assesses"
+  ],
+  "primary_consumers": [
+    "Educational Architect",
+    "Nonfiction Agent",
+    "Exercise Agent"
+  ],
+  "reference_sources": [
+    "Bloom taxonomy concepts",
+    "Internal synthesis"
+  ],
+  "master_version": "1.0.0",
+  "integration_status": "new",
+  "legacy_source": null
+}

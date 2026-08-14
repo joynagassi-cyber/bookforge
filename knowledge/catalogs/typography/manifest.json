@@ -1,0 +1,58 @@
+{
+  "id": "typography",
+  "name": "Book Typography & Typesetting",
+  "domain": "production",
+  "purpose": "Règles et composants de typographie et de mise en page pour livres.",
+  "priority": "P1",
+  "entry_schema": [
+    "id",
+    "name",
+    "type",
+    "definition",
+    "purpose",
+    "when_to_use",
+    "when_not_to_use",
+    "variants",
+    "strengths",
+    "risks",
+    "anti_patterns",
+    "related_ids",
+    "tags",
+    "genres",
+    "formats",
+    "agent_hints",
+    "confidence",
+    "sources",
+    "font_role",
+    "measure",
+    "leading",
+    "tracking",
+    "hierarchy",
+    "alignment",
+    "page_effect"
+  ],
+  "taxonomies": [
+    "body",
+    "display",
+    "heading",
+    "caption",
+    "note",
+    "metadata"
+  ],
+  "relations": [
+    "supports",
+    "contrasts_with",
+    "used_in_format"
+  ],
+  "primary_consumers": [
+    "Book Designer",
+    "Typesetting Agent"
+  ],
+  "reference_sources": [
+    "Book design/typesetting guidance",
+    "W3C CSS/EPUB typography"
+  ],
+  "master_version": "1.0.0",
+  "integration_status": "extension",
+  "legacy_source": "catalogs/design-patterns.csv"
+}

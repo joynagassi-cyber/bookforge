@@ -1,0 +1,102 @@
+[
+  {
+    "id": "narrative_distance.deep_pov",
+    "name": "Deep Pov",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Degré de proximité entre lecteur, narrateur et conscience du personnage.",
+    "tags": [
+      "intimate",
+      "close",
+      "medium",
+      "distant",
+      "objective"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "narrative_distance.close_third",
+    "name": "Close Third",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Degré de proximité entre lecteur, narrateur et conscience du personnage.",
+    "tags": [
+      "intimate",
+      "close",
+      "medium",
+      "distant",
+      "objective"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "narrative_distance.cinematic",
+    "name": "Cinematic",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Degré de proximité entre lecteur, narrateur et conscience du personnage.",
+    "tags": [
+      "intimate",
+      "close",
+      "medium",
+      "distant",
+      "objective"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "narrative_distance.omniscient",
+    "name": "Omniscient",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Degré de proximité entre lecteur, narrateur et conscience du personnage.",
+    "tags": [
+      "intimate",
+      "close",
+      "medium",
+      "distant",
+      "objective"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "narrative_distance.objective_camera",
+    "name": "Objective Camera",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Degré de proximité entre lecteur, narrateur et conscience du personnage.",
+    "tags": [
+      "intimate",
+      "close",
+      "medium",
+      "distant",
+      "objective"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  }
+]

@@ -1,0 +1,21 @@
+agent_id,layer,purpose
+context-engineer,context,Build task packets and manage progressive disclosure
+analyst,upstream,"Validate idea, audience, market, scope"
+book-architect,upstream,Create and maintain book contract and architecture
+researcher,upstream,"Research, source, synthesize and track evidence"
+outline-architect,upstream,Build hierarchical outline and dependencies
+voice-director,upstream,"Model author's voice, tone and style constraints"
+writer,execution,Draft bounded manuscript units
+developmental-editor,editing,"Structure, argument, pacing, reader value"
+line-editor,editing,"Sentence-level clarity, rhythm and precision"
+copy-editor,editing,"Grammar, usage, consistency and conventions"
+fact-checker,integrity,Verify factual claims and citations
+continuity-auditor,integrity,Audit cross-chapter consistency
+originality-auditor,integrity,Similarity/originality review
+ai-slop-auditor,integrity,Detect generic machine-like prose patterns
+cliche-auditor,integrity,"Detect clichés, dead metaphors and worn phrasing"
+human-voice-editor,integrity,"Improve specificity, intention and natural voice"
+packaging-director,packaging,"Cover, interior, illustration and production brief"
+metadata-strategist,publishing,"Metadata, positioning and marketplace packaging"
+launch-marketer,marketing,"Launch assets, email, ads and platform content"
+release-gatekeeper,governance,Final risk review and release decision

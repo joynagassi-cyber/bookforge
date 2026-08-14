@@ -1,0 +1,62 @@
+{
+  "id": "beats",
+  "name": "Narrative Beats & Turning Points",
+  "domain": "narrative",
+  "purpose": "Fonctions narratives atomiques qui peuvent être mappées sur différentes structures.",
+  "priority": "P0",
+  "entry_schema": [
+    "id",
+    "name",
+    "type",
+    "definition",
+    "purpose",
+    "when_to_use",
+    "when_not_to_use",
+    "variants",
+    "strengths",
+    "risks",
+    "anti_patterns",
+    "related_ids",
+    "tags",
+    "genres",
+    "formats",
+    "agent_hints",
+    "confidence",
+    "sources",
+    "function",
+    "reader_effect",
+    "character_effect",
+    "plot_effect",
+    "preconditions",
+    "postconditions",
+    "requiredness"
+  ],
+  "taxonomies": [
+    "setup",
+    "turn",
+    "reversal",
+    "revelation",
+    "decision",
+    "consequence",
+    "payoff"
+  ],
+  "relations": [
+    "part_of_structure",
+    "precedes",
+    "follows",
+    "causes",
+    "pays_off"
+  ],
+  "primary_consumers": [
+    "Plot Architect",
+    "Scene Architect",
+    "Pacing Agent",
+    "Critic"
+  ],
+  "reference_sources": [
+    "Internal synthesis"
+  ],
+  "master_version": "1.0.0",
+  "integration_status": "new",
+  "legacy_source": null
+}

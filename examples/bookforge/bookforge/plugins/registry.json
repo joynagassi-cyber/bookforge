@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0.0",
+  "plugins": [
+    {
+      "id": "bookforge-core",
+      "version": "1.0.0",
+      "kind": "workflow",
+      "entrypoints": {
+        "agents": ["writer", "book-architect", "fact-checker"],
+        "workflows": ["draft-chapter", "book-contract", "outline"],
+        "skills": ["context-router", "chapter-generator", "book-contract"]
+      },
+      "source": "file:examples/bookforge/bookforge/plugins/bookforge-core",
+      "enabled": true,
+      "registered_at": "2026-08-14T00:00:00.000Z",
+      "activated_at": "2026-08-14T00:00:00.000Z"
+    },
+    {
+      "id": "genre-ext",
+      "version": "1.0.0",
+      "kind": "catalog",
+      "entrypoints": {
+        "catalogs": ["genres", "book_types", "story_structures"]
+      },
+      "source": "file:examples/bookforge/bookforge/plugins/genre-ext",
+      "enabled": true,
+      "registered_at": "2026-08-14T00:00:00.000Z",
+      "activated_at": "2026-08-14T00:00:00.000Z"
+    },
+    {
+      "id": "quality-check",
+      "version": "1.0.0",
+      "kind": "validator",
+      "entrypoints": {
+        "validators": ["ai-slop-detector", "cliche-detector", "continuity-checker", "fact-checker"],
+        "skills": ["ai-slop-validator", "cliche-validator", "continuity-checker", "fact-checker"]
+      },
+      "source": "file:examples/bookforge/bookforge/plugins/quality-check",
+      "enabled": true,
+      "registered_at": "2026-08-14T00:00:00.000Z",
+      "activated_at": "2026-08-14T00:00:00.000Z"
+    }
+  ]
+}

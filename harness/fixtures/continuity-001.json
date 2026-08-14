@@ -1,0 +1,26 @@
+{
+  "id": "continuity-001",
+  "description": "Continuity checker should detect conflicts across chapters",
+  "input_fixture": "continuity-01",
+  "expected": {
+    "continuity_conflicts_min": 2,
+    "validators_run": ["continuity-checker"]
+  },
+  "fixtures": {
+    "chapters": [
+      {
+        "id": "ch-01",
+        "content": "John Smith entered the room. He was wearing a red jacket.",
+        "characters": ["John Smith"],
+        "attributes": { "jacket_color": "red" }
+      },
+      {
+        "id": "ch-03",
+        "content": "John Smythe walked in. He had a blue coat.",
+        "characters": ["John Smythe"],
+        "attributes": { "coat_color": "blue" }
+      }
+    ],
+    "validators": ["continuity-checker"]
+  }
+}

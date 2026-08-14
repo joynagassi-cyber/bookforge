@@ -1,0 +1,8 @@
+tone_id,name,intensity,signals,avoid
+warm,Warm,medium,welcoming; humane,forced enthusiasm
+serious,Serious,high,measured; consequential,dramatic exaggeration
+playful,Playful,medium,light humor; surprise,constant jokes
+urgent,Urgent,high,direct calls to action,manufactured fear
+reflective,Reflective,low,thoughtful; spacious,vague abstraction
+authoritative,Authoritative,medium,specific; confident,unsupported certainty
+hopeful,Hopeful,medium,constructive; future-oriented,empty positivity

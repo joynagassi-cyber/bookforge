@@ -1,0 +1,58 @@
+{
+  "id": "promises",
+  "name": "Reader Promise & Book Contract",
+  "domain": "conception",
+  "purpose": "Modélise ce que le livre promet de faire ressentir, comprendre ou obtenir au lecteur.",
+  "priority": "P0",
+  "entry_schema": [
+    "id",
+    "name",
+    "type",
+    "definition",
+    "purpose",
+    "when_to_use",
+    "when_not_to_use",
+    "variants",
+    "strengths",
+    "risks",
+    "anti_patterns",
+    "related_ids",
+    "tags",
+    "genres",
+    "formats",
+    "agent_hints",
+    "confidence",
+    "sources",
+    "promise_type",
+    "reader_expectation",
+    "delivery_mechanisms",
+    "failure_signals"
+  ],
+  "taxonomies": [
+    "emotional",
+    "informational",
+    "transformational",
+    "experiential",
+    "practical",
+    "entertainment"
+  ],
+  "relations": [
+    "genre",
+    "audience",
+    "theme",
+    "plot",
+    "reader_effect"
+  ],
+  "primary_consumers": [
+    "Book Architect",
+    "Genre Agent",
+    "Reader Experience Agent",
+    "Critic"
+  ],
+  "reference_sources": [
+    "Internal synthesis of genre/reader-contract concepts"
+  ],
+  "master_version": "1.0.0",
+  "integration_status": "new",
+  "legacy_source": null
+}

@@ -1,0 +1,66 @@
+{
+  "id": "research",
+  "name": "Research & Evidence",
+  "domain": "research",
+  "purpose": "Modèle de recherche documentaire pour livres, claims, preuves et incertitudes.",
+  "priority": "P0",
+  "entry_schema": [
+    "id",
+    "name",
+    "type",
+    "definition",
+    "purpose",
+    "when_to_use",
+    "when_not_to_use",
+    "variants",
+    "strengths",
+    "risks",
+    "anti_patterns",
+    "related_ids",
+    "tags",
+    "genres",
+    "formats",
+    "agent_hints",
+    "confidence",
+    "sources",
+    "research_question",
+    "source_type",
+    "evidence_type",
+    "claim",
+    "confidence",
+    "verification_status",
+    "date",
+    "author",
+    "citation"
+  ],
+  "taxonomies": [
+    "primary",
+    "secondary",
+    "tertiary",
+    "expert",
+    "empirical",
+    "archival",
+    "legal",
+    "scientific"
+  ],
+  "relations": [
+    "supports",
+    "contradicts",
+    "derived_from",
+    "cited_in",
+    "verified_by"
+  ],
+  "primary_consumers": [
+    "Research Agent",
+    "Fact Checker",
+    "Citation Agent"
+  ],
+  "reference_sources": [
+    "Library of Congress MARC",
+    "W3C publishing standards",
+    "domain-specific primary sources"
+  ],
+  "master_version": "1.0.0",
+  "integration_status": "new",
+  "legacy_source": null
+}

@@ -1,0 +1,22 @@
+{
+  "catalogs": 54,
+  "domains": [
+    "character",
+    "conception",
+    "editing",
+    "foundation",
+    "governance",
+    "language",
+    "literary",
+    "narrative",
+    "nonfiction",
+    "production",
+    "prose",
+    "publishing",
+    "quality",
+    "reader",
+    "research",
+    "world"
+  ],
+  "seed_entries": 750
+}

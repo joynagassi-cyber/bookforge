@@ -1,0 +1,60 @@
+{
+  "id": "antipatterns",
+  "name": "Writing Anti-Patterns & Failure Modes",
+  "domain": "quality",
+  "purpose": "Catalogue des défauts récurrents et des symptômes observables.",
+  "priority": "P0",
+  "entry_schema": [
+    "id",
+    "name",
+    "type",
+    "definition",
+    "purpose",
+    "when_to_use",
+    "when_not_to_use",
+    "variants",
+    "strengths",
+    "risks",
+    "anti_patterns",
+    "related_ids",
+    "tags",
+    "genres",
+    "formats",
+    "agent_hints",
+    "confidence",
+    "sources",
+    "symptoms",
+    "causes",
+    "severity",
+    "diagnostic_signals",
+    "fix_strategies"
+  ],
+  "taxonomies": [
+    "structure",
+    "character",
+    "prose",
+    "dialogue",
+    "pacing",
+    "logic",
+    "research",
+    "AI_specific"
+  ],
+  "relations": [
+    "detected_in",
+    "caused_by",
+    "fixed_by",
+    "related_metric"
+  ],
+  "primary_consumers": [
+    "Critic",
+    "Line Editor",
+    "Structural Editor",
+    "AI-Slop Detector"
+  ],
+  "reference_sources": [
+    "Internal synthesis"
+  ],
+  "master_version": "1.0.0",
+  "integration_status": "new",
+  "legacy_source": null
+}

@@ -1,0 +1,67 @@
+{
+  "id": "scenes",
+  "name": "Scene Functions & Scene Architecture",
+  "domain": "narrative",
+  "purpose": "Catalogue des fonctions de scène et du moteur Goal–Conflict–Turn–Consequence.",
+  "priority": "P0",
+  "entry_schema": [
+    "id",
+    "name",
+    "type",
+    "definition",
+    "purpose",
+    "when_to_use",
+    "when_not_to_use",
+    "variants",
+    "strengths",
+    "risks",
+    "anti_patterns",
+    "related_ids",
+    "tags",
+    "genres",
+    "formats",
+    "agent_hints",
+    "confidence",
+    "sources",
+    "scene_function",
+    "goal",
+    "obstacle",
+    "conflict",
+    "escalation",
+    "turn",
+    "decision",
+    "consequence",
+    "reader_effect",
+    "entry_state",
+    "exit_state"
+  ],
+  "taxonomies": [
+    "action",
+    "reaction",
+    "revelation",
+    "confrontation",
+    "bonding",
+    "transition",
+    "setup",
+    "payoff",
+    "aftermath"
+  ],
+  "relations": [
+    "advances_plot",
+    "changes_character",
+    "reveals_information",
+    "changes_relationship"
+  ],
+  "primary_consumers": [
+    "Scene Architect",
+    "Pacing Agent",
+    "Dialogue Agent",
+    "Continuity Agent"
+  ],
+  "reference_sources": [
+    "Internal synthesis of scene-craft principles"
+  ],
+  "master_version": "1.0.0",
+  "integration_status": "new",
+  "legacy_source": null
+}

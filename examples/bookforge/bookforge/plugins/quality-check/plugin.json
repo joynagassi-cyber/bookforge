@@ -1,0 +1,14 @@
+{
+  "id": "quality-check",
+  "version": "1.0.0",
+  "kind": "validator",
+  "description": "Multi-dimensional quality validation plugin",
+  "entrypoints": {
+    "validators": ["ai-slop-detector", "cliche-detector", "continuity-checker", "fact-checker"],
+    "skills": ["ai-slop-validator", "cliche-validator", "continuity-checker", "fact-checker"]
+  },
+  "dependencies": {},
+  "compatible_framework_versions": [">=0.5.0"],
+  "inputs": ["manuscript-text", "context-packet"],
+  "outputs": ["quality-report", "findings"]
+}

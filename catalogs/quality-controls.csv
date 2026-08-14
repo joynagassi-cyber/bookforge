@@ -1,0 +1,6 @@
+control_id,domain,severity,input,output,human_review
+plagiarism-risk-validator,similarity,critical,manuscript + corpus + provenance,evidence report,true
+human-voice-validator,voice,high,manuscript + style bible,voice refinement findings,true
+ai-slop-validator,style,medium,manuscript + ai-slop catalog,slop findings,false
+cliche-validator,style,medium,manuscript + cliche library,cliche findings,false
+originality-validator,originality,high,manuscript + sources,originality findings,true

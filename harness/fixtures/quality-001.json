@@ -1,0 +1,14 @@
+{
+  "id": "quality-001",
+  "description": "AI slop and cliche detection should find findings in sample text",
+  "input_fixture": "anti-slop-01",
+  "expected": {
+    "ai_slop_findings_min": 1,
+    "cliche_findings_min": 1,
+    "validators_run": ["ai-slop-detector", "cliche-detector"]
+  },
+  "fixtures": {
+    "text": "In the grand scheme of things, it was a testament to the fact that time flies when you're having fun. The bottom line is that we need to think outside the box to get the ball rolling and touch base on this matter.",
+    "validators": ["ai-slop-detector", "cliche-detector"]
+  }
+}

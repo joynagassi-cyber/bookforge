@@ -1,0 +1,63 @@
+{
+  "id": "reader_experience",
+  "name": "Reader Experience & Cognitive Effects",
+  "domain": "reader",
+  "purpose": "Modélise les états du lecteur et leur progression.",
+  "priority": "P0",
+  "entry_schema": [
+    "id",
+    "name",
+    "type",
+    "definition",
+    "purpose",
+    "when_to_use",
+    "when_not_to_use",
+    "variants",
+    "strengths",
+    "risks",
+    "anti_patterns",
+    "related_ids",
+    "tags",
+    "genres",
+    "formats",
+    "agent_hints",
+    "confidence",
+    "sources",
+    "reader_state",
+    "trigger",
+    "intensity",
+    "duration",
+    "desired_transition"
+  ],
+  "taxonomies": [
+    "orientation",
+    "curiosity",
+    "anticipation",
+    "tension",
+    "uncertainty",
+    "surprise",
+    "empathy",
+    "immersion",
+    "recognition",
+    "catharsis",
+    "satisfaction",
+    "reflection"
+  ],
+  "relations": [
+    "caused_by",
+    "precedes",
+    "resolves",
+    "strengthened_by"
+  ],
+  "primary_consumers": [
+    "Reader Experience Agent",
+    "Pacing Agent",
+    "Critic"
+  ],
+  "reference_sources": [
+    "Internal synthesis"
+  ],
+  "master_version": "1.0.0",
+  "integration_status": "extension",
+  "legacy_source": "catalogs/reader-profiles.csv"
+}

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "fallacies.straw_man",
+    "name": "Straw Man",
+    "type": "catalog_entry",
+    "domain": "nonfiction",
+    "definition": null,
+    "purpose": "Détecte les défauts de raisonnement dans la nonfiction argumentative.",
+    "tags": [
+      "relevance",
+      "causality",
+      "generalization",
+      "framing",
+      "authority"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "fallacies.false_dilemma",
+    "name": "False Dilemma",
+    "type": "catalog_entry",
+    "domain": "nonfiction",
+    "definition": null,
+    "purpose": "Détecte les défauts de raisonnement dans la nonfiction argumentative.",
+    "tags": [
+      "relevance",
+      "causality",
+      "generalization",
+      "framing",
+      "authority"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "fallacies.ad_hominem",
+    "name": "Ad Hominem",
+    "type": "catalog_entry",
+    "domain": "nonfiction",
+    "definition": null,
+    "purpose": "Détecte les défauts de raisonnement dans la nonfiction argumentative.",
+    "tags": [
+      "relevance",
+      "causality",
+      "generalization",
+      "framing",
+      "authority"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "fallacies.slippery_slope",
+    "name": "Slippery Slope",
+    "type": "catalog_entry",
+    "domain": "nonfiction",
+    "definition": null,
+    "purpose": "Détecte les défauts de raisonnement dans la nonfiction argumentative.",
+    "tags": [
+      "relevance",
+      "causality",
+      "generalization",
+      "framing",
+      "authority"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "fallacies.circular_reasoning",
+    "name": "Circular Reasoning",
+    "type": "catalog_entry",
+    "domain": "nonfiction",
+    "definition": null,
+    "purpose": "Détecte les défauts de raisonnement dans la nonfiction argumentative.",
+    "tags": [
+      "relevance",
+      "causality",
+      "generalization",
+      "framing",
+      "authority"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "fallacies.hasty_generalization",
+    "name": "Hasty Generalization",
+    "type": "catalog_entry",
+    "domain": "nonfiction",
+    "definition": null,
+    "purpose": "Détecte les défauts de raisonnement dans la nonfiction argumentative.",
+    "tags": [
+      "relevance",
+      "causality",
+      "generalization",
+      "framing",
+      "authority"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "fallacies.appeal_to_authority",
+    "name": "Appeal To Authority",
+    "type": "catalog_entry",
+    "domain": "nonfiction",
+    "definition": null,
+    "purpose": "Détecte les défauts de raisonnement dans la nonfiction argumentative.",
+    "tags": [
+      "relevance",
+      "causality",
+      "generalization",
+      "framing",
+      "authority"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "fallacies.false_equivalence",
+    "name": "False Equivalence",
+    "type": "catalog_entry",
+    "domain": "nonfiction",
+    "definition": null,
+    "purpose": "Détecte les défauts de raisonnement dans la nonfiction argumentative.",
+    "tags": [
+      "relevance",
+      "causality",
+      "generalization",
+      "framing",
+      "authority"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "fallacies.post_hoc",
+    "name": "Post Hoc",
+    "type": "catalog_entry",
+    "domain": "nonfiction",
+    "definition": null,
+    "purpose": "Détecte les défauts de raisonnement dans la nonfiction argumentative.",
+    "tags": [
+      "relevance",
+      "causality",
+      "generalization",
+      "framing",
+      "authority"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "fallacies.cherry_picking",
+    "name": "Cherry Picking",
+    "type": "catalog_entry",
+    "domain": "nonfiction",
+    "definition": null,
+    "purpose": "Détecte les défauts de raisonnement dans la nonfiction argumentative.",
+    "tags": [
+      "relevance",
+      "causality",
+      "generalization",
+      "framing",
+      "authority"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "fallacies.loaded_question",
+    "name": "Loaded Question",
+    "type": "catalog_entry",
+    "domain": "nonfiction",
+    "definition": null,
+    "purpose": "Détecte les défauts de raisonnement dans la nonfiction argumentative.",
+    "tags": [
+      "relevance",
+      "causality",
+      "generalization",
+      "framing",
+      "authority"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "fallacies.appeal_to_emotion",
+    "name": "Appeal To Emotion",
+    "type": "catalog_entry",
+    "domain": "nonfiction",
+    "definition": null,
+    "purpose": "Détecte les défauts de raisonnement dans la nonfiction argumentative.",
+    "tags": [
+      "relevance",
+      "causality",
+      "generalization",
+      "framing",
+      "authority"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  }
+]

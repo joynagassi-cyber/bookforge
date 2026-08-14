@@ -1,0 +1,57 @@
+{
+  "id": "continuity",
+  "name": "Continuity & Consistency",
+  "domain": "quality",
+  "purpose": "Catalogue des invariants à vérifier dans personnages, chronologie, lieux, objets et faits.",
+  "priority": "P0",
+  "entry_schema": [
+    "id",
+    "name",
+    "type",
+    "definition",
+    "purpose",
+    "when_to_use",
+    "when_not_to_use",
+    "variants",
+    "strengths",
+    "risks",
+    "anti_patterns",
+    "related_ids",
+    "tags",
+    "genres",
+    "formats",
+    "agent_hints",
+    "confidence",
+    "sources",
+    "entity_type",
+    "invariant",
+    "violation_signal",
+    "repair_options"
+  ],
+  "taxonomies": [
+    "timeline",
+    "character",
+    "location",
+    "object",
+    "knowledge",
+    "causality",
+    "world_rule"
+  ],
+  "relations": [
+    "validates",
+    "contradicts",
+    "depends_on",
+    "repaired_by"
+  ],
+  "primary_consumers": [
+    "Continuity Agent",
+    "Validator",
+    "Research Agent"
+  ],
+  "reference_sources": [
+    "Internal synthesis"
+  ],
+  "master_version": "1.0.0",
+  "integration_status": "new",
+  "legacy_source": null
+}

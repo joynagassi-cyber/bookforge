@@ -1,0 +1,61 @@
+{
+  "id": "premises",
+  "name": "Ideas, Concepts & Premises",
+  "domain": "conception",
+  "purpose": "Patterns for turning raw ideas into testable book premises.",
+  "priority": "P0",
+  "entry_schema": [
+    "id",
+    "name",
+    "type",
+    "definition",
+    "purpose",
+    "when_to_use",
+    "when_not_to_use",
+    "variants",
+    "strengths",
+    "risks",
+    "anti_patterns",
+    "related_ids",
+    "tags",
+    "genres",
+    "formats",
+    "agent_hints",
+    "confidence",
+    "sources",
+    "logline",
+    "central_question",
+    "central_conflict",
+    "emotional_core",
+    "novelty",
+    "scope",
+    "stakes",
+    "transformation",
+    "promise"
+  ],
+  "taxonomies": [
+    "character_driven",
+    "plot_driven",
+    "concept_driven",
+    "theme_driven",
+    "world_driven",
+    "question_driven"
+  ],
+  "relations": [
+    "supports_theme",
+    "creates_conflict",
+    "implies_structure",
+    "targets_genre"
+  ],
+  "primary_consumers": [
+    "Idea Architect",
+    "Brainstorming Agent",
+    "Genre Agent"
+  ],
+  "reference_sources": [
+    "BookForge internal creative methodology"
+  ],
+  "master_version": "1.0.0",
+  "integration_status": "new",
+  "legacy_source": null
+}

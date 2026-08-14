@@ -1,0 +1,59 @@
+{
+  "id": "metadata",
+  "name": "Book Metadata & Bibliographic Description",
+  "domain": "publishing",
+  "purpose": "Catalogue des métadonnées nécessaires à la découverte, distribution et gestion bibliographique.",
+  "priority": "P0",
+  "entry_schema": [
+    "id",
+    "name",
+    "type",
+    "definition",
+    "purpose",
+    "when_to_use",
+    "when_not_to_use",
+    "variants",
+    "strengths",
+    "risks",
+    "anti_patterns",
+    "related_ids",
+    "tags",
+    "genres",
+    "formats",
+    "agent_hints",
+    "confidence",
+    "sources",
+    "field",
+    "standard",
+    "requiredness",
+    "format",
+    "example",
+    "validation_rule"
+  ],
+  "taxonomies": [
+    "bibliographic",
+    "commercial",
+    "distribution",
+    "accessibility",
+    "discovery"
+  ],
+  "relations": [
+    "describes",
+    "required_for",
+    "maps_to",
+    "validated_by"
+  ],
+  "primary_consumers": [
+    "Metadata Agent",
+    "Publishing Agent",
+    "Distribution Agent"
+  ],
+  "reference_sources": [
+    "ONIX 3.x guidance",
+    "Library of Congress MARC 21",
+    "JSTOR metadata requirements"
+  ],
+  "master_version": "1.0.0",
+  "integration_status": "new",
+  "legacy_source": null
+}

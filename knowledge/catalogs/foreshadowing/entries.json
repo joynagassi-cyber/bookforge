@@ -1,0 +1,212 @@
+[
+  {
+    "id": "foreshadowing.chekhov_object",
+    "name": "Chekhov Object",
+    "type": "catalog_entry",
+    "domain": "narrative",
+    "definition": null,
+    "purpose": "Catalogue des mécanismes qui plantent, retardent, rappellent et paient les éléments narratifs.",
+    "tags": [
+      "explicit",
+      "subtle",
+      "symbolic",
+      "dialogue",
+      "visual",
+      "structural"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "foreshadowing.verbal_foreshadowing",
+    "name": "Verbal Foreshadowing",
+    "type": "catalog_entry",
+    "domain": "narrative",
+    "definition": null,
+    "purpose": "Catalogue des mécanismes qui plantent, retardent, rappellent et paient les éléments narratifs.",
+    "tags": [
+      "explicit",
+      "subtle",
+      "symbolic",
+      "dialogue",
+      "visual",
+      "structural"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "foreshadowing.symbolic_foreshadowing",
+    "name": "Symbolic Foreshadowing",
+    "type": "catalog_entry",
+    "domain": "narrative",
+    "definition": null,
+    "purpose": "Catalogue des mécanismes qui plantent, retardent, rappellent et paient les éléments narratifs.",
+    "tags": [
+      "explicit",
+      "subtle",
+      "symbolic",
+      "dialogue",
+      "visual",
+      "structural"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "foreshadowing.parallel_event",
+    "name": "Parallel Event",
+    "type": "catalog_entry",
+    "domain": "narrative",
+    "definition": null,
+    "purpose": "Catalogue des mécanismes qui plantent, retardent, rappellent et paient les éléments narratifs.",
+    "tags": [
+      "explicit",
+      "subtle",
+      "symbolic",
+      "dialogue",
+      "visual",
+      "structural"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "foreshadowing.prophecy",
+    "name": "Prophecy",
+    "type": "catalog_entry",
+    "domain": "narrative",
+    "definition": null,
+    "purpose": "Catalogue des mécanismes qui plantent, retardent, rappellent et paient les éléments narratifs.",
+    "tags": [
+      "explicit",
+      "subtle",
+      "symbolic",
+      "dialogue",
+      "visual",
+      "structural"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "foreshadowing.ominous_detail",
+    "name": "Ominous Detail",
+    "type": "catalog_entry",
+    "domain": "narrative",
+    "definition": null,
+    "purpose": "Catalogue des mécanismes qui plantent, retardent, rappellent et paient les éléments narratifs.",
+    "tags": [
+      "explicit",
+      "subtle",
+      "symbolic",
+      "dialogue",
+      "visual",
+      "structural"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "foreshadowing.setup_payoff",
+    "name": "Setup Payoff",
+    "type": "catalog_entry",
+    "domain": "narrative",
+    "definition": null,
+    "purpose": "Catalogue des mécanismes qui plantent, retardent, rappellent et paient les éléments narratifs.",
+    "tags": [
+      "explicit",
+      "subtle",
+      "symbolic",
+      "dialogue",
+      "visual",
+      "structural"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "foreshadowing.callback",
+    "name": "Callback",
+    "type": "catalog_entry",
+    "domain": "narrative",
+    "definition": null,
+    "purpose": "Catalogue des mécanismes qui plantent, retardent, rappellent et paient les éléments narratifs.",
+    "tags": [
+      "explicit",
+      "subtle",
+      "symbolic",
+      "dialogue",
+      "visual",
+      "structural"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "foreshadowing.echo",
+    "name": "Echo",
+    "type": "catalog_entry",
+    "domain": "narrative",
+    "definition": null,
+    "purpose": "Catalogue des mécanismes qui plantent, retardent, rappellent et paient les éléments narratifs.",
+    "tags": [
+      "explicit",
+      "subtle",
+      "symbolic",
+      "dialogue",
+      "visual",
+      "structural"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "foreshadowing.recontextualization",
+    "name": "Recontextualization",
+    "type": "catalog_entry",
+    "domain": "narrative",
+    "definition": null,
+    "purpose": "Catalogue des mécanismes qui plantent, retardent, rappellent et paient les éléments narratifs.",
+    "tags": [
+      "explicit",
+      "subtle",
+      "symbolic",
+      "dialogue",
+      "visual",
+      "structural"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  }
+]

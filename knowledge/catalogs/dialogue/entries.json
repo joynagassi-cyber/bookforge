@@ -1,0 +1,296 @@
+[
+  {
+    "id": "dialogue.questioning",
+    "name": "Questioning",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Techniques de dialogue naturel, conflictuel, distinctif et fonctionnel.",
+    "tags": [
+      "information",
+      "conflict",
+      "relationship",
+      "characterization",
+      "humor",
+      "misdirection"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "dialogue.evasion",
+    "name": "Evasion",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Techniques de dialogue naturel, conflictuel, distinctif et fonctionnel.",
+    "tags": [
+      "information",
+      "conflict",
+      "relationship",
+      "characterization",
+      "humor",
+      "misdirection"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "dialogue.interruption",
+    "name": "Interruption",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Techniques de dialogue naturel, conflictuel, distinctif et fonctionnel.",
+    "tags": [
+      "information",
+      "conflict",
+      "relationship",
+      "characterization",
+      "humor",
+      "misdirection"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "dialogue.silence",
+    "name": "Silence",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Techniques de dialogue naturel, conflictuel, distinctif et fonctionnel.",
+    "tags": [
+      "information",
+      "conflict",
+      "relationship",
+      "characterization",
+      "humor",
+      "misdirection"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "dialogue.negotiation",
+    "name": "Negotiation",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Techniques de dialogue naturel, conflictuel, distinctif et fonctionnel.",
+    "tags": [
+      "information",
+      "conflict",
+      "relationship",
+      "characterization",
+      "humor",
+      "misdirection"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "dialogue.threat",
+    "name": "Threat",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Techniques de dialogue naturel, conflictuel, distinctif et fonctionnel.",
+    "tags": [
+      "information",
+      "conflict",
+      "relationship",
+      "characterization",
+      "humor",
+      "misdirection"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "dialogue.confession",
+    "name": "Confession",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Techniques de dialogue naturel, conflictuel, distinctif et fonctionnel.",
+    "tags": [
+      "information",
+      "conflict",
+      "relationship",
+      "characterization",
+      "humor",
+      "misdirection"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "dialogue.flirtation",
+    "name": "Flirtation",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Techniques de dialogue naturel, conflictuel, distinctif et fonctionnel.",
+    "tags": [
+      "information",
+      "conflict",
+      "relationship",
+      "characterization",
+      "humor",
+      "misdirection"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "dialogue.banter",
+    "name": "Banter",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Techniques de dialogue naturel, conflictuel, distinctif et fonctionnel.",
+    "tags": [
+      "information",
+      "conflict",
+      "relationship",
+      "characterization",
+      "humor",
+      "misdirection"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "dialogue.argument",
+    "name": "Argument",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Techniques de dialogue naturel, conflictuel, distinctif et fonctionnel.",
+    "tags": [
+      "information",
+      "conflict",
+      "relationship",
+      "characterization",
+      "humor",
+      "misdirection"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "dialogue.interrogation",
+    "name": "Interrogation",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Techniques de dialogue naturel, conflictuel, distinctif et fonctionnel.",
+    "tags": [
+      "information",
+      "conflict",
+      "relationship",
+      "characterization",
+      "humor",
+      "misdirection"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "dialogue.reassurance",
+    "name": "Reassurance",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Techniques de dialogue naturel, conflictuel, distinctif et fonctionnel.",
+    "tags": [
+      "information",
+      "conflict",
+      "relationship",
+      "characterization",
+      "humor",
+      "misdirection"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "dialogue.manipulation",
+    "name": "Manipulation",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Techniques de dialogue naturel, conflictuel, distinctif et fonctionnel.",
+    "tags": [
+      "information",
+      "conflict",
+      "relationship",
+      "characterization",
+      "humor",
+      "misdirection"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "dialogue.small_talk",
+    "name": "Small Talk",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Techniques de dialogue naturel, conflictuel, distinctif et fonctionnel.",
+    "tags": [
+      "information",
+      "conflict",
+      "relationship",
+      "characterization",
+      "humor",
+      "misdirection"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  }
+]

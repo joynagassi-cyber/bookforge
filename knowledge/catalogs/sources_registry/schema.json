@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Source Registry & Provenance",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "author",
+    "publisher",
+    "url",
+    "license",
+    "source_type",
+    "date_accessed",
+    "reliability"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "id": {
+      "description": "Field id"
+    },
+    "title": {
+      "description": "Field title"
+    },
+    "author": {
+      "description": "Field author"
+    },
+    "publisher": {
+      "description": "Field publisher"
+    },
+    "url": {
+      "description": "Field url"
+    },
+    "license": {
+      "description": "Field license"
+    },
+    "source_type": {
+      "description": "Field source_type"
+    },
+    "date_accessed": {
+      "description": "Field date_accessed"
+    },
+    "reliability": {
+      "description": "Field reliability"
+    },
+    "scope": {
+      "description": "Field scope"
+    },
+    "notes": {
+      "description": "Field notes"
+    },
+    "used_by_entries": {
+      "description": "Field used_by_entries"
+    }
+  }
+}

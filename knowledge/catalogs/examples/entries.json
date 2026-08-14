@@ -1,0 +1,191 @@
+[
+  {
+    "id": "examples.anecdote",
+    "name": "Anecdote",
+    "type": "catalog_entry",
+    "domain": "nonfiction",
+    "definition": null,
+    "purpose": "Catalogue des formes d'exemples utilisables pour expliquer et mémoriser.",
+    "tags": [
+      "concrete",
+      "hypothetical",
+      "historical",
+      "personal",
+      "quantitative",
+      "comparative"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "examples.case_study",
+    "name": "Case Study",
+    "type": "catalog_entry",
+    "domain": "nonfiction",
+    "definition": null,
+    "purpose": "Catalogue des formes d'exemples utilisables pour expliquer et mémoriser.",
+    "tags": [
+      "concrete",
+      "hypothetical",
+      "historical",
+      "personal",
+      "quantitative",
+      "comparative"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "examples.hypothetical",
+    "name": "Hypothetical",
+    "type": "catalog_entry",
+    "domain": "nonfiction",
+    "definition": null,
+    "purpose": "Catalogue des formes d'exemples utilisables pour expliquer et mémoriser.",
+    "tags": [
+      "concrete",
+      "hypothetical",
+      "historical",
+      "personal",
+      "quantitative",
+      "comparative"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "examples.counterexample",
+    "name": "Counterexample",
+    "type": "catalog_entry",
+    "domain": "nonfiction",
+    "definition": null,
+    "purpose": "Catalogue des formes d'exemples utilisables pour expliquer et mémoriser.",
+    "tags": [
+      "concrete",
+      "hypothetical",
+      "historical",
+      "personal",
+      "quantitative",
+      "comparative"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "examples.analogy",
+    "name": "Analogy",
+    "type": "catalog_entry",
+    "domain": "nonfiction",
+    "definition": null,
+    "purpose": "Catalogue des formes d'exemples utilisables pour expliquer et mémoriser.",
+    "tags": [
+      "concrete",
+      "hypothetical",
+      "historical",
+      "personal",
+      "quantitative",
+      "comparative"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "examples.thought_experiment",
+    "name": "Thought Experiment",
+    "type": "catalog_entry",
+    "domain": "nonfiction",
+    "definition": null,
+    "purpose": "Catalogue des formes d'exemples utilisables pour expliquer et mémoriser.",
+    "tags": [
+      "concrete",
+      "hypothetical",
+      "historical",
+      "personal",
+      "quantitative",
+      "comparative"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "examples.numerical_example",
+    "name": "Numerical Example",
+    "type": "catalog_entry",
+    "domain": "nonfiction",
+    "definition": null,
+    "purpose": "Catalogue des formes d'exemples utilisables pour expliquer et mémoriser.",
+    "tags": [
+      "concrete",
+      "hypothetical",
+      "historical",
+      "personal",
+      "quantitative",
+      "comparative"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "examples.before_after",
+    "name": "Before After",
+    "type": "catalog_entry",
+    "domain": "nonfiction",
+    "definition": null,
+    "purpose": "Catalogue des formes d'exemples utilisables pour expliquer et mémoriser.",
+    "tags": [
+      "concrete",
+      "hypothetical",
+      "historical",
+      "personal",
+      "quantitative",
+      "comparative"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "examples.worked_example",
+    "name": "Worked Example",
+    "type": "catalog_entry",
+    "domain": "nonfiction",
+    "definition": null,
+    "purpose": "Catalogue des formes d'exemples utilisables pour expliquer et mémoriser.",
+    "tags": [
+      "concrete",
+      "hypothetical",
+      "historical",
+      "personal",
+      "quantitative",
+      "comparative"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  }
+]

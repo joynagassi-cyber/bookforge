@@ -1,0 +1,155 @@
+{
+  "schema_version": "1.0.0",
+  "principle": "BookForge emits the smallest native integration surface supported by the host; unknown hosts use filesystem artifacts and generic instructions.",
+  "hosts": {
+    "claude-code": {
+      "capabilities": [
+        "skills",
+        "mcp",
+        "filesystem",
+        "cli"
+      ],
+      "installation": {
+        "skills": ".claude/skills/",
+        "mcp": ".mcp.json",
+        "native_cli": "claude"
+      }
+    },
+    "cursor": {
+      "capabilities": [
+        "skills",
+        "mcp",
+        "filesystem"
+      ],
+      "installation": {
+        "skills": ".agents/skills/",
+        "mcp": ".cursor/mcp.json"
+      }
+    },
+    "windsurf": {
+      "capabilities": [
+        "skills",
+        "mcp",
+        "filesystem"
+      ],
+      "installation": {
+        "skills": ".agents/skills/"
+      }
+    },
+    "vscode": {
+      "capabilities": [
+        "mcp",
+        "filesystem"
+      ],
+      "installation": {
+        "mcp": ".vscode/mcp.json"
+      }
+    },
+    "codex-cli": {
+      "capabilities": [
+        "filesystem",
+        "cli",
+        "mcp_if_supported"
+      ],
+      "installation": {
+        "skills": "bookforge/generated/skills/"
+      }
+    },
+    "kiro": {
+      "capabilities": [
+        "filesystem",
+        "project-instructions"
+      ],
+      "installation": {
+        "instructions": "bookforge/generated/hosts/kiro/"
+      }
+    },
+    "devin": {
+      "capabilities": [
+        "repository",
+        "filesystem",
+        "generic-instructions"
+      ],
+      "installation": {
+        "instructions": "bookforge/generated/hosts/devin/"
+      }
+    },
+    "antigravity": {
+      "capabilities": [
+        "filesystem",
+        "generic-instructions"
+      ],
+      "installation": {
+        "instructions": "bookforge/generated/hosts/antigravity/"
+      }
+    },
+    "generic": {
+      "capabilities": [
+        "filesystem",
+        "markdown",
+        "json",
+        "yaml"
+      ],
+      "installation": {
+        "skills": "bookforge/generated/skills/",
+        "instructions": "bookforge/generated/hosts/generic/"
+      }
+    },
+    "opencode": {
+      "capabilities": [
+        "skills",
+        "mcp",
+        "filesystem",
+        "cli"
+      ],
+      "installation": {
+        "skills": ".agents/skills"
+      }
+    },
+    "kilocode": {
+      "capabilities": [
+        "skills",
+        "filesystem",
+        "cli"
+      ],
+      "installation": {
+        "skills": ".agents/skills"
+      }
+    },
+    "github-copilot": {
+      "capabilities": [
+        "skills",
+        "mcp",
+        "filesystem"
+      ],
+      "installation": {
+        "skills": ".agents/skills",
+        "commands": ".github/agents"
+      }
+    },
+    "gemini": {
+      "capabilities": [
+        "skills",
+        "mcp",
+        "filesystem"
+      ],
+      "installation": {
+        "skills": ".agents/skills"
+      }
+    },
+    "antigravity-cli": {
+      "capabilities": [
+        "skills",
+        "filesystem",
+        "cli"
+      ],
+      "installation": {
+        "skills": ".agents/skills"
+      }
+    }
+  },
+  "agent_skills_bridge": {
+    "command": "npx skills add <github-source>",
+    "principle": "Optional distribution bridge; BookForge remains canonical."
+  }
+}

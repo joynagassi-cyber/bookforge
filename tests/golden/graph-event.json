@@ -1,0 +1,1 @@
+{"event_id":"golden-001","operation":"upsert_node","entity":{"id":"character:marie","type":"Character","properties":{"name":"Marie"}},"source_artifact":"bookforge/artifacts/characters.json"}

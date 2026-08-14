@@ -1,0 +1,16 @@
+{
+  "host": "claude-code",
+  "mode": "generate",
+  "capabilities": [
+    "skills",
+    "mcp",
+    "filesystem",
+    "cli"
+  ],
+  "installation": {
+    "skills": ".claude/skills/",
+    "mcp": ".mcp.json",
+    "native_cli": "claude"
+  },
+  "generated_at": "2026-08-14T12:32:51.598Z"
+}

@@ -1,0 +1,36 @@
+cases:
+  - id: route-001
+    input: "Fix a typo in chapter 4"
+    expected_workflow: revision-loop
+    expected_complexity: tiny
+
+  - id: route-002
+    input: "Rewrite the conclusion of chapter 5"
+    expected_workflow: revision-loop
+    expected_complexity: small
+
+  - id: route-003
+    input: "Add a new chapter about source verification"
+    expected_workflow: chapter-plan
+    expected_complexity: medium
+
+  - id: route-004
+    input: "Change the central promise of the book"
+    expected_workflow: correct-course
+    expected_complexity: large
+
+  - id: route-005
+    input: "Prepare manuscript for publication"
+    expected_workflow: release-gate
+    expected_complexity: large
+
+  - id: quality-001
+    input_fixture: anti-slop-01
+    expected:
+      ai_slop_findings: ">=1"
+      cliche_findings: ">=1"
+
+  - id: continuity-001
+    input_fixture: continuity-01
+    expected:
+      continuity_conflicts: ">=2"

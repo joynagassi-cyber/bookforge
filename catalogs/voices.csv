@@ -1,0 +1,7 @@
+voice_id,name,persona,cadence,sentence_shape,lexical_profile,relationship_to_reader
+mentor,Mentor,experienced guide,measured,varied,precise; concrete,guides without condescension
+companion,Companion,trusted peer,warm,short-medium,accessible; personal,walks alongside
+investigator,Investigator,curious analyst,probing,mixed,evidence-heavy,invites scrutiny
+storyteller,Storyteller,narrative guide,rhythmic,mixed,sensory; specific,immerses
+teacher,Teacher,clear instructor,steady,structured,definitions + examples,explains and tests
+witness,Witness,first-person experiencer,irregular,natural,concrete; reflective,shares without overclaiming

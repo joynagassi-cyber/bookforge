@@ -1,0 +1,17 @@
+{
+  "id": "route-002",
+  "description": "Rewrite conclusion of chapter 5 should route to revision-loop with small complexity",
+  "input": "Rewrite the conclusion of chapter 5",
+  "expected": {
+    "workflow": "revision-loop",
+    "complexity": "small",
+    "scale": "small",
+    "required_catalogs_min": 2,
+    "required_catalogs_max": 5
+  },
+  "fixtures": {
+    "task": "Rewrite the conclusion of chapter 5",
+    "agent": null,
+    "workflow": null
+  }
+}

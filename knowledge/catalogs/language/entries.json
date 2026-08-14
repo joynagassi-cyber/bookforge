@@ -1,0 +1,192 @@
+[
+  {
+    "id": "language.synonym",
+    "name": "Synonym",
+    "type": "catalog_entry",
+    "domain": "language",
+    "definition": null,
+    "purpose": "Couche lexicale et sémantique pour choix de mots, champs lexicaux et relations de sens.",
+    "tags": [
+      "noun",
+      "verb",
+      "adjective",
+      "adverb"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "language.antonym",
+    "name": "Antonym",
+    "type": "catalog_entry",
+    "domain": "language",
+    "definition": null,
+    "purpose": "Couche lexicale et sémantique pour choix de mots, champs lexicaux et relations de sens.",
+    "tags": [
+      "noun",
+      "verb",
+      "adjective",
+      "adverb"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "language.hypernym",
+    "name": "Hypernym",
+    "type": "catalog_entry",
+    "domain": "language",
+    "definition": null,
+    "purpose": "Couche lexicale et sémantique pour choix de mots, champs lexicaux et relations de sens.",
+    "tags": [
+      "noun",
+      "verb",
+      "adjective",
+      "adverb"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "language.hyponym",
+    "name": "Hyponym",
+    "type": "catalog_entry",
+    "domain": "language",
+    "definition": null,
+    "purpose": "Couche lexicale et sémantique pour choix de mots, champs lexicaux et relations de sens.",
+    "tags": [
+      "noun",
+      "verb",
+      "adjective",
+      "adverb"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "language.meronym",
+    "name": "Meronym",
+    "type": "catalog_entry",
+    "domain": "language",
+    "definition": null,
+    "purpose": "Couche lexicale et sémantique pour choix de mots, champs lexicaux et relations de sens.",
+    "tags": [
+      "noun",
+      "verb",
+      "adjective",
+      "adverb"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "language.holonym",
+    "name": "Holonym",
+    "type": "catalog_entry",
+    "domain": "language",
+    "definition": null,
+    "purpose": "Couche lexicale et sémantique pour choix de mots, champs lexicaux et relations de sens.",
+    "tags": [
+      "noun",
+      "verb",
+      "adjective",
+      "adverb"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "language.entailment",
+    "name": "Entailment",
+    "type": "catalog_entry",
+    "domain": "language",
+    "definition": null,
+    "purpose": "Couche lexicale et sémantique pour choix de mots, champs lexicaux et relations de sens.",
+    "tags": [
+      "noun",
+      "verb",
+      "adjective",
+      "adverb"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "language.morphosemantic",
+    "name": "Morphosemantic",
+    "type": "catalog_entry",
+    "domain": "language",
+    "definition": null,
+    "purpose": "Couche lexicale et sémantique pour choix de mots, champs lexicaux et relations de sens.",
+    "tags": [
+      "noun",
+      "verb",
+      "adjective",
+      "adverb"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "language.collocation",
+    "name": "Collocation",
+    "type": "catalog_entry",
+    "domain": "language",
+    "definition": null,
+    "purpose": "Couche lexicale et sémantique pour choix de mots, champs lexicaux et relations de sens.",
+    "tags": [
+      "noun",
+      "verb",
+      "adjective",
+      "adverb"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "language.word_family",
+    "name": "Word Family",
+    "type": "catalog_entry",
+    "domain": "language",
+    "definition": null,
+    "purpose": "Couche lexicale et sémantique pour choix de mots, champs lexicaux et relations de sens.",
+    "tags": [
+      "noun",
+      "verb",
+      "adjective",
+      "adverb"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  }
+]

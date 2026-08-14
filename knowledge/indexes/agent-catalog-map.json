@@ -1,0 +1,248 @@
+{
+  "context-engineer": {
+    "required": [
+      "book_primitives"
+    ],
+    "optional": [],
+    "source": "master.primary_consumers"
+  },
+  "analyst": {
+    "required": [
+      "book_types",
+      "genres",
+      "marketing",
+      "plot_patterns",
+      "premises",
+      "promises",
+      "tropes"
+    ],
+    "optional": [],
+    "source": "master.primary_consumers"
+  },
+  "book-architect": {
+    "required": [
+      "argumentation",
+      "book_types",
+      "character_archetypes",
+      "character_arcs",
+      "characters",
+      "culture",
+      "description",
+      "emotion",
+      "examples",
+      "fallacies",
+      "locations",
+      "pedagogy",
+      "promises",
+      "relationships",
+      "story_structures",
+      "themes",
+      "worldbuilding"
+    ],
+    "optional": [],
+    "source": "master.primary_consumers"
+  },
+  "packaging-director": {
+    "required": [
+      "accessibility",
+      "book_structure",
+      "book_types",
+      "digital_publishing",
+      "layout",
+      "typography"
+    ],
+    "optional": [],
+    "source": "master.primary_consumers"
+  },
+  "metadata-strategist": {
+    "required": [
+      "book_structure",
+      "book_types",
+      "marketing",
+      "metadata"
+    ],
+    "optional": [],
+    "source": "master.primary_consumers"
+  },
+  "outline-architect": {
+    "required": [
+      "beats",
+      "character_archetypes",
+      "character_arcs",
+      "conflict",
+      "foreshadowing",
+      "genres",
+      "information",
+      "pacing",
+      "plot_patterns",
+      "pov",
+      "stakes",
+      "story_structures",
+      "themes"
+    ],
+    "optional": [],
+    "source": "master.primary_consumers"
+  },
+  "developmental-editor": {
+    "required": [
+      "ai_slop",
+      "antipatterns",
+      "argumentation",
+      "beats",
+      "culture",
+      "editing",
+      "fallacies",
+      "genres",
+      "information",
+      "pacing",
+      "promises",
+      "quality_metrics",
+      "reader_experience",
+      "stakes",
+      "story_structures",
+      "tropes"
+    ],
+    "optional": [],
+    "source": "master.primary_consumers"
+  },
+  "writer": {
+    "required": [
+      "beats",
+      "characters",
+      "conflict",
+      "description",
+      "dialogue",
+      "emotion",
+      "locations",
+      "pacing",
+      "pedagogy",
+      "relationships",
+      "scenes",
+      "subtext",
+      "tone",
+      "voice"
+    ],
+    "optional": [],
+    "source": "master.primary_consumers"
+  },
+  "line-editor": {
+    "required": [
+      "beats",
+      "editing",
+      "emotion",
+      "language",
+      "pacing",
+      "quality_metrics",
+      "reader_experience",
+      "revision_strategies",
+      "rhetoric",
+      "scenes",
+      "voice"
+    ],
+    "optional": [],
+    "source": "master.primary_consumers"
+  },
+  "continuity-auditor": {
+    "required": [
+      "characters",
+      "continuity",
+      "foreshadowing",
+      "information",
+      "pov",
+      "scenes",
+      "worldbuilding"
+    ],
+    "optional": [],
+    "source": "master.primary_consumers"
+  },
+  "researcher": {
+    "required": [
+      "argumentation",
+      "continuity",
+      "culture",
+      "examples",
+      "fallacies",
+      "research",
+      "sources_registry",
+      "worldbuilding"
+    ],
+    "optional": [],
+    "source": "master.primary_consumers"
+  },
+  "voice-director": {
+    "required": [
+      "dialogue",
+      "language",
+      "narrative_distance",
+      "pov",
+      "rhetoric",
+      "style",
+      "tone",
+      "voice"
+    ],
+    "optional": [],
+    "source": "master.primary_consumers"
+  },
+  "originality-auditor": {
+    "required": [
+      "tropes"
+    ],
+    "optional": [],
+    "source": "master.primary_consumers"
+  },
+  "ai-slop-auditor": {
+    "required": [
+      "ai_slop"
+    ],
+    "optional": [],
+    "source": "master.primary_consumers"
+  },
+  "copy-editor": {
+    "required": [
+      "editing"
+    ],
+    "optional": [],
+    "source": "master.primary_consumers"
+  },
+  "fact-checker": {
+    "required": [
+      "editing",
+      "research"
+    ],
+    "optional": [],
+    "source": "master.primary_consumers"
+  },
+  "release-gatekeeper": {
+    "required": [
+      "quality_metrics"
+    ],
+    "optional": [],
+    "source": "master.primary_consumers"
+  },
+  "launch-marketer": {
+    "required": [
+      "marketing"
+    ],
+    "optional": [],
+    "source": "master.primary_consumers"
+  },
+  "cliche-auditor": {
+    "required": [],
+    "optional": [],
+    "source": "existing_agent"
+  },
+  "human-voice-editor": {
+    "required": [],
+    "optional": [],
+    "source": "existing_agent"
+  },
+  "plagiarism-auditor": {
+    "required": [
+      "originality_similarity"
+    ],
+    "optional": [
+      "sources_registry"
+    ],
+    "source": "quality-integrity-extension"
+  }
+}

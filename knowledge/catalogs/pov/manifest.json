@@ -1,0 +1,60 @@
+{
+  "id": "pov",
+  "name": "Point of View & Narrative Perspective",
+  "domain": "prose",
+  "purpose": "Catalogue des choix de perspective et de leurs effets.",
+  "priority": "P0",
+  "entry_schema": [
+    "id",
+    "name",
+    "type",
+    "definition",
+    "purpose",
+    "when_to_use",
+    "when_not_to_use",
+    "variants",
+    "strengths",
+    "risks",
+    "anti_patterns",
+    "related_ids",
+    "tags",
+    "genres",
+    "formats",
+    "agent_hints",
+    "confidence",
+    "sources",
+    "person",
+    "knowledge_scope",
+    "distance",
+    "reliability",
+    "access",
+    "tense",
+    "effects"
+  ],
+  "taxonomies": [
+    "first_person",
+    "second_person",
+    "third_limited",
+    "third_omniscient",
+    "objective",
+    "free_indirect"
+  ],
+  "relations": [
+    "controls_information",
+    "affects_voice",
+    "affects_reliability",
+    "supports_genre"
+  ],
+  "primary_consumers": [
+    "Voice Designer",
+    "POV Agent",
+    "Continuity Agent",
+    "Plot Architect"
+  ],
+  "reference_sources": [
+    "Internal synthesis"
+  ],
+  "master_version": "1.0.0",
+  "integration_status": "new",
+  "legacy_source": null
+}

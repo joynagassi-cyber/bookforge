@@ -1,0 +1,149 @@
+[
+  {
+    "id": "argumentation.claim_evidence_reasoning",
+    "name": "Claim Evidence Reasoning",
+    "type": "catalog_entry",
+    "domain": "nonfiction",
+    "definition": null,
+    "purpose": "Architecture des arguments pour essais, business books, guides et ouvrages analytiques.",
+    "tags": [
+      "explanatory",
+      "causal",
+      "comparative",
+      "evaluative",
+      "prescriptive",
+      "interpretive"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "argumentation.problem_solution",
+    "name": "Problem Solution",
+    "type": "catalog_entry",
+    "domain": "nonfiction",
+    "definition": null,
+    "purpose": "Architecture des arguments pour essais, business books, guides et ouvrages analytiques.",
+    "tags": [
+      "explanatory",
+      "causal",
+      "comparative",
+      "evaluative",
+      "prescriptive",
+      "interpretive"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "argumentation.cause_effect",
+    "name": "Cause Effect",
+    "type": "catalog_entry",
+    "domain": "nonfiction",
+    "definition": null,
+    "purpose": "Architecture des arguments pour essais, business books, guides et ouvrages analytiques.",
+    "tags": [
+      "explanatory",
+      "causal",
+      "comparative",
+      "evaluative",
+      "prescriptive",
+      "interpretive"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "argumentation.compare_contrast",
+    "name": "Compare Contrast",
+    "type": "catalog_entry",
+    "domain": "nonfiction",
+    "definition": null,
+    "purpose": "Architecture des arguments pour essais, business books, guides et ouvrages analytiques.",
+    "tags": [
+      "explanatory",
+      "causal",
+      "comparative",
+      "evaluative",
+      "prescriptive",
+      "interpretive"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "argumentation.principle_application",
+    "name": "Principle Application",
+    "type": "catalog_entry",
+    "domain": "nonfiction",
+    "definition": null,
+    "purpose": "Architecture des arguments pour essais, business books, guides et ouvrages analytiques.",
+    "tags": [
+      "explanatory",
+      "causal",
+      "comparative",
+      "evaluative",
+      "prescriptive",
+      "interpretive"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "argumentation.case_study",
+    "name": "Case Study",
+    "type": "catalog_entry",
+    "domain": "nonfiction",
+    "definition": null,
+    "purpose": "Architecture des arguments pour essais, business books, guides et ouvrages analytiques.",
+    "tags": [
+      "explanatory",
+      "causal",
+      "comparative",
+      "evaluative",
+      "prescriptive",
+      "interpretive"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "argumentation.counterargument_rebuttal",
+    "name": "Counterargument Rebuttal",
+    "type": "catalog_entry",
+    "domain": "nonfiction",
+    "definition": null,
+    "purpose": "Architecture des arguments pour essais, business books, guides et ouvrages analytiques.",
+    "tags": [
+      "explanatory",
+      "causal",
+      "comparative",
+      "evaluative",
+      "prescriptive",
+      "interpretive"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  }
+]

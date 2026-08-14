@@ -1,0 +1,362 @@
+[
+  {
+    "id": "book_structure.half_title",
+    "name": "Half Title",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Organisation physique et éditoriale du livre.",
+    "tags": [
+      "front_matter",
+      "body",
+      "back_matter"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_structure.title_page",
+    "name": "Title Page",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Organisation physique et éditoriale du livre.",
+    "tags": [
+      "front_matter",
+      "body",
+      "back_matter"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_structure.copyright",
+    "name": "Copyright",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Organisation physique et éditoriale du livre.",
+    "tags": [
+      "front_matter",
+      "body",
+      "back_matter"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_structure.dedication",
+    "name": "Dedication",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Organisation physique et éditoriale du livre.",
+    "tags": [
+      "front_matter",
+      "body",
+      "back_matter"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_structure.epigraph",
+    "name": "Epigraph",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Organisation physique et éditoriale du livre.",
+    "tags": [
+      "front_matter",
+      "body",
+      "back_matter"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_structure.toc",
+    "name": "Toc",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Organisation physique et éditoriale du livre.",
+    "tags": [
+      "front_matter",
+      "body",
+      "back_matter"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_structure.foreword",
+    "name": "Foreword",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Organisation physique et éditoriale du livre.",
+    "tags": [
+      "front_matter",
+      "body",
+      "back_matter"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_structure.preface",
+    "name": "Preface",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Organisation physique et éditoriale du livre.",
+    "tags": [
+      "front_matter",
+      "body",
+      "back_matter"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_structure.acknowledgements",
+    "name": "Acknowledgements",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Organisation physique et éditoriale du livre.",
+    "tags": [
+      "front_matter",
+      "body",
+      "back_matter"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_structure.introduction",
+    "name": "Introduction",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Organisation physique et éditoriale du livre.",
+    "tags": [
+      "front_matter",
+      "body",
+      "back_matter"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_structure.parts",
+    "name": "Parts",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Organisation physique et éditoriale du livre.",
+    "tags": [
+      "front_matter",
+      "body",
+      "back_matter"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_structure.chapters",
+    "name": "Chapters",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Organisation physique et éditoriale du livre.",
+    "tags": [
+      "front_matter",
+      "body",
+      "back_matter"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_structure.epilogue",
+    "name": "Epilogue",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Organisation physique et éditoriale du livre.",
+    "tags": [
+      "front_matter",
+      "body",
+      "back_matter"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_structure.afterword",
+    "name": "Afterword",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Organisation physique et éditoriale du livre.",
+    "tags": [
+      "front_matter",
+      "body",
+      "back_matter"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_structure.appendix",
+    "name": "Appendix",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Organisation physique et éditoriale du livre.",
+    "tags": [
+      "front_matter",
+      "body",
+      "back_matter"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_structure.notes",
+    "name": "Notes",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Organisation physique et éditoriale du livre.",
+    "tags": [
+      "front_matter",
+      "body",
+      "back_matter"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_structure.glossary",
+    "name": "Glossary",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Organisation physique et éditoriale du livre.",
+    "tags": [
+      "front_matter",
+      "body",
+      "back_matter"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_structure.bibliography",
+    "name": "Bibliography",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Organisation physique et éditoriale du livre.",
+    "tags": [
+      "front_matter",
+      "body",
+      "back_matter"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_structure.index",
+    "name": "Index",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Organisation physique et éditoriale du livre.",
+    "tags": [
+      "front_matter",
+      "body",
+      "back_matter"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_structure.author_bio",
+    "name": "Author Bio",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Organisation physique et éditoriale du livre.",
+    "tags": [
+      "front_matter",
+      "body",
+      "back_matter"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  }
+]

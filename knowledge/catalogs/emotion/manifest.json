@@ -1,0 +1,63 @@
+{
+  "id": "emotion",
+  "name": "Emotion & Affect",
+  "domain": "reader",
+  "purpose": "Modèle d'émotions utilisable pour personnages, scènes et expérience lecteur.",
+  "priority": "P0",
+  "entry_schema": [
+    "id",
+    "name",
+    "type",
+    "definition",
+    "purpose",
+    "when_to_use",
+    "when_not_to_use",
+    "variants",
+    "strengths",
+    "risks",
+    "anti_patterns",
+    "related_ids",
+    "tags",
+    "genres",
+    "formats",
+    "agent_hints",
+    "confidence",
+    "sources",
+    "triggers",
+    "physiology",
+    "cognition",
+    "behavior",
+    "speech_signals",
+    "suppression",
+    "escalation",
+    "deescalation"
+  ],
+  "taxonomies": [
+    "positive",
+    "negative",
+    "mixed",
+    "social",
+    "self_conscious",
+    "high_arousal",
+    "low_arousal"
+  ],
+  "relations": [
+    "triggered_by",
+    "expressed_as",
+    "suppressed_as",
+    "transforms_into",
+    "affects_reader"
+  ],
+  "primary_consumers": [
+    "Character Agent",
+    "Emotion Agent",
+    "Scene Architect",
+    "Dialogue Agent"
+  ],
+  "reference_sources": [
+    "Internal synthesis"
+  ],
+  "master_version": "1.0.0",
+  "integration_status": "new",
+  "legacy_source": null
+}

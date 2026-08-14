@@ -1,0 +1,54 @@
+{
+  "id": "narrative_distance",
+  "name": "Narrative Distance & Focalization",
+  "domain": "prose",
+  "purpose": "Degré de proximité entre lecteur, narrateur et conscience du personnage.",
+  "priority": "P0",
+  "entry_schema": [
+    "id",
+    "name",
+    "type",
+    "definition",
+    "purpose",
+    "when_to_use",
+    "when_not_to_use",
+    "variants",
+    "strengths",
+    "risks",
+    "anti_patterns",
+    "related_ids",
+    "tags",
+    "genres",
+    "formats",
+    "agent_hints",
+    "confidence",
+    "sources",
+    "distance_level",
+    "cognitive_access",
+    "sensory_access",
+    "linguistic_effect"
+  ],
+  "taxonomies": [
+    "intimate",
+    "close",
+    "medium",
+    "distant",
+    "objective"
+  ],
+  "relations": [
+    "combines_with_pov",
+    "changes_voice",
+    "changes_emotional_access"
+  ],
+  "primary_consumers": [
+    "Voice Designer",
+    "POV Agent",
+    "Line Editor"
+  ],
+  "reference_sources": [
+    "Internal synthesis"
+  ],
+  "master_version": "1.0.0",
+  "integration_status": "new",
+  "legacy_source": null
+}

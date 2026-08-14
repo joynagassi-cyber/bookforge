@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "validator_id",
+    "status",
+    "findings"
+  ],
+  "properties": {
+    "validator_id": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "PASS",
+        "CONCERNS",
+        "FAIL"
+      ]
+    },
+    "findings": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "evidence": {
+      "type": "array"
+    },
+    "recommended_actions": {
+      "type": "array"
+    },
+    "human_required": {
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "story_structures",
+  "name": "Story Structures",
+  "domain": "narrative",
+  "purpose": "Catalogue des architectures macro-narratives et de leurs étapes/fonctions.",
+  "priority": "P0",
+  "entry_schema": [
+    "id",
+    "name",
+    "type",
+    "definition",
+    "purpose",
+    "when_to_use",
+    "when_not_to_use",
+    "variants",
+    "strengths",
+    "risks",
+    "anti_patterns",
+    "related_ids",
+    "tags",
+    "genres",
+    "formats",
+    "agent_hints",
+    "confidence",
+    "sources",
+    "stages",
+    "stage_functions",
+    "tension_profile",
+    "requirements",
+    "optional_stages",
+    "compatible_genres",
+    "combination_rules"
+  ],
+  "taxonomies": [
+    "linear",
+    "nonlinear",
+    "episodic",
+    "frame",
+    "multi_thread",
+    "cyclical"
+  ],
+  "relations": [
+    "implements",
+    "combines_with",
+    "alternative_to",
+    "fits_genre"
+  ],
+  "primary_consumers": [
+    "Plot Architect",
+    "Book Architect",
+    "Structure Critic"
+  ],
+  "reference_sources": [
+    "Common narrative-structure literature",
+    "Internal synthesis; named models require source tracking"
+  ],
+  "master_version": "1.0.0",
+  "integration_status": "extension",
+  "legacy_source": "catalogs/chapter-patterns.csv"
+}

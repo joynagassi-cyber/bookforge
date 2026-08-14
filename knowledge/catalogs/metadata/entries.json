@@ -1,0 +1,382 @@
+[
+  {
+    "id": "metadata.title",
+    "name": "Title",
+    "type": "catalog_entry",
+    "domain": "publishing",
+    "definition": null,
+    "purpose": "Catalogue des métadonnées nécessaires à la découverte, distribution et gestion bibliographique.",
+    "tags": [
+      "bibliographic",
+      "commercial",
+      "distribution",
+      "accessibility",
+      "discovery"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "metadata.subtitle",
+    "name": "Subtitle",
+    "type": "catalog_entry",
+    "domain": "publishing",
+    "definition": null,
+    "purpose": "Catalogue des métadonnées nécessaires à la découverte, distribution et gestion bibliographique.",
+    "tags": [
+      "bibliographic",
+      "commercial",
+      "distribution",
+      "accessibility",
+      "discovery"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "metadata.creator",
+    "name": "Creator",
+    "type": "catalog_entry",
+    "domain": "publishing",
+    "definition": null,
+    "purpose": "Catalogue des métadonnées nécessaires à la découverte, distribution et gestion bibliographique.",
+    "tags": [
+      "bibliographic",
+      "commercial",
+      "distribution",
+      "accessibility",
+      "discovery"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "metadata.contributor",
+    "name": "Contributor",
+    "type": "catalog_entry",
+    "domain": "publishing",
+    "definition": null,
+    "purpose": "Catalogue des métadonnées nécessaires à la découverte, distribution et gestion bibliographique.",
+    "tags": [
+      "bibliographic",
+      "commercial",
+      "distribution",
+      "accessibility",
+      "discovery"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "metadata.role",
+    "name": "Role",
+    "type": "catalog_entry",
+    "domain": "publishing",
+    "definition": null,
+    "purpose": "Catalogue des métadonnées nécessaires à la découverte, distribution et gestion bibliographique.",
+    "tags": [
+      "bibliographic",
+      "commercial",
+      "distribution",
+      "accessibility",
+      "discovery"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "metadata.publisher",
+    "name": "Publisher",
+    "type": "catalog_entry",
+    "domain": "publishing",
+    "definition": null,
+    "purpose": "Catalogue des métadonnées nécessaires à la découverte, distribution et gestion bibliographique.",
+    "tags": [
+      "bibliographic",
+      "commercial",
+      "distribution",
+      "accessibility",
+      "discovery"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "metadata.publication_date",
+    "name": "Publication Date",
+    "type": "catalog_entry",
+    "domain": "publishing",
+    "definition": null,
+    "purpose": "Catalogue des métadonnées nécessaires à la découverte, distribution et gestion bibliographique.",
+    "tags": [
+      "bibliographic",
+      "commercial",
+      "distribution",
+      "accessibility",
+      "discovery"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "metadata.language",
+    "name": "Language",
+    "type": "catalog_entry",
+    "domain": "publishing",
+    "definition": null,
+    "purpose": "Catalogue des métadonnées nécessaires à la découverte, distribution et gestion bibliographique.",
+    "tags": [
+      "bibliographic",
+      "commercial",
+      "distribution",
+      "accessibility",
+      "discovery"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "metadata.isbn",
+    "name": "Isbn",
+    "type": "catalog_entry",
+    "domain": "publishing",
+    "definition": null,
+    "purpose": "Catalogue des métadonnées nécessaires à la découverte, distribution et gestion bibliographique.",
+    "tags": [
+      "bibliographic",
+      "commercial",
+      "distribution",
+      "accessibility",
+      "discovery"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "metadata.format",
+    "name": "Format",
+    "type": "catalog_entry",
+    "domain": "publishing",
+    "definition": null,
+    "purpose": "Catalogue des métadonnées nécessaires à la découverte, distribution et gestion bibliographique.",
+    "tags": [
+      "bibliographic",
+      "commercial",
+      "distribution",
+      "accessibility",
+      "discovery"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "metadata.edition",
+    "name": "Edition",
+    "type": "catalog_entry",
+    "domain": "publishing",
+    "definition": null,
+    "purpose": "Catalogue des métadonnées nécessaires à la découverte, distribution et gestion bibliographique.",
+    "tags": [
+      "bibliographic",
+      "commercial",
+      "distribution",
+      "accessibility",
+      "discovery"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "metadata.subject",
+    "name": "Subject",
+    "type": "catalog_entry",
+    "domain": "publishing",
+    "definition": null,
+    "purpose": "Catalogue des métadonnées nécessaires à la découverte, distribution et gestion bibliographique.",
+    "tags": [
+      "bibliographic",
+      "commercial",
+      "distribution",
+      "accessibility",
+      "discovery"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "metadata.bisac",
+    "name": "Bisac",
+    "type": "catalog_entry",
+    "domain": "publishing",
+    "definition": null,
+    "purpose": "Catalogue des métadonnées nécessaires à la découverte, distribution et gestion bibliographique.",
+    "tags": [
+      "bibliographic",
+      "commercial",
+      "distribution",
+      "accessibility",
+      "discovery"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "metadata.audience",
+    "name": "Audience",
+    "type": "catalog_entry",
+    "domain": "publishing",
+    "definition": null,
+    "purpose": "Catalogue des métadonnées nécessaires à la découverte, distribution et gestion bibliographique.",
+    "tags": [
+      "bibliographic",
+      "commercial",
+      "distribution",
+      "accessibility",
+      "discovery"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "metadata.price",
+    "name": "Price",
+    "type": "catalog_entry",
+    "domain": "publishing",
+    "definition": null,
+    "purpose": "Catalogue des métadonnées nécessaires à la découverte, distribution et gestion bibliographique.",
+    "tags": [
+      "bibliographic",
+      "commercial",
+      "distribution",
+      "accessibility",
+      "discovery"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "metadata.rights",
+    "name": "Rights",
+    "type": "catalog_entry",
+    "domain": "publishing",
+    "definition": null,
+    "purpose": "Catalogue des métadonnées nécessaires à la découverte, distribution et gestion bibliographique.",
+    "tags": [
+      "bibliographic",
+      "commercial",
+      "distribution",
+      "accessibility",
+      "discovery"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "metadata.description",
+    "name": "Description",
+    "type": "catalog_entry",
+    "domain": "publishing",
+    "definition": null,
+    "purpose": "Catalogue des métadonnées nécessaires à la découverte, distribution et gestion bibliographique.",
+    "tags": [
+      "bibliographic",
+      "commercial",
+      "distribution",
+      "accessibility",
+      "discovery"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "metadata.keywords",
+    "name": "Keywords",
+    "type": "catalog_entry",
+    "domain": "publishing",
+    "definition": null,
+    "purpose": "Catalogue des métadonnées nécessaires à la découverte, distribution et gestion bibliographique.",
+    "tags": [
+      "bibliographic",
+      "commercial",
+      "distribution",
+      "accessibility",
+      "discovery"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "metadata.accessibility",
+    "name": "Accessibility",
+    "type": "catalog_entry",
+    "domain": "publishing",
+    "definition": null,
+    "purpose": "Catalogue des métadonnées nécessaires à la découverte, distribution et gestion bibliographique.",
+    "tags": [
+      "bibliographic",
+      "commercial",
+      "distribution",
+      "accessibility",
+      "discovery"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  }
+]

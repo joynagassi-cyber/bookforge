@@ -1,0 +1,262 @@
+[
+  {
+    "id": "quality_metrics.sentence_length",
+    "name": "Sentence Length",
+    "type": "catalog_entry",
+    "domain": "quality",
+    "definition": null,
+    "purpose": "Métriques heuristiques pour analyser texte, scènes, chapitres et manuscrit.",
+    "tags": [
+      "sentence",
+      "paragraph",
+      "scene",
+      "chapter",
+      "book"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "quality_metrics.readability",
+    "name": "Readability",
+    "type": "catalog_entry",
+    "domain": "quality",
+    "definition": null,
+    "purpose": "Métriques heuristiques pour analyser texte, scènes, chapitres et manuscrit.",
+    "tags": [
+      "sentence",
+      "paragraph",
+      "scene",
+      "chapter",
+      "book"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "quality_metrics.lexical_diversity",
+    "name": "Lexical Diversity",
+    "type": "catalog_entry",
+    "domain": "quality",
+    "definition": null,
+    "purpose": "Métriques heuristiques pour analyser texte, scènes, chapitres et manuscrit.",
+    "tags": [
+      "sentence",
+      "paragraph",
+      "scene",
+      "chapter",
+      "book"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "quality_metrics.repetition_rate",
+    "name": "Repetition Rate",
+    "type": "catalog_entry",
+    "domain": "quality",
+    "definition": null,
+    "purpose": "Métriques heuristiques pour analyser texte, scènes, chapitres et manuscrit.",
+    "tags": [
+      "sentence",
+      "paragraph",
+      "scene",
+      "chapter",
+      "book"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "quality_metrics.dialogue_ratio",
+    "name": "Dialogue Ratio",
+    "type": "catalog_entry",
+    "domain": "quality",
+    "definition": null,
+    "purpose": "Métriques heuristiques pour analyser texte, scènes, chapitres et manuscrit.",
+    "tags": [
+      "sentence",
+      "paragraph",
+      "scene",
+      "chapter",
+      "book"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "quality_metrics.description_ratio",
+    "name": "Description Ratio",
+    "type": "catalog_entry",
+    "domain": "quality",
+    "definition": null,
+    "purpose": "Métriques heuristiques pour analyser texte, scènes, chapitres et manuscrit.",
+    "tags": [
+      "sentence",
+      "paragraph",
+      "scene",
+      "chapter",
+      "book"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "quality_metrics.scene_turn_density",
+    "name": "Scene Turn Density",
+    "type": "catalog_entry",
+    "domain": "quality",
+    "definition": null,
+    "purpose": "Métriques heuristiques pour analyser texte, scènes, chapitres et manuscrit.",
+    "tags": [
+      "sentence",
+      "paragraph",
+      "scene",
+      "chapter",
+      "book"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "quality_metrics.tension_estimate",
+    "name": "Tension Estimate",
+    "type": "catalog_entry",
+    "domain": "quality",
+    "definition": null,
+    "purpose": "Métriques heuristiques pour analyser texte, scènes, chapitres et manuscrit.",
+    "tags": [
+      "sentence",
+      "paragraph",
+      "scene",
+      "chapter",
+      "book"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "quality_metrics.pacing_variation",
+    "name": "Pacing Variation",
+    "type": "catalog_entry",
+    "domain": "quality",
+    "definition": null,
+    "purpose": "Métriques heuristiques pour analyser texte, scènes, chapitres et manuscrit.",
+    "tags": [
+      "sentence",
+      "paragraph",
+      "scene",
+      "chapter",
+      "book"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "quality_metrics.pov_distribution",
+    "name": "Pov Distribution",
+    "type": "catalog_entry",
+    "domain": "quality",
+    "definition": null,
+    "purpose": "Métriques heuristiques pour analyser texte, scènes, chapitres et manuscrit.",
+    "tags": [
+      "sentence",
+      "paragraph",
+      "scene",
+      "chapter",
+      "book"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "quality_metrics.character_presence",
+    "name": "Character Presence",
+    "type": "catalog_entry",
+    "domain": "quality",
+    "definition": null,
+    "purpose": "Métriques heuristiques pour analyser texte, scènes, chapitres et manuscrit.",
+    "tags": [
+      "sentence",
+      "paragraph",
+      "scene",
+      "chapter",
+      "book"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "quality_metrics.subplot_balance",
+    "name": "Subplot Balance",
+    "type": "catalog_entry",
+    "domain": "quality",
+    "definition": null,
+    "purpose": "Métriques heuristiques pour analyser texte, scènes, chapitres et manuscrit.",
+    "tags": [
+      "sentence",
+      "paragraph",
+      "scene",
+      "chapter",
+      "book"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "quality_metrics.unresolved_threads",
+    "name": "Unresolved Threads",
+    "type": "catalog_entry",
+    "domain": "quality",
+    "definition": null,
+    "purpose": "Métriques heuristiques pour analyser texte, scènes, chapitres et manuscrit.",
+    "tags": [
+      "sentence",
+      "paragraph",
+      "scene",
+      "chapter",
+      "book"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  }
+]

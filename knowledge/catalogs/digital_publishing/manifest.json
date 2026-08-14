@@ -1,0 +1,55 @@
+{
+  "id": "digital_publishing",
+  "name": "Digital Publishing & EPUB",
+  "domain": "production",
+  "purpose": "Catalogue des concepts de production numérique et de conformité EPUB.",
+  "priority": "P0",
+  "entry_schema": [
+    "id",
+    "name",
+    "type",
+    "definition",
+    "purpose",
+    "when_to_use",
+    "when_not_to_use",
+    "variants",
+    "strengths",
+    "risks",
+    "anti_patterns",
+    "related_ids",
+    "tags",
+    "genres",
+    "formats",
+    "agent_hints",
+    "confidence",
+    "sources",
+    "standard",
+    "version",
+    "conformance_requirement",
+    "implementation_notes"
+  ],
+  "taxonomies": [
+    "epub",
+    "web",
+    "pdf",
+    "audiobook"
+  ],
+  "relations": [
+    "implements",
+    "requires",
+    "conforms_to",
+    "tested_by"
+  ],
+  "primary_consumers": [
+    "EPUB Agent",
+    "Production Agent",
+    "Accessibility Agent"
+  ],
+  "reference_sources": [
+    "W3C EPUB 3.3 Recommendation",
+    "W3C EPUB Accessibility 1.1"
+  ],
+  "master_version": "1.0.0",
+  "integration_status": "extension",
+  "legacy_source": "catalogs/packaging-patterns.csv"
+}

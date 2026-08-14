@@ -1,0 +1,523 @@
+{
+  "version": "1.0.0",
+  "master_version": "1.0.0",
+  "catalog_count": 57,
+  "catalogs": [
+    {
+      "id": "book_primitives",
+      "name": "Book Primitives",
+      "domain": "foundation",
+      "priority": "P0",
+      "status": "new",
+      "seed_count": 50,
+      "path": "knowledge/catalogs/book_primitives"
+    },
+    {
+      "id": "book_types",
+      "name": "Book Types & Formats",
+      "domain": "conception",
+      "priority": "P0",
+      "status": "new",
+      "seed_count": 19,
+      "path": "knowledge/catalogs/book_types"
+    },
+    {
+      "id": "genres",
+      "name": "Genre System",
+      "domain": "conception",
+      "priority": "P0",
+      "status": "extension",
+      "seed_count": 34,
+      "path": "knowledge/catalogs/genres"
+    },
+    {
+      "id": "premises",
+      "name": "Ideas, Concepts & Premises",
+      "domain": "conception",
+      "priority": "P0",
+      "status": "new",
+      "seed_count": 10,
+      "path": "knowledge/catalogs/premises"
+    },
+    {
+      "id": "promises",
+      "name": "Reader Promise & Book Contract",
+      "domain": "conception",
+      "priority": "P0",
+      "status": "new",
+      "seed_count": 10,
+      "path": "knowledge/catalogs/promises"
+    },
+    {
+      "id": "themes",
+      "name": "Themes, Questions & Philosophical Tensions",
+      "domain": "conception",
+      "priority": "P0",
+      "status": "new",
+      "seed_count": 12,
+      "path": "knowledge/catalogs/themes"
+    },
+    {
+      "id": "story_structures",
+      "name": "Story Structures",
+      "domain": "narrative",
+      "priority": "P0",
+      "status": "extension",
+      "seed_count": 17,
+      "path": "knowledge/catalogs/story_structures"
+    },
+    {
+      "id": "beats",
+      "name": "Narrative Beats & Turning Points",
+      "domain": "narrative",
+      "priority": "P0",
+      "status": "new",
+      "seed_count": 21,
+      "path": "knowledge/catalogs/beats"
+    },
+    {
+      "id": "plot_patterns",
+      "name": "Plot & Causality Patterns",
+      "domain": "narrative",
+      "priority": "P0",
+      "status": "new",
+      "seed_count": 16,
+      "path": "knowledge/catalogs/plot_patterns"
+    },
+    {
+      "id": "scenes",
+      "name": "Scene Functions & Scene Architecture",
+      "domain": "narrative",
+      "priority": "P0",
+      "status": "new",
+      "seed_count": 18,
+      "path": "knowledge/catalogs/scenes"
+    },
+    {
+      "id": "conflict",
+      "name": "Conflict Systems",
+      "domain": "narrative",
+      "priority": "P0",
+      "status": "new",
+      "seed_count": 13,
+      "path": "knowledge/catalogs/conflict"
+    },
+    {
+      "id": "stakes",
+      "name": "Stakes & Consequences",
+      "domain": "narrative",
+      "priority": "P0",
+      "status": "new",
+      "seed_count": 14,
+      "path": "knowledge/catalogs/stakes"
+    },
+    {
+      "id": "pacing",
+      "name": "Pacing, Rhythm & Tension",
+      "domain": "narrative",
+      "priority": "P0",
+      "status": "new",
+      "seed_count": 8,
+      "path": "knowledge/catalogs/pacing"
+    },
+    {
+      "id": "information",
+      "name": "Information, Knowledge & Reveal Control",
+      "domain": "narrative",
+      "priority": "P0",
+      "status": "new",
+      "seed_count": 9,
+      "path": "knowledge/catalogs/information"
+    },
+    {
+      "id": "foreshadowing",
+      "name": "Foreshadowing, Plants, Setups & Payoffs",
+      "domain": "narrative",
+      "priority": "P0",
+      "status": "new",
+      "seed_count": 10,
+      "path": "knowledge/catalogs/foreshadowing"
+    },
+    {
+      "id": "characters",
+      "name": "Character Construction",
+      "domain": "character",
+      "priority": "P0",
+      "status": "new",
+      "seed_count": 11,
+      "path": "knowledge/catalogs/characters"
+    },
+    {
+      "id": "character_archetypes",
+      "name": "Character Archetypes & Functional Roles",
+      "domain": "character",
+      "priority": "P0",
+      "status": "new",
+      "seed_count": 17,
+      "path": "knowledge/catalogs/character_archetypes"
+    },
+    {
+      "id": "character_arcs",
+      "name": "Character Arcs & Transformation",
+      "domain": "character",
+      "priority": "P0",
+      "status": "new",
+      "seed_count": 12,
+      "path": "knowledge/catalogs/character_arcs"
+    },
+    {
+      "id": "relationships",
+      "name": "Relationships & Dynamics",
+      "domain": "character",
+      "priority": "P0",
+      "status": "new",
+      "seed_count": 17,
+      "path": "knowledge/catalogs/relationships"
+    },
+    {
+      "id": "worldbuilding",
+      "name": "Worldbuilding Systems",
+      "domain": "world",
+      "priority": "P0",
+      "status": "new",
+      "seed_count": 17,
+      "path": "knowledge/catalogs/worldbuilding"
+    },
+    {
+      "id": "locations",
+      "name": "Locations, Spaces & Atmosphere",
+      "domain": "world",
+      "priority": "P1",
+      "status": "new",
+      "seed_count": 19,
+      "path": "knowledge/catalogs/locations"
+    },
+    {
+      "id": "culture",
+      "name": "Culture, Society & Representation",
+      "domain": "world",
+      "priority": "P1",
+      "status": "new",
+      "seed_count": 12,
+      "path": "knowledge/catalogs/culture"
+    },
+    {
+      "id": "pov",
+      "name": "Point of View & Narrative Perspective",
+      "domain": "prose",
+      "priority": "P0",
+      "status": "new",
+      "seed_count": 8,
+      "path": "knowledge/catalogs/pov"
+    },
+    {
+      "id": "narrative_distance",
+      "name": "Narrative Distance & Focalization",
+      "domain": "prose",
+      "priority": "P0",
+      "status": "new",
+      "seed_count": 5,
+      "path": "knowledge/catalogs/narrative_distance"
+    },
+    {
+      "id": "voice",
+      "name": "Voice DNA",
+      "domain": "prose",
+      "priority": "P0",
+      "status": "extension",
+      "seed_count": 12,
+      "path": "knowledge/catalogs/voice"
+    },
+    {
+      "id": "style",
+      "name": "Prose Styles",
+      "domain": "prose",
+      "priority": "P0",
+      "status": "extension",
+      "seed_count": 10,
+      "path": "knowledge/catalogs/style"
+    },
+    {
+      "id": "tone",
+      "name": "Tone & Emotional Register",
+      "domain": "prose",
+      "priority": "P0",
+      "status": "extension",
+      "seed_count": 12,
+      "path": "knowledge/catalogs/tone"
+    },
+    {
+      "id": "dialogue",
+      "name": "Dialogue Craft",
+      "domain": "prose",
+      "priority": "P0",
+      "status": "new",
+      "seed_count": 14,
+      "path": "knowledge/catalogs/dialogue"
+    },
+    {
+      "id": "subtext",
+      "name": "Subtext & Implicit Meaning",
+      "domain": "prose",
+      "priority": "P0",
+      "status": "new",
+      "seed_count": 7,
+      "path": "knowledge/catalogs/subtext"
+    },
+    {
+      "id": "description",
+      "name": "Description & Sensory Writing",
+      "domain": "prose",
+      "priority": "P0",
+      "status": "new",
+      "seed_count": 8,
+      "path": "knowledge/catalogs/description"
+    },
+    {
+      "id": "rhetoric",
+      "name": "Rhetorical & Literary Devices",
+      "domain": "prose",
+      "priority": "P1",
+      "status": "extension",
+      "seed_count": 20,
+      "path": "knowledge/catalogs/rhetoric"
+    },
+    {
+      "id": "emotion",
+      "name": "Emotion & Affect",
+      "domain": "reader",
+      "priority": "P0",
+      "status": "new",
+      "seed_count": 20,
+      "path": "knowledge/catalogs/emotion"
+    },
+    {
+      "id": "reader_experience",
+      "name": "Reader Experience & Cognitive Effects",
+      "domain": "reader",
+      "priority": "P0",
+      "status": "extension",
+      "seed_count": 10,
+      "path": "knowledge/catalogs/reader_experience"
+    },
+    {
+      "id": "tropes",
+      "name": "Tropes & Conventions",
+      "domain": "literary",
+      "priority": "P0",
+      "status": "new",
+      "seed_count": 15,
+      "path": "knowledge/catalogs/tropes"
+    },
+    {
+      "id": "antipatterns",
+      "name": "Writing Anti-Patterns & Failure Modes",
+      "domain": "quality",
+      "priority": "P0",
+      "status": "new",
+      "seed_count": 19,
+      "path": "knowledge/catalogs/antipatterns"
+    },
+    {
+      "id": "ai_slop",
+      "name": "AI-Slop & Synthetic-Prose Patterns",
+      "domain": "quality",
+      "priority": "P0",
+      "status": "extension",
+      "seed_count": 12,
+      "path": "knowledge/catalogs/ai_slop"
+    },
+    {
+      "id": "continuity",
+      "name": "Continuity & Consistency",
+      "domain": "quality",
+      "priority": "P0",
+      "status": "new",
+      "seed_count": 10,
+      "path": "knowledge/catalogs/continuity"
+    },
+    {
+      "id": "editing",
+      "name": "Editorial Editing Methods",
+      "domain": "editing",
+      "priority": "P0",
+      "status": "new",
+      "seed_count": 10,
+      "path": "knowledge/catalogs/editing"
+    },
+    {
+      "id": "revision_strategies",
+      "name": "Revision Strategies",
+      "domain": "editing",
+      "priority": "P0",
+      "status": "new",
+      "seed_count": 14,
+      "path": "knowledge/catalogs/revision_strategies"
+    },
+    {
+      "id": "research",
+      "name": "Research & Evidence",
+      "domain": "research",
+      "priority": "P0",
+      "status": "new",
+      "seed_count": 10,
+      "path": "knowledge/catalogs/research"
+    },
+    {
+      "id": "argumentation",
+      "name": "Argumentation & Reasoning",
+      "domain": "nonfiction",
+      "priority": "P0",
+      "status": "new",
+      "seed_count": 7,
+      "path": "knowledge/catalogs/argumentation"
+    },
+    {
+      "id": "fallacies",
+      "name": "Reasoning Fallacies & Argument Risks",
+      "domain": "nonfiction",
+      "priority": "P1",
+      "status": "new",
+      "seed_count": 12,
+      "path": "knowledge/catalogs/fallacies"
+    },
+    {
+      "id": "pedagogy",
+      "name": "Educational Book & Learning Design",
+      "domain": "nonfiction",
+      "priority": "P1",
+      "status": "new",
+      "seed_count": 10,
+      "path": "knowledge/catalogs/pedagogy"
+    },
+    {
+      "id": "examples",
+      "name": "Examples, Cases & Analogies",
+      "domain": "nonfiction",
+      "priority": "P1",
+      "status": "new",
+      "seed_count": 9,
+      "path": "knowledge/catalogs/examples"
+    },
+    {
+      "id": "language",
+      "name": "Language, Lexicon & Semantics",
+      "domain": "language",
+      "priority": "P0",
+      "status": "new",
+      "seed_count": 10,
+      "path": "knowledge/catalogs/language"
+    },
+    {
+      "id": "quality_metrics",
+      "name": "Writing Quality Metrics",
+      "domain": "quality",
+      "priority": "P0",
+      "status": "extension",
+      "seed_count": 13,
+      "path": "knowledge/catalogs/quality_metrics"
+    },
+    {
+      "id": "book_structure",
+      "name": "Book Architecture & Front/Back Matter",
+      "domain": "production",
+      "priority": "P0",
+      "status": "extension",
+      "seed_count": 20,
+      "path": "knowledge/catalogs/book_structure"
+    },
+    {
+      "id": "typography",
+      "name": "Book Typography & Typesetting",
+      "domain": "production",
+      "priority": "P1",
+      "status": "extension",
+      "seed_count": 13,
+      "path": "knowledge/catalogs/typography"
+    },
+    {
+      "id": "layout",
+      "name": "Book Layout & Page Architecture",
+      "domain": "production",
+      "priority": "P1",
+      "status": "extension",
+      "seed_count": 13,
+      "path": "knowledge/catalogs/layout"
+    },
+    {
+      "id": "digital_publishing",
+      "name": "Digital Publishing & EPUB",
+      "domain": "production",
+      "priority": "P0",
+      "status": "extension",
+      "seed_count": 11,
+      "path": "knowledge/catalogs/digital_publishing"
+    },
+    {
+      "id": "accessibility",
+      "name": "Book Accessibility",
+      "domain": "production",
+      "priority": "P0",
+      "status": "extension",
+      "seed_count": 10,
+      "path": "knowledge/catalogs/accessibility"
+    },
+    {
+      "id": "metadata",
+      "name": "Book Metadata & Bibliographic Description",
+      "domain": "publishing",
+      "priority": "P0",
+      "status": "new",
+      "seed_count": 19,
+      "path": "knowledge/catalogs/metadata"
+    },
+    {
+      "id": "marketing",
+      "name": "Book Positioning & Marketing",
+      "domain": "publishing",
+      "priority": "P1",
+      "status": "extension",
+      "seed_count": 13,
+      "path": "knowledge/catalogs/marketing"
+    },
+    {
+      "id": "sources_registry",
+      "name": "Source Registry & Provenance",
+      "domain": "governance",
+      "priority": "P0",
+      "status": "new",
+      "seed_count": 8,
+      "path": "knowledge/catalogs/sources_registry"
+    },
+    {
+      "id": "originality_similarity",
+      "name": "Originality Similarity",
+      "domain": "quality",
+      "priority": "P0",
+      "status": "extension",
+      "seed_count": 0,
+      "path": "knowledge/extensions/quality-integrity-v1.0/manifest.json"
+    },
+    {
+      "id": "cliche_library",
+      "name": "Cliche Library",
+      "domain": "quality",
+      "priority": "P0",
+      "status": "extension",
+      "seed_count": 0,
+      "path": "knowledge/extensions/quality-integrity-v1.0/manifest.json"
+    },
+    {
+      "id": "human_voice",
+      "name": "Human Voice",
+      "domain": "quality",
+      "priority": "P0",
+      "status": "extension",
+      "seed_count": 0,
+      "path": "knowledge/extensions/quality-integrity-v1.0/manifest.json"
+    }
+  ],
+  "master_catalog_count": 54,
+  "extension_catalog_count": 3,
+  "total_catalogs": 57
+}

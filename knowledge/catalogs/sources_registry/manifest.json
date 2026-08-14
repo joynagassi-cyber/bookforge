@@ -1,0 +1,52 @@
+{
+  "id": "sources_registry",
+  "name": "Source Registry & Provenance",
+  "domain": "governance",
+  "purpose": "Registre des sources et de leur qualité, licence, date et statut de vérification.",
+  "priority": "P0",
+  "entry_schema": [
+    "id",
+    "title",
+    "author",
+    "publisher",
+    "url",
+    "license",
+    "source_type",
+    "date_accessed",
+    "reliability",
+    "scope",
+    "notes",
+    "used_by_entries"
+  ],
+  "taxonomies": [
+    "primary",
+    "standard",
+    "official",
+    "academic",
+    "professional",
+    "community",
+    "secondary"
+  ],
+  "relations": [
+    "supports_entry",
+    "contradicts_entry",
+    "supersedes",
+    "derived_from"
+  ],
+  "primary_consumers": [
+    "Research Agent",
+    "Catalog Curator",
+    "All knowledge-consuming agents"
+  ],
+  "reference_sources": [
+    "W3C",
+    "Library of Congress",
+    "Princeton WordNet",
+    "Open English WordNet",
+    "DAISY",
+    "ISO"
+  ],
+  "master_version": "1.0.0",
+  "integration_status": "new",
+  "legacy_source": null
+}

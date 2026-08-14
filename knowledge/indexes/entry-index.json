@@ -1,0 +1,3754 @@
+{
+  "entries": [
+    {
+      "catalog_id": "accessibility",
+      "domain": "production",
+      "id": "accessibility.accessible_tables"
+    },
+    {
+      "catalog_id": "accessibility",
+      "domain": "production",
+      "id": "accessibility.alt_text"
+    },
+    {
+      "catalog_id": "accessibility",
+      "domain": "production",
+      "id": "accessibility.extended_description"
+    },
+    {
+      "catalog_id": "accessibility",
+      "domain": "production",
+      "id": "accessibility.language_metadata"
+    },
+    {
+      "catalog_id": "accessibility",
+      "domain": "production",
+      "id": "accessibility.logical_reading_order"
+    },
+    {
+      "catalog_id": "accessibility",
+      "domain": "production",
+      "id": "accessibility.page_navigation"
+    },
+    {
+      "catalog_id": "accessibility",
+      "domain": "production",
+      "id": "accessibility.reflow"
+    },
+    {
+      "catalog_id": "accessibility",
+      "domain": "production",
+      "id": "accessibility.semantic_structure"
+    },
+    {
+      "catalog_id": "accessibility",
+      "domain": "production",
+      "id": "accessibility.text_resizing"
+    },
+    {
+      "catalog_id": "accessibility",
+      "domain": "production",
+      "id": "accessibility.toc_navigation"
+    },
+    {
+      "catalog_id": "ai_slop",
+      "domain": "quality",
+      "id": "ai_slop.bulletization_of_prose"
+    },
+    {
+      "catalog_id": "ai_slop",
+      "domain": "quality",
+      "id": "ai_slop.excessive_balanced_contrast"
+    },
+    {
+      "catalog_id": "ai_slop",
+      "domain": "quality",
+      "id": "ai_slop.fake_specificity"
+    },
+    {
+      "catalog_id": "ai_slop",
+      "domain": "quality",
+      "id": "ai_slop.formulaic_summary"
+    },
+    {
+      "catalog_id": "ai_slop",
+      "domain": "quality",
+      "id": "ai_slop.generic_emotional_label"
+    },
+    {
+      "catalog_id": "ai_slop",
+      "domain": "quality",
+      "id": "ai_slop.generic_transition"
+    },
+    {
+      "catalog_id": "ai_slop",
+      "domain": "quality",
+      "id": "ai_slop.hedging_clusters"
+    },
+    {
+      "catalog_id": "ai_slop",
+      "domain": "quality",
+      "id": "ai_slop.over_explaining"
+    },
+    {
+      "catalog_id": "ai_slop",
+      "domain": "quality",
+      "id": "ai_slop.overuse_of_headings"
+    },
+    {
+      "catalog_id": "ai_slop",
+      "domain": "quality",
+      "id": "ai_slop.repetitive_conclusion"
+    },
+    {
+      "catalog_id": "ai_slop",
+      "domain": "quality",
+      "id": "ai_slop.repetitive_emphasis"
+    },
+    {
+      "catalog_id": "ai_slop",
+      "domain": "quality",
+      "id": "ai_slop.synthetic_enthusiasm"
+    },
+    {
+      "catalog_id": "antipatterns",
+      "domain": "quality",
+      "id": "antipatterns.adverb_overuse"
+    },
+    {
+      "catalog_id": "antipatterns",
+      "domain": "quality",
+      "id": "antipatterns.character_voice_convergence"
+    },
+    {
+      "catalog_id": "antipatterns",
+      "domain": "quality",
+      "id": "antipatterns.cliche"
+    },
+    {
+      "catalog_id": "antipatterns",
+      "domain": "quality",
+      "id": "antipatterns.contrived_conflict"
+    },
+    {
+      "catalog_id": "antipatterns",
+      "domain": "quality",
+      "id": "antipatterns.deus_ex_machina"
+    },
+    {
+      "catalog_id": "antipatterns",
+      "domain": "quality",
+      "id": "antipatterns.emotional_labeling"
+    },
+    {
+      "catalog_id": "antipatterns",
+      "domain": "quality",
+      "id": "antipatterns.exposition_dump"
+    },
+    {
+      "catalog_id": "antipatterns",
+      "domain": "quality",
+      "id": "antipatterns.false_depth"
+    },
+    {
+      "catalog_id": "antipatterns",
+      "domain": "quality",
+      "id": "antipatterns.flat_scene"
+    },
+    {
+      "catalog_id": "antipatterns",
+      "domain": "quality",
+      "id": "antipatterns.generic_opening"
+    },
+    {
+      "catalog_id": "antipatterns",
+      "domain": "quality",
+      "id": "antipatterns.info_dump"
+    },
+    {
+      "catalog_id": "antipatterns",
+      "domain": "quality",
+      "id": "antipatterns.no_scene_turn"
+    },
+    {
+      "catalog_id": "antipatterns",
+      "domain": "quality",
+      "id": "antipatterns.passive_character"
+    },
+    {
+      "catalog_id": "antipatterns",
+      "domain": "quality",
+      "id": "antipatterns.plot_convenience"
+    },
+    {
+      "catalog_id": "antipatterns",
+      "domain": "quality",
+      "id": "antipatterns.purple_prose"
+    },
+    {
+      "catalog_id": "antipatterns",
+      "domain": "quality",
+      "id": "antipatterns.repetitive_sentence_structure"
+    },
+    {
+      "catalog_id": "antipatterns",
+      "domain": "quality",
+      "id": "antipatterns.telling_instead_of_showing"
+    },
+    {
+      "catalog_id": "antipatterns",
+      "domain": "quality",
+      "id": "antipatterns.theme_restatement"
+    },
+    {
+      "catalog_id": "antipatterns",
+      "domain": "quality",
+      "id": "antipatterns.weak_verbs"
+    },
+    {
+      "catalog_id": "argumentation",
+      "domain": "nonfiction",
+      "id": "argumentation.case_study"
+    },
+    {
+      "catalog_id": "argumentation",
+      "domain": "nonfiction",
+      "id": "argumentation.cause_effect"
+    },
+    {
+      "catalog_id": "argumentation",
+      "domain": "nonfiction",
+      "id": "argumentation.claim_evidence_reasoning"
+    },
+    {
+      "catalog_id": "argumentation",
+      "domain": "nonfiction",
+      "id": "argumentation.compare_contrast"
+    },
+    {
+      "catalog_id": "argumentation",
+      "domain": "nonfiction",
+      "id": "argumentation.counterargument_rebuttal"
+    },
+    {
+      "catalog_id": "argumentation",
+      "domain": "nonfiction",
+      "id": "argumentation.principle_application"
+    },
+    {
+      "catalog_id": "argumentation",
+      "domain": "nonfiction",
+      "id": "argumentation.problem_solution"
+    },
+    {
+      "catalog_id": "beats",
+      "domain": "narrative",
+      "id": "beats.call_to_action"
+    },
+    {
+      "catalog_id": "beats",
+      "domain": "narrative",
+      "id": "beats.callback"
+    },
+    {
+      "catalog_id": "beats",
+      "domain": "narrative",
+      "id": "beats.climax"
+    },
+    {
+      "catalog_id": "beats",
+      "domain": "narrative",
+      "id": "beats.commitment"
+    },
+    {
+      "catalog_id": "beats",
+      "domain": "narrative",
+      "id": "beats.crisis"
+    },
+    {
+      "catalog_id": "beats",
+      "domain": "narrative",
+      "id": "beats.dark_night"
+    },
+    {
+      "catalog_id": "beats",
+      "domain": "narrative",
+      "id": "beats.decision"
+    },
+    {
+      "catalog_id": "beats",
+      "domain": "narrative",
+      "id": "beats.false_defeat"
+    },
+    {
+      "catalog_id": "beats",
+      "domain": "narrative",
+      "id": "beats.false_victory"
+    },
+    {
+      "catalog_id": "beats",
+      "domain": "narrative",
+      "id": "beats.first_threshold"
+    },
+    {
+      "catalog_id": "beats",
+      "domain": "narrative",
+      "id": "beats.hook"
+    },
+    {
+      "catalog_id": "beats",
+      "domain": "narrative",
+      "id": "beats.inciting_incident"
+    },
+    {
+      "catalog_id": "beats",
+      "domain": "narrative",
+      "id": "beats.major_reversal"
+    },
+    {
+      "catalog_id": "beats",
+      "domain": "narrative",
+      "id": "beats.midpoint"
+    },
+    {
+      "catalog_id": "beats",
+      "domain": "narrative",
+      "id": "beats.payoff"
+    },
+    {
+      "catalog_id": "beats",
+      "domain": "narrative",
+      "id": "beats.progressive_complications"
+    },
+    {
+      "catalog_id": "beats",
+      "domain": "narrative",
+      "id": "beats.refusal"
+    },
+    {
+      "catalog_id": "beats",
+      "domain": "narrative",
+      "id": "beats.resolution"
+    },
+    {
+      "catalog_id": "beats",
+      "domain": "narrative",
+      "id": "beats.revelation"
+    },
+    {
+      "catalog_id": "beats",
+      "domain": "narrative",
+      "id": "beats.sacrifice"
+    },
+    {
+      "catalog_id": "beats",
+      "domain": "narrative",
+      "id": "beats.setup"
+    },
+    {
+      "catalog_id": "book_primitives",
+      "domain": "foundation",
+      "id": "book_primitives.action"
+    },
+    {
+      "catalog_id": "book_primitives",
+      "domain": "foundation",
+      "id": "book_primitives.arc"
+    },
+    {
+      "catalog_id": "book_primitives",
+      "domain": "foundation",
+      "id": "book_primitives.beat"
+    },
+    {
+      "catalog_id": "book_primitives",
+      "domain": "foundation",
+      "id": "book_primitives.belief"
+    },
+    {
+      "catalog_id": "book_primitives",
+      "domain": "foundation",
+      "id": "book_primitives.book"
+    },
+    {
+      "catalog_id": "book_primitives",
+      "domain": "foundation",
+      "id": "book_primitives.chapter"
+    },
+    {
+      "catalog_id": "book_primitives",
+      "domain": "foundation",
+      "id": "book_primitives.character"
+    },
+    {
+      "catalog_id": "book_primitives",
+      "domain": "foundation",
+      "id": "book_primitives.choice"
+    },
+    {
+      "catalog_id": "book_primitives",
+      "domain": "foundation",
+      "id": "book_primitives.claim"
+    },
+    {
+      "catalog_id": "book_primitives",
+      "domain": "foundation",
+      "id": "book_primitives.clue"
+    },
+    {
+      "catalog_id": "book_primitives",
+      "domain": "foundation",
+      "id": "book_primitives.concept"
+    },
+    {
+      "catalog_id": "book_primitives",
+      "domain": "foundation",
+      "id": "book_primitives.conflict"
+    },
+    {
+      "catalog_id": "book_primitives",
+      "domain": "foundation",
+      "id": "book_primitives.consequence"
+    },
+    {
+      "catalog_id": "book_primitives",
+      "domain": "foundation",
+      "id": "book_primitives.description"
+    },
+    {
+      "catalog_id": "book_primitives",
+      "domain": "foundation",
+      "id": "book_primitives.desire"
+    },
+    {
+      "catalog_id": "book_primitives",
+      "domain": "foundation",
+      "id": "book_primitives.dialogue"
+    },
+    {
+      "catalog_id": "book_primitives",
+      "domain": "foundation",
+      "id": "book_primitives.emotion"
+    },
+    {
+      "catalog_id": "book_primitives",
+      "domain": "foundation",
+      "id": "book_primitives.event"
+    },
+    {
+      "catalog_id": "book_primitives",
+      "domain": "foundation",
+      "id": "book_primitives.evidence"
+    },
+    {
+      "catalog_id": "book_primitives",
+      "domain": "foundation",
+      "id": "book_primitives.fact"
+    },
+    {
+      "catalog_id": "book_primitives",
+      "domain": "foundation",
+      "id": "book_primitives.fear"
+    },
+    {
+      "catalog_id": "book_primitives",
+      "domain": "foundation",
+      "id": "book_primitives.foreshadow"
+    },
+    {
+      "catalog_id": "book_primitives",
+      "domain": "foundation",
+      "id": "book_primitives.goal"
+    },
+    {
+      "catalog_id": "book_primitives",
+      "domain": "foundation",
+      "id": "book_primitives.idea"
+    },
+    {
+      "catalog_id": "book_primitives",
+      "domain": "foundation",
+      "id": "book_primitives.image"
+    },
+    {
+      "catalog_id": "book_primitives",
+      "domain": "foundation",
+      "id": "book_primitives.information"
+    },
+    {
+      "catalog_id": "book_primitives",
+      "domain": "foundation",
+      "id": "book_primitives.location"
+    },
+    {
+      "catalog_id": "book_primitives",
+      "domain": "foundation",
+      "id": "book_primitives.metaphor"
+    },
+    {
+      "catalog_id": "book_primitives",
+      "domain": "foundation",
+      "id": "book_primitives.motif"
+    },
+    {
+      "catalog_id": "book_primitives",
+      "domain": "foundation",
+      "id": "book_primitives.need"
+    },
+    {
+      "catalog_id": "book_primitives",
+      "domain": "foundation",
+      "id": "book_primitives.object"
+    },
+    {
+      "catalog_id": "book_primitives",
+      "domain": "foundation",
+      "id": "book_primitives.obstacle"
+    },
+    {
+      "catalog_id": "book_primitives",
+      "domain": "foundation",
+      "id": "book_primitives.part"
+    },
+    {
+      "catalog_id": "book_primitives",
+      "domain": "foundation",
+      "id": "book_primitives.payoff"
+    },
+    {
+      "catalog_id": "book_primitives",
+      "domain": "foundation",
+      "id": "book_primitives.premise"
+    },
+    {
+      "catalog_id": "book_primitives",
+      "domain": "foundation",
+      "id": "book_primitives.promise"
+    },
+    {
+      "catalog_id": "book_primitives",
+      "domain": "foundation",
+      "id": "book_primitives.question"
+    },
+    {
+      "catalog_id": "book_primitives",
+      "domain": "foundation",
+      "id": "book_primitives.relationship"
+    },
+    {
+      "catalog_id": "book_primitives",
+      "domain": "foundation",
+      "id": "book_primitives.reveal"
+    },
+    {
+      "catalog_id": "book_primitives",
+      "domain": "foundation",
+      "id": "book_primitives.revision"
+    },
+    {
+      "catalog_id": "book_primitives",
+      "domain": "foundation",
+      "id": "book_primitives.role"
+    },
+    {
+      "catalog_id": "book_primitives",
+      "domain": "foundation",
+      "id": "book_primitives.scene"
+    },
+    {
+      "catalog_id": "book_primitives",
+      "domain": "foundation",
+      "id": "book_primitives.secret"
+    },
+    {
+      "catalog_id": "book_primitives",
+      "domain": "foundation",
+      "id": "book_primitives.source"
+    },
+    {
+      "catalog_id": "book_primitives",
+      "domain": "foundation",
+      "id": "book_primitives.style"
+    },
+    {
+      "catalog_id": "book_primitives",
+      "domain": "foundation",
+      "id": "book_primitives.symbol"
+    },
+    {
+      "catalog_id": "book_primitives",
+      "domain": "foundation",
+      "id": "book_primitives.theme"
+    },
+    {
+      "catalog_id": "book_primitives",
+      "domain": "foundation",
+      "id": "book_primitives.tone"
+    },
+    {
+      "catalog_id": "book_primitives",
+      "domain": "foundation",
+      "id": "book_primitives.voice"
+    },
+    {
+      "catalog_id": "book_primitives",
+      "domain": "foundation",
+      "id": "book_primitives.wound"
+    },
+    {
+      "catalog_id": "book_structure",
+      "domain": "production",
+      "id": "book_structure.acknowledgements"
+    },
+    {
+      "catalog_id": "book_structure",
+      "domain": "production",
+      "id": "book_structure.afterword"
+    },
+    {
+      "catalog_id": "book_structure",
+      "domain": "production",
+      "id": "book_structure.appendix"
+    },
+    {
+      "catalog_id": "book_structure",
+      "domain": "production",
+      "id": "book_structure.author_bio"
+    },
+    {
+      "catalog_id": "book_structure",
+      "domain": "production",
+      "id": "book_structure.bibliography"
+    },
+    {
+      "catalog_id": "book_structure",
+      "domain": "production",
+      "id": "book_structure.chapters"
+    },
+    {
+      "catalog_id": "book_structure",
+      "domain": "production",
+      "id": "book_structure.copyright"
+    },
+    {
+      "catalog_id": "book_structure",
+      "domain": "production",
+      "id": "book_structure.dedication"
+    },
+    {
+      "catalog_id": "book_structure",
+      "domain": "production",
+      "id": "book_structure.epigraph"
+    },
+    {
+      "catalog_id": "book_structure",
+      "domain": "production",
+      "id": "book_structure.epilogue"
+    },
+    {
+      "catalog_id": "book_structure",
+      "domain": "production",
+      "id": "book_structure.foreword"
+    },
+    {
+      "catalog_id": "book_structure",
+      "domain": "production",
+      "id": "book_structure.glossary"
+    },
+    {
+      "catalog_id": "book_structure",
+      "domain": "production",
+      "id": "book_structure.half_title"
+    },
+    {
+      "catalog_id": "book_structure",
+      "domain": "production",
+      "id": "book_structure.index"
+    },
+    {
+      "catalog_id": "book_structure",
+      "domain": "production",
+      "id": "book_structure.introduction"
+    },
+    {
+      "catalog_id": "book_structure",
+      "domain": "production",
+      "id": "book_structure.notes"
+    },
+    {
+      "catalog_id": "book_structure",
+      "domain": "production",
+      "id": "book_structure.parts"
+    },
+    {
+      "catalog_id": "book_structure",
+      "domain": "production",
+      "id": "book_structure.preface"
+    },
+    {
+      "catalog_id": "book_structure",
+      "domain": "production",
+      "id": "book_structure.title_page"
+    },
+    {
+      "catalog_id": "book_structure",
+      "domain": "production",
+      "id": "book_structure.toc"
+    },
+    {
+      "catalog_id": "book_types",
+      "domain": "conception",
+      "id": "book_types.academic_monograph"
+    },
+    {
+      "catalog_id": "book_types",
+      "domain": "conception",
+      "id": "book_types.biography"
+    },
+    {
+      "catalog_id": "book_types",
+      "domain": "conception",
+      "id": "book_types.business_book"
+    },
+    {
+      "catalog_id": "book_types",
+      "domain": "conception",
+      "id": "book_types.essay_collection"
+    },
+    {
+      "catalog_id": "book_types",
+      "domain": "conception",
+      "id": "book_types.graphic_novel"
+    },
+    {
+      "catalog_id": "book_types",
+      "domain": "conception",
+      "id": "book_types.manual"
+    },
+    {
+      "catalog_id": "book_types",
+      "domain": "conception",
+      "id": "book_types.memoir"
+    },
+    {
+      "catalog_id": "book_types",
+      "domain": "conception",
+      "id": "book_types.middle_grade"
+    },
+    {
+      "catalog_id": "book_types",
+      "domain": "conception",
+      "id": "book_types.novel"
+    },
+    {
+      "catalog_id": "book_types",
+      "domain": "conception",
+      "id": "book_types.novella"
+    },
+    {
+      "catalog_id": "book_types",
+      "domain": "conception",
+      "id": "book_types.picture_book"
+    },
+    {
+      "catalog_id": "book_types",
+      "domain": "conception",
+      "id": "book_types.poetry_collection"
+    },
+    {
+      "catalog_id": "book_types",
+      "domain": "conception",
+      "id": "book_types.reference_book"
+    },
+    {
+      "catalog_id": "book_types",
+      "domain": "conception",
+      "id": "book_types.screenplay"
+    },
+    {
+      "catalog_id": "book_types",
+      "domain": "conception",
+      "id": "book_types.self_help"
+    },
+    {
+      "catalog_id": "book_types",
+      "domain": "conception",
+      "id": "book_types.short_story_collection"
+    },
+    {
+      "catalog_id": "book_types",
+      "domain": "conception",
+      "id": "book_types.textbook"
+    },
+    {
+      "catalog_id": "book_types",
+      "domain": "conception",
+      "id": "book_types.workbook"
+    },
+    {
+      "catalog_id": "book_types",
+      "domain": "conception",
+      "id": "book_types.young_adult"
+    },
+    {
+      "catalog_id": "character_archetypes",
+      "domain": "character",
+      "id": "character_archetypes.caregiver"
+    },
+    {
+      "catalog_id": "character_archetypes",
+      "domain": "character",
+      "id": "character_archetypes.creator"
+    },
+    {
+      "catalog_id": "character_archetypes",
+      "domain": "character",
+      "id": "character_archetypes.everyman"
+    },
+    {
+      "catalog_id": "character_archetypes",
+      "domain": "character",
+      "id": "character_archetypes.explorer"
+    },
+    {
+      "catalog_id": "character_archetypes",
+      "domain": "character",
+      "id": "character_archetypes.herald"
+    },
+    {
+      "catalog_id": "character_archetypes",
+      "domain": "character",
+      "id": "character_archetypes.hero"
+    },
+    {
+      "catalog_id": "character_archetypes",
+      "domain": "character",
+      "id": "character_archetypes.innocent"
+    },
+    {
+      "catalog_id": "character_archetypes",
+      "domain": "character",
+      "id": "character_archetypes.jester"
+    },
+    {
+      "catalog_id": "character_archetypes",
+      "domain": "character",
+      "id": "character_archetypes.lover"
+    },
+    {
+      "catalog_id": "character_archetypes",
+      "domain": "character",
+      "id": "character_archetypes.mentor"
+    },
+    {
+      "catalog_id": "character_archetypes",
+      "domain": "character",
+      "id": "character_archetypes.rebel"
+    },
+    {
+      "catalog_id": "character_archetypes",
+      "domain": "character",
+      "id": "character_archetypes.ruler"
+    },
+    {
+      "catalog_id": "character_archetypes",
+      "domain": "character",
+      "id": "character_archetypes.sage"
+    },
+    {
+      "catalog_id": "character_archetypes",
+      "domain": "character",
+      "id": "character_archetypes.shadow"
+    },
+    {
+      "catalog_id": "character_archetypes",
+      "domain": "character",
+      "id": "character_archetypes.shapeshifter"
+    },
+    {
+      "catalog_id": "character_archetypes",
+      "domain": "character",
+      "id": "character_archetypes.threshold_guardian"
+    },
+    {
+      "catalog_id": "character_archetypes",
+      "domain": "character",
+      "id": "character_archetypes.trickster"
+    },
+    {
+      "catalog_id": "character_arcs",
+      "domain": "character",
+      "id": "character_arcs.acceptance"
+    },
+    {
+      "catalog_id": "character_arcs",
+      "domain": "character",
+      "id": "character_arcs.awakening"
+    },
+    {
+      "catalog_id": "character_arcs",
+      "domain": "character",
+      "id": "character_arcs.corruption"
+    },
+    {
+      "catalog_id": "character_arcs",
+      "domain": "character",
+      "id": "character_arcs.disillusionment"
+    },
+    {
+      "catalog_id": "character_arcs",
+      "domain": "character",
+      "id": "character_arcs.flat_arc"
+    },
+    {
+      "catalog_id": "character_arcs",
+      "domain": "character",
+      "id": "character_arcs.identity_reconstruction"
+    },
+    {
+      "catalog_id": "character_arcs",
+      "domain": "character",
+      "id": "character_arcs.maturation"
+    },
+    {
+      "catalog_id": "character_arcs",
+      "domain": "character",
+      "id": "character_arcs.negative_change"
+    },
+    {
+      "catalog_id": "character_arcs",
+      "domain": "character",
+      "id": "character_arcs.positive_change"
+    },
+    {
+      "catalog_id": "character_arcs",
+      "domain": "character",
+      "id": "character_arcs.redemption"
+    },
+    {
+      "catalog_id": "character_arcs",
+      "domain": "character",
+      "id": "character_arcs.revenge"
+    },
+    {
+      "catalog_id": "character_arcs",
+      "domain": "character",
+      "id": "character_arcs.sacrifice"
+    },
+    {
+      "catalog_id": "characters",
+      "domain": "character",
+      "id": "characters.attachment"
+    },
+    {
+      "catalog_id": "characters",
+      "domain": "character",
+      "id": "characters.competence"
+    },
+    {
+      "catalog_id": "characters",
+      "domain": "character",
+      "id": "characters.contradiction"
+    },
+    {
+      "catalog_id": "characters",
+      "domain": "character",
+      "id": "characters.false_belief"
+    },
+    {
+      "catalog_id": "characters",
+      "domain": "character",
+      "id": "characters.identity"
+    },
+    {
+      "catalog_id": "characters",
+      "domain": "character",
+      "id": "characters.moral_line"
+    },
+    {
+      "catalog_id": "characters",
+      "domain": "character",
+      "id": "characters.obsession"
+    },
+    {
+      "catalog_id": "characters",
+      "domain": "character",
+      "id": "characters.secret"
+    },
+    {
+      "catalog_id": "characters",
+      "domain": "character",
+      "id": "characters.vulnerability"
+    },
+    {
+      "catalog_id": "characters",
+      "domain": "character",
+      "id": "characters.want_need_gap"
+    },
+    {
+      "catalog_id": "characters",
+      "domain": "character",
+      "id": "characters.wound"
+    },
+    {
+      "catalog_id": "conflict",
+      "domain": "narrative",
+      "id": "conflict.information_conflict"
+    },
+    {
+      "catalog_id": "conflict",
+      "domain": "narrative",
+      "id": "conflict.moral_dilemma"
+    },
+    {
+      "catalog_id": "conflict",
+      "domain": "narrative",
+      "id": "conflict.person_vs_fate"
+    },
+    {
+      "catalog_id": "conflict",
+      "domain": "narrative",
+      "id": "conflict.person_vs_institution"
+    },
+    {
+      "catalog_id": "conflict",
+      "domain": "narrative",
+      "id": "conflict.person_vs_nature"
+    },
+    {
+      "catalog_id": "conflict",
+      "domain": "narrative",
+      "id": "conflict.person_vs_person"
+    },
+    {
+      "catalog_id": "conflict",
+      "domain": "narrative",
+      "id": "conflict.person_vs_self"
+    },
+    {
+      "catalog_id": "conflict",
+      "domain": "narrative",
+      "id": "conflict.person_vs_society"
+    },
+    {
+      "catalog_id": "conflict",
+      "domain": "narrative",
+      "id": "conflict.person_vs_technology"
+    },
+    {
+      "catalog_id": "conflict",
+      "domain": "narrative",
+      "id": "conflict.person_vs_time"
+    },
+    {
+      "catalog_id": "conflict",
+      "domain": "narrative",
+      "id": "conflict.resource_conflict"
+    },
+    {
+      "catalog_id": "conflict",
+      "domain": "narrative",
+      "id": "conflict.status_conflict"
+    },
+    {
+      "catalog_id": "conflict",
+      "domain": "narrative",
+      "id": "conflict.value_conflict"
+    },
+    {
+      "catalog_id": "continuity",
+      "domain": "quality",
+      "id": "continuity.age_mismatch"
+    },
+    {
+      "catalog_id": "continuity",
+      "domain": "quality",
+      "id": "continuity.injury_mismatch"
+    },
+    {
+      "catalog_id": "continuity",
+      "domain": "quality",
+      "id": "continuity.knowledge_leak"
+    },
+    {
+      "catalog_id": "continuity",
+      "domain": "quality",
+      "id": "continuity.location_mismatch"
+    },
+    {
+      "catalog_id": "continuity",
+      "domain": "quality",
+      "id": "continuity.name_inconsistency"
+    },
+    {
+      "catalog_id": "continuity",
+      "domain": "quality",
+      "id": "continuity.object_mismatch"
+    },
+    {
+      "catalog_id": "continuity",
+      "domain": "quality",
+      "id": "continuity.relationship_state_mismatch"
+    },
+    {
+      "catalog_id": "continuity",
+      "domain": "quality",
+      "id": "continuity.timeline_gap"
+    },
+    {
+      "catalog_id": "continuity",
+      "domain": "quality",
+      "id": "continuity.travel_impossibility"
+    },
+    {
+      "catalog_id": "continuity",
+      "domain": "quality",
+      "id": "continuity.world_rule_violation"
+    },
+    {
+      "catalog_id": "culture",
+      "domain": "world",
+      "id": "culture.coming_of_age"
+    },
+    {
+      "catalog_id": "culture",
+      "domain": "world",
+      "id": "culture.gift_exchange"
+    },
+    {
+      "catalog_id": "culture",
+      "domain": "world",
+      "id": "culture.greeting"
+    },
+    {
+      "catalog_id": "culture",
+      "domain": "world",
+      "id": "culture.honor"
+    },
+    {
+      "catalog_id": "culture",
+      "domain": "world",
+      "id": "culture.hospitality"
+    },
+    {
+      "catalog_id": "culture",
+      "domain": "world",
+      "id": "culture.kinship"
+    },
+    {
+      "catalog_id": "culture",
+      "domain": "world",
+      "id": "culture.marriage"
+    },
+    {
+      "catalog_id": "culture",
+      "domain": "world",
+      "id": "culture.mourning"
+    },
+    {
+      "catalog_id": "culture",
+      "domain": "world",
+      "id": "culture.ritual"
+    },
+    {
+      "catalog_id": "culture",
+      "domain": "world",
+      "id": "culture.shame"
+    },
+    {
+      "catalog_id": "culture",
+      "domain": "world",
+      "id": "culture.status_markers"
+    },
+    {
+      "catalog_id": "culture",
+      "domain": "world",
+      "id": "culture.taboo"
+    },
+    {
+      "catalog_id": "description",
+      "domain": "prose",
+      "id": "description.atmosphere"
+    },
+    {
+      "catalog_id": "description",
+      "domain": "prose",
+      "id": "description.characterization"
+    },
+    {
+      "catalog_id": "description",
+      "domain": "prose",
+      "id": "description.emotional_amplification"
+    },
+    {
+      "catalog_id": "description",
+      "domain": "prose",
+      "id": "description.foreshadowing"
+    },
+    {
+      "catalog_id": "description",
+      "domain": "prose",
+      "id": "description.orientation"
+    },
+    {
+      "catalog_id": "description",
+      "domain": "prose",
+      "id": "description.pacing"
+    },
+    {
+      "catalog_id": "description",
+      "domain": "prose",
+      "id": "description.symbolism"
+    },
+    {
+      "catalog_id": "description",
+      "domain": "prose",
+      "id": "description.worldbuilding"
+    },
+    {
+      "catalog_id": "dialogue",
+      "domain": "prose",
+      "id": "dialogue.argument"
+    },
+    {
+      "catalog_id": "dialogue",
+      "domain": "prose",
+      "id": "dialogue.banter"
+    },
+    {
+      "catalog_id": "dialogue",
+      "domain": "prose",
+      "id": "dialogue.confession"
+    },
+    {
+      "catalog_id": "dialogue",
+      "domain": "prose",
+      "id": "dialogue.evasion"
+    },
+    {
+      "catalog_id": "dialogue",
+      "domain": "prose",
+      "id": "dialogue.flirtation"
+    },
+    {
+      "catalog_id": "dialogue",
+      "domain": "prose",
+      "id": "dialogue.interrogation"
+    },
+    {
+      "catalog_id": "dialogue",
+      "domain": "prose",
+      "id": "dialogue.interruption"
+    },
+    {
+      "catalog_id": "dialogue",
+      "domain": "prose",
+      "id": "dialogue.manipulation"
+    },
+    {
+      "catalog_id": "dialogue",
+      "domain": "prose",
+      "id": "dialogue.negotiation"
+    },
+    {
+      "catalog_id": "dialogue",
+      "domain": "prose",
+      "id": "dialogue.questioning"
+    },
+    {
+      "catalog_id": "dialogue",
+      "domain": "prose",
+      "id": "dialogue.reassurance"
+    },
+    {
+      "catalog_id": "dialogue",
+      "domain": "prose",
+      "id": "dialogue.silence"
+    },
+    {
+      "catalog_id": "dialogue",
+      "domain": "prose",
+      "id": "dialogue.small_talk"
+    },
+    {
+      "catalog_id": "dialogue",
+      "domain": "prose",
+      "id": "dialogue.threat"
+    },
+    {
+      "catalog_id": "digital_publishing",
+      "domain": "production",
+      "id": "digital_publishing.accessibility"
+    },
+    {
+      "catalog_id": "digital_publishing",
+      "domain": "production",
+      "id": "digital_publishing.container"
+    },
+    {
+      "catalog_id": "digital_publishing",
+      "domain": "production",
+      "id": "digital_publishing.content_document"
+    },
+    {
+      "catalog_id": "digital_publishing",
+      "domain": "production",
+      "id": "digital_publishing.fixed_layout"
+    },
+    {
+      "catalog_id": "digital_publishing",
+      "domain": "production",
+      "id": "digital_publishing.manifest"
+    },
+    {
+      "catalog_id": "digital_publishing",
+      "domain": "production",
+      "id": "digital_publishing.media_overlay"
+    },
+    {
+      "catalog_id": "digital_publishing",
+      "domain": "production",
+      "id": "digital_publishing.metadata"
+    },
+    {
+      "catalog_id": "digital_publishing",
+      "domain": "production",
+      "id": "digital_publishing.navigation_document"
+    },
+    {
+      "catalog_id": "digital_publishing",
+      "domain": "production",
+      "id": "digital_publishing.package_document"
+    },
+    {
+      "catalog_id": "digital_publishing",
+      "domain": "production",
+      "id": "digital_publishing.reflowable"
+    },
+    {
+      "catalog_id": "digital_publishing",
+      "domain": "production",
+      "id": "digital_publishing.spine"
+    },
+    {
+      "catalog_id": "editing",
+      "domain": "editing",
+      "id": "editing.character_edit"
+    },
+    {
+      "catalog_id": "editing",
+      "domain": "editing",
+      "id": "editing.consistency_edit"
+    },
+    {
+      "catalog_id": "editing",
+      "domain": "editing",
+      "id": "editing.copyedit"
+    },
+    {
+      "catalog_id": "editing",
+      "domain": "editing",
+      "id": "editing.developmental_edit"
+    },
+    {
+      "catalog_id": "editing",
+      "domain": "editing",
+      "id": "editing.fact_check"
+    },
+    {
+      "catalog_id": "editing",
+      "domain": "editing",
+      "id": "editing.line_edit"
+    },
+    {
+      "catalog_id": "editing",
+      "domain": "editing",
+      "id": "editing.proofread"
+    },
+    {
+      "catalog_id": "editing",
+      "domain": "editing",
+      "id": "editing.scene_edit"
+    },
+    {
+      "catalog_id": "editing",
+      "domain": "editing",
+      "id": "editing.sensitivity_review"
+    },
+    {
+      "catalog_id": "editing",
+      "domain": "editing",
+      "id": "editing.structural_edit"
+    },
+    {
+      "catalog_id": "emotion",
+      "domain": "reader",
+      "id": "emotion.anger"
+    },
+    {
+      "catalog_id": "emotion",
+      "domain": "reader",
+      "id": "emotion.anticipation"
+    },
+    {
+      "catalog_id": "emotion",
+      "domain": "reader",
+      "id": "emotion.awe"
+    },
+    {
+      "catalog_id": "emotion",
+      "domain": "reader",
+      "id": "emotion.despair"
+    },
+    {
+      "catalog_id": "emotion",
+      "domain": "reader",
+      "id": "emotion.disgust"
+    },
+    {
+      "catalog_id": "emotion",
+      "domain": "reader",
+      "id": "emotion.embarrassment"
+    },
+    {
+      "catalog_id": "emotion",
+      "domain": "reader",
+      "id": "emotion.envy"
+    },
+    {
+      "catalog_id": "emotion",
+      "domain": "reader",
+      "id": "emotion.fear"
+    },
+    {
+      "catalog_id": "emotion",
+      "domain": "reader",
+      "id": "emotion.grief"
+    },
+    {
+      "catalog_id": "emotion",
+      "domain": "reader",
+      "id": "emotion.guilt"
+    },
+    {
+      "catalog_id": "emotion",
+      "domain": "reader",
+      "id": "emotion.hope"
+    },
+    {
+      "catalog_id": "emotion",
+      "domain": "reader",
+      "id": "emotion.jealousy"
+    },
+    {
+      "catalog_id": "emotion",
+      "domain": "reader",
+      "id": "emotion.joy"
+    },
+    {
+      "catalog_id": "emotion",
+      "domain": "reader",
+      "id": "emotion.love"
+    },
+    {
+      "catalog_id": "emotion",
+      "domain": "reader",
+      "id": "emotion.pride"
+    },
+    {
+      "catalog_id": "emotion",
+      "domain": "reader",
+      "id": "emotion.relief"
+    },
+    {
+      "catalog_id": "emotion",
+      "domain": "reader",
+      "id": "emotion.sadness"
+    },
+    {
+      "catalog_id": "emotion",
+      "domain": "reader",
+      "id": "emotion.shame"
+    },
+    {
+      "catalog_id": "emotion",
+      "domain": "reader",
+      "id": "emotion.surprise"
+    },
+    {
+      "catalog_id": "emotion",
+      "domain": "reader",
+      "id": "emotion.trust"
+    },
+    {
+      "catalog_id": "examples",
+      "domain": "nonfiction",
+      "id": "examples.analogy"
+    },
+    {
+      "catalog_id": "examples",
+      "domain": "nonfiction",
+      "id": "examples.anecdote"
+    },
+    {
+      "catalog_id": "examples",
+      "domain": "nonfiction",
+      "id": "examples.before_after"
+    },
+    {
+      "catalog_id": "examples",
+      "domain": "nonfiction",
+      "id": "examples.case_study"
+    },
+    {
+      "catalog_id": "examples",
+      "domain": "nonfiction",
+      "id": "examples.counterexample"
+    },
+    {
+      "catalog_id": "examples",
+      "domain": "nonfiction",
+      "id": "examples.hypothetical"
+    },
+    {
+      "catalog_id": "examples",
+      "domain": "nonfiction",
+      "id": "examples.numerical_example"
+    },
+    {
+      "catalog_id": "examples",
+      "domain": "nonfiction",
+      "id": "examples.thought_experiment"
+    },
+    {
+      "catalog_id": "examples",
+      "domain": "nonfiction",
+      "id": "examples.worked_example"
+    },
+    {
+      "catalog_id": "fallacies",
+      "domain": "nonfiction",
+      "id": "fallacies.ad_hominem"
+    },
+    {
+      "catalog_id": "fallacies",
+      "domain": "nonfiction",
+      "id": "fallacies.appeal_to_authority"
+    },
+    {
+      "catalog_id": "fallacies",
+      "domain": "nonfiction",
+      "id": "fallacies.appeal_to_emotion"
+    },
+    {
+      "catalog_id": "fallacies",
+      "domain": "nonfiction",
+      "id": "fallacies.cherry_picking"
+    },
+    {
+      "catalog_id": "fallacies",
+      "domain": "nonfiction",
+      "id": "fallacies.circular_reasoning"
+    },
+    {
+      "catalog_id": "fallacies",
+      "domain": "nonfiction",
+      "id": "fallacies.false_dilemma"
+    },
+    {
+      "catalog_id": "fallacies",
+      "domain": "nonfiction",
+      "id": "fallacies.false_equivalence"
+    },
+    {
+      "catalog_id": "fallacies",
+      "domain": "nonfiction",
+      "id": "fallacies.hasty_generalization"
+    },
+    {
+      "catalog_id": "fallacies",
+      "domain": "nonfiction",
+      "id": "fallacies.loaded_question"
+    },
+    {
+      "catalog_id": "fallacies",
+      "domain": "nonfiction",
+      "id": "fallacies.post_hoc"
+    },
+    {
+      "catalog_id": "fallacies",
+      "domain": "nonfiction",
+      "id": "fallacies.slippery_slope"
+    },
+    {
+      "catalog_id": "fallacies",
+      "domain": "nonfiction",
+      "id": "fallacies.straw_man"
+    },
+    {
+      "catalog_id": "foreshadowing",
+      "domain": "narrative",
+      "id": "foreshadowing.callback"
+    },
+    {
+      "catalog_id": "foreshadowing",
+      "domain": "narrative",
+      "id": "foreshadowing.chekhov_object"
+    },
+    {
+      "catalog_id": "foreshadowing",
+      "domain": "narrative",
+      "id": "foreshadowing.echo"
+    },
+    {
+      "catalog_id": "foreshadowing",
+      "domain": "narrative",
+      "id": "foreshadowing.ominous_detail"
+    },
+    {
+      "catalog_id": "foreshadowing",
+      "domain": "narrative",
+      "id": "foreshadowing.parallel_event"
+    },
+    {
+      "catalog_id": "foreshadowing",
+      "domain": "narrative",
+      "id": "foreshadowing.prophecy"
+    },
+    {
+      "catalog_id": "foreshadowing",
+      "domain": "narrative",
+      "id": "foreshadowing.recontextualization"
+    },
+    {
+      "catalog_id": "foreshadowing",
+      "domain": "narrative",
+      "id": "foreshadowing.setup_payoff"
+    },
+    {
+      "catalog_id": "foreshadowing",
+      "domain": "narrative",
+      "id": "foreshadowing.symbolic_foreshadowing"
+    },
+    {
+      "catalog_id": "foreshadowing",
+      "domain": "narrative",
+      "id": "foreshadowing.verbal_foreshadowing"
+    },
+    {
+      "catalog_id": "genres",
+      "domain": "conception",
+      "id": "genres.adventure"
+    },
+    {
+      "catalog_id": "genres",
+      "domain": "conception",
+      "id": "genres.biography"
+    },
+    {
+      "catalog_id": "genres",
+      "domain": "conception",
+      "id": "genres.business"
+    },
+    {
+      "catalog_id": "genres",
+      "domain": "conception",
+      "id": "genres.comedy"
+    },
+    {
+      "catalog_id": "genres",
+      "domain": "conception",
+      "id": "genres.cozy_mystery"
+    },
+    {
+      "catalog_id": "genres",
+      "domain": "conception",
+      "id": "genres.creative_nonfiction"
+    },
+    {
+      "catalog_id": "genres",
+      "domain": "conception",
+      "id": "genres.crime"
+    },
+    {
+      "catalog_id": "genres",
+      "domain": "conception",
+      "id": "genres.dark_fantasy"
+    },
+    {
+      "catalog_id": "genres",
+      "domain": "conception",
+      "id": "genres.domestic_thriller"
+    },
+    {
+      "catalog_id": "genres",
+      "domain": "conception",
+      "id": "genres.drama"
+    },
+    {
+      "catalog_id": "genres",
+      "domain": "conception",
+      "id": "genres.dystopian"
+    },
+    {
+      "catalog_id": "genres",
+      "domain": "conception",
+      "id": "genres.epic_fantasy"
+    },
+    {
+      "catalog_id": "genres",
+      "domain": "conception",
+      "id": "genres.fantasy"
+    },
+    {
+      "catalog_id": "genres",
+      "domain": "conception",
+      "id": "genres.historical_fiction"
+    },
+    {
+      "catalog_id": "genres",
+      "domain": "conception",
+      "id": "genres.history"
+    },
+    {
+      "catalog_id": "genres",
+      "domain": "conception",
+      "id": "genres.horror"
+    },
+    {
+      "catalog_id": "genres",
+      "domain": "conception",
+      "id": "genres.how_to"
+    },
+    {
+      "catalog_id": "genres",
+      "domain": "conception",
+      "id": "genres.literary_fiction"
+    },
+    {
+      "catalog_id": "genres",
+      "domain": "conception",
+      "id": "genres.magical_realism"
+    },
+    {
+      "catalog_id": "genres",
+      "domain": "conception",
+      "id": "genres.memoir"
+    },
+    {
+      "catalog_id": "genres",
+      "domain": "conception",
+      "id": "genres.middle_grade"
+    },
+    {
+      "catalog_id": "genres",
+      "domain": "conception",
+      "id": "genres.mystery"
+    },
+    {
+      "catalog_id": "genres",
+      "domain": "conception",
+      "id": "genres.philosophy"
+    },
+    {
+      "catalog_id": "genres",
+      "domain": "conception",
+      "id": "genres.popular_science"
+    },
+    {
+      "catalog_id": "genres",
+      "domain": "conception",
+      "id": "genres.psychological_thriller"
+    },
+    {
+      "catalog_id": "genres",
+      "domain": "conception",
+      "id": "genres.romance"
+    },
+    {
+      "catalog_id": "genres",
+      "domain": "conception",
+      "id": "genres.satire"
+    },
+    {
+      "catalog_id": "genres",
+      "domain": "conception",
+      "id": "genres.science_fiction"
+    },
+    {
+      "catalog_id": "genres",
+      "domain": "conception",
+      "id": "genres.self_help"
+    },
+    {
+      "catalog_id": "genres",
+      "domain": "conception",
+      "id": "genres.textbook"
+    },
+    {
+      "catalog_id": "genres",
+      "domain": "conception",
+      "id": "genres.thriller"
+    },
+    {
+      "catalog_id": "genres",
+      "domain": "conception",
+      "id": "genres.urban_fantasy"
+    },
+    {
+      "catalog_id": "genres",
+      "domain": "conception",
+      "id": "genres.western"
+    },
+    {
+      "catalog_id": "genres",
+      "domain": "conception",
+      "id": "genres.young_adult"
+    },
+    {
+      "catalog_id": "information",
+      "domain": "narrative",
+      "id": "information.clue"
+    },
+    {
+      "catalog_id": "information",
+      "domain": "narrative",
+      "id": "information.dramatic_irony"
+    },
+    {
+      "catalog_id": "information",
+      "domain": "narrative",
+      "id": "information.false_belief"
+    },
+    {
+      "catalog_id": "information",
+      "domain": "narrative",
+      "id": "information.information_gap"
+    },
+    {
+      "catalog_id": "information",
+      "domain": "narrative",
+      "id": "information.knowledge_asymmetry"
+    },
+    {
+      "catalog_id": "information",
+      "domain": "narrative",
+      "id": "information.misdirection"
+    },
+    {
+      "catalog_id": "information",
+      "domain": "narrative",
+      "id": "information.red_herring"
+    },
+    {
+      "catalog_id": "information",
+      "domain": "narrative",
+      "id": "information.reveal"
+    },
+    {
+      "catalog_id": "information",
+      "domain": "narrative",
+      "id": "information.secret"
+    },
+    {
+      "catalog_id": "language",
+      "domain": "language",
+      "id": "language.antonym"
+    },
+    {
+      "catalog_id": "language",
+      "domain": "language",
+      "id": "language.collocation"
+    },
+    {
+      "catalog_id": "language",
+      "domain": "language",
+      "id": "language.entailment"
+    },
+    {
+      "catalog_id": "language",
+      "domain": "language",
+      "id": "language.holonym"
+    },
+    {
+      "catalog_id": "language",
+      "domain": "language",
+      "id": "language.hypernym"
+    },
+    {
+      "catalog_id": "language",
+      "domain": "language",
+      "id": "language.hyponym"
+    },
+    {
+      "catalog_id": "language",
+      "domain": "language",
+      "id": "language.meronym"
+    },
+    {
+      "catalog_id": "language",
+      "domain": "language",
+      "id": "language.morphosemantic"
+    },
+    {
+      "catalog_id": "language",
+      "domain": "language",
+      "id": "language.synonym"
+    },
+    {
+      "catalog_id": "language",
+      "domain": "language",
+      "id": "language.word_family"
+    },
+    {
+      "catalog_id": "layout",
+      "domain": "production",
+      "id": "layout.callout"
+    },
+    {
+      "catalog_id": "layout",
+      "domain": "production",
+      "id": "layout.caption"
+    },
+    {
+      "catalog_id": "layout",
+      "domain": "production",
+      "id": "layout.chapter_opener"
+    },
+    {
+      "catalog_id": "layout",
+      "domain": "production",
+      "id": "layout.endnote"
+    },
+    {
+      "catalog_id": "layout",
+      "domain": "production",
+      "id": "layout.figure"
+    },
+    {
+      "catalog_id": "layout",
+      "domain": "production",
+      "id": "layout.folio"
+    },
+    {
+      "catalog_id": "layout",
+      "domain": "production",
+      "id": "layout.footer"
+    },
+    {
+      "catalog_id": "layout",
+      "domain": "production",
+      "id": "layout.footnote"
+    },
+    {
+      "catalog_id": "layout",
+      "domain": "production",
+      "id": "layout.index_entry"
+    },
+    {
+      "catalog_id": "layout",
+      "domain": "production",
+      "id": "layout.quote_block"
+    },
+    {
+      "catalog_id": "layout",
+      "domain": "production",
+      "id": "layout.running_header"
+    },
+    {
+      "catalog_id": "layout",
+      "domain": "production",
+      "id": "layout.sidebar"
+    },
+    {
+      "catalog_id": "layout",
+      "domain": "production",
+      "id": "layout.table"
+    },
+    {
+      "catalog_id": "locations",
+      "domain": "world",
+      "id": "locations.bar"
+    },
+    {
+      "catalog_id": "locations",
+      "domain": "world",
+      "id": "locations.battlefield"
+    },
+    {
+      "catalog_id": "locations",
+      "domain": "world",
+      "id": "locations.border"
+    },
+    {
+      "catalog_id": "locations",
+      "domain": "world",
+      "id": "locations.court"
+    },
+    {
+      "catalog_id": "locations",
+      "domain": "world",
+      "id": "locations.desert"
+    },
+    {
+      "catalog_id": "locations",
+      "domain": "world",
+      "id": "locations.forest"
+    },
+    {
+      "catalog_id": "locations",
+      "domain": "world",
+      "id": "locations.home"
+    },
+    {
+      "catalog_id": "locations",
+      "domain": "world",
+      "id": "locations.hospital"
+    },
+    {
+      "catalog_id": "locations",
+      "domain": "world",
+      "id": "locations.hotel"
+    },
+    {
+      "catalog_id": "locations",
+      "domain": "world",
+      "id": "locations.laboratory"
+    },
+    {
+      "catalog_id": "locations",
+      "domain": "world",
+      "id": "locations.market"
+    },
+    {
+      "catalog_id": "locations",
+      "domain": "world",
+      "id": "locations.mountain"
+    },
+    {
+      "catalog_id": "locations",
+      "domain": "world",
+      "id": "locations.ocean"
+    },
+    {
+      "catalog_id": "locations",
+      "domain": "world",
+      "id": "locations.prison"
+    },
+    {
+      "catalog_id": "locations",
+      "domain": "world",
+      "id": "locations.road"
+    },
+    {
+      "catalog_id": "locations",
+      "domain": "world",
+      "id": "locations.ruin"
+    },
+    {
+      "catalog_id": "locations",
+      "domain": "world",
+      "id": "locations.school"
+    },
+    {
+      "catalog_id": "locations",
+      "domain": "world",
+      "id": "locations.temple"
+    },
+    {
+      "catalog_id": "locations",
+      "domain": "world",
+      "id": "locations.workplace"
+    },
+    {
+      "catalog_id": "marketing",
+      "domain": "publishing",
+      "id": "marketing.back_cover_copy"
+    },
+    {
+      "catalog_id": "marketing",
+      "domain": "publishing",
+      "id": "marketing.book_description"
+    },
+    {
+      "catalog_id": "marketing",
+      "domain": "publishing",
+      "id": "marketing.category"
+    },
+    {
+      "catalog_id": "marketing",
+      "domain": "publishing",
+      "id": "marketing.comparable_titles"
+    },
+    {
+      "catalog_id": "marketing",
+      "domain": "publishing",
+      "id": "marketing.elevator_pitch"
+    },
+    {
+      "catalog_id": "marketing",
+      "domain": "publishing",
+      "id": "marketing.keywords"
+    },
+    {
+      "catalog_id": "marketing",
+      "domain": "publishing",
+      "id": "marketing.launch_angle"
+    },
+    {
+      "catalog_id": "marketing",
+      "domain": "publishing",
+      "id": "marketing.logline"
+    },
+    {
+      "catalog_id": "marketing",
+      "domain": "publishing",
+      "id": "marketing.positioning_statement"
+    },
+    {
+      "catalog_id": "marketing",
+      "domain": "publishing",
+      "id": "marketing.reader_persona"
+    },
+    {
+      "catalog_id": "marketing",
+      "domain": "publishing",
+      "id": "marketing.review_request"
+    },
+    {
+      "catalog_id": "marketing",
+      "domain": "publishing",
+      "id": "marketing.subtitle"
+    },
+    {
+      "catalog_id": "marketing",
+      "domain": "publishing",
+      "id": "marketing.tagline"
+    },
+    {
+      "catalog_id": "metadata",
+      "domain": "publishing",
+      "id": "metadata.accessibility"
+    },
+    {
+      "catalog_id": "metadata",
+      "domain": "publishing",
+      "id": "metadata.audience"
+    },
+    {
+      "catalog_id": "metadata",
+      "domain": "publishing",
+      "id": "metadata.bisac"
+    },
+    {
+      "catalog_id": "metadata",
+      "domain": "publishing",
+      "id": "metadata.contributor"
+    },
+    {
+      "catalog_id": "metadata",
+      "domain": "publishing",
+      "id": "metadata.creator"
+    },
+    {
+      "catalog_id": "metadata",
+      "domain": "publishing",
+      "id": "metadata.description"
+    },
+    {
+      "catalog_id": "metadata",
+      "domain": "publishing",
+      "id": "metadata.edition"
+    },
+    {
+      "catalog_id": "metadata",
+      "domain": "publishing",
+      "id": "metadata.format"
+    },
+    {
+      "catalog_id": "metadata",
+      "domain": "publishing",
+      "id": "metadata.isbn"
+    },
+    {
+      "catalog_id": "metadata",
+      "domain": "publishing",
+      "id": "metadata.keywords"
+    },
+    {
+      "catalog_id": "metadata",
+      "domain": "publishing",
+      "id": "metadata.language"
+    },
+    {
+      "catalog_id": "metadata",
+      "domain": "publishing",
+      "id": "metadata.price"
+    },
+    {
+      "catalog_id": "metadata",
+      "domain": "publishing",
+      "id": "metadata.publication_date"
+    },
+    {
+      "catalog_id": "metadata",
+      "domain": "publishing",
+      "id": "metadata.publisher"
+    },
+    {
+      "catalog_id": "metadata",
+      "domain": "publishing",
+      "id": "metadata.rights"
+    },
+    {
+      "catalog_id": "metadata",
+      "domain": "publishing",
+      "id": "metadata.role"
+    },
+    {
+      "catalog_id": "metadata",
+      "domain": "publishing",
+      "id": "metadata.subject"
+    },
+    {
+      "catalog_id": "metadata",
+      "domain": "publishing",
+      "id": "metadata.subtitle"
+    },
+    {
+      "catalog_id": "metadata",
+      "domain": "publishing",
+      "id": "metadata.title"
+    },
+    {
+      "catalog_id": "narrative_distance",
+      "domain": "prose",
+      "id": "narrative_distance.cinematic"
+    },
+    {
+      "catalog_id": "narrative_distance",
+      "domain": "prose",
+      "id": "narrative_distance.close_third"
+    },
+    {
+      "catalog_id": "narrative_distance",
+      "domain": "prose",
+      "id": "narrative_distance.deep_pov"
+    },
+    {
+      "catalog_id": "narrative_distance",
+      "domain": "prose",
+      "id": "narrative_distance.objective_camera"
+    },
+    {
+      "catalog_id": "narrative_distance",
+      "domain": "prose",
+      "id": "narrative_distance.omniscient"
+    },
+    {
+      "catalog_id": "pacing",
+      "domain": "narrative",
+      "id": "pacing.alternating"
+    },
+    {
+      "catalog_id": "pacing",
+      "domain": "narrative",
+      "id": "pacing.cooldown_after_climax"
+    },
+    {
+      "catalog_id": "pacing",
+      "domain": "narrative",
+      "id": "pacing.escalating"
+    },
+    {
+      "catalog_id": "pacing",
+      "domain": "narrative",
+      "id": "pacing.false_calm"
+    },
+    {
+      "catalog_id": "pacing",
+      "domain": "narrative",
+      "id": "pacing.rapid_fire"
+    },
+    {
+      "catalog_id": "pacing",
+      "domain": "narrative",
+      "id": "pacing.slow_burn"
+    },
+    {
+      "catalog_id": "pacing",
+      "domain": "narrative",
+      "id": "pacing.sprint_to_climax"
+    },
+    {
+      "catalog_id": "pacing",
+      "domain": "narrative",
+      "id": "pacing.wave_pattern"
+    },
+    {
+      "catalog_id": "pedagogy",
+      "domain": "nonfiction",
+      "id": "pedagogy.assessment"
+    },
+    {
+      "catalog_id": "pedagogy",
+      "domain": "nonfiction",
+      "id": "pedagogy.case_study"
+    },
+    {
+      "catalog_id": "pedagogy",
+      "domain": "nonfiction",
+      "id": "pedagogy.concept_introduction"
+    },
+    {
+      "catalog_id": "pedagogy",
+      "domain": "nonfiction",
+      "id": "pedagogy.exercise"
+    },
+    {
+      "catalog_id": "pedagogy",
+      "domain": "nonfiction",
+      "id": "pedagogy.practice"
+    },
+    {
+      "catalog_id": "pedagogy",
+      "domain": "nonfiction",
+      "id": "pedagogy.quiz"
+    },
+    {
+      "catalog_id": "pedagogy",
+      "domain": "nonfiction",
+      "id": "pedagogy.reflection"
+    },
+    {
+      "catalog_id": "pedagogy",
+      "domain": "nonfiction",
+      "id": "pedagogy.retrieval_question"
+    },
+    {
+      "catalog_id": "pedagogy",
+      "domain": "nonfiction",
+      "id": "pedagogy.scaffolding"
+    },
+    {
+      "catalog_id": "pedagogy",
+      "domain": "nonfiction",
+      "id": "pedagogy.worked_example"
+    },
+    {
+      "catalog_id": "plot_patterns",
+      "domain": "narrative",
+      "id": "plot_patterns.coming_of_age"
+    },
+    {
+      "catalog_id": "plot_patterns",
+      "domain": "narrative",
+      "id": "plot_patterns.conspiracy"
+    },
+    {
+      "catalog_id": "plot_patterns",
+      "domain": "narrative",
+      "id": "plot_patterns.corruption"
+    },
+    {
+      "catalog_id": "plot_patterns",
+      "domain": "narrative",
+      "id": "plot_patterns.escape"
+    },
+    {
+      "catalog_id": "plot_patterns",
+      "domain": "narrative",
+      "id": "plot_patterns.heist"
+    },
+    {
+      "catalog_id": "plot_patterns",
+      "domain": "narrative",
+      "id": "plot_patterns.investigation"
+    },
+    {
+      "catalog_id": "plot_patterns",
+      "domain": "narrative",
+      "id": "plot_patterns.monster_hunt"
+    },
+    {
+      "catalog_id": "plot_patterns",
+      "domain": "narrative",
+      "id": "plot_patterns.political_intrigue"
+    },
+    {
+      "catalog_id": "plot_patterns",
+      "domain": "narrative",
+      "id": "plot_patterns.quest"
+    },
+    {
+      "catalog_id": "plot_patterns",
+      "domain": "narrative",
+      "id": "plot_patterns.race_against_time"
+    },
+    {
+      "catalog_id": "plot_patterns",
+      "domain": "narrative",
+      "id": "plot_patterns.rags_to_riches"
+    },
+    {
+      "catalog_id": "plot_patterns",
+      "domain": "narrative",
+      "id": "plot_patterns.redemption"
+    },
+    {
+      "catalog_id": "plot_patterns",
+      "domain": "narrative",
+      "id": "plot_patterns.rescue"
+    },
+    {
+      "catalog_id": "plot_patterns",
+      "domain": "narrative",
+      "id": "plot_patterns.revenge"
+    },
+    {
+      "catalog_id": "plot_patterns",
+      "domain": "narrative",
+      "id": "plot_patterns.rise_and_fall"
+    },
+    {
+      "catalog_id": "plot_patterns",
+      "domain": "narrative",
+      "id": "plot_patterns.stranger_in_a_strange_land"
+    },
+    {
+      "catalog_id": "pov",
+      "domain": "prose",
+      "id": "pov.collective_we"
+    },
+    {
+      "catalog_id": "pov",
+      "domain": "prose",
+      "id": "pov.epistolary"
+    },
+    {
+      "catalog_id": "pov",
+      "domain": "prose",
+      "id": "pov.frame_narrator"
+    },
+    {
+      "catalog_id": "pov",
+      "domain": "prose",
+      "id": "pov.multiple_pov"
+    },
+    {
+      "catalog_id": "pov",
+      "domain": "prose",
+      "id": "pov.rotating_pov"
+    },
+    {
+      "catalog_id": "pov",
+      "domain": "prose",
+      "id": "pov.single_pov"
+    },
+    {
+      "catalog_id": "pov",
+      "domain": "prose",
+      "id": "pov.stream_of_consciousness"
+    },
+    {
+      "catalog_id": "pov",
+      "domain": "prose",
+      "id": "pov.unreliable_narrator"
+    },
+    {
+      "catalog_id": "premises",
+      "domain": "conception",
+      "id": "premises.countdown"
+    },
+    {
+      "catalog_id": "premises",
+      "domain": "conception",
+      "id": "premises.fish_out_of_water"
+    },
+    {
+      "catalog_id": "premises",
+      "domain": "conception",
+      "id": "premises.forbidden_goal"
+    },
+    {
+      "catalog_id": "premises",
+      "domain": "conception",
+      "id": "premises.hidden_identity"
+    },
+    {
+      "catalog_id": "premises",
+      "domain": "conception",
+      "id": "premises.impossible_choice"
+    },
+    {
+      "catalog_id": "premises",
+      "domain": "conception",
+      "id": "premises.ironic_premise"
+    },
+    {
+      "catalog_id": "premises",
+      "domain": "conception",
+      "id": "premises.moral_dilemma"
+    },
+    {
+      "catalog_id": "premises",
+      "domain": "conception",
+      "id": "premises.ordinary_person_extraordinary_problem"
+    },
+    {
+      "catalog_id": "premises",
+      "domain": "conception",
+      "id": "premises.power_with_cost"
+    },
+    {
+      "catalog_id": "premises",
+      "domain": "conception",
+      "id": "premises.what_if"
+    },
+    {
+      "catalog_id": "promises",
+      "domain": "conception",
+      "id": "promises.belonging"
+    },
+    {
+      "catalog_id": "promises",
+      "domain": "conception",
+      "id": "promises.fear"
+    },
+    {
+      "catalog_id": "promises",
+      "domain": "conception",
+      "id": "promises.identity_shift"
+    },
+    {
+      "catalog_id": "promises",
+      "domain": "conception",
+      "id": "promises.insight"
+    },
+    {
+      "catalog_id": "promises",
+      "domain": "conception",
+      "id": "promises.mastery"
+    },
+    {
+      "catalog_id": "promises",
+      "domain": "conception",
+      "id": "promises.mystery_resolution"
+    },
+    {
+      "catalog_id": "promises",
+      "domain": "conception",
+      "id": "promises.practical_result"
+    },
+    {
+      "catalog_id": "promises",
+      "domain": "conception",
+      "id": "promises.romantic_satisfaction"
+    },
+    {
+      "catalog_id": "promises",
+      "domain": "conception",
+      "id": "promises.transformation"
+    },
+    {
+      "catalog_id": "promises",
+      "domain": "conception",
+      "id": "promises.wonder"
+    },
+    {
+      "catalog_id": "quality_metrics",
+      "domain": "quality",
+      "id": "quality_metrics.character_presence"
+    },
+    {
+      "catalog_id": "quality_metrics",
+      "domain": "quality",
+      "id": "quality_metrics.description_ratio"
+    },
+    {
+      "catalog_id": "quality_metrics",
+      "domain": "quality",
+      "id": "quality_metrics.dialogue_ratio"
+    },
+    {
+      "catalog_id": "quality_metrics",
+      "domain": "quality",
+      "id": "quality_metrics.lexical_diversity"
+    },
+    {
+      "catalog_id": "quality_metrics",
+      "domain": "quality",
+      "id": "quality_metrics.pacing_variation"
+    },
+    {
+      "catalog_id": "quality_metrics",
+      "domain": "quality",
+      "id": "quality_metrics.pov_distribution"
+    },
+    {
+      "catalog_id": "quality_metrics",
+      "domain": "quality",
+      "id": "quality_metrics.readability"
+    },
+    {
+      "catalog_id": "quality_metrics",
+      "domain": "quality",
+      "id": "quality_metrics.repetition_rate"
+    },
+    {
+      "catalog_id": "quality_metrics",
+      "domain": "quality",
+      "id": "quality_metrics.scene_turn_density"
+    },
+    {
+      "catalog_id": "quality_metrics",
+      "domain": "quality",
+      "id": "quality_metrics.sentence_length"
+    },
+    {
+      "catalog_id": "quality_metrics",
+      "domain": "quality",
+      "id": "quality_metrics.subplot_balance"
+    },
+    {
+      "catalog_id": "quality_metrics",
+      "domain": "quality",
+      "id": "quality_metrics.tension_estimate"
+    },
+    {
+      "catalog_id": "quality_metrics",
+      "domain": "quality",
+      "id": "quality_metrics.unresolved_threads"
+    },
+    {
+      "catalog_id": "reader_experience",
+      "domain": "reader",
+      "id": "reader_experience.curiosity_gap"
+    },
+    {
+      "catalog_id": "reader_experience",
+      "domain": "reader",
+      "id": "reader_experience.dramatic_irony"
+    },
+    {
+      "catalog_id": "reader_experience",
+      "domain": "reader",
+      "id": "reader_experience.dread"
+    },
+    {
+      "catalog_id": "reader_experience",
+      "domain": "reader",
+      "id": "reader_experience.emotional_payoff"
+    },
+    {
+      "catalog_id": "reader_experience",
+      "domain": "reader",
+      "id": "reader_experience.hook"
+    },
+    {
+      "catalog_id": "reader_experience",
+      "domain": "reader",
+      "id": "reader_experience.intellectual_payoff"
+    },
+    {
+      "catalog_id": "reader_experience",
+      "domain": "reader",
+      "id": "reader_experience.relief"
+    },
+    {
+      "catalog_id": "reader_experience",
+      "domain": "reader",
+      "id": "reader_experience.surprise"
+    },
+    {
+      "catalog_id": "reader_experience",
+      "domain": "reader",
+      "id": "reader_experience.suspense"
+    },
+    {
+      "catalog_id": "reader_experience",
+      "domain": "reader",
+      "id": "reader_experience.wonder"
+    },
+    {
+      "catalog_id": "relationships",
+      "domain": "character",
+      "id": "relationships.admiration"
+    },
+    {
+      "catalog_id": "relationships",
+      "domain": "character",
+      "id": "relationships.ally"
+    },
+    {
+      "catalog_id": "relationships",
+      "domain": "character",
+      "id": "relationships.attraction"
+    },
+    {
+      "catalog_id": "relationships",
+      "domain": "character",
+      "id": "relationships.betrayal"
+    },
+    {
+      "catalog_id": "relationships",
+      "domain": "character",
+      "id": "relationships.competition"
+    },
+    {
+      "catalog_id": "relationships",
+      "domain": "character",
+      "id": "relationships.debt"
+    },
+    {
+      "catalog_id": "relationships",
+      "domain": "character",
+      "id": "relationships.dependency"
+    },
+    {
+      "catalog_id": "relationships",
+      "domain": "character",
+      "id": "relationships.enemy"
+    },
+    {
+      "catalog_id": "relationships",
+      "domain": "character",
+      "id": "relationships.fear"
+    },
+    {
+      "catalog_id": "relationships",
+      "domain": "character",
+      "id": "relationships.friendship"
+    },
+    {
+      "catalog_id": "relationships",
+      "domain": "character",
+      "id": "relationships.love"
+    },
+    {
+      "catalog_id": "relationships",
+      "domain": "character",
+      "id": "relationships.mentorship"
+    },
+    {
+      "catalog_id": "relationships",
+      "domain": "character",
+      "id": "relationships.obligation"
+    },
+    {
+      "catalog_id": "relationships",
+      "domain": "character",
+      "id": "relationships.parent_child"
+    },
+    {
+      "catalog_id": "relationships",
+      "domain": "character",
+      "id": "relationships.resentment"
+    },
+    {
+      "catalog_id": "relationships",
+      "domain": "character",
+      "id": "relationships.rivalry"
+    },
+    {
+      "catalog_id": "relationships",
+      "domain": "character",
+      "id": "relationships.siblings"
+    },
+    {
+      "catalog_id": "research",
+      "domain": "research",
+      "id": "research.citation"
+    },
+    {
+      "catalog_id": "research",
+      "domain": "research",
+      "id": "research.claim"
+    },
+    {
+      "catalog_id": "research",
+      "domain": "research",
+      "id": "research.counterevidence"
+    },
+    {
+      "catalog_id": "research",
+      "domain": "research",
+      "id": "research.fact"
+    },
+    {
+      "catalog_id": "research",
+      "domain": "research",
+      "id": "research.hypothesis"
+    },
+    {
+      "catalog_id": "research",
+      "domain": "research",
+      "id": "research.interpretation"
+    },
+    {
+      "catalog_id": "research",
+      "domain": "research",
+      "id": "research.paraphrase"
+    },
+    {
+      "catalog_id": "research",
+      "domain": "research",
+      "id": "research.quote"
+    },
+    {
+      "catalog_id": "research",
+      "domain": "research",
+      "id": "research.source"
+    },
+    {
+      "catalog_id": "research",
+      "domain": "research",
+      "id": "research.uncertainty"
+    },
+    {
+      "catalog_id": "revision_strategies",
+      "domain": "editing",
+      "id": "revision_strategies.accelerate"
+    },
+    {
+      "catalog_id": "revision_strategies",
+      "domain": "editing",
+      "id": "revision_strategies.clarify"
+    },
+    {
+      "catalog_id": "revision_strategies",
+      "domain": "editing",
+      "id": "revision_strategies.compress"
+    },
+    {
+      "catalog_id": "revision_strategies",
+      "domain": "editing",
+      "id": "revision_strategies.cut"
+    },
+    {
+      "catalog_id": "revision_strategies",
+      "domain": "editing",
+      "id": "revision_strategies.deepen"
+    },
+    {
+      "catalog_id": "revision_strategies",
+      "domain": "editing",
+      "id": "revision_strategies.expand"
+    },
+    {
+      "catalog_id": "revision_strategies",
+      "domain": "editing",
+      "id": "revision_strategies.intensify"
+    },
+    {
+      "catalog_id": "revision_strategies",
+      "domain": "editing",
+      "id": "revision_strategies.merge"
+    },
+    {
+      "catalog_id": "revision_strategies",
+      "domain": "editing",
+      "id": "revision_strategies.reframe"
+    },
+    {
+      "catalog_id": "revision_strategies",
+      "domain": "editing",
+      "id": "revision_strategies.reorder"
+    },
+    {
+      "catalog_id": "revision_strategies",
+      "domain": "editing",
+      "id": "revision_strategies.replace"
+    },
+    {
+      "catalog_id": "revision_strategies",
+      "domain": "editing",
+      "id": "revision_strategies.slow"
+    },
+    {
+      "catalog_id": "revision_strategies",
+      "domain": "editing",
+      "id": "revision_strategies.split"
+    },
+    {
+      "catalog_id": "revision_strategies",
+      "domain": "editing",
+      "id": "revision_strategies.subtilize"
+    },
+    {
+      "catalog_id": "rhetoric",
+      "domain": "prose",
+      "id": "rhetoric.allusion"
+    },
+    {
+      "catalog_id": "rhetoric",
+      "domain": "prose",
+      "id": "rhetoric.analogy"
+    },
+    {
+      "catalog_id": "rhetoric",
+      "domain": "prose",
+      "id": "rhetoric.anaphora"
+    },
+    {
+      "catalog_id": "rhetoric",
+      "domain": "prose",
+      "id": "rhetoric.antithesis"
+    },
+    {
+      "catalog_id": "rhetoric",
+      "domain": "prose",
+      "id": "rhetoric.chiasmus"
+    },
+    {
+      "catalog_id": "rhetoric",
+      "domain": "prose",
+      "id": "rhetoric.epiphora"
+    },
+    {
+      "catalog_id": "rhetoric",
+      "domain": "prose",
+      "id": "rhetoric.hyperbole"
+    },
+    {
+      "catalog_id": "rhetoric",
+      "domain": "prose",
+      "id": "rhetoric.imagery"
+    },
+    {
+      "catalog_id": "rhetoric",
+      "domain": "prose",
+      "id": "rhetoric.irony"
+    },
+    {
+      "catalog_id": "rhetoric",
+      "domain": "prose",
+      "id": "rhetoric.juxtaposition"
+    },
+    {
+      "catalog_id": "rhetoric",
+      "domain": "prose",
+      "id": "rhetoric.litotes"
+    },
+    {
+      "catalog_id": "rhetoric",
+      "domain": "prose",
+      "id": "rhetoric.metaphor"
+    },
+    {
+      "catalog_id": "rhetoric",
+      "domain": "prose",
+      "id": "rhetoric.paradox"
+    },
+    {
+      "catalog_id": "rhetoric",
+      "domain": "prose",
+      "id": "rhetoric.parallelism"
+    },
+    {
+      "catalog_id": "rhetoric",
+      "domain": "prose",
+      "id": "rhetoric.personification"
+    },
+    {
+      "catalog_id": "rhetoric",
+      "domain": "prose",
+      "id": "rhetoric.repetition"
+    },
+    {
+      "catalog_id": "rhetoric",
+      "domain": "prose",
+      "id": "rhetoric.rhetorical_question"
+    },
+    {
+      "catalog_id": "rhetoric",
+      "domain": "prose",
+      "id": "rhetoric.simile"
+    },
+    {
+      "catalog_id": "rhetoric",
+      "domain": "prose",
+      "id": "rhetoric.symbolism"
+    },
+    {
+      "catalog_id": "rhetoric",
+      "domain": "prose",
+      "id": "rhetoric.understatement"
+    },
+    {
+      "catalog_id": "scenes",
+      "domain": "narrative",
+      "id": "scenes.aftermath"
+    },
+    {
+      "catalog_id": "scenes",
+      "domain": "narrative",
+      "id": "scenes.argument"
+    },
+    {
+      "catalog_id": "scenes",
+      "domain": "narrative",
+      "id": "scenes.chase"
+    },
+    {
+      "catalog_id": "scenes",
+      "domain": "narrative",
+      "id": "scenes.comic_relief"
+    },
+    {
+      "catalog_id": "scenes",
+      "domain": "narrative",
+      "id": "scenes.confrontation"
+    },
+    {
+      "catalog_id": "scenes",
+      "domain": "narrative",
+      "id": "scenes.decision"
+    },
+    {
+      "catalog_id": "scenes",
+      "domain": "narrative",
+      "id": "scenes.discovery"
+    },
+    {
+      "catalog_id": "scenes",
+      "domain": "narrative",
+      "id": "scenes.escape"
+    },
+    {
+      "catalog_id": "scenes",
+      "domain": "narrative",
+      "id": "scenes.exposition"
+    },
+    {
+      "catalog_id": "scenes",
+      "domain": "narrative",
+      "id": "scenes.fight"
+    },
+    {
+      "catalog_id": "scenes",
+      "domain": "narrative",
+      "id": "scenes.interrogation"
+    },
+    {
+      "catalog_id": "scenes",
+      "domain": "narrative",
+      "id": "scenes.negotiation"
+    },
+    {
+      "catalog_id": "scenes",
+      "domain": "narrative",
+      "id": "scenes.planning"
+    },
+    {
+      "catalog_id": "scenes",
+      "domain": "narrative",
+      "id": "scenes.quiet_reflection"
+    },
+    {
+      "catalog_id": "scenes",
+      "domain": "narrative",
+      "id": "scenes.relationship_scene"
+    },
+    {
+      "catalog_id": "scenes",
+      "domain": "narrative",
+      "id": "scenes.revelation_scene"
+    },
+    {
+      "catalog_id": "scenes",
+      "domain": "narrative",
+      "id": "scenes.seduction"
+    },
+    {
+      "catalog_id": "scenes",
+      "domain": "narrative",
+      "id": "scenes.worldbuilding_scene"
+    },
+    {
+      "catalog_id": "sources_registry",
+      "domain": "governance",
+      "id": "sources_registry.academic_paper"
+    },
+    {
+      "catalog_id": "sources_registry",
+      "domain": "governance",
+      "id": "sources_registry.book"
+    },
+    {
+      "catalog_id": "sources_registry",
+      "domain": "governance",
+      "id": "sources_registry.community_resource"
+    },
+    {
+      "catalog_id": "sources_registry",
+      "domain": "governance",
+      "id": "sources_registry.dataset"
+    },
+    {
+      "catalog_id": "sources_registry",
+      "domain": "governance",
+      "id": "sources_registry.industry_metadata"
+    },
+    {
+      "catalog_id": "sources_registry",
+      "domain": "governance",
+      "id": "sources_registry.official_standard"
+    },
+    {
+      "catalog_id": "sources_registry",
+      "domain": "governance",
+      "id": "sources_registry.open_lexicon"
+    },
+    {
+      "catalog_id": "sources_registry",
+      "domain": "governance",
+      "id": "sources_registry.professional_guide"
+    },
+    {
+      "catalog_id": "stakes",
+      "domain": "narrative",
+      "id": "stakes.belonging"
+    },
+    {
+      "catalog_id": "stakes",
+      "domain": "narrative",
+      "id": "stakes.career"
+    },
+    {
+      "catalog_id": "stakes",
+      "domain": "narrative",
+      "id": "stakes.family"
+    },
+    {
+      "catalog_id": "stakes",
+      "domain": "narrative",
+      "id": "stakes.freedom"
+    },
+    {
+      "catalog_id": "stakes",
+      "domain": "narrative",
+      "id": "stakes.future"
+    },
+    {
+      "catalog_id": "stakes",
+      "domain": "narrative",
+      "id": "stakes.identity"
+    },
+    {
+      "catalog_id": "stakes",
+      "domain": "narrative",
+      "id": "stakes.justice"
+    },
+    {
+      "catalog_id": "stakes",
+      "domain": "narrative",
+      "id": "stakes.legacy"
+    },
+    {
+      "catalog_id": "stakes",
+      "domain": "narrative",
+      "id": "stakes.life"
+    },
+    {
+      "catalog_id": "stakes",
+      "domain": "narrative",
+      "id": "stakes.love"
+    },
+    {
+      "catalog_id": "stakes",
+      "domain": "narrative",
+      "id": "stakes.reputation"
+    },
+    {
+      "catalog_id": "stakes",
+      "domain": "narrative",
+      "id": "stakes.safety"
+    },
+    {
+      "catalog_id": "stakes",
+      "domain": "narrative",
+      "id": "stakes.truth"
+    },
+    {
+      "catalog_id": "stakes",
+      "domain": "narrative",
+      "id": "stakes.wealth"
+    },
+    {
+      "catalog_id": "story_structures",
+      "domain": "narrative",
+      "id": "story_structures.bildungsroman"
+    },
+    {
+      "catalog_id": "story_structures",
+      "domain": "narrative",
+      "id": "story_structures.fichtean_curve"
+    },
+    {
+      "catalog_id": "story_structures",
+      "domain": "narrative",
+      "id": "story_structures.five_act"
+    },
+    {
+      "catalog_id": "story_structures",
+      "domain": "narrative",
+      "id": "story_structures.frame_narrative"
+    },
+    {
+      "catalog_id": "story_structures",
+      "domain": "narrative",
+      "id": "story_structures.freytag_pyramid"
+    },
+    {
+      "catalog_id": "story_structures",
+      "domain": "narrative",
+      "id": "story_structures.hero_journey"
+    },
+    {
+      "catalog_id": "story_structures",
+      "domain": "narrative",
+      "id": "story_structures.in_medias_res"
+    },
+    {
+      "catalog_id": "story_structures",
+      "domain": "narrative",
+      "id": "story_structures.kishotenketsu"
+    },
+    {
+      "catalog_id": "story_structures",
+      "domain": "narrative",
+      "id": "story_structures.mystery_structure"
+    },
+    {
+      "catalog_id": "story_structures",
+      "domain": "narrative",
+      "id": "story_structures.quest_structure"
+    },
+    {
+      "catalog_id": "story_structures",
+      "domain": "narrative",
+      "id": "story_structures.romance_structure"
+    },
+    {
+      "catalog_id": "story_structures",
+      "domain": "narrative",
+      "id": "story_structures.save_the_cat"
+    },
+    {
+      "catalog_id": "story_structures",
+      "domain": "narrative",
+      "id": "story_structures.seven_point"
+    },
+    {
+      "catalog_id": "story_structures",
+      "domain": "narrative",
+      "id": "story_structures.snowflake"
+    },
+    {
+      "catalog_id": "story_structures",
+      "domain": "narrative",
+      "id": "story_structures.story_circle"
+    },
+    {
+      "catalog_id": "story_structures",
+      "domain": "narrative",
+      "id": "story_structures.three_act"
+    },
+    {
+      "catalog_id": "story_structures",
+      "domain": "narrative",
+      "id": "story_structures.tragedy_structure"
+    },
+    {
+      "catalog_id": "style",
+      "domain": "prose",
+      "id": "style.cinematic"
+    },
+    {
+      "catalog_id": "style",
+      "domain": "prose",
+      "id": "style.fast_cut"
+    },
+    {
+      "catalog_id": "style",
+      "domain": "prose",
+      "id": "style.highly_compressed"
+    },
+    {
+      "catalog_id": "style",
+      "domain": "prose",
+      "id": "style.introspective"
+    },
+    {
+      "catalog_id": "style",
+      "domain": "prose",
+      "id": "style.lush"
+    },
+    {
+      "catalog_id": "style",
+      "domain": "prose",
+      "id": "style.meditative"
+    },
+    {
+      "catalog_id": "style",
+      "domain": "prose",
+      "id": "style.minimalist"
+    },
+    {
+      "catalog_id": "style",
+      "domain": "prose",
+      "id": "style.plainspoken"
+    },
+    {
+      "catalog_id": "style",
+      "domain": "prose",
+      "id": "style.poetic"
+    },
+    {
+      "catalog_id": "style",
+      "domain": "prose",
+      "id": "style.reportorial"
+    },
+    {
+      "catalog_id": "subtext",
+      "domain": "prose",
+      "id": "subtext.false_reassurance"
+    },
+    {
+      "catalog_id": "subtext",
+      "domain": "prose",
+      "id": "subtext.loaded_question"
+    },
+    {
+      "catalog_id": "subtext",
+      "domain": "prose",
+      "id": "subtext.polite_hostility"
+    },
+    {
+      "catalog_id": "subtext",
+      "domain": "prose",
+      "id": "subtext.saying_no_while_saying_yes"
+    },
+    {
+      "catalog_id": "subtext",
+      "domain": "prose",
+      "id": "subtext.strategic_silence"
+    },
+    {
+      "catalog_id": "subtext",
+      "domain": "prose",
+      "id": "subtext.topic_shift"
+    },
+    {
+      "catalog_id": "subtext",
+      "domain": "prose",
+      "id": "subtext.understatement"
+    },
+    {
+      "catalog_id": "themes",
+      "domain": "conception",
+      "id": "themes.freedom_vs_security"
+    },
+    {
+      "catalog_id": "themes",
+      "domain": "conception",
+      "id": "themes.identity_vs_role"
+    },
+    {
+      "catalog_id": "themes",
+      "domain": "conception",
+      "id": "themes.individual_vs_society"
+    },
+    {
+      "catalog_id": "themes",
+      "domain": "conception",
+      "id": "themes.love_vs_duty"
+    },
+    {
+      "catalog_id": "themes",
+      "domain": "conception",
+      "id": "themes.meaning_vs_absurdity"
+    },
+    {
+      "catalog_id": "themes",
+      "domain": "conception",
+      "id": "themes.memory_vs_identity"
+    },
+    {
+      "catalog_id": "themes",
+      "domain": "conception",
+      "id": "themes.nature_vs_civilization"
+    },
+    {
+      "catalog_id": "themes",
+      "domain": "conception",
+      "id": "themes.order_vs_chaos"
+    },
+    {
+      "catalog_id": "themes",
+      "domain": "conception",
+      "id": "themes.power_vs_ethics"
+    },
+    {
+      "catalog_id": "themes",
+      "domain": "conception",
+      "id": "themes.progress_vs_tradition"
+    },
+    {
+      "catalog_id": "themes",
+      "domain": "conception",
+      "id": "themes.revenge_vs_forgiveness"
+    },
+    {
+      "catalog_id": "themes",
+      "domain": "conception",
+      "id": "themes.truth_vs_belonging"
+    },
+    {
+      "catalog_id": "tone",
+      "domain": "prose",
+      "id": "tone.absurd"
+    },
+    {
+      "catalog_id": "tone",
+      "domain": "prose",
+      "id": "tone.bleak"
+    },
+    {
+      "catalog_id": "tone",
+      "domain": "prose",
+      "id": "tone.hopeful"
+    },
+    {
+      "catalog_id": "tone",
+      "domain": "prose",
+      "id": "tone.intimate"
+    },
+    {
+      "catalog_id": "tone",
+      "domain": "prose",
+      "id": "tone.ironic"
+    },
+    {
+      "catalog_id": "tone",
+      "domain": "prose",
+      "id": "tone.melancholic"
+    },
+    {
+      "catalog_id": "tone",
+      "domain": "prose",
+      "id": "tone.menacing"
+    },
+    {
+      "catalog_id": "tone",
+      "domain": "prose",
+      "id": "tone.playful"
+    },
+    {
+      "catalog_id": "tone",
+      "domain": "prose",
+      "id": "tone.reverent"
+    },
+    {
+      "catalog_id": "tone",
+      "domain": "prose",
+      "id": "tone.satirical"
+    },
+    {
+      "catalog_id": "tone",
+      "domain": "prose",
+      "id": "tone.tense"
+    },
+    {
+      "catalog_id": "tone",
+      "domain": "prose",
+      "id": "tone.whimsical"
+    },
+    {
+      "catalog_id": "tropes",
+      "domain": "literary",
+      "id": "tropes.chosen_one"
+    },
+    {
+      "catalog_id": "tropes",
+      "domain": "literary",
+      "id": "tropes.enemies_to_lovers"
+    },
+    {
+      "catalog_id": "tropes",
+      "domain": "literary",
+      "id": "tropes.fish_out_of_water"
+    },
+    {
+      "catalog_id": "tropes",
+      "domain": "literary",
+      "id": "tropes.forbidden_love"
+    },
+    {
+      "catalog_id": "tropes",
+      "domain": "literary",
+      "id": "tropes.found_family"
+    },
+    {
+      "catalog_id": "tropes",
+      "domain": "literary",
+      "id": "tropes.locked_room"
+    },
+    {
+      "catalog_id": "tropes",
+      "domain": "literary",
+      "id": "tropes.love_triangle"
+    },
+    {
+      "catalog_id": "tropes",
+      "domain": "literary",
+      "id": "tropes.mentor_dies"
+    },
+    {
+      "catalog_id": "tropes",
+      "domain": "literary",
+      "id": "tropes.quest"
+    },
+    {
+      "catalog_id": "tropes",
+      "domain": "literary",
+      "id": "tropes.rags_to_riches"
+    },
+    {
+      "catalog_id": "tropes",
+      "domain": "literary",
+      "id": "tropes.red_herring"
+    },
+    {
+      "catalog_id": "tropes",
+      "domain": "literary",
+      "id": "tropes.reluctant_hero"
+    },
+    {
+      "catalog_id": "tropes",
+      "domain": "literary",
+      "id": "tropes.revenge"
+    },
+    {
+      "catalog_id": "tropes",
+      "domain": "literary",
+      "id": "tropes.secret_identity"
+    },
+    {
+      "catalog_id": "tropes",
+      "domain": "literary",
+      "id": "tropes.unreliable_narrator"
+    },
+    {
+      "catalog_id": "typography",
+      "domain": "production",
+      "id": "typography.display_face"
+    },
+    {
+      "catalog_id": "typography",
+      "domain": "production",
+      "id": "typography.drop_cap"
+    },
+    {
+      "catalog_id": "typography",
+      "domain": "production",
+      "id": "typography.folio"
+    },
+    {
+      "catalog_id": "typography",
+      "domain": "production",
+      "id": "typography.hyphenation"
+    },
+    {
+      "catalog_id": "typography",
+      "domain": "production",
+      "id": "typography.justification"
+    },
+    {
+      "catalog_id": "typography",
+      "domain": "production",
+      "id": "typography.monospace"
+    },
+    {
+      "catalog_id": "typography",
+      "domain": "production",
+      "id": "typography.orphan"
+    },
+    {
+      "catalog_id": "typography",
+      "domain": "production",
+      "id": "typography.ragged_right"
+    },
+    {
+      "catalog_id": "typography",
+      "domain": "production",
+      "id": "typography.running_head"
+    },
+    {
+      "catalog_id": "typography",
+      "domain": "production",
+      "id": "typography.sans_interface"
+    },
+    {
+      "catalog_id": "typography",
+      "domain": "production",
+      "id": "typography.serif_body"
+    },
+    {
+      "catalog_id": "typography",
+      "domain": "production",
+      "id": "typography.small_caps"
+    },
+    {
+      "catalog_id": "typography",
+      "domain": "production",
+      "id": "typography.widow"
+    },
+    {
+      "catalog_id": "voice",
+      "domain": "prose",
+      "id": "voice.clinical"
+    },
+    {
+      "catalog_id": "voice",
+      "domain": "prose",
+      "id": "voice.colloquial"
+    },
+    {
+      "catalog_id": "voice",
+      "domain": "prose",
+      "id": "voice.conversational"
+    },
+    {
+      "catalog_id": "voice",
+      "domain": "prose",
+      "id": "voice.deadpan"
+    },
+    {
+      "catalog_id": "voice",
+      "domain": "prose",
+      "id": "voice.formal"
+    },
+    {
+      "catalog_id": "voice",
+      "domain": "prose",
+      "id": "voice.intimate"
+    },
+    {
+      "catalog_id": "voice",
+      "domain": "prose",
+      "id": "voice.lyrical"
+    },
+    {
+      "catalog_id": "voice",
+      "domain": "prose",
+      "id": "voice.meditative"
+    },
+    {
+      "catalog_id": "voice",
+      "domain": "prose",
+      "id": "voice.minimalist"
+    },
+    {
+      "catalog_id": "voice",
+      "domain": "prose",
+      "id": "voice.ornate"
+    },
+    {
+      "catalog_id": "voice",
+      "domain": "prose",
+      "id": "voice.plain"
+    },
+    {
+      "catalog_id": "voice",
+      "domain": "prose",
+      "id": "voice.witty"
+    },
+    {
+      "catalog_id": "worldbuilding",
+      "domain": "world",
+      "id": "worldbuilding.calendar"
+    },
+    {
+      "catalog_id": "worldbuilding",
+      "domain": "world",
+      "id": "worldbuilding.class"
+    },
+    {
+      "catalog_id": "worldbuilding",
+      "domain": "world",
+      "id": "worldbuilding.climate"
+    },
+    {
+      "catalog_id": "worldbuilding",
+      "domain": "world",
+      "id": "worldbuilding.communication"
+    },
+    {
+      "catalog_id": "worldbuilding",
+      "domain": "world",
+      "id": "worldbuilding.ecology"
+    },
+    {
+      "catalog_id": "worldbuilding",
+      "domain": "world",
+      "id": "worldbuilding.economy"
+    },
+    {
+      "catalog_id": "worldbuilding",
+      "domain": "world",
+      "id": "worldbuilding.education"
+    },
+    {
+      "catalog_id": "worldbuilding",
+      "domain": "world",
+      "id": "worldbuilding.geography"
+    },
+    {
+      "catalog_id": "worldbuilding",
+      "domain": "world",
+      "id": "worldbuilding.government"
+    },
+    {
+      "catalog_id": "worldbuilding",
+      "domain": "world",
+      "id": "worldbuilding.law"
+    },
+    {
+      "catalog_id": "worldbuilding",
+      "domain": "world",
+      "id": "worldbuilding.magic_system"
+    },
+    {
+      "catalog_id": "worldbuilding",
+      "domain": "world",
+      "id": "worldbuilding.medicine"
+    },
+    {
+      "catalog_id": "worldbuilding",
+      "domain": "world",
+      "id": "worldbuilding.religion"
+    },
+    {
+      "catalog_id": "worldbuilding",
+      "domain": "world",
+      "id": "worldbuilding.settlement"
+    },
+    {
+      "catalog_id": "worldbuilding",
+      "domain": "world",
+      "id": "worldbuilding.technology"
+    },
+    {
+      "catalog_id": "worldbuilding",
+      "domain": "world",
+      "id": "worldbuilding.transport"
+    },
+    {
+      "catalog_id": "worldbuilding",
+      "domain": "world",
+      "id": "worldbuilding.warfare"
+    }
+  ]
+}

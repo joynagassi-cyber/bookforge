@@ -1,0 +1,13 @@
+{
+  "id": "genre-ext",
+  "version": "1.0.0",
+  "kind": "catalog",
+  "description": "Extended genre classifications for BookForge",
+  "entrypoints": {
+    "catalogs": ["genres", "book_types", "story_structures"]
+  },
+  "dependencies": {},
+  "compatible_framework_versions": [">=0.5.0"],
+  "inputs": [],
+  "outputs": ["genre-classification", "structure-mapping"]
+}

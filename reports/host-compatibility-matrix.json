@@ -1,0 +1,164 @@
+{
+  "version": "0.5.0",
+  "hosts": [
+    {
+      "host": "antigravity",
+      "capabilities": [
+        "filesystem",
+        "generic-instructions"
+      ],
+      "installation": {
+        "instructions": "bookforge/generated/hosts/antigravity/"
+      }
+    },
+    {
+      "host": "antigravity-cli",
+      "capabilities": [
+        "skills",
+        "filesystem",
+        "cli"
+      ],
+      "installation": {
+        "skills": ".agents/skills"
+      }
+    },
+    {
+      "host": "claude-code",
+      "capabilities": [
+        "skills",
+        "mcp",
+        "filesystem",
+        "cli"
+      ],
+      "installation": {
+        "skills": ".claude/skills/",
+        "mcp": ".mcp.json",
+        "native_cli": "claude"
+      }
+    },
+    {
+      "host": "codex-cli",
+      "capabilities": [
+        "filesystem",
+        "cli",
+        "mcp_if_supported"
+      ],
+      "installation": {
+        "skills": "bookforge/generated/skills/"
+      }
+    },
+    {
+      "host": "cursor",
+      "capabilities": [
+        "skills",
+        "mcp",
+        "filesystem"
+      ],
+      "installation": {
+        "skills": ".agents/skills/",
+        "mcp": ".cursor/mcp.json"
+      }
+    },
+    {
+      "host": "devin",
+      "capabilities": [
+        "repository",
+        "filesystem",
+        "generic-instructions"
+      ],
+      "installation": {
+        "instructions": "bookforge/generated/hosts/devin/"
+      }
+    },
+    {
+      "host": "gemini",
+      "capabilities": [
+        "skills",
+        "mcp",
+        "filesystem"
+      ],
+      "installation": {
+        "skills": ".agents/skills"
+      }
+    },
+    {
+      "host": "generic",
+      "capabilities": [
+        "filesystem",
+        "markdown",
+        "json",
+        "yaml"
+      ],
+      "installation": {
+        "skills": "bookforge/generated/skills/",
+        "instructions": "bookforge/generated/hosts/generic/"
+      }
+    },
+    {
+      "host": "github-copilot",
+      "capabilities": [
+        "skills",
+        "mcp",
+        "filesystem"
+      ],
+      "installation": {
+        "skills": ".agents/skills",
+        "commands": ".github/agents"
+      }
+    },
+    {
+      "host": "kilocode",
+      "capabilities": [
+        "skills",
+        "filesystem",
+        "cli"
+      ],
+      "installation": {
+        "skills": ".agents/skills"
+      }
+    },
+    {
+      "host": "kiro",
+      "capabilities": [
+        "filesystem",
+        "project-instructions"
+      ],
+      "installation": {
+        "instructions": "bookforge/generated/hosts/kiro/"
+      }
+    },
+    {
+      "host": "opencode",
+      "capabilities": [
+        "skills",
+        "mcp",
+        "filesystem",
+        "cli"
+      ],
+      "installation": {
+        "skills": ".agents/skills"
+      }
+    },
+    {
+      "host": "vscode",
+      "capabilities": [
+        "mcp",
+        "filesystem"
+      ],
+      "installation": {
+        "mcp": ".vscode/mcp.json"
+      }
+    },
+    {
+      "host": "windsurf",
+      "capabilities": [
+        "skills",
+        "mcp",
+        "filesystem"
+      ],
+      "installation": {
+        "skills": ".agents/skills/"
+      }
+    }
+  ]
+}

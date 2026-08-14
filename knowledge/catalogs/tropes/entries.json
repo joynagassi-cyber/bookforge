@@ -1,0 +1,317 @@
+[
+  {
+    "id": "tropes.chosen_one",
+    "name": "Chosen One",
+    "type": "catalog_entry",
+    "domain": "literary",
+    "definition": null,
+    "purpose": "Catalogue de motifs conventionnels et de leurs variations/subversions, avec provenance.",
+    "tags": [
+      "character",
+      "plot",
+      "world",
+      "relationship",
+      "dialogue",
+      "setting"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "tropes.love_triangle",
+    "name": "Love Triangle",
+    "type": "catalog_entry",
+    "domain": "literary",
+    "definition": null,
+    "purpose": "Catalogue de motifs conventionnels et de leurs variations/subversions, avec provenance.",
+    "tags": [
+      "character",
+      "plot",
+      "world",
+      "relationship",
+      "dialogue",
+      "setting"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "tropes.mentor_dies",
+    "name": "Mentor Dies",
+    "type": "catalog_entry",
+    "domain": "literary",
+    "definition": null,
+    "purpose": "Catalogue de motifs conventionnels et de leurs variations/subversions, avec provenance.",
+    "tags": [
+      "character",
+      "plot",
+      "world",
+      "relationship",
+      "dialogue",
+      "setting"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "tropes.secret_identity",
+    "name": "Secret Identity",
+    "type": "catalog_entry",
+    "domain": "literary",
+    "definition": null,
+    "purpose": "Catalogue de motifs conventionnels et de leurs variations/subversions, avec provenance.",
+    "tags": [
+      "character",
+      "plot",
+      "world",
+      "relationship",
+      "dialogue",
+      "setting"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "tropes.forbidden_love",
+    "name": "Forbidden Love",
+    "type": "catalog_entry",
+    "domain": "literary",
+    "definition": null,
+    "purpose": "Catalogue de motifs conventionnels et de leurs variations/subversions, avec provenance.",
+    "tags": [
+      "character",
+      "plot",
+      "world",
+      "relationship",
+      "dialogue",
+      "setting"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "tropes.enemies_to_lovers",
+    "name": "Enemies To Lovers",
+    "type": "catalog_entry",
+    "domain": "literary",
+    "definition": null,
+    "purpose": "Catalogue de motifs conventionnels et de leurs variations/subversions, avec provenance.",
+    "tags": [
+      "character",
+      "plot",
+      "world",
+      "relationship",
+      "dialogue",
+      "setting"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "tropes.found_family",
+    "name": "Found Family",
+    "type": "catalog_entry",
+    "domain": "literary",
+    "definition": null,
+    "purpose": "Catalogue de motifs conventionnels et de leurs variations/subversions, avec provenance.",
+    "tags": [
+      "character",
+      "plot",
+      "world",
+      "relationship",
+      "dialogue",
+      "setting"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "tropes.fish_out_of_water",
+    "name": "Fish Out Of Water",
+    "type": "catalog_entry",
+    "domain": "literary",
+    "definition": null,
+    "purpose": "Catalogue de motifs conventionnels et de leurs variations/subversions, avec provenance.",
+    "tags": [
+      "character",
+      "plot",
+      "world",
+      "relationship",
+      "dialogue",
+      "setting"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "tropes.reluctant_hero",
+    "name": "Reluctant Hero",
+    "type": "catalog_entry",
+    "domain": "literary",
+    "definition": null,
+    "purpose": "Catalogue de motifs conventionnels et de leurs variations/subversions, avec provenance.",
+    "tags": [
+      "character",
+      "plot",
+      "world",
+      "relationship",
+      "dialogue",
+      "setting"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "tropes.unreliable_narrator",
+    "name": "Unreliable Narrator",
+    "type": "catalog_entry",
+    "domain": "literary",
+    "definition": null,
+    "purpose": "Catalogue de motifs conventionnels et de leurs variations/subversions, avec provenance.",
+    "tags": [
+      "character",
+      "plot",
+      "world",
+      "relationship",
+      "dialogue",
+      "setting"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "tropes.red_herring",
+    "name": "Red Herring",
+    "type": "catalog_entry",
+    "domain": "literary",
+    "definition": null,
+    "purpose": "Catalogue de motifs conventionnels et de leurs variations/subversions, avec provenance.",
+    "tags": [
+      "character",
+      "plot",
+      "world",
+      "relationship",
+      "dialogue",
+      "setting"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "tropes.locked_room",
+    "name": "Locked Room",
+    "type": "catalog_entry",
+    "domain": "literary",
+    "definition": null,
+    "purpose": "Catalogue de motifs conventionnels et de leurs variations/subversions, avec provenance.",
+    "tags": [
+      "character",
+      "plot",
+      "world",
+      "relationship",
+      "dialogue",
+      "setting"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "tropes.rags_to_riches",
+    "name": "Rags To Riches",
+    "type": "catalog_entry",
+    "domain": "literary",
+    "definition": null,
+    "purpose": "Catalogue de motifs conventionnels et de leurs variations/subversions, avec provenance.",
+    "tags": [
+      "character",
+      "plot",
+      "world",
+      "relationship",
+      "dialogue",
+      "setting"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "tropes.quest",
+    "name": "Quest",
+    "type": "catalog_entry",
+    "domain": "literary",
+    "definition": null,
+    "purpose": "Catalogue de motifs conventionnels et de leurs variations/subversions, avec provenance.",
+    "tags": [
+      "character",
+      "plot",
+      "world",
+      "relationship",
+      "dialogue",
+      "setting"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "tropes.revenge",
+    "name": "Revenge",
+    "type": "catalog_entry",
+    "domain": "literary",
+    "definition": null,
+    "purpose": "Catalogue de motifs conventionnels et de leurs variations/subversions, avec provenance.",
+    "tags": [
+      "character",
+      "plot",
+      "world",
+      "relationship",
+      "dialogue",
+      "setting"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  }
+]

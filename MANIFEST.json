@@ -1,0 +1,25 @@
+{
+  "framework": "bookforge",
+  "version": "0.5.0",
+  "files": 482,
+  "agents": 21,
+  "workflows": 17,
+  "skills": 28,
+  "catalogs": 72,
+  "adapters": 6,
+  "evaluations": 2,
+  "knowledge_catalogs": 54,
+  "legacy_catalogs": 18,
+  "quality_extensions": 3,
+  "extension_catalogs": 3,
+  "cli": "bookforge",
+  "plugin_system": "v1",
+  "host_adapters": "v1",
+  "graph_contract": "v1",
+  "runtime": {
+    "plugin_registry": true,
+    "workflow_engine": true,
+    "context_router": true,
+    "graph_synchronizer": true
+  }
+}

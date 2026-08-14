@@ -1,0 +1,10 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "type":"object","required":["id","version","name","components"],
+  "properties":{
+    "id":{"type":"string"},"version":{"type":"string"},"name":{"type":"string"},
+    "description":{"type":"string"},"components":{"type":"object"},
+    "dependencies":{"type":"array"},"configuration":{"type":"object"},
+    "compatibility":{"type":"object"},"marketplace":{"type":"object"}
+  }
+}

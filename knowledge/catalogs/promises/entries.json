@@ -1,0 +1,212 @@
+[
+  {
+    "id": "promises.mystery_resolution",
+    "name": "Mystery Resolution",
+    "type": "catalog_entry",
+    "domain": "conception",
+    "definition": null,
+    "purpose": "Modélise ce que le livre promet de faire ressentir, comprendre ou obtenir au lecteur.",
+    "tags": [
+      "emotional",
+      "informational",
+      "transformational",
+      "experiential",
+      "practical",
+      "entertainment"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "promises.romantic_satisfaction",
+    "name": "Romantic Satisfaction",
+    "type": "catalog_entry",
+    "domain": "conception",
+    "definition": null,
+    "purpose": "Modélise ce que le livre promet de faire ressentir, comprendre ou obtenir au lecteur.",
+    "tags": [
+      "emotional",
+      "informational",
+      "transformational",
+      "experiential",
+      "practical",
+      "entertainment"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "promises.fear",
+    "name": "Fear",
+    "type": "catalog_entry",
+    "domain": "conception",
+    "definition": null,
+    "purpose": "Modélise ce que le livre promet de faire ressentir, comprendre ou obtenir au lecteur.",
+    "tags": [
+      "emotional",
+      "informational",
+      "transformational",
+      "experiential",
+      "practical",
+      "entertainment"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "promises.wonder",
+    "name": "Wonder",
+    "type": "catalog_entry",
+    "domain": "conception",
+    "definition": null,
+    "purpose": "Modélise ce que le livre promet de faire ressentir, comprendre ou obtenir au lecteur.",
+    "tags": [
+      "emotional",
+      "informational",
+      "transformational",
+      "experiential",
+      "practical",
+      "entertainment"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "promises.mastery",
+    "name": "Mastery",
+    "type": "catalog_entry",
+    "domain": "conception",
+    "definition": null,
+    "purpose": "Modélise ce que le livre promet de faire ressentir, comprendre ou obtenir au lecteur.",
+    "tags": [
+      "emotional",
+      "informational",
+      "transformational",
+      "experiential",
+      "practical",
+      "entertainment"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "promises.transformation",
+    "name": "Transformation",
+    "type": "catalog_entry",
+    "domain": "conception",
+    "definition": null,
+    "purpose": "Modélise ce que le livre promet de faire ressentir, comprendre ou obtenir au lecteur.",
+    "tags": [
+      "emotional",
+      "informational",
+      "transformational",
+      "experiential",
+      "practical",
+      "entertainment"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "promises.practical_result",
+    "name": "Practical Result",
+    "type": "catalog_entry",
+    "domain": "conception",
+    "definition": null,
+    "purpose": "Modélise ce que le livre promet de faire ressentir, comprendre ou obtenir au lecteur.",
+    "tags": [
+      "emotional",
+      "informational",
+      "transformational",
+      "experiential",
+      "practical",
+      "entertainment"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "promises.identity_shift",
+    "name": "Identity Shift",
+    "type": "catalog_entry",
+    "domain": "conception",
+    "definition": null,
+    "purpose": "Modélise ce que le livre promet de faire ressentir, comprendre ou obtenir au lecteur.",
+    "tags": [
+      "emotional",
+      "informational",
+      "transformational",
+      "experiential",
+      "practical",
+      "entertainment"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "promises.insight",
+    "name": "Insight",
+    "type": "catalog_entry",
+    "domain": "conception",
+    "definition": null,
+    "purpose": "Modélise ce que le livre promet de faire ressentir, comprendre ou obtenir au lecteur.",
+    "tags": [
+      "emotional",
+      "informational",
+      "transformational",
+      "experiential",
+      "practical",
+      "entertainment"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "promises.belonging",
+    "name": "Belonging",
+    "type": "catalog_entry",
+    "domain": "conception",
+    "definition": null,
+    "purpose": "Modélise ce que le livre promet de faire ressentir, comprendre ou obtenir au lecteur.",
+    "tags": [
+      "emotional",
+      "informational",
+      "transformational",
+      "experiential",
+      "practical",
+      "entertainment"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  }
+]

@@ -1,0 +1,61 @@
+{
+  "id": "editing",
+  "name": "Editorial Editing Methods",
+  "domain": "editing",
+  "purpose": "Sépare les niveaux d'intervention éditoriale et leurs objectifs.",
+  "priority": "P0",
+  "entry_schema": [
+    "id",
+    "name",
+    "type",
+    "definition",
+    "purpose",
+    "when_to_use",
+    "when_not_to_use",
+    "variants",
+    "strengths",
+    "risks",
+    "anti_patterns",
+    "related_ids",
+    "tags",
+    "genres",
+    "formats",
+    "agent_hints",
+    "confidence",
+    "sources",
+    "scope",
+    "input_state",
+    "output_state",
+    "diagnostic_questions",
+    "do_not_do"
+  ],
+  "taxonomies": [
+    "developmental",
+    "structural",
+    "scene",
+    "character",
+    "thematic",
+    "line",
+    "copy",
+    "proof",
+    "fact"
+  ],
+  "relations": [
+    "follows",
+    "precedes",
+    "uses_anti_pattern",
+    "produces_validator_report"
+  ],
+  "primary_consumers": [
+    "Editorial Agent",
+    "Revision Agent",
+    "Proofreader",
+    "Fact Checker"
+  ],
+  "reference_sources": [
+    "Professional editing process guidance"
+  ],
+  "master_version": "1.0.0",
+  "integration_status": "new",
+  "legacy_source": null
+}

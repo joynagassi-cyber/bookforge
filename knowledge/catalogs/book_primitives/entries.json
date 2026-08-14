@@ -1,0 +1,952 @@
+[
+  {
+    "id": "book_primitives.book",
+    "name": "Book",
+    "type": "catalog_entry",
+    "domain": "foundation",
+    "definition": null,
+    "purpose": "Vocabulaire canonique partagé par tous les agents et catalogues.",
+    "tags": [
+      "creative",
+      "narrative",
+      "editorial",
+      "production"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_primitives.idea",
+    "name": "Idea",
+    "type": "catalog_entry",
+    "domain": "foundation",
+    "definition": null,
+    "purpose": "Vocabulaire canonique partagé par tous les agents et catalogues.",
+    "tags": [
+      "creative",
+      "narrative",
+      "editorial",
+      "production"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_primitives.concept",
+    "name": "Concept",
+    "type": "catalog_entry",
+    "domain": "foundation",
+    "definition": null,
+    "purpose": "Vocabulaire canonique partagé par tous les agents et catalogues.",
+    "tags": [
+      "creative",
+      "narrative",
+      "editorial",
+      "production"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_primitives.premise",
+    "name": "Premise",
+    "type": "catalog_entry",
+    "domain": "foundation",
+    "definition": null,
+    "purpose": "Vocabulaire canonique partagé par tous les agents et catalogues.",
+    "tags": [
+      "creative",
+      "narrative",
+      "editorial",
+      "production"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_primitives.promise",
+    "name": "Promise",
+    "type": "catalog_entry",
+    "domain": "foundation",
+    "definition": null,
+    "purpose": "Vocabulaire canonique partagé par tous les agents et catalogues.",
+    "tags": [
+      "creative",
+      "narrative",
+      "editorial",
+      "production"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_primitives.theme",
+    "name": "Theme",
+    "type": "catalog_entry",
+    "domain": "foundation",
+    "definition": null,
+    "purpose": "Vocabulaire canonique partagé par tous les agents et catalogues.",
+    "tags": [
+      "creative",
+      "narrative",
+      "editorial",
+      "production"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_primitives.question",
+    "name": "Question",
+    "type": "catalog_entry",
+    "domain": "foundation",
+    "definition": null,
+    "purpose": "Vocabulaire canonique partagé par tous les agents et catalogues.",
+    "tags": [
+      "creative",
+      "narrative",
+      "editorial",
+      "production"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_primitives.claim",
+    "name": "Claim",
+    "type": "catalog_entry",
+    "domain": "foundation",
+    "definition": null,
+    "purpose": "Vocabulaire canonique partagé par tous les agents et catalogues.",
+    "tags": [
+      "creative",
+      "narrative",
+      "editorial",
+      "production"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_primitives.character",
+    "name": "Character",
+    "type": "catalog_entry",
+    "domain": "foundation",
+    "definition": null,
+    "purpose": "Vocabulaire canonique partagé par tous les agents et catalogues.",
+    "tags": [
+      "creative",
+      "narrative",
+      "editorial",
+      "production"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_primitives.role",
+    "name": "Role",
+    "type": "catalog_entry",
+    "domain": "foundation",
+    "definition": null,
+    "purpose": "Vocabulaire canonique partagé par tous les agents et catalogues.",
+    "tags": [
+      "creative",
+      "narrative",
+      "editorial",
+      "production"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_primitives.goal",
+    "name": "Goal",
+    "type": "catalog_entry",
+    "domain": "foundation",
+    "definition": null,
+    "purpose": "Vocabulaire canonique partagé par tous les agents et catalogues.",
+    "tags": [
+      "creative",
+      "narrative",
+      "editorial",
+      "production"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_primitives.need",
+    "name": "Need",
+    "type": "catalog_entry",
+    "domain": "foundation",
+    "definition": null,
+    "purpose": "Vocabulaire canonique partagé par tous les agents et catalogues.",
+    "tags": [
+      "creative",
+      "narrative",
+      "editorial",
+      "production"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_primitives.desire",
+    "name": "Desire",
+    "type": "catalog_entry",
+    "domain": "foundation",
+    "definition": null,
+    "purpose": "Vocabulaire canonique partagé par tous les agents et catalogues.",
+    "tags": [
+      "creative",
+      "narrative",
+      "editorial",
+      "production"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_primitives.fear",
+    "name": "Fear",
+    "type": "catalog_entry",
+    "domain": "foundation",
+    "definition": null,
+    "purpose": "Vocabulaire canonique partagé par tous les agents et catalogues.",
+    "tags": [
+      "creative",
+      "narrative",
+      "editorial",
+      "production"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_primitives.wound",
+    "name": "Wound",
+    "type": "catalog_entry",
+    "domain": "foundation",
+    "definition": null,
+    "purpose": "Vocabulaire canonique partagé par tous les agents et catalogues.",
+    "tags": [
+      "creative",
+      "narrative",
+      "editorial",
+      "production"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_primitives.belief",
+    "name": "Belief",
+    "type": "catalog_entry",
+    "domain": "foundation",
+    "definition": null,
+    "purpose": "Vocabulaire canonique partagé par tous les agents et catalogues.",
+    "tags": [
+      "creative",
+      "narrative",
+      "editorial",
+      "production"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_primitives.conflict",
+    "name": "Conflict",
+    "type": "catalog_entry",
+    "domain": "foundation",
+    "definition": null,
+    "purpose": "Vocabulaire canonique partagé par tous les agents et catalogues.",
+    "tags": [
+      "creative",
+      "narrative",
+      "editorial",
+      "production"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_primitives.obstacle",
+    "name": "Obstacle",
+    "type": "catalog_entry",
+    "domain": "foundation",
+    "definition": null,
+    "purpose": "Vocabulaire canonique partagé par tous les agents et catalogues.",
+    "tags": [
+      "creative",
+      "narrative",
+      "editorial",
+      "production"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_primitives.choice",
+    "name": "Choice",
+    "type": "catalog_entry",
+    "domain": "foundation",
+    "definition": null,
+    "purpose": "Vocabulaire canonique partagé par tous les agents et catalogues.",
+    "tags": [
+      "creative",
+      "narrative",
+      "editorial",
+      "production"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_primitives.action",
+    "name": "Action",
+    "type": "catalog_entry",
+    "domain": "foundation",
+    "definition": null,
+    "purpose": "Vocabulaire canonique partagé par tous les agents et catalogues.",
+    "tags": [
+      "creative",
+      "narrative",
+      "editorial",
+      "production"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_primitives.event",
+    "name": "Event",
+    "type": "catalog_entry",
+    "domain": "foundation",
+    "definition": null,
+    "purpose": "Vocabulaire canonique partagé par tous les agents et catalogues.",
+    "tags": [
+      "creative",
+      "narrative",
+      "editorial",
+      "production"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_primitives.consequence",
+    "name": "Consequence",
+    "type": "catalog_entry",
+    "domain": "foundation",
+    "definition": null,
+    "purpose": "Vocabulaire canonique partagé par tous les agents et catalogues.",
+    "tags": [
+      "creative",
+      "narrative",
+      "editorial",
+      "production"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_primitives.scene",
+    "name": "Scene",
+    "type": "catalog_entry",
+    "domain": "foundation",
+    "definition": null,
+    "purpose": "Vocabulaire canonique partagé par tous les agents et catalogues.",
+    "tags": [
+      "creative",
+      "narrative",
+      "editorial",
+      "production"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_primitives.beat",
+    "name": "Beat",
+    "type": "catalog_entry",
+    "domain": "foundation",
+    "definition": null,
+    "purpose": "Vocabulaire canonique partagé par tous les agents et catalogues.",
+    "tags": [
+      "creative",
+      "narrative",
+      "editorial",
+      "production"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_primitives.chapter",
+    "name": "Chapter",
+    "type": "catalog_entry",
+    "domain": "foundation",
+    "definition": null,
+    "purpose": "Vocabulaire canonique partagé par tous les agents et catalogues.",
+    "tags": [
+      "creative",
+      "narrative",
+      "editorial",
+      "production"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_primitives.part",
+    "name": "Part",
+    "type": "catalog_entry",
+    "domain": "foundation",
+    "definition": null,
+    "purpose": "Vocabulaire canonique partagé par tous les agents et catalogues.",
+    "tags": [
+      "creative",
+      "narrative",
+      "editorial",
+      "production"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_primitives.arc",
+    "name": "Arc",
+    "type": "catalog_entry",
+    "domain": "foundation",
+    "definition": null,
+    "purpose": "Vocabulaire canonique partagé par tous les agents et catalogues.",
+    "tags": [
+      "creative",
+      "narrative",
+      "editorial",
+      "production"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_primitives.relationship",
+    "name": "Relationship",
+    "type": "catalog_entry",
+    "domain": "foundation",
+    "definition": null,
+    "purpose": "Vocabulaire canonique partagé par tous les agents et catalogues.",
+    "tags": [
+      "creative",
+      "narrative",
+      "editorial",
+      "production"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_primitives.location",
+    "name": "Location",
+    "type": "catalog_entry",
+    "domain": "foundation",
+    "definition": null,
+    "purpose": "Vocabulaire canonique partagé par tous les agents et catalogues.",
+    "tags": [
+      "creative",
+      "narrative",
+      "editorial",
+      "production"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_primitives.object",
+    "name": "Object",
+    "type": "catalog_entry",
+    "domain": "foundation",
+    "definition": null,
+    "purpose": "Vocabulaire canonique partagé par tous les agents et catalogues.",
+    "tags": [
+      "creative",
+      "narrative",
+      "editorial",
+      "production"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_primitives.symbol",
+    "name": "Symbol",
+    "type": "catalog_entry",
+    "domain": "foundation",
+    "definition": null,
+    "purpose": "Vocabulaire canonique partagé par tous les agents et catalogues.",
+    "tags": [
+      "creative",
+      "narrative",
+      "editorial",
+      "production"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_primitives.motif",
+    "name": "Motif",
+    "type": "catalog_entry",
+    "domain": "foundation",
+    "definition": null,
+    "purpose": "Vocabulaire canonique partagé par tous les agents et catalogues.",
+    "tags": [
+      "creative",
+      "narrative",
+      "editorial",
+      "production"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_primitives.emotion",
+    "name": "Emotion",
+    "type": "catalog_entry",
+    "domain": "foundation",
+    "definition": null,
+    "purpose": "Vocabulaire canonique partagé par tous les agents et catalogues.",
+    "tags": [
+      "creative",
+      "narrative",
+      "editorial",
+      "production"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_primitives.information",
+    "name": "Information",
+    "type": "catalog_entry",
+    "domain": "foundation",
+    "definition": null,
+    "purpose": "Vocabulaire canonique partagé par tous les agents et catalogues.",
+    "tags": [
+      "creative",
+      "narrative",
+      "editorial",
+      "production"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_primitives.reveal",
+    "name": "Reveal",
+    "type": "catalog_entry",
+    "domain": "foundation",
+    "definition": null,
+    "purpose": "Vocabulaire canonique partagé par tous les agents et catalogues.",
+    "tags": [
+      "creative",
+      "narrative",
+      "editorial",
+      "production"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_primitives.secret",
+    "name": "Secret",
+    "type": "catalog_entry",
+    "domain": "foundation",
+    "definition": null,
+    "purpose": "Vocabulaire canonique partagé par tous les agents et catalogues.",
+    "tags": [
+      "creative",
+      "narrative",
+      "editorial",
+      "production"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_primitives.clue",
+    "name": "Clue",
+    "type": "catalog_entry",
+    "domain": "foundation",
+    "definition": null,
+    "purpose": "Vocabulaire canonique partagé par tous les agents et catalogues.",
+    "tags": [
+      "creative",
+      "narrative",
+      "editorial",
+      "production"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_primitives.foreshadow",
+    "name": "Foreshadow",
+    "type": "catalog_entry",
+    "domain": "foundation",
+    "definition": null,
+    "purpose": "Vocabulaire canonique partagé par tous les agents et catalogues.",
+    "tags": [
+      "creative",
+      "narrative",
+      "editorial",
+      "production"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_primitives.payoff",
+    "name": "Payoff",
+    "type": "catalog_entry",
+    "domain": "foundation",
+    "definition": null,
+    "purpose": "Vocabulaire canonique partagé par tous les agents et catalogues.",
+    "tags": [
+      "creative",
+      "narrative",
+      "editorial",
+      "production"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_primitives.voice",
+    "name": "Voice",
+    "type": "catalog_entry",
+    "domain": "foundation",
+    "definition": null,
+    "purpose": "Vocabulaire canonique partagé par tous les agents et catalogues.",
+    "tags": [
+      "creative",
+      "narrative",
+      "editorial",
+      "production"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_primitives.style",
+    "name": "Style",
+    "type": "catalog_entry",
+    "domain": "foundation",
+    "definition": null,
+    "purpose": "Vocabulaire canonique partagé par tous les agents et catalogues.",
+    "tags": [
+      "creative",
+      "narrative",
+      "editorial",
+      "production"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_primitives.tone",
+    "name": "Tone",
+    "type": "catalog_entry",
+    "domain": "foundation",
+    "definition": null,
+    "purpose": "Vocabulaire canonique partagé par tous les agents et catalogues.",
+    "tags": [
+      "creative",
+      "narrative",
+      "editorial",
+      "production"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_primitives.image",
+    "name": "Image",
+    "type": "catalog_entry",
+    "domain": "foundation",
+    "definition": null,
+    "purpose": "Vocabulaire canonique partagé par tous les agents et catalogues.",
+    "tags": [
+      "creative",
+      "narrative",
+      "editorial",
+      "production"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_primitives.metaphor",
+    "name": "Metaphor",
+    "type": "catalog_entry",
+    "domain": "foundation",
+    "definition": null,
+    "purpose": "Vocabulaire canonique partagé par tous les agents et catalogues.",
+    "tags": [
+      "creative",
+      "narrative",
+      "editorial",
+      "production"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_primitives.dialogue",
+    "name": "Dialogue",
+    "type": "catalog_entry",
+    "domain": "foundation",
+    "definition": null,
+    "purpose": "Vocabulaire canonique partagé par tous les agents et catalogues.",
+    "tags": [
+      "creative",
+      "narrative",
+      "editorial",
+      "production"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_primitives.description",
+    "name": "Description",
+    "type": "catalog_entry",
+    "domain": "foundation",
+    "definition": null,
+    "purpose": "Vocabulaire canonique partagé par tous les agents et catalogues.",
+    "tags": [
+      "creative",
+      "narrative",
+      "editorial",
+      "production"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_primitives.fact",
+    "name": "Fact",
+    "type": "catalog_entry",
+    "domain": "foundation",
+    "definition": null,
+    "purpose": "Vocabulaire canonique partagé par tous les agents et catalogues.",
+    "tags": [
+      "creative",
+      "narrative",
+      "editorial",
+      "production"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_primitives.source",
+    "name": "Source",
+    "type": "catalog_entry",
+    "domain": "foundation",
+    "definition": null,
+    "purpose": "Vocabulaire canonique partagé par tous les agents et catalogues.",
+    "tags": [
+      "creative",
+      "narrative",
+      "editorial",
+      "production"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_primitives.evidence",
+    "name": "Evidence",
+    "type": "catalog_entry",
+    "domain": "foundation",
+    "definition": null,
+    "purpose": "Vocabulaire canonique partagé par tous les agents et catalogues.",
+    "tags": [
+      "creative",
+      "narrative",
+      "editorial",
+      "production"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "book_primitives.revision",
+    "name": "Revision",
+    "type": "catalog_entry",
+    "domain": "foundation",
+    "definition": null,
+    "purpose": "Vocabulaire canonique partagé par tous les agents et catalogues.",
+    "tags": [
+      "creative",
+      "narrative",
+      "editorial",
+      "production"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  }
+]

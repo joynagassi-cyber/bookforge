@@ -1,0 +1,17 @@
+{
+  "id": "route-005",
+  "description": "Prepare manuscript for publication should route to release-gate with large complexity",
+  "input": "Prepare manuscript for publication",
+  "expected": {
+    "workflow": "release-gate",
+    "complexity": "large",
+    "scale": "large",
+    "required_catalogs_min": 8,
+    "required_catalogs_max": 20
+  },
+  "fixtures": {
+    "task": "Prepare manuscript for publication",
+    "agent": null,
+    "workflow": null
+  }
+}

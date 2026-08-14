@@ -1,0 +1,6 @@
+pattern_id,artifact,goal,checks
+pkg-001,cover,signal genre immediately,thumbnail legibility; typography; rights; hierarchy
+pkg-002,interior,reader usability,margins; hierarchy; navigation; consistency
+pkg-003,ebook,reflowable quality,semantic structure; TOC; links; metadata
+pkg-004,print,production readiness,trim; bleed; margins; page furniture
+pkg-005,audiobook,listening consistency,voice; pacing; chapter metadata

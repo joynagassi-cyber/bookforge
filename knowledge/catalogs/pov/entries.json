@@ -1,0 +1,170 @@
+[
+  {
+    "id": "pov.single_pov",
+    "name": "Single Pov",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Catalogue des choix de perspective et de leurs effets.",
+    "tags": [
+      "first_person",
+      "second_person",
+      "third_limited",
+      "third_omniscient",
+      "objective",
+      "free_indirect"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "pov.multiple_pov",
+    "name": "Multiple Pov",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Catalogue des choix de perspective et de leurs effets.",
+    "tags": [
+      "first_person",
+      "second_person",
+      "third_limited",
+      "third_omniscient",
+      "objective",
+      "free_indirect"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "pov.rotating_pov",
+    "name": "Rotating Pov",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Catalogue des choix de perspective et de leurs effets.",
+    "tags": [
+      "first_person",
+      "second_person",
+      "third_limited",
+      "third_omniscient",
+      "objective",
+      "free_indirect"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "pov.frame_narrator",
+    "name": "Frame Narrator",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Catalogue des choix de perspective et de leurs effets.",
+    "tags": [
+      "first_person",
+      "second_person",
+      "third_limited",
+      "third_omniscient",
+      "objective",
+      "free_indirect"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "pov.unreliable_narrator",
+    "name": "Unreliable Narrator",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Catalogue des choix de perspective et de leurs effets.",
+    "tags": [
+      "first_person",
+      "second_person",
+      "third_limited",
+      "third_omniscient",
+      "objective",
+      "free_indirect"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "pov.epistolary",
+    "name": "Epistolary",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Catalogue des choix de perspective et de leurs effets.",
+    "tags": [
+      "first_person",
+      "second_person",
+      "third_limited",
+      "third_omniscient",
+      "objective",
+      "free_indirect"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "pov.collective_we",
+    "name": "Collective We",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Catalogue des choix de perspective et de leurs effets.",
+    "tags": [
+      "first_person",
+      "second_person",
+      "third_limited",
+      "third_omniscient",
+      "objective",
+      "free_indirect"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "pov.stream_of_consciousness",
+    "name": "Stream Of Consciousness",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Catalogue des choix de perspective et de leurs effets.",
+    "tags": [
+      "first_person",
+      "second_person",
+      "third_limited",
+      "third_omniscient",
+      "objective",
+      "free_indirect"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  }
+]

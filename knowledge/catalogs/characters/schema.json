@@ -1,0 +1,124 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Character Construction",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "type",
+    "definition",
+    "purpose",
+    "when_to_use",
+    "when_not_to_use",
+    "variants",
+    "strengths"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "id": {
+      "description": "Field id"
+    },
+    "name": {
+      "description": "Field name"
+    },
+    "type": {
+      "description": "Field type"
+    },
+    "definition": {
+      "description": "Field definition"
+    },
+    "purpose": {
+      "description": "Field purpose"
+    },
+    "when_to_use": {
+      "description": "Field when_to_use"
+    },
+    "when_not_to_use": {
+      "description": "Field when_not_to_use"
+    },
+    "variants": {
+      "description": "Field variants"
+    },
+    "strengths": {
+      "description": "Field strengths"
+    },
+    "risks": {
+      "description": "Field risks"
+    },
+    "anti_patterns": {
+      "description": "Field anti_patterns"
+    },
+    "related_ids": {
+      "description": "Field related_ids"
+    },
+    "tags": {
+      "description": "Field tags"
+    },
+    "genres": {
+      "description": "Field genres"
+    },
+    "formats": {
+      "description": "Field formats"
+    },
+    "agent_hints": {
+      "description": "Field agent_hints"
+    },
+    "confidence": {
+      "description": "Field confidence"
+    },
+    "sources": {
+      "description": "Field sources"
+    },
+    "role": {
+      "description": "Field role"
+    },
+    "goal": {
+      "description": "Field goal"
+    },
+    "need": {
+      "description": "Field need"
+    },
+    "desire": {
+      "description": "Field desire"
+    },
+    "fear": {
+      "description": "Field fear"
+    },
+    "wound": {
+      "description": "Field wound"
+    },
+    "belief": {
+      "description": "Field belief"
+    },
+    "lie": {
+      "description": "Field lie"
+    },
+    "truth": {
+      "description": "Field truth"
+    },
+    "values": {
+      "description": "Field values"
+    },
+    "flaw": {
+      "description": "Field flaw"
+    },
+    "strength": {
+      "description": "Field strength"
+    },
+    "secret": {
+      "description": "Field secret"
+    },
+    "contradiction": {
+      "description": "Field contradiction"
+    },
+    "motivation": {
+      "description": "Field motivation"
+    },
+    "boundaries": {
+      "description": "Field boundaries"
+    },
+    "triggers": {
+      "description": "Field triggers"
+    }
+  }
+}

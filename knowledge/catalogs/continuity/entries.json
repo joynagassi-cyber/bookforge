@@ -1,0 +1,222 @@
+[
+  {
+    "id": "continuity.age_mismatch",
+    "name": "Age Mismatch",
+    "type": "catalog_entry",
+    "domain": "quality",
+    "definition": null,
+    "purpose": "Catalogue des invariants à vérifier dans personnages, chronologie, lieux, objets et faits.",
+    "tags": [
+      "timeline",
+      "character",
+      "location",
+      "object",
+      "knowledge",
+      "causality",
+      "world_rule"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "continuity.injury_mismatch",
+    "name": "Injury Mismatch",
+    "type": "catalog_entry",
+    "domain": "quality",
+    "definition": null,
+    "purpose": "Catalogue des invariants à vérifier dans personnages, chronologie, lieux, objets et faits.",
+    "tags": [
+      "timeline",
+      "character",
+      "location",
+      "object",
+      "knowledge",
+      "causality",
+      "world_rule"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "continuity.location_mismatch",
+    "name": "Location Mismatch",
+    "type": "catalog_entry",
+    "domain": "quality",
+    "definition": null,
+    "purpose": "Catalogue des invariants à vérifier dans personnages, chronologie, lieux, objets et faits.",
+    "tags": [
+      "timeline",
+      "character",
+      "location",
+      "object",
+      "knowledge",
+      "causality",
+      "world_rule"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "continuity.object_mismatch",
+    "name": "Object Mismatch",
+    "type": "catalog_entry",
+    "domain": "quality",
+    "definition": null,
+    "purpose": "Catalogue des invariants à vérifier dans personnages, chronologie, lieux, objets et faits.",
+    "tags": [
+      "timeline",
+      "character",
+      "location",
+      "object",
+      "knowledge",
+      "causality",
+      "world_rule"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "continuity.knowledge_leak",
+    "name": "Knowledge Leak",
+    "type": "catalog_entry",
+    "domain": "quality",
+    "definition": null,
+    "purpose": "Catalogue des invariants à vérifier dans personnages, chronologie, lieux, objets et faits.",
+    "tags": [
+      "timeline",
+      "character",
+      "location",
+      "object",
+      "knowledge",
+      "causality",
+      "world_rule"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "continuity.timeline_gap",
+    "name": "Timeline Gap",
+    "type": "catalog_entry",
+    "domain": "quality",
+    "definition": null,
+    "purpose": "Catalogue des invariants à vérifier dans personnages, chronologie, lieux, objets et faits.",
+    "tags": [
+      "timeline",
+      "character",
+      "location",
+      "object",
+      "knowledge",
+      "causality",
+      "world_rule"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "continuity.travel_impossibility",
+    "name": "Travel Impossibility",
+    "type": "catalog_entry",
+    "domain": "quality",
+    "definition": null,
+    "purpose": "Catalogue des invariants à vérifier dans personnages, chronologie, lieux, objets et faits.",
+    "tags": [
+      "timeline",
+      "character",
+      "location",
+      "object",
+      "knowledge",
+      "causality",
+      "world_rule"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "continuity.world_rule_violation",
+    "name": "World Rule Violation",
+    "type": "catalog_entry",
+    "domain": "quality",
+    "definition": null,
+    "purpose": "Catalogue des invariants à vérifier dans personnages, chronologie, lieux, objets et faits.",
+    "tags": [
+      "timeline",
+      "character",
+      "location",
+      "object",
+      "knowledge",
+      "causality",
+      "world_rule"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "continuity.relationship_state_mismatch",
+    "name": "Relationship State Mismatch",
+    "type": "catalog_entry",
+    "domain": "quality",
+    "definition": null,
+    "purpose": "Catalogue des invariants à vérifier dans personnages, chronologie, lieux, objets et faits.",
+    "tags": [
+      "timeline",
+      "character",
+      "location",
+      "object",
+      "knowledge",
+      "causality",
+      "world_rule"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "continuity.name_inconsistency",
+    "name": "Name Inconsistency",
+    "type": "catalog_entry",
+    "domain": "quality",
+    "definition": null,
+    "purpose": "Catalogue des invariants à vérifier dans personnages, chronologie, lieux, objets et faits.",
+    "tags": [
+      "timeline",
+      "character",
+      "location",
+      "object",
+      "knowledge",
+      "causality",
+      "world_rule"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  }
+]

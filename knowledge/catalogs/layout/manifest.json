@@ -1,0 +1,57 @@
+{
+  "id": "layout",
+  "name": "Book Layout & Page Architecture",
+  "domain": "production",
+  "purpose": "Systèmes de grille, marges, gabarits, ouvertures de chapitres et éléments non textuels.",
+  "priority": "P1",
+  "entry_schema": [
+    "id",
+    "name",
+    "type",
+    "definition",
+    "purpose",
+    "when_to_use",
+    "when_not_to_use",
+    "variants",
+    "strengths",
+    "risks",
+    "anti_patterns",
+    "related_ids",
+    "tags",
+    "genres",
+    "formats",
+    "agent_hints",
+    "confidence",
+    "sources",
+    "trim_size",
+    "margins",
+    "gutter",
+    "grid",
+    "template",
+    "page_elements",
+    "print_constraints"
+  ],
+  "taxonomies": [
+    "trade",
+    "academic",
+    "children",
+    "illustrated",
+    "workbook",
+    "reference"
+  ],
+  "relations": [
+    "uses_typography",
+    "uses_book_structure",
+    "supports_accessibility"
+  ],
+  "primary_consumers": [
+    "Book Designer",
+    "Production Agent"
+  ],
+  "reference_sources": [
+    "Book design/typesetting guidance"
+  ],
+  "master_version": "1.0.0",
+  "integration_status": "extension",
+  "legacy_source": "catalogs/design-patterns.csv"
+}

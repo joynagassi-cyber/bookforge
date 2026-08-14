@@ -1,0 +1,1 @@
+{"plugin":{"id":"bookforge.test.narrative","version":"1.0.0","kind":"module","entrypoints":{"setup":"setup"}},"expected":{"valid":true}}

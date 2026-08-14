@@ -1,0 +1,7 @@
+import fs from 'node:fs'; import path from 'node:path'; import crypto from 'node:crypto';
+import { sync } from './graph/synchronizer.js';
+export function watch(project,{syncGraph=false}={}){
+ const dir=path.join(project,'bookforge','artifacts'); fs.mkdirSync(dir,{recursive:true}); const state=new Map(); let timer=null;
+ const scan=async()=>{for(const f of fs.readdirSync(dir,{withFileTypes:true})){if(!f.isFile())continue; const p=path.join(dir,f.name); const b=fs.readFileSync(p); const h=crypto.createHash('sha256').update(b).digest('hex'); if(state.get(p)!==h){state.set(p,h); const event={event_id:crypto.createHash('sha256').update(p+h).digest('hex').slice(0,24),operation:'upsert_node',entity:{id:`artifact:${f.name}`,type:'Artifact',properties:{path:path.relative(project,p),sha256:h}},source_artifact:path.relative(project,p),source_hash:h,timestamp:new Date().toISOString(),actor:'bookforge-watch'}; const ed=path.join(project,'bookforge','events'); fs.mkdirSync(ed,{recursive:true}); fs.writeFileSync(path.join(ed,`${event.event_id}.json`),JSON.stringify(event,null,2)+'\n'); console.log(`graph event: ${f.name}`);}} if(syncGraph) await sync(project);};
+ scan(); console.log(`Watching bookforge/artifacts.${syncGraph?' Graph sync enabled.':''} Press Ctrl+C to stop.`); fs.watch(dir,{recursive:true},()=>{clearTimeout(timer); timer=setTimeout(()=>scan().catch(e=>console.error(e.message)),100);});
+}

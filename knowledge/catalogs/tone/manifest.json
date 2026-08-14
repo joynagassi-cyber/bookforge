@@ -1,0 +1,59 @@
+{
+  "id": "tone",
+  "name": "Tone & Emotional Register",
+  "domain": "prose",
+  "purpose": "Catalogue des tonalités et de leurs combinaisons.",
+  "priority": "P0",
+  "entry_schema": [
+    "id",
+    "name",
+    "type",
+    "definition",
+    "purpose",
+    "when_to_use",
+    "when_not_to_use",
+    "variants",
+    "strengths",
+    "risks",
+    "anti_patterns",
+    "related_ids",
+    "tags",
+    "genres",
+    "formats",
+    "agent_hints",
+    "confidence",
+    "sources",
+    "emotional_valence",
+    "intensity",
+    "stability",
+    "contrast_patterns"
+  ],
+  "taxonomies": [
+    "warm",
+    "cold",
+    "dark",
+    "light",
+    "serious",
+    "comic",
+    "melancholic",
+    "hopeful",
+    "ominous",
+    "tender"
+  ],
+  "relations": [
+    "combines_with_genre",
+    "changes_by_scene",
+    "contrasts_with"
+  ],
+  "primary_consumers": [
+    "Tone Agent",
+    "Style Agent",
+    "Scene Architect"
+  ],
+  "reference_sources": [
+    "Internal synthesis"
+  ],
+  "master_version": "1.0.0",
+  "integration_status": "extension",
+  "legacy_source": "catalogs/tones.csv"
+}

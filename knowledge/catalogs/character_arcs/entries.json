@@ -1,0 +1,254 @@
+[
+  {
+    "id": "character_arcs.positive_change",
+    "name": "Positive Change",
+    "type": "catalog_entry",
+    "domain": "character",
+    "definition": null,
+    "purpose": "Modèles de transformation positive, négative, plate et relationnelle.",
+    "tags": [
+      "positive",
+      "negative",
+      "flat",
+      "cyclical",
+      "relational",
+      "identity"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "character_arcs.negative_change",
+    "name": "Negative Change",
+    "type": "catalog_entry",
+    "domain": "character",
+    "definition": null,
+    "purpose": "Modèles de transformation positive, négative, plate et relationnelle.",
+    "tags": [
+      "positive",
+      "negative",
+      "flat",
+      "cyclical",
+      "relational",
+      "identity"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "character_arcs.flat_arc",
+    "name": "Flat Arc",
+    "type": "catalog_entry",
+    "domain": "character",
+    "definition": null,
+    "purpose": "Modèles de transformation positive, négative, plate et relationnelle.",
+    "tags": [
+      "positive",
+      "negative",
+      "flat",
+      "cyclical",
+      "relational",
+      "identity"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "character_arcs.redemption",
+    "name": "Redemption",
+    "type": "catalog_entry",
+    "domain": "character",
+    "definition": null,
+    "purpose": "Modèles de transformation positive, négative, plate et relationnelle.",
+    "tags": [
+      "positive",
+      "negative",
+      "flat",
+      "cyclical",
+      "relational",
+      "identity"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "character_arcs.corruption",
+    "name": "Corruption",
+    "type": "catalog_entry",
+    "domain": "character",
+    "definition": null,
+    "purpose": "Modèles de transformation positive, négative, plate et relationnelle.",
+    "tags": [
+      "positive",
+      "negative",
+      "flat",
+      "cyclical",
+      "relational",
+      "identity"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "character_arcs.disillusionment",
+    "name": "Disillusionment",
+    "type": "catalog_entry",
+    "domain": "character",
+    "definition": null,
+    "purpose": "Modèles de transformation positive, négative, plate et relationnelle.",
+    "tags": [
+      "positive",
+      "negative",
+      "flat",
+      "cyclical",
+      "relational",
+      "identity"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "character_arcs.awakening",
+    "name": "Awakening",
+    "type": "catalog_entry",
+    "domain": "character",
+    "definition": null,
+    "purpose": "Modèles de transformation positive, négative, plate et relationnelle.",
+    "tags": [
+      "positive",
+      "negative",
+      "flat",
+      "cyclical",
+      "relational",
+      "identity"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "character_arcs.acceptance",
+    "name": "Acceptance",
+    "type": "catalog_entry",
+    "domain": "character",
+    "definition": null,
+    "purpose": "Modèles de transformation positive, négative, plate et relationnelle.",
+    "tags": [
+      "positive",
+      "negative",
+      "flat",
+      "cyclical",
+      "relational",
+      "identity"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "character_arcs.revenge",
+    "name": "Revenge",
+    "type": "catalog_entry",
+    "domain": "character",
+    "definition": null,
+    "purpose": "Modèles de transformation positive, négative, plate et relationnelle.",
+    "tags": [
+      "positive",
+      "negative",
+      "flat",
+      "cyclical",
+      "relational",
+      "identity"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "character_arcs.sacrifice",
+    "name": "Sacrifice",
+    "type": "catalog_entry",
+    "domain": "character",
+    "definition": null,
+    "purpose": "Modèles de transformation positive, négative, plate et relationnelle.",
+    "tags": [
+      "positive",
+      "negative",
+      "flat",
+      "cyclical",
+      "relational",
+      "identity"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "character_arcs.identity_reconstruction",
+    "name": "Identity Reconstruction",
+    "type": "catalog_entry",
+    "domain": "character",
+    "definition": null,
+    "purpose": "Modèles de transformation positive, négative, plate et relationnelle.",
+    "tags": [
+      "positive",
+      "negative",
+      "flat",
+      "cyclical",
+      "relational",
+      "identity"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "character_arcs.maturation",
+    "name": "Maturation",
+    "type": "catalog_entry",
+    "domain": "character",
+    "definition": null,
+    "purpose": "Modèles de transformation positive, négative, plate et relationnelle.",
+    "tags": [
+      "positive",
+      "negative",
+      "flat",
+      "cyclical",
+      "relational",
+      "identity"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  }
+]

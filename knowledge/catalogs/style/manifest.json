@@ -1,0 +1,60 @@
+{
+  "id": "style",
+  "name": "Prose Styles",
+  "domain": "prose",
+  "purpose": "Catalogue de profils stylistiques descriptifs sans imiter des auteurs contemporains.",
+  "priority": "P0",
+  "entry_schema": [
+    "id",
+    "name",
+    "type",
+    "definition",
+    "purpose",
+    "when_to_use",
+    "when_not_to_use",
+    "variants",
+    "strengths",
+    "risks",
+    "anti_patterns",
+    "related_ids",
+    "tags",
+    "genres",
+    "formats",
+    "agent_hints",
+    "confidence",
+    "sources",
+    "density",
+    "rhythm",
+    "syntax",
+    "imagery",
+    "abstraction",
+    "dialogue_ratio",
+    "description_ratio",
+    "rhetorical_density"
+  ],
+  "taxonomies": [
+    "minimalist",
+    "lyrical",
+    "literary",
+    "commercial",
+    "genre_forward",
+    "experimental",
+    "journalistic"
+  ],
+  "relations": [
+    "affects_voice",
+    "affects_pacing",
+    "affects_reader_effect"
+  ],
+  "primary_consumers": [
+    "Style Agent",
+    "Voice Designer",
+    "Line Editor"
+  ],
+  "reference_sources": [
+    "Internal synthesis"
+  ],
+  "master_version": "1.0.0",
+  "integration_status": "extension",
+  "legacy_source": "catalogs/writing-styles.csv"
+}

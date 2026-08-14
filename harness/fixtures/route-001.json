@@ -1,0 +1,17 @@
+{
+  "id": "route-001",
+  "description": "Typo correction in chapter 4 should route to revision-loop with tiny complexity",
+  "input": "Fix a typo in chapter 4",
+  "expected": {
+    "workflow": "revision-loop",
+    "complexity": "tiny",
+    "scale": "tiny",
+    "required_catalogs_min": 1,
+    "required_catalogs_max": 3
+  },
+  "fixtures": {
+    "task": "Fix a typo in chapter 4",
+    "agent": null,
+    "workflow": null
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "project_id": "example-bookforge",
+  "title": "BookForge Example Project",
+  "framework_version": "1.0.0",
+  "status": "initialized",
+  "created_at": "2026-08-14T00:00:00.000Z",
+  "author": "Example Author",
+  "genre": "non-fiction",
+  "target_length": 50000,
+  "voice_profile": "author-primary",
+  "quality_thresholds": {
+    "ai_slop_max": 0.3,
+    "cliche_max": 0.2,
+    "continuity_max_findings": 5,
+    "originality_min": 0.85
+  }
+}

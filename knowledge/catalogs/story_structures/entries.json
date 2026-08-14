@@ -1,0 +1,359 @@
+[
+  {
+    "id": "story_structures.three_act",
+    "name": "Three Act",
+    "type": "catalog_entry",
+    "domain": "narrative",
+    "definition": null,
+    "purpose": "Catalogue des architectures macro-narratives et de leurs étapes/fonctions.",
+    "tags": [
+      "linear",
+      "nonlinear",
+      "episodic",
+      "frame",
+      "multi_thread",
+      "cyclical"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "story_structures.five_act",
+    "name": "Five Act",
+    "type": "catalog_entry",
+    "domain": "narrative",
+    "definition": null,
+    "purpose": "Catalogue des architectures macro-narratives et de leurs étapes/fonctions.",
+    "tags": [
+      "linear",
+      "nonlinear",
+      "episodic",
+      "frame",
+      "multi_thread",
+      "cyclical"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "story_structures.hero_journey",
+    "name": "Hero Journey",
+    "type": "catalog_entry",
+    "domain": "narrative",
+    "definition": null,
+    "purpose": "Catalogue des architectures macro-narratives et de leurs étapes/fonctions.",
+    "tags": [
+      "linear",
+      "nonlinear",
+      "episodic",
+      "frame",
+      "multi_thread",
+      "cyclical"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "story_structures.story_circle",
+    "name": "Story Circle",
+    "type": "catalog_entry",
+    "domain": "narrative",
+    "definition": null,
+    "purpose": "Catalogue des architectures macro-narratives et de leurs étapes/fonctions.",
+    "tags": [
+      "linear",
+      "nonlinear",
+      "episodic",
+      "frame",
+      "multi_thread",
+      "cyclical"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "story_structures.save_the_cat",
+    "name": "Save The Cat",
+    "type": "catalog_entry",
+    "domain": "narrative",
+    "definition": null,
+    "purpose": "Catalogue des architectures macro-narratives et de leurs étapes/fonctions.",
+    "tags": [
+      "linear",
+      "nonlinear",
+      "episodic",
+      "frame",
+      "multi_thread",
+      "cyclical"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "story_structures.snowflake",
+    "name": "Snowflake",
+    "type": "catalog_entry",
+    "domain": "narrative",
+    "definition": null,
+    "purpose": "Catalogue des architectures macro-narratives et de leurs étapes/fonctions.",
+    "tags": [
+      "linear",
+      "nonlinear",
+      "episodic",
+      "frame",
+      "multi_thread",
+      "cyclical"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "story_structures.seven_point",
+    "name": "Seven Point",
+    "type": "catalog_entry",
+    "domain": "narrative",
+    "definition": null,
+    "purpose": "Catalogue des architectures macro-narratives et de leurs étapes/fonctions.",
+    "tags": [
+      "linear",
+      "nonlinear",
+      "episodic",
+      "frame",
+      "multi_thread",
+      "cyclical"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "story_structures.fichtean_curve",
+    "name": "Fichtean Curve",
+    "type": "catalog_entry",
+    "domain": "narrative",
+    "definition": null,
+    "purpose": "Catalogue des architectures macro-narratives et de leurs étapes/fonctions.",
+    "tags": [
+      "linear",
+      "nonlinear",
+      "episodic",
+      "frame",
+      "multi_thread",
+      "cyclical"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "story_structures.freytag_pyramid",
+    "name": "Freytag Pyramid",
+    "type": "catalog_entry",
+    "domain": "narrative",
+    "definition": null,
+    "purpose": "Catalogue des architectures macro-narratives et de leurs étapes/fonctions.",
+    "tags": [
+      "linear",
+      "nonlinear",
+      "episodic",
+      "frame",
+      "multi_thread",
+      "cyclical"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "story_structures.kishotenketsu",
+    "name": "Kishotenketsu",
+    "type": "catalog_entry",
+    "domain": "narrative",
+    "definition": null,
+    "purpose": "Catalogue des architectures macro-narratives et de leurs étapes/fonctions.",
+    "tags": [
+      "linear",
+      "nonlinear",
+      "episodic",
+      "frame",
+      "multi_thread",
+      "cyclical"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "story_structures.in_medias_res",
+    "name": "In Medias Res",
+    "type": "catalog_entry",
+    "domain": "narrative",
+    "definition": null,
+    "purpose": "Catalogue des architectures macro-narratives et de leurs étapes/fonctions.",
+    "tags": [
+      "linear",
+      "nonlinear",
+      "episodic",
+      "frame",
+      "multi_thread",
+      "cyclical"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "story_structures.quest_structure",
+    "name": "Quest Structure",
+    "type": "catalog_entry",
+    "domain": "narrative",
+    "definition": null,
+    "purpose": "Catalogue des architectures macro-narratives et de leurs étapes/fonctions.",
+    "tags": [
+      "linear",
+      "nonlinear",
+      "episodic",
+      "frame",
+      "multi_thread",
+      "cyclical"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "story_structures.mystery_structure",
+    "name": "Mystery Structure",
+    "type": "catalog_entry",
+    "domain": "narrative",
+    "definition": null,
+    "purpose": "Catalogue des architectures macro-narratives et de leurs étapes/fonctions.",
+    "tags": [
+      "linear",
+      "nonlinear",
+      "episodic",
+      "frame",
+      "multi_thread",
+      "cyclical"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "story_structures.romance_structure",
+    "name": "Romance Structure",
+    "type": "catalog_entry",
+    "domain": "narrative",
+    "definition": null,
+    "purpose": "Catalogue des architectures macro-narratives et de leurs étapes/fonctions.",
+    "tags": [
+      "linear",
+      "nonlinear",
+      "episodic",
+      "frame",
+      "multi_thread",
+      "cyclical"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "story_structures.tragedy_structure",
+    "name": "Tragedy Structure",
+    "type": "catalog_entry",
+    "domain": "narrative",
+    "definition": null,
+    "purpose": "Catalogue des architectures macro-narratives et de leurs étapes/fonctions.",
+    "tags": [
+      "linear",
+      "nonlinear",
+      "episodic",
+      "frame",
+      "multi_thread",
+      "cyclical"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "story_structures.bildungsroman",
+    "name": "Bildungsroman",
+    "type": "catalog_entry",
+    "domain": "narrative",
+    "definition": null,
+    "purpose": "Catalogue des architectures macro-narratives et de leurs étapes/fonctions.",
+    "tags": [
+      "linear",
+      "nonlinear",
+      "episodic",
+      "frame",
+      "multi_thread",
+      "cyclical"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "story_structures.frame_narrative",
+    "name": "Frame Narrative",
+    "type": "catalog_entry",
+    "domain": "narrative",
+    "definition": null,
+    "purpose": "Catalogue des architectures macro-narratives et de leurs étapes/fonctions.",
+    "tags": [
+      "linear",
+      "nonlinear",
+      "episodic",
+      "frame",
+      "multi_thread",
+      "cyclical"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  }
+]

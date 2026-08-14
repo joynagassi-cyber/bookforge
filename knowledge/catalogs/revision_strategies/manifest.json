@@ -1,0 +1,67 @@
+{
+  "id": "revision_strategies",
+  "name": "Revision Strategies",
+  "domain": "editing",
+  "purpose": "Catalogue d'opérations de réécriture contrôlées.",
+  "priority": "P0",
+  "entry_schema": [
+    "id",
+    "name",
+    "type",
+    "definition",
+    "purpose",
+    "when_to_use",
+    "when_not_to_use",
+    "variants",
+    "strengths",
+    "risks",
+    "anti_patterns",
+    "related_ids",
+    "tags",
+    "genres",
+    "formats",
+    "agent_hints",
+    "confidence",
+    "sources",
+    "operation",
+    "target_level",
+    "expected_effect",
+    "risk",
+    "validation"
+  ],
+  "taxonomies": [
+    "delete",
+    "compress",
+    "expand",
+    "reorder",
+    "merge",
+    "split",
+    "invert",
+    "replace",
+    "deepen",
+    "externalize",
+    "internalize",
+    "foreshadow",
+    "payoff",
+    "clarify",
+    "subtilize",
+    "intensify",
+    "neutralize"
+  ],
+  "relations": [
+    "fixes",
+    "preserves",
+    "can_damage"
+  ],
+  "primary_consumers": [
+    "Revision Agent",
+    "Structural Editor",
+    "Line Editor"
+  ],
+  "reference_sources": [
+    "Internal synthesis"
+  ],
+  "master_version": "1.0.0",
+  "integration_status": "new",
+  "legacy_source": null
+}

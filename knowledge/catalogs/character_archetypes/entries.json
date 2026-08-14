@@ -1,0 +1,325 @@
+[
+  {
+    "id": "character_archetypes.hero",
+    "name": "Hero",
+    "type": "catalog_entry",
+    "domain": "character",
+    "definition": null,
+    "purpose": "Catalogue d'archétypes et rôles fonctionnels, sans les traiter comme des personnages figés.",
+    "tags": [
+      "plot_function",
+      "psychological",
+      "social",
+      "symbolic"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "character_archetypes.mentor",
+    "name": "Mentor",
+    "type": "catalog_entry",
+    "domain": "character",
+    "definition": null,
+    "purpose": "Catalogue d'archétypes et rôles fonctionnels, sans les traiter comme des personnages figés.",
+    "tags": [
+      "plot_function",
+      "psychological",
+      "social",
+      "symbolic"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "character_archetypes.threshold_guardian",
+    "name": "Threshold Guardian",
+    "type": "catalog_entry",
+    "domain": "character",
+    "definition": null,
+    "purpose": "Catalogue d'archétypes et rôles fonctionnels, sans les traiter comme des personnages figés.",
+    "tags": [
+      "plot_function",
+      "psychological",
+      "social",
+      "symbolic"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "character_archetypes.herald",
+    "name": "Herald",
+    "type": "catalog_entry",
+    "domain": "character",
+    "definition": null,
+    "purpose": "Catalogue d'archétypes et rôles fonctionnels, sans les traiter comme des personnages figés.",
+    "tags": [
+      "plot_function",
+      "psychological",
+      "social",
+      "symbolic"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "character_archetypes.shapeshifter",
+    "name": "Shapeshifter",
+    "type": "catalog_entry",
+    "domain": "character",
+    "definition": null,
+    "purpose": "Catalogue d'archétypes et rôles fonctionnels, sans les traiter comme des personnages figés.",
+    "tags": [
+      "plot_function",
+      "psychological",
+      "social",
+      "symbolic"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "character_archetypes.trickster",
+    "name": "Trickster",
+    "type": "catalog_entry",
+    "domain": "character",
+    "definition": null,
+    "purpose": "Catalogue d'archétypes et rôles fonctionnels, sans les traiter comme des personnages figés.",
+    "tags": [
+      "plot_function",
+      "psychological",
+      "social",
+      "symbolic"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "character_archetypes.shadow",
+    "name": "Shadow",
+    "type": "catalog_entry",
+    "domain": "character",
+    "definition": null,
+    "purpose": "Catalogue d'archétypes et rôles fonctionnels, sans les traiter comme des personnages figés.",
+    "tags": [
+      "plot_function",
+      "psychological",
+      "social",
+      "symbolic"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "character_archetypes.caregiver",
+    "name": "Caregiver",
+    "type": "catalog_entry",
+    "domain": "character",
+    "definition": null,
+    "purpose": "Catalogue d'archétypes et rôles fonctionnels, sans les traiter comme des personnages figés.",
+    "tags": [
+      "plot_function",
+      "psychological",
+      "social",
+      "symbolic"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "character_archetypes.ruler",
+    "name": "Ruler",
+    "type": "catalog_entry",
+    "domain": "character",
+    "definition": null,
+    "purpose": "Catalogue d'archétypes et rôles fonctionnels, sans les traiter comme des personnages figés.",
+    "tags": [
+      "plot_function",
+      "psychological",
+      "social",
+      "symbolic"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "character_archetypes.sage",
+    "name": "Sage",
+    "type": "catalog_entry",
+    "domain": "character",
+    "definition": null,
+    "purpose": "Catalogue d'archétypes et rôles fonctionnels, sans les traiter comme des personnages figés.",
+    "tags": [
+      "plot_function",
+      "psychological",
+      "social",
+      "symbolic"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "character_archetypes.innocent",
+    "name": "Innocent",
+    "type": "catalog_entry",
+    "domain": "character",
+    "definition": null,
+    "purpose": "Catalogue d'archétypes et rôles fonctionnels, sans les traiter comme des personnages figés.",
+    "tags": [
+      "plot_function",
+      "psychological",
+      "social",
+      "symbolic"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "character_archetypes.explorer",
+    "name": "Explorer",
+    "type": "catalog_entry",
+    "domain": "character",
+    "definition": null,
+    "purpose": "Catalogue d'archétypes et rôles fonctionnels, sans les traiter comme des personnages figés.",
+    "tags": [
+      "plot_function",
+      "psychological",
+      "social",
+      "symbolic"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "character_archetypes.rebel",
+    "name": "Rebel",
+    "type": "catalog_entry",
+    "domain": "character",
+    "definition": null,
+    "purpose": "Catalogue d'archétypes et rôles fonctionnels, sans les traiter comme des personnages figés.",
+    "tags": [
+      "plot_function",
+      "psychological",
+      "social",
+      "symbolic"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "character_archetypes.lover",
+    "name": "Lover",
+    "type": "catalog_entry",
+    "domain": "character",
+    "definition": null,
+    "purpose": "Catalogue d'archétypes et rôles fonctionnels, sans les traiter comme des personnages figés.",
+    "tags": [
+      "plot_function",
+      "psychological",
+      "social",
+      "symbolic"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "character_archetypes.creator",
+    "name": "Creator",
+    "type": "catalog_entry",
+    "domain": "character",
+    "definition": null,
+    "purpose": "Catalogue d'archétypes et rôles fonctionnels, sans les traiter comme des personnages figés.",
+    "tags": [
+      "plot_function",
+      "psychological",
+      "social",
+      "symbolic"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "character_archetypes.jester",
+    "name": "Jester",
+    "type": "catalog_entry",
+    "domain": "character",
+    "definition": null,
+    "purpose": "Catalogue d'archétypes et rôles fonctionnels, sans les traiter comme des personnages figés.",
+    "tags": [
+      "plot_function",
+      "psychological",
+      "social",
+      "symbolic"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "character_archetypes.everyman",
+    "name": "Everyman",
+    "type": "catalog_entry",
+    "domain": "character",
+    "definition": null,
+    "purpose": "Catalogue d'archétypes et rôles fonctionnels, sans les traiter comme des personnages figés.",
+    "tags": [
+      "plot_function",
+      "psychological",
+      "social",
+      "symbolic"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  }
+]

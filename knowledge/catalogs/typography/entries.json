@@ -1,0 +1,275 @@
+[
+  {
+    "id": "typography.serif_body",
+    "name": "Serif Body",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Règles et composants de typographie et de mise en page pour livres.",
+    "tags": [
+      "body",
+      "display",
+      "heading",
+      "caption",
+      "note",
+      "metadata"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "typography.sans_interface",
+    "name": "Sans Interface",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Règles et composants de typographie et de mise en page pour livres.",
+    "tags": [
+      "body",
+      "display",
+      "heading",
+      "caption",
+      "note",
+      "metadata"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "typography.display_face",
+    "name": "Display Face",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Règles et composants de typographie et de mise en page pour livres.",
+    "tags": [
+      "body",
+      "display",
+      "heading",
+      "caption",
+      "note",
+      "metadata"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "typography.monospace",
+    "name": "Monospace",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Règles et composants de typographie et de mise en page pour livres.",
+    "tags": [
+      "body",
+      "display",
+      "heading",
+      "caption",
+      "note",
+      "metadata"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "typography.small_caps",
+    "name": "Small Caps",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Règles et composants de typographie et de mise en page pour livres.",
+    "tags": [
+      "body",
+      "display",
+      "heading",
+      "caption",
+      "note",
+      "metadata"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "typography.drop_cap",
+    "name": "Drop Cap",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Règles et composants de typographie et de mise en page pour livres.",
+    "tags": [
+      "body",
+      "display",
+      "heading",
+      "caption",
+      "note",
+      "metadata"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "typography.running_head",
+    "name": "Running Head",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Règles et composants de typographie et de mise en page pour livres.",
+    "tags": [
+      "body",
+      "display",
+      "heading",
+      "caption",
+      "note",
+      "metadata"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "typography.folio",
+    "name": "Folio",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Règles et composants de typographie et de mise en page pour livres.",
+    "tags": [
+      "body",
+      "display",
+      "heading",
+      "caption",
+      "note",
+      "metadata"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "typography.widow",
+    "name": "Widow",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Règles et composants de typographie et de mise en page pour livres.",
+    "tags": [
+      "body",
+      "display",
+      "heading",
+      "caption",
+      "note",
+      "metadata"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "typography.orphan",
+    "name": "Orphan",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Règles et composants de typographie et de mise en page pour livres.",
+    "tags": [
+      "body",
+      "display",
+      "heading",
+      "caption",
+      "note",
+      "metadata"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "typography.hyphenation",
+    "name": "Hyphenation",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Règles et composants de typographie et de mise en page pour livres.",
+    "tags": [
+      "body",
+      "display",
+      "heading",
+      "caption",
+      "note",
+      "metadata"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "typography.justification",
+    "name": "Justification",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Règles et composants de typographie et de mise en page pour livres.",
+    "tags": [
+      "body",
+      "display",
+      "heading",
+      "caption",
+      "note",
+      "metadata"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "typography.ragged_right",
+    "name": "Ragged Right",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Règles et composants de typographie et de mise en page pour livres.",
+    "tags": [
+      "body",
+      "display",
+      "heading",
+      "caption",
+      "note",
+      "metadata"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  }
+]

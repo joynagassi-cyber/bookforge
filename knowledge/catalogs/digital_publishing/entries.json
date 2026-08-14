@@ -1,0 +1,211 @@
+[
+  {
+    "id": "digital_publishing.container",
+    "name": "Container",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Catalogue des concepts de production numérique et de conformité EPUB.",
+    "tags": [
+      "epub",
+      "web",
+      "pdf",
+      "audiobook"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "digital_publishing.package_document",
+    "name": "Package Document",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Catalogue des concepts de production numérique et de conformité EPUB.",
+    "tags": [
+      "epub",
+      "web",
+      "pdf",
+      "audiobook"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "digital_publishing.navigation_document",
+    "name": "Navigation Document",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Catalogue des concepts de production numérique et de conformité EPUB.",
+    "tags": [
+      "epub",
+      "web",
+      "pdf",
+      "audiobook"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "digital_publishing.content_document",
+    "name": "Content Document",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Catalogue des concepts de production numérique et de conformité EPUB.",
+    "tags": [
+      "epub",
+      "web",
+      "pdf",
+      "audiobook"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "digital_publishing.manifest",
+    "name": "Manifest",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Catalogue des concepts de production numérique et de conformité EPUB.",
+    "tags": [
+      "epub",
+      "web",
+      "pdf",
+      "audiobook"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "digital_publishing.spine",
+    "name": "Spine",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Catalogue des concepts de production numérique et de conformité EPUB.",
+    "tags": [
+      "epub",
+      "web",
+      "pdf",
+      "audiobook"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "digital_publishing.metadata",
+    "name": "Metadata",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Catalogue des concepts de production numérique et de conformité EPUB.",
+    "tags": [
+      "epub",
+      "web",
+      "pdf",
+      "audiobook"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "digital_publishing.fixed_layout",
+    "name": "Fixed Layout",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Catalogue des concepts de production numérique et de conformité EPUB.",
+    "tags": [
+      "epub",
+      "web",
+      "pdf",
+      "audiobook"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "digital_publishing.reflowable",
+    "name": "Reflowable",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Catalogue des concepts de production numérique et de conformité EPUB.",
+    "tags": [
+      "epub",
+      "web",
+      "pdf",
+      "audiobook"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "digital_publishing.media_overlay",
+    "name": "Media Overlay",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Catalogue des concepts de production numérique et de conformité EPUB.",
+    "tags": [
+      "epub",
+      "web",
+      "pdf",
+      "audiobook"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "digital_publishing.accessibility",
+    "name": "Accessibility",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Catalogue des concepts de production numérique et de conformité EPUB.",
+    "tags": [
+      "epub",
+      "web",
+      "pdf",
+      "audiobook"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  }
+]

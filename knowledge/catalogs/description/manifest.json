@@ -1,0 +1,59 @@
+{
+  "id": "description",
+  "name": "Description & Sensory Writing",
+  "domain": "prose",
+  "purpose": "Techniques de description fonctionnelle : orientation, atmosphère, caractérisation, symbole et rythme.",
+  "priority": "P0",
+  "entry_schema": [
+    "id",
+    "name",
+    "type",
+    "definition",
+    "purpose",
+    "when_to_use",
+    "when_not_to_use",
+    "variants",
+    "strengths",
+    "risks",
+    "anti_patterns",
+    "related_ids",
+    "tags",
+    "genres",
+    "formats",
+    "agent_hints",
+    "confidence",
+    "sources",
+    "sensory_channels",
+    "function",
+    "specificity",
+    "metaphoricity",
+    "spatial_logic"
+  ],
+  "taxonomies": [
+    "visual",
+    "auditory",
+    "tactile",
+    "olfactory",
+    "gustatory",
+    "temperature",
+    "proprioceptive",
+    "spatial"
+  ],
+  "relations": [
+    "supports_scene",
+    "supports_tone",
+    "supports_symbol",
+    "affects_pacing"
+  ],
+  "primary_consumers": [
+    "Description Agent",
+    "Worldbuilder",
+    "Line Editor"
+  ],
+  "reference_sources": [
+    "Internal synthesis"
+  ],
+  "master_version": "1.0.0",
+  "integration_status": "new",
+  "legacy_source": null
+}

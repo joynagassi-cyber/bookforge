@@ -1,0 +1,10 @@
+pattern_id,family,signal,severity,diagnostic,repair_direction
+sl-001,generic-opening,abstract throat-clearing,high,no concrete information in first sentences,start with the first useful fact or scene
+sl-002,triplet-overuse,repeated three-item lists,medium,same rhetorical shape across sections,vary structure and merge redundant items
+sl-003,formulaic-transition,predictable transition phrases,medium,transitions could be swapped between chapters,use causal or semantic transitions
+sl-004,uniform-rhythm,same sentence length distribution,medium,prose cadence feels mechanically even,introduce intentional variation
+sl-005,abstract-density,high abstract-noun ratio,high,few concrete referents,replace abstractions with observable specifics
+sl-006,empty-emphasis,importance claims without evidence,high,asserts significance instead of demonstrating it,add evidence or remove claim
+sl-007,summary-loop,paragraph repeats previous paragraph,high,low new information,delete or add substantive advancement
+sl-008,promotional-inflation,revolutionary/transformative style,high,claims exceed evidence,state exact benefit and limits
+sl-009,false-balance,constant however/but balancing,medium,every paragraph constructs a contrast,allow direct statements where appropriate

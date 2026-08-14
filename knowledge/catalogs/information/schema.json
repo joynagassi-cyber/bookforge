@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Information, Knowledge & Reveal Control",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "type",
+    "definition",
+    "purpose",
+    "when_to_use",
+    "when_not_to_use",
+    "variants",
+    "strengths"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "id": {
+      "description": "Field id"
+    },
+    "name": {
+      "description": "Field name"
+    },
+    "type": {
+      "description": "Field type"
+    },
+    "definition": {
+      "description": "Field definition"
+    },
+    "purpose": {
+      "description": "Field purpose"
+    },
+    "when_to_use": {
+      "description": "Field when_to_use"
+    },
+    "when_not_to_use": {
+      "description": "Field when_not_to_use"
+    },
+    "variants": {
+      "description": "Field variants"
+    },
+    "strengths": {
+      "description": "Field strengths"
+    },
+    "risks": {
+      "description": "Field risks"
+    },
+    "anti_patterns": {
+      "description": "Field anti_patterns"
+    },
+    "related_ids": {
+      "description": "Field related_ids"
+    },
+    "tags": {
+      "description": "Field tags"
+    },
+    "genres": {
+      "description": "Field genres"
+    },
+    "formats": {
+      "description": "Field formats"
+    },
+    "agent_hints": {
+      "description": "Field agent_hints"
+    },
+    "confidence": {
+      "description": "Field confidence"
+    },
+    "sources": {
+      "description": "Field sources"
+    },
+    "information_type": {
+      "description": "Field information_type"
+    },
+    "known_by": {
+      "description": "Field known_by"
+    },
+    "revealed_to": {
+      "description": "Field revealed_to"
+    },
+    "hidden_from": {
+      "description": "Field hidden_from"
+    },
+    "suspected_by": {
+      "description": "Field suspected_by"
+    },
+    "certainty": {
+      "description": "Field certainty"
+    },
+    "reveal_method": {
+      "description": "Field reveal_method"
+    },
+    "reveal_timing": {
+      "description": "Field reveal_timing"
+    }
+  }
+}

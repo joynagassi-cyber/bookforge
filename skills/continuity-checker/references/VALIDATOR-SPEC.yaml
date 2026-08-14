@@ -1,0 +1,12 @@
+validator: continuity-checker
+checks:
+  - names
+  - dates
+  - locations
+  - events
+  - terminology
+  - claims
+  - promises
+  - character_state
+false_positive_rule: "Superseded canon must be identified from artifact status before flagging conflict."
+repair: "Reconcile with the canonical artifact owner."

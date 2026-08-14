@@ -1,0 +1,242 @@
+[
+  {
+    "id": "ai_slop.generic_transition",
+    "name": "Generic Transition",
+    "type": "catalog_entry",
+    "domain": "quality",
+    "definition": null,
+    "purpose": "Catalogue de signaux de prose générique ou mécaniquement produite; jamais une preuve d'origine IA.",
+    "tags": [
+      "lexical",
+      "syntactic",
+      "rhetorical",
+      "structural",
+      "discourse"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "ai_slop.formulaic_summary",
+    "name": "Formulaic Summary",
+    "type": "catalog_entry",
+    "domain": "quality",
+    "definition": null,
+    "purpose": "Catalogue de signaux de prose générique ou mécaniquement produite; jamais une preuve d'origine IA.",
+    "tags": [
+      "lexical",
+      "syntactic",
+      "rhetorical",
+      "structural",
+      "discourse"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "ai_slop.excessive_balanced_contrast",
+    "name": "Excessive Balanced Contrast",
+    "type": "catalog_entry",
+    "domain": "quality",
+    "definition": null,
+    "purpose": "Catalogue de signaux de prose générique ou mécaniquement produite; jamais une preuve d'origine IA.",
+    "tags": [
+      "lexical",
+      "syntactic",
+      "rhetorical",
+      "structural",
+      "discourse"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "ai_slop.repetitive_emphasis",
+    "name": "Repetitive Emphasis",
+    "type": "catalog_entry",
+    "domain": "quality",
+    "definition": null,
+    "purpose": "Catalogue de signaux de prose générique ou mécaniquement produite; jamais une preuve d'origine IA.",
+    "tags": [
+      "lexical",
+      "syntactic",
+      "rhetorical",
+      "structural",
+      "discourse"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "ai_slop.fake_specificity",
+    "name": "Fake Specificity",
+    "type": "catalog_entry",
+    "domain": "quality",
+    "definition": null,
+    "purpose": "Catalogue de signaux de prose générique ou mécaniquement produite; jamais une preuve d'origine IA.",
+    "tags": [
+      "lexical",
+      "syntactic",
+      "rhetorical",
+      "structural",
+      "discourse"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "ai_slop.over_explaining",
+    "name": "Over Explaining",
+    "type": "catalog_entry",
+    "domain": "quality",
+    "definition": null,
+    "purpose": "Catalogue de signaux de prose générique ou mécaniquement produite; jamais une preuve d'origine IA.",
+    "tags": [
+      "lexical",
+      "syntactic",
+      "rhetorical",
+      "structural",
+      "discourse"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "ai_slop.generic_emotional_label",
+    "name": "Generic Emotional Label",
+    "type": "catalog_entry",
+    "domain": "quality",
+    "definition": null,
+    "purpose": "Catalogue de signaux de prose générique ou mécaniquement produite; jamais une preuve d'origine IA.",
+    "tags": [
+      "lexical",
+      "syntactic",
+      "rhetorical",
+      "structural",
+      "discourse"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "ai_slop.synthetic_enthusiasm",
+    "name": "Synthetic Enthusiasm",
+    "type": "catalog_entry",
+    "domain": "quality",
+    "definition": null,
+    "purpose": "Catalogue de signaux de prose générique ou mécaniquement produite; jamais une preuve d'origine IA.",
+    "tags": [
+      "lexical",
+      "syntactic",
+      "rhetorical",
+      "structural",
+      "discourse"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "ai_slop.overuse_of_headings",
+    "name": "Overuse Of Headings",
+    "type": "catalog_entry",
+    "domain": "quality",
+    "definition": null,
+    "purpose": "Catalogue de signaux de prose générique ou mécaniquement produite; jamais une preuve d'origine IA.",
+    "tags": [
+      "lexical",
+      "syntactic",
+      "rhetorical",
+      "structural",
+      "discourse"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "ai_slop.bulletization_of_prose",
+    "name": "Bulletization Of Prose",
+    "type": "catalog_entry",
+    "domain": "quality",
+    "definition": null,
+    "purpose": "Catalogue de signaux de prose générique ou mécaniquement produite; jamais une preuve d'origine IA.",
+    "tags": [
+      "lexical",
+      "syntactic",
+      "rhetorical",
+      "structural",
+      "discourse"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "ai_slop.repetitive_conclusion",
+    "name": "Repetitive Conclusion",
+    "type": "catalog_entry",
+    "domain": "quality",
+    "definition": null,
+    "purpose": "Catalogue de signaux de prose générique ou mécaniquement produite; jamais une preuve d'origine IA.",
+    "tags": [
+      "lexical",
+      "syntactic",
+      "rhetorical",
+      "structural",
+      "discourse"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "ai_slop.hedging_clusters",
+    "name": "Hedging Clusters",
+    "type": "catalog_entry",
+    "domain": "quality",
+    "definition": null,
+    "purpose": "Catalogue de signaux de prose générique ou mécaniquement produite; jamais une preuve d'origine IA.",
+    "tags": [
+      "lexical",
+      "syntactic",
+      "rhetorical",
+      "structural",
+      "discourse"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  }
+]

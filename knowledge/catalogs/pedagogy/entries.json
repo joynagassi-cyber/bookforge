@@ -1,0 +1,222 @@
+[
+  {
+    "id": "pedagogy.concept_introduction",
+    "name": "Concept Introduction",
+    "type": "catalog_entry",
+    "domain": "nonfiction",
+    "definition": null,
+    "purpose": "Modèles pour transformer un contenu en progression pédagogique.",
+    "tags": [
+      "explain",
+      "demonstrate",
+      "practice",
+      "retrieve",
+      "apply",
+      "reflect",
+      "assess"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "pedagogy.scaffolding",
+    "name": "Scaffolding",
+    "type": "catalog_entry",
+    "domain": "nonfiction",
+    "definition": null,
+    "purpose": "Modèles pour transformer un contenu en progression pédagogique.",
+    "tags": [
+      "explain",
+      "demonstrate",
+      "practice",
+      "retrieve",
+      "apply",
+      "reflect",
+      "assess"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "pedagogy.worked_example",
+    "name": "Worked Example",
+    "type": "catalog_entry",
+    "domain": "nonfiction",
+    "definition": null,
+    "purpose": "Modèles pour transformer un contenu en progression pédagogique.",
+    "tags": [
+      "explain",
+      "demonstrate",
+      "practice",
+      "retrieve",
+      "apply",
+      "reflect",
+      "assess"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "pedagogy.practice",
+    "name": "Practice",
+    "type": "catalog_entry",
+    "domain": "nonfiction",
+    "definition": null,
+    "purpose": "Modèles pour transformer un contenu en progression pédagogique.",
+    "tags": [
+      "explain",
+      "demonstrate",
+      "practice",
+      "retrieve",
+      "apply",
+      "reflect",
+      "assess"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "pedagogy.retrieval_question",
+    "name": "Retrieval Question",
+    "type": "catalog_entry",
+    "domain": "nonfiction",
+    "definition": null,
+    "purpose": "Modèles pour transformer un contenu en progression pédagogique.",
+    "tags": [
+      "explain",
+      "demonstrate",
+      "practice",
+      "retrieve",
+      "apply",
+      "reflect",
+      "assess"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "pedagogy.case_study",
+    "name": "Case Study",
+    "type": "catalog_entry",
+    "domain": "nonfiction",
+    "definition": null,
+    "purpose": "Modèles pour transformer un contenu en progression pédagogique.",
+    "tags": [
+      "explain",
+      "demonstrate",
+      "practice",
+      "retrieve",
+      "apply",
+      "reflect",
+      "assess"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "pedagogy.reflection",
+    "name": "Reflection",
+    "type": "catalog_entry",
+    "domain": "nonfiction",
+    "definition": null,
+    "purpose": "Modèles pour transformer un contenu en progression pédagogique.",
+    "tags": [
+      "explain",
+      "demonstrate",
+      "practice",
+      "retrieve",
+      "apply",
+      "reflect",
+      "assess"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "pedagogy.exercise",
+    "name": "Exercise",
+    "type": "catalog_entry",
+    "domain": "nonfiction",
+    "definition": null,
+    "purpose": "Modèles pour transformer un contenu en progression pédagogique.",
+    "tags": [
+      "explain",
+      "demonstrate",
+      "practice",
+      "retrieve",
+      "apply",
+      "reflect",
+      "assess"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "pedagogy.quiz",
+    "name": "Quiz",
+    "type": "catalog_entry",
+    "domain": "nonfiction",
+    "definition": null,
+    "purpose": "Modèles pour transformer un contenu en progression pédagogique.",
+    "tags": [
+      "explain",
+      "demonstrate",
+      "practice",
+      "retrieve",
+      "apply",
+      "reflect",
+      "assess"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "pedagogy.assessment",
+    "name": "Assessment",
+    "type": "catalog_entry",
+    "domain": "nonfiction",
+    "definition": null,
+    "purpose": "Modèles pour transformer un contenu en progression pédagogique.",
+    "tags": [
+      "explain",
+      "demonstrate",
+      "practice",
+      "retrieve",
+      "apply",
+      "reflect",
+      "assess"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  }
+]

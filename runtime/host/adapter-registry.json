@@ -1,0 +1,18 @@
+{
+  "schema_version":"1.0.0",
+  "hosts": {
+    "claude-code":{"skill_dir":".claude/skills","mcp":".mcp.json"},
+    "cursor":{"skill_dir":".agents/skills","mcp":".cursor/mcp.json"},
+    "windsurf":{"skill_dir":".agents/skills"},
+    "antigravity":{"skill_dir":".agent/skills"},
+    "antigravity-cli":{"skill_dir":".agents/skills"},
+    "github-copilot":{"skill_dir":".agents/skills","commands_dir":".github/agents"},
+    "gemini":{"skill_dir":".agents/skills"},
+    "kiro":{"skill_dir":"bookforge/generated/skills"},
+    "devin":{"skill_dir":"bookforge/generated/skills"},
+    "codex-cli":{"skill_dir":"bookforge/generated/skills"},
+    "opencode":{"skill_dir":"bookforge/generated/skills"},
+    "kilocode":{"skill_dir":"bookforge/generated/skills"},
+    "generic":{"skill_dir":"bookforge/generated/skills"}
+  }
+}

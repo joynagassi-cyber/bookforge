@@ -1,0 +1,402 @@
+[
+  {
+    "id": "rhetoric.metaphor",
+    "name": "Metaphor",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Catalogue des procédés rhétoriques et de leurs effets.",
+    "tags": [
+      "sound",
+      "syntax",
+      "semantic",
+      "argumentative",
+      "figurative"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "rhetoric.simile",
+    "name": "Simile",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Catalogue des procédés rhétoriques et de leurs effets.",
+    "tags": [
+      "sound",
+      "syntax",
+      "semantic",
+      "argumentative",
+      "figurative"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "rhetoric.analogy",
+    "name": "Analogy",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Catalogue des procédés rhétoriques et de leurs effets.",
+    "tags": [
+      "sound",
+      "syntax",
+      "semantic",
+      "argumentative",
+      "figurative"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "rhetoric.personification",
+    "name": "Personification",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Catalogue des procédés rhétoriques et de leurs effets.",
+    "tags": [
+      "sound",
+      "syntax",
+      "semantic",
+      "argumentative",
+      "figurative"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "rhetoric.imagery",
+    "name": "Imagery",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Catalogue des procédés rhétoriques et de leurs effets.",
+    "tags": [
+      "sound",
+      "syntax",
+      "semantic",
+      "argumentative",
+      "figurative"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "rhetoric.symbolism",
+    "name": "Symbolism",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Catalogue des procédés rhétoriques et de leurs effets.",
+    "tags": [
+      "sound",
+      "syntax",
+      "semantic",
+      "argumentative",
+      "figurative"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "rhetoric.irony",
+    "name": "Irony",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Catalogue des procédés rhétoriques et de leurs effets.",
+    "tags": [
+      "sound",
+      "syntax",
+      "semantic",
+      "argumentative",
+      "figurative"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "rhetoric.paradox",
+    "name": "Paradox",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Catalogue des procédés rhétoriques et de leurs effets.",
+    "tags": [
+      "sound",
+      "syntax",
+      "semantic",
+      "argumentative",
+      "figurative"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "rhetoric.antithesis",
+    "name": "Antithesis",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Catalogue des procédés rhétoriques et de leurs effets.",
+    "tags": [
+      "sound",
+      "syntax",
+      "semantic",
+      "argumentative",
+      "figurative"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "rhetoric.anaphora",
+    "name": "Anaphora",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Catalogue des procédés rhétoriques et de leurs effets.",
+    "tags": [
+      "sound",
+      "syntax",
+      "semantic",
+      "argumentative",
+      "figurative"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "rhetoric.epiphora",
+    "name": "Epiphora",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Catalogue des procédés rhétoriques et de leurs effets.",
+    "tags": [
+      "sound",
+      "syntax",
+      "semantic",
+      "argumentative",
+      "figurative"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "rhetoric.parallelism",
+    "name": "Parallelism",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Catalogue des procédés rhétoriques et de leurs effets.",
+    "tags": [
+      "sound",
+      "syntax",
+      "semantic",
+      "argumentative",
+      "figurative"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "rhetoric.chiasmus",
+    "name": "Chiasmus",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Catalogue des procédés rhétoriques et de leurs effets.",
+    "tags": [
+      "sound",
+      "syntax",
+      "semantic",
+      "argumentative",
+      "figurative"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "rhetoric.repetition",
+    "name": "Repetition",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Catalogue des procédés rhétoriques et de leurs effets.",
+    "tags": [
+      "sound",
+      "syntax",
+      "semantic",
+      "argumentative",
+      "figurative"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "rhetoric.rhetorical_question",
+    "name": "Rhetorical Question",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Catalogue des procédés rhétoriques et de leurs effets.",
+    "tags": [
+      "sound",
+      "syntax",
+      "semantic",
+      "argumentative",
+      "figurative"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "rhetoric.hyperbole",
+    "name": "Hyperbole",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Catalogue des procédés rhétoriques et de leurs effets.",
+    "tags": [
+      "sound",
+      "syntax",
+      "semantic",
+      "argumentative",
+      "figurative"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "rhetoric.understatement",
+    "name": "Understatement",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Catalogue des procédés rhétoriques et de leurs effets.",
+    "tags": [
+      "sound",
+      "syntax",
+      "semantic",
+      "argumentative",
+      "figurative"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "rhetoric.litotes",
+    "name": "Litotes",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Catalogue des procédés rhétoriques et de leurs effets.",
+    "tags": [
+      "sound",
+      "syntax",
+      "semantic",
+      "argumentative",
+      "figurative"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "rhetoric.allusion",
+    "name": "Allusion",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Catalogue des procédés rhétoriques et de leurs effets.",
+    "tags": [
+      "sound",
+      "syntax",
+      "semantic",
+      "argumentative",
+      "figurative"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "rhetoric.juxtaposition",
+    "name": "Juxtaposition",
+    "type": "catalog_entry",
+    "domain": "prose",
+    "definition": null,
+    "purpose": "Catalogue des procédés rhétoriques et de leurs effets.",
+    "tags": [
+      "sound",
+      "syntax",
+      "semantic",
+      "argumentative",
+      "figurative"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  }
+]

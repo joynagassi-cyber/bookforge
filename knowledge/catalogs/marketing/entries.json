@@ -1,0 +1,249 @@
+[
+  {
+    "id": "marketing.logline",
+    "name": "Logline",
+    "type": "catalog_entry",
+    "domain": "publishing",
+    "definition": null,
+    "purpose": "Catalogue des artefacts et angles nécessaires pour positionner et présenter un livre.",
+    "tags": [
+      "discovery",
+      "conversion",
+      "retention",
+      "author_platform"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "marketing.tagline",
+    "name": "Tagline",
+    "type": "catalog_entry",
+    "domain": "publishing",
+    "definition": null,
+    "purpose": "Catalogue des artefacts et angles nécessaires pour positionner et présenter un livre.",
+    "tags": [
+      "discovery",
+      "conversion",
+      "retention",
+      "author_platform"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "marketing.elevator_pitch",
+    "name": "Elevator Pitch",
+    "type": "catalog_entry",
+    "domain": "publishing",
+    "definition": null,
+    "purpose": "Catalogue des artefacts et angles nécessaires pour positionner et présenter un livre.",
+    "tags": [
+      "discovery",
+      "conversion",
+      "retention",
+      "author_platform"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "marketing.back_cover_copy",
+    "name": "Back Cover Copy",
+    "type": "catalog_entry",
+    "domain": "publishing",
+    "definition": null,
+    "purpose": "Catalogue des artefacts et angles nécessaires pour positionner et présenter un livre.",
+    "tags": [
+      "discovery",
+      "conversion",
+      "retention",
+      "author_platform"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "marketing.book_description",
+    "name": "Book Description",
+    "type": "catalog_entry",
+    "domain": "publishing",
+    "definition": null,
+    "purpose": "Catalogue des artefacts et angles nécessaires pour positionner et présenter un livre.",
+    "tags": [
+      "discovery",
+      "conversion",
+      "retention",
+      "author_platform"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "marketing.subtitle",
+    "name": "Subtitle",
+    "type": "catalog_entry",
+    "domain": "publishing",
+    "definition": null,
+    "purpose": "Catalogue des artefacts et angles nécessaires pour positionner et présenter un livre.",
+    "tags": [
+      "discovery",
+      "conversion",
+      "retention",
+      "author_platform"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "marketing.positioning_statement",
+    "name": "Positioning Statement",
+    "type": "catalog_entry",
+    "domain": "publishing",
+    "definition": null,
+    "purpose": "Catalogue des artefacts et angles nécessaires pour positionner et présenter un livre.",
+    "tags": [
+      "discovery",
+      "conversion",
+      "retention",
+      "author_platform"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "marketing.reader_persona",
+    "name": "Reader Persona",
+    "type": "catalog_entry",
+    "domain": "publishing",
+    "definition": null,
+    "purpose": "Catalogue des artefacts et angles nécessaires pour positionner et présenter un livre.",
+    "tags": [
+      "discovery",
+      "conversion",
+      "retention",
+      "author_platform"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "marketing.comparable_titles",
+    "name": "Comparable Titles",
+    "type": "catalog_entry",
+    "domain": "publishing",
+    "definition": null,
+    "purpose": "Catalogue des artefacts et angles nécessaires pour positionner et présenter un livre.",
+    "tags": [
+      "discovery",
+      "conversion",
+      "retention",
+      "author_platform"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "marketing.keywords",
+    "name": "Keywords",
+    "type": "catalog_entry",
+    "domain": "publishing",
+    "definition": null,
+    "purpose": "Catalogue des artefacts et angles nécessaires pour positionner et présenter un livre.",
+    "tags": [
+      "discovery",
+      "conversion",
+      "retention",
+      "author_platform"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "marketing.category",
+    "name": "Category",
+    "type": "catalog_entry",
+    "domain": "publishing",
+    "definition": null,
+    "purpose": "Catalogue des artefacts et angles nécessaires pour positionner et présenter un livre.",
+    "tags": [
+      "discovery",
+      "conversion",
+      "retention",
+      "author_platform"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "marketing.launch_angle",
+    "name": "Launch Angle",
+    "type": "catalog_entry",
+    "domain": "publishing",
+    "definition": null,
+    "purpose": "Catalogue des artefacts et angles nécessaires pour positionner et présenter un livre.",
+    "tags": [
+      "discovery",
+      "conversion",
+      "retention",
+      "author_platform"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "marketing.review_request",
+    "name": "Review Request",
+    "type": "catalog_entry",
+    "domain": "publishing",
+    "definition": null,
+    "purpose": "Catalogue des artefacts et angles nécessaires pour positionner et présenter un livre.",
+    "tags": [
+      "discovery",
+      "conversion",
+      "retention",
+      "author_platform"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  }
+]

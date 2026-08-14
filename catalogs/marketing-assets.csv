@@ -1,0 +1,7 @@
+asset_id,asset,purpose,inputs,variants
+mkt-001,book-blurb,conversion,book contract; audience,3
+mkt-002,launch-email,activation,positioning; release date,3
+mkt-003,author-bio,trust,author profile,3
+mkt-004,social-excerpt,awareness,selected passages,10
+mkt-005,ad-copy,paid acquisition,promise; category; audience,6
+mkt-006,reader-funnel,retention,reader magnet; email list,1

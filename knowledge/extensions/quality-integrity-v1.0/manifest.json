@@ -1,0 +1,93 @@
+{
+  "id": "bookforge.integrity-quality-extension",
+  "version": "1.0.0",
+  "status": "extension",
+  "purpose": "Operational knowledge extensions for similarity/originality, cliché governance and human-voice refinement.",
+  "catalogs": [
+    {
+      "id": "originality_similarity",
+      "name": "Originality & Similarity Evidence",
+      "domain": "quality",
+      "priority": "P0",
+      "entry_schema": [
+        "id",
+        "name",
+        "type",
+        "definition",
+        "purpose",
+        "similarity_type",
+        "evidence_required",
+        "attribution_required",
+        "false_positive_risk",
+        "human_review_required",
+        "sources"
+      ],
+      "seed_entries": [
+        "exact_overlap",
+        "near_verbatim_overlap",
+        "paraphrase_overlap",
+        "structural_similarity",
+        "common_phrase_match",
+        "internal_reuse",
+        "source_attribution_gap"
+      ]
+    },
+    {
+      "id": "cliche_library",
+      "name": "Cliché & Overused Expression Library",
+      "domain": "quality",
+      "priority": "P0",
+      "entry_schema": [
+        "id",
+        "name",
+        "type",
+        "expression_pattern",
+        "language",
+        "category",
+        "severity",
+        "legitimate_contexts",
+        "replacement_strategy",
+        "do_not_auto_replace",
+        "sources"
+      ],
+      "seed_entries": [
+        "generic_opening",
+        "generic_conclusion",
+        "vague_promise",
+        "dead_metaphor",
+        "marketing_cliche",
+        "school_transition",
+        "formulaic_contrast",
+        "genre_overused_expression"
+      ]
+    },
+    {
+      "id": "human_voice",
+      "name": "Human Voice Refinement",
+      "domain": "quality",
+      "priority": "P0",
+      "entry_schema": [
+        "id",
+        "name",
+        "type",
+        "signal",
+        "editorial_goal",
+        "preserve",
+        "risk",
+        "human_review_required",
+        "sources"
+      ],
+      "seed_entries": [
+        "specificity",
+        "observable_detail",
+        "authorial_intent",
+        "rhythmic_variation",
+        "lexical_choice",
+        "point_of_view",
+        "motivated_transition",
+        "controlled_imperfection",
+        "remove_filler"
+      ]
+    }
+  ]
+}

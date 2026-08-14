@@ -1,0 +1,32 @@
+# runtime
+.bookforge/runtime/
+.bookforge/cache/
+.bookforge/tmp/
+*.log
+
+# local overrides
+bookforge.local.yaml
+catalogs/local/
+skills/local/
+agents/local/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Node
+node_modules/
+package-lock.json
+
+# Test projects
+test-project*
+test-*
+
+# Benchmark results
+evaluation/benchmarks/
+
+# Temporary files
+*.tmp
+*.temp

@@ -1,0 +1,62 @@
+{
+  "id": "worldbuilding",
+  "name": "Worldbuilding Systems",
+  "domain": "world",
+  "purpose": "Systèmes pour construire des mondes cohérents : physique, social, culturel, politique et historique.",
+  "priority": "P0",
+  "entry_schema": [
+    "id",
+    "name",
+    "type",
+    "definition",
+    "purpose",
+    "when_to_use",
+    "when_not_to_use",
+    "variants",
+    "strengths",
+    "risks",
+    "anti_patterns",
+    "related_ids",
+    "tags",
+    "genres",
+    "formats",
+    "agent_hints",
+    "confidence",
+    "sources",
+    "world_layer",
+    "rules",
+    "constraints",
+    "exceptions",
+    "history",
+    "implications"
+  ],
+  "taxonomies": [
+    "physical",
+    "ecological",
+    "social",
+    "cultural",
+    "political",
+    "economic",
+    "technological",
+    "religious",
+    "historical"
+  ],
+  "relations": [
+    "contains",
+    "depends_on",
+    "constrains",
+    "causes",
+    "contradicts"
+  ],
+  "primary_consumers": [
+    "Worldbuilder",
+    "Continuity Agent",
+    "Research Agent"
+  ],
+  "reference_sources": [
+    "Internal synthesis"
+  ],
+  "master_version": "1.0.0",
+  "integration_status": "new",
+  "legacy_source": null
+}

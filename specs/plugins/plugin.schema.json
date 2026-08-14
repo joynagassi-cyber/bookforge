@@ -1,0 +1,18 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "type":"object","required":["id","version","kind","entrypoints"],
+  "properties":{
+    "id":{"type":"string","pattern":"^[a-z0-9][a-z0-9._-]+$"},
+    "version":{"type":"string"},
+    "kind":{"enum":["module","agent","workflow","skill","validator","catalog","adapter","graph-provider","host-adapter","bundle"]},
+    "framework":{"type":"object"},
+    "dependencies":{"type":"array","items":{"type":"string"}},
+    "entrypoints":{"type":"object"},
+    "capabilities":{"type":"array","items":{"type":"string"}},
+    "provides":{"type":"array","items":{"type":"string"}},
+    "consumes":{"type":"array","items":{"type":"string"}},
+    "knowledge":{"type":"object"},
+    "tools":{"type":"object"}
+  },
+  "additionalProperties":true
+}

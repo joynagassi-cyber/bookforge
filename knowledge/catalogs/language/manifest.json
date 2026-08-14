@@ -1,0 +1,61 @@
+{
+  "id": "language",
+  "name": "Language, Lexicon & Semantics",
+  "domain": "language",
+  "purpose": "Couche lexicale et sémantique pour choix de mots, champs lexicaux et relations de sens.",
+  "priority": "P0",
+  "entry_schema": [
+    "id",
+    "name",
+    "type",
+    "definition",
+    "purpose",
+    "when_to_use",
+    "when_not_to_use",
+    "variants",
+    "strengths",
+    "risks",
+    "anti_patterns",
+    "related_ids",
+    "tags",
+    "genres",
+    "formats",
+    "agent_hints",
+    "confidence",
+    "sources",
+    "lemma",
+    "sense",
+    "part_of_speech",
+    "synsets",
+    "hypernyms",
+    "hyponyms",
+    "antonyms",
+    "meronyms",
+    "collocations",
+    "morphology"
+  ],
+  "taxonomies": [
+    "noun",
+    "verb",
+    "adjective",
+    "adverb"
+  ],
+  "relations": [
+    "related_to",
+    "contrasts_with",
+    "part_of",
+    "derives_from"
+  ],
+  "primary_consumers": [
+    "Language Agent",
+    "Style Agent",
+    "Line Editor"
+  ],
+  "reference_sources": [
+    "Princeton WordNet",
+    "Open English WordNet"
+  ],
+  "master_version": "1.0.0",
+  "integration_status": "new",
+  "legacy_source": null
+}

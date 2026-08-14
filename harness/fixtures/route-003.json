@@ -1,0 +1,17 @@
+{
+  "id": "route-003",
+  "description": "Add new chapter about source verification should route to chapter-plan with medium complexity",
+  "input": "Add a new chapter about source verification",
+  "expected": {
+    "workflow": "chapter-plan",
+    "complexity": "medium",
+    "scale": "medium",
+    "required_catalogs_min": 3,
+    "required_catalogs_max": 8
+  },
+  "fixtures": {
+    "task": "Add a new chapter about source verification",
+    "agent": null,
+    "workflow": null
+  }
+}

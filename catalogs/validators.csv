@@ -1,0 +1,13 @@
+validator_id,domain,default_severity,input,output
+structure-validator,structure,high,outline + manuscript,structural findings
+voice-validator,voice,high,voice profile + manuscript,drift findings
+continuity-validator,continuity,critical,state + manuscript,continuity findings
+fact-validator,facts,critical,claim ledger + sources,verification findings
+citation-validator,citations,high,claims + source ledger,citation findings
+originality-validator,originality,high,manuscript + external corpus,similarity report
+ai-slop-validator,style,medium,manuscript,slop findings
+cliche-validator,style,medium,manuscript + cliche catalog,cliche findings
+repetition-validator,style,medium,manuscript,repetition findings
+filler-validator,style,medium,manuscript,low-value content findings
+genre-validator,genre,medium,genre profile + manuscript,genre-fit findings
+human-review-gate,governance,critical,all reports,human decision

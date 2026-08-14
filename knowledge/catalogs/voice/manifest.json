@@ -1,0 +1,59 @@
+{
+  "id": "voice",
+  "name": "Voice DNA",
+  "domain": "prose",
+  "purpose": "Dimensions permettant de caractériser la voix d'un narrateur ou personnage.",
+  "priority": "P0",
+  "entry_schema": [
+    "id",
+    "name",
+    "type",
+    "definition",
+    "purpose",
+    "when_to_use",
+    "when_not_to_use",
+    "variants",
+    "strengths",
+    "risks",
+    "anti_patterns",
+    "related_ids",
+    "tags",
+    "genres",
+    "formats",
+    "agent_hints",
+    "confidence",
+    "sources",
+    "sentence_length",
+    "syntax",
+    "vocabulary",
+    "rhythm",
+    "formality",
+    "humor",
+    "certainty",
+    "intimacy",
+    "figurative_density",
+    "sensory_density"
+  ],
+  "taxonomies": [
+    "narrator",
+    "character",
+    "authorial"
+  ],
+  "relations": [
+    "belongs_to_character",
+    "contrasts_with",
+    "evolves_into",
+    "is_consistent_with"
+  ],
+  "primary_consumers": [
+    "Voice Designer",
+    "Dialogue Agent",
+    "Style Editor"
+  ],
+  "reference_sources": [
+    "Internal synthesis"
+  ],
+  "master_version": "1.0.0",
+  "integration_status": "extension",
+  "legacy_source": "catalogs/voices.csv"
+}

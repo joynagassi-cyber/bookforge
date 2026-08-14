@@ -1,0 +1,55 @@
+{
+  "id": "book_primitives",
+  "name": "Book Primitives",
+  "domain": "foundation",
+  "purpose": "Vocabulaire canonique partagé par tous les agents et catalogues.",
+  "priority": "P0",
+  "entry_schema": [
+    "id",
+    "name",
+    "type",
+    "definition",
+    "purpose",
+    "when_to_use",
+    "when_not_to_use",
+    "variants",
+    "strengths",
+    "risks",
+    "anti_patterns",
+    "related_ids",
+    "tags",
+    "genres",
+    "formats",
+    "agent_hints",
+    "confidence",
+    "sources",
+    "canonical_term",
+    "aliases",
+    "parent",
+    "children"
+  ],
+  "taxonomies": [
+    "creative",
+    "narrative",
+    "editorial",
+    "production"
+  ],
+  "relations": [
+    "is_a",
+    "part_of",
+    "causes",
+    "supports",
+    "contrasts_with",
+    "implements"
+  ],
+  "primary_consumers": [
+    "all_agents"
+  ],
+  "reference_sources": [
+    "WordNet lexical/semantic model",
+    "BookForge internal ontology"
+  ],
+  "master_version": "1.0.0",
+  "integration_status": "new",
+  "legacy_source": null
+}

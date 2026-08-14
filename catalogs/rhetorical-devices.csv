@@ -1,0 +1,8 @@
+device_id,name,use,risk,example_pattern
+ret-001,anaphora,emphasis,overuse,Repeated opening phrase
+ret-002,contrast,clarity,false-binary,X vs Y
+ret-003,analogy,explanation,bad mapping,A is like B because...
+ret-004,story-opening,engagement,generic anecdote,Concrete scene or incident
+ret-005,counterargument,credibility,strawman,A reasonable objection...
+ret-006,parallelism,rhythm,mechanical repetition,Same grammatical form
+ret-007,motif,cohesion,overuse,Recurring image/idea

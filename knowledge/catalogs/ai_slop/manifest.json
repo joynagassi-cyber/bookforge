@@ -1,0 +1,54 @@
+{
+  "id": "ai_slop",
+  "name": "AI-Slop & Synthetic-Prose Patterns",
+  "domain": "quality",
+  "purpose": "Catalogue de signaux de prose générique ou mécaniquement produite; jamais une preuve d'origine IA.",
+  "priority": "P0",
+  "entry_schema": [
+    "id",
+    "name",
+    "type",
+    "definition",
+    "purpose",
+    "when_to_use",
+    "when_not_to_use",
+    "variants",
+    "strengths",
+    "risks",
+    "anti_patterns",
+    "related_ids",
+    "tags",
+    "genres",
+    "formats",
+    "agent_hints",
+    "confidence",
+    "sources",
+    "signal",
+    "false_positive_risk",
+    "detection_method",
+    "human_review_required"
+  ],
+  "taxonomies": [
+    "lexical",
+    "syntactic",
+    "rhetorical",
+    "structural",
+    "discourse"
+  ],
+  "relations": [
+    "detected_by",
+    "mitigated_by",
+    "can_cooccur_with"
+  ],
+  "primary_consumers": [
+    "AI Quality Agent",
+    "Critic",
+    "Line Editor"
+  ],
+  "reference_sources": [
+    "Internal heuristics; must not be represented as definitive AI detection"
+  ],
+  "master_version": "1.0.0",
+  "integration_status": "extension",
+  "legacy_source": "catalogs/ai-slop-patterns.csv"
+}

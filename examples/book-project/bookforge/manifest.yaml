@@ -1,0 +1,4 @@
+project_id: example-book
+title: Example Book
+framework_version: 0.1.0
+status: initialized

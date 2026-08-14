@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "task_type",
+    "complexity",
+    "workflow",
+    "reason",
+    "required_artifacts"
+  ],
+  "properties": {
+    "task_type": {
+      "type": "string"
+    },
+    "complexity": {
+      "enum": [
+        "tiny",
+        "small",
+        "medium",
+        "large",
+        "book-scale"
+      ]
+    },
+    "workflow": {
+      "type": "string"
+    },
+    "reason": {
+      "type": "string"
+    },
+    "required_artifacts": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "human_gate": {
+      "type": "boolean"
+    },
+    "blocked_by": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

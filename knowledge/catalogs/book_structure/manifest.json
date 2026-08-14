@@ -1,0 +1,55 @@
+{
+  "id": "book_structure",
+  "name": "Book Architecture & Front/Back Matter",
+  "domain": "production",
+  "purpose": "Organisation physique et éditoriale du livre.",
+  "priority": "P0",
+  "entry_schema": [
+    "id",
+    "name",
+    "type",
+    "definition",
+    "purpose",
+    "when_to_use",
+    "when_not_to_use",
+    "variants",
+    "strengths",
+    "risks",
+    "anti_patterns",
+    "related_ids",
+    "tags",
+    "genres",
+    "formats",
+    "agent_hints",
+    "confidence",
+    "sources",
+    "position",
+    "optional",
+    "print_behavior",
+    "ebook_behavior",
+    "pagination_rules"
+  ],
+  "taxonomies": [
+    "front_matter",
+    "body",
+    "back_matter"
+  ],
+  "relations": [
+    "precedes",
+    "follows",
+    "belongs_to",
+    "required_for_format"
+  ],
+  "primary_consumers": [
+    "Book Designer",
+    "Production Agent",
+    "Publishing Agent"
+  ],
+  "reference_sources": [
+    "Chicago-style conventions via secondary publishing guide",
+    "W3C EPUB 3.3"
+  ],
+  "master_version": "1.0.0",
+  "integration_status": "extension",
+  "legacy_source": "catalogs/packaging-patterns.csv"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "character_archetypes",
+  "name": "Character Archetypes & Functional Roles",
+  "domain": "character",
+  "purpose": "Catalogue d'archétypes et rôles fonctionnels, sans les traiter comme des personnages figés.",
+  "priority": "P0",
+  "entry_schema": [
+    "id",
+    "name",
+    "type",
+    "definition",
+    "purpose",
+    "when_to_use",
+    "when_not_to_use",
+    "variants",
+    "strengths",
+    "risks",
+    "anti_patterns",
+    "related_ids",
+    "tags",
+    "genres",
+    "formats",
+    "agent_hints",
+    "confidence",
+    "sources",
+    "function",
+    "psychological_pattern",
+    "strength",
+    "shadow",
+    "common_arc",
+    "subversion"
+  ],
+  "taxonomies": [
+    "plot_function",
+    "psychological",
+    "social",
+    "symbolic"
+  ],
+  "relations": [
+    "instantiates",
+    "subverts",
+    "combines_with",
+    "has_shadow"
+  ],
+  "primary_consumers": [
+    "Character Architect",
+    "Plot Architect"
+  ],
+  "reference_sources": [
+    "Internal synthesis; archetype source must be recorded per taxonomy"
+  ],
+  "master_version": "1.0.0",
+  "integration_status": "new",
+  "legacy_source": null
+}

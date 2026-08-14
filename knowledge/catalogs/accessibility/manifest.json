@@ -1,0 +1,58 @@
+{
+  "id": "accessibility",
+  "name": "Book Accessibility",
+  "domain": "production",
+  "purpose": "Exigences et pratiques pour rendre livres numériques et documents plus accessibles.",
+  "priority": "P0",
+  "entry_schema": [
+    "id",
+    "name",
+    "type",
+    "definition",
+    "purpose",
+    "when_to_use",
+    "when_not_to_use",
+    "variants",
+    "strengths",
+    "risks",
+    "anti_patterns",
+    "related_ids",
+    "tags",
+    "genres",
+    "formats",
+    "agent_hints",
+    "confidence",
+    "sources",
+    "accessibility_feature",
+    "requirement_level",
+    "test_method",
+    "metadata_expression"
+  ],
+  "taxonomies": [
+    "content",
+    "navigation",
+    "visual",
+    "audio",
+    "language",
+    "interaction"
+  ],
+  "relations": [
+    "conforms_to",
+    "declared_by",
+    "tested_by",
+    "exposed_in_metadata"
+  ],
+  "primary_consumers": [
+    "Accessibility Agent",
+    "EPUB Agent",
+    "Book Designer"
+  ],
+  "reference_sources": [
+    "W3C EPUB Accessibility",
+    "ISO/IEC 23761",
+    "DAISY Accessible Publishing Knowledge Base"
+  ],
+  "master_version": "1.0.0",
+  "integration_status": "extension",
+  "legacy_source": "catalogs/design-patterns.csv"
+}

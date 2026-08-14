@@ -1,0 +1,62 @@
+{
+  "id": "genres",
+  "name": "Genre System",
+  "domain": "conception",
+  "purpose": "Genres, sous-genres, conventions, reader expectations et possibilités de subversion.",
+  "priority": "P0",
+  "entry_schema": [
+    "id",
+    "name",
+    "type",
+    "definition",
+    "purpose",
+    "when_to_use",
+    "when_not_to_use",
+    "variants",
+    "strengths",
+    "risks",
+    "anti_patterns",
+    "related_ids",
+    "tags",
+    "genres",
+    "formats",
+    "agent_hints",
+    "confidence",
+    "sources",
+    "core_promise",
+    "mandatory_conventions",
+    "optional_conventions",
+    "reader_expectations",
+    "typical_pacing",
+    "typical_stakes",
+    "typical_arcs",
+    "subgenre_of"
+  ],
+  "taxonomies": [
+    "fiction",
+    "nonfiction",
+    "commercial",
+    "literary",
+    "educational"
+  ],
+  "relations": [
+    "genre_of",
+    "subgenre_of",
+    "expects",
+    "subverts",
+    "combines_with"
+  ],
+  "primary_consumers": [
+    "Genre Agent",
+    "Plot Architect",
+    "Audience Agent",
+    "Critic"
+  ],
+  "reference_sources": [
+    "Editor World fiction-writing overview",
+    "Story Grid genre methodology"
+  ],
+  "master_version": "1.0.0",
+  "integration_status": "extension",
+  "legacy_source": "catalogs/genres.csv"
+}

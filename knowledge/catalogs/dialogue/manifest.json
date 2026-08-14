@@ -1,0 +1,57 @@
+{
+  "id": "dialogue",
+  "name": "Dialogue Craft",
+  "domain": "prose",
+  "purpose": "Techniques de dialogue naturel, conflictuel, distinctif et fonctionnel.",
+  "priority": "P0",
+  "entry_schema": [
+    "id",
+    "name",
+    "type",
+    "definition",
+    "purpose",
+    "when_to_use",
+    "when_not_to_use",
+    "variants",
+    "strengths",
+    "risks",
+    "anti_patterns",
+    "related_ids",
+    "tags",
+    "genres",
+    "formats",
+    "agent_hints",
+    "confidence",
+    "sources",
+    "dialogue_function",
+    "speech_pattern",
+    "subtext",
+    "power_dynamic",
+    "exposition_risk"
+  ],
+  "taxonomies": [
+    "information",
+    "conflict",
+    "relationship",
+    "characterization",
+    "humor",
+    "misdirection"
+  ],
+  "relations": [
+    "uses_voice",
+    "uses_subtext",
+    "reveals_information",
+    "changes_relationship"
+  ],
+  "primary_consumers": [
+    "Dialogue Agent",
+    "Voice Designer",
+    "Relationship Agent"
+  ],
+  "reference_sources": [
+    "Internal synthesis"
+  ],
+  "master_version": "1.0.0",
+  "integration_status": "new",
+  "legacy_source": null
+}

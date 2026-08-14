@@ -1,0 +1,401 @@
+[
+  {
+    "id": "ai-slop-auditor",
+    "version": "0.2.0",
+    "role": "ai-slop-auditor",
+    "purpose": "Detect generic machine-like prose patterns.",
+    "required_artifacts": [
+      "bookforge/manifest.yaml",
+      "bookforge/state/book-state.yaml"
+    ],
+    "outputs": [
+      "result",
+      "findings",
+      "next_workflow"
+    ],
+    "scopes": [
+      "book-project"
+    ],
+    "human_gate": false
+  },
+  {
+    "id": "analyst",
+    "version": "0.2.0",
+    "role": "analyst",
+    "purpose": "Validate idea, audience, market, scope.",
+    "required_artifacts": [
+      "bookforge/manifest.yaml",
+      "bookforge/state/book-state.yaml"
+    ],
+    "outputs": [
+      "result",
+      "findings",
+      "next_workflow"
+    ],
+    "scopes": [
+      "book-project"
+    ],
+    "human_gate": false
+  },
+  {
+    "id": "book-architect",
+    "version": "0.2.0",
+    "role": "book-architect",
+    "purpose": "Create and maintain book contract and architecture.",
+    "required_artifacts": [
+      "bookforge/manifest.yaml",
+      "bookforge/state/book-state.yaml"
+    ],
+    "outputs": [
+      "result",
+      "findings",
+      "next_workflow"
+    ],
+    "scopes": [
+      "book-project"
+    ],
+    "human_gate": false
+  },
+  {
+    "id": "cliche-auditor",
+    "version": "0.2.0",
+    "role": "cliche-auditor",
+    "purpose": "Detect clichés, dead metaphors and worn phrasing.",
+    "required_artifacts": [
+      "bookforge/manifest.yaml",
+      "bookforge/state/book-state.yaml"
+    ],
+    "outputs": [
+      "result",
+      "findings",
+      "next_workflow"
+    ],
+    "scopes": [
+      "book-project"
+    ],
+    "human_gate": false
+  },
+  {
+    "id": "context-engineer",
+    "version": "0.2.0",
+    "role": "context-engineer",
+    "purpose": "Build task packets and manage progressive disclosure.",
+    "required_artifacts": [
+      "bookforge/manifest.yaml",
+      "bookforge/state/book-state.yaml"
+    ],
+    "outputs": [
+      "result",
+      "findings",
+      "next_workflow"
+    ],
+    "scopes": [
+      "book-project"
+    ],
+    "human_gate": false
+  },
+  {
+    "id": "continuity-auditor",
+    "version": "0.2.0",
+    "role": "continuity-auditor",
+    "purpose": "Audit cross-chapter consistency.",
+    "required_artifacts": [
+      "bookforge/manifest.yaml",
+      "bookforge/state/book-state.yaml"
+    ],
+    "outputs": [
+      "result",
+      "findings",
+      "next_workflow"
+    ],
+    "scopes": [
+      "book-project"
+    ],
+    "human_gate": false
+  },
+  {
+    "id": "copy-editor",
+    "version": "0.2.0",
+    "role": "copy-editor",
+    "purpose": "Grammar, usage, consistency and conventions.",
+    "required_artifacts": [
+      "bookforge/manifest.yaml",
+      "bookforge/state/book-state.yaml"
+    ],
+    "outputs": [
+      "result",
+      "findings",
+      "next_workflow"
+    ],
+    "scopes": [
+      "book-project"
+    ],
+    "human_gate": false
+  },
+  {
+    "id": "developmental-editor",
+    "version": "0.2.0",
+    "role": "developmental-editor",
+    "purpose": "Structure, argument, pacing, reader value.",
+    "required_artifacts": [
+      "bookforge/manifest.yaml",
+      "bookforge/state/book-state.yaml"
+    ],
+    "outputs": [
+      "result",
+      "findings",
+      "next_workflow"
+    ],
+    "scopes": [
+      "book-project"
+    ],
+    "human_gate": false
+  },
+  {
+    "id": "fact-checker",
+    "version": "0.2.0",
+    "role": "fact-checker",
+    "purpose": "Verify factual claims and citations.",
+    "required_artifacts": [
+      "bookforge/manifest.yaml",
+      "bookforge/state/book-state.yaml"
+    ],
+    "outputs": [
+      "result",
+      "findings",
+      "next_workflow"
+    ],
+    "scopes": [
+      "book-project"
+    ],
+    "human_gate": false
+  },
+  {
+    "id": "human-voice-editor",
+    "version": "0.2.0",
+    "role": "human-voice-editor",
+    "purpose": "Improve specificity, intention and natural voice.",
+    "required_artifacts": [
+      "bookforge/manifest.yaml",
+      "bookforge/state/book-state.yaml"
+    ],
+    "outputs": [
+      "result",
+      "findings",
+      "next_workflow"
+    ],
+    "scopes": [
+      "book-project"
+    ],
+    "human_gate": true
+  },
+  {
+    "id": "launch-marketer",
+    "version": "0.2.0",
+    "role": "launch-marketer",
+    "purpose": "Launch assets, email, ads and platform content.",
+    "required_artifacts": [
+      "bookforge/manifest.yaml",
+      "bookforge/state/book-state.yaml"
+    ],
+    "outputs": [
+      "result",
+      "findings",
+      "next_workflow"
+    ],
+    "scopes": [
+      "book-project"
+    ],
+    "human_gate": false
+  },
+  {
+    "id": "line-editor",
+    "version": "0.2.0",
+    "role": "line-editor",
+    "purpose": "Sentence-level clarity, rhythm and precision.",
+    "required_artifacts": [
+      "bookforge/manifest.yaml",
+      "bookforge/state/book-state.yaml"
+    ],
+    "outputs": [
+      "result",
+      "findings",
+      "next_workflow"
+    ],
+    "scopes": [
+      "book-project"
+    ],
+    "human_gate": false
+  },
+  {
+    "id": "metadata-strategist",
+    "version": "0.2.0",
+    "role": "metadata-strategist",
+    "purpose": "Metadata, positioning and marketplace packaging.",
+    "required_artifacts": [
+      "bookforge/manifest.yaml",
+      "bookforge/state/book-state.yaml"
+    ],
+    "outputs": [
+      "result",
+      "findings",
+      "next_workflow"
+    ],
+    "scopes": [
+      "book-project"
+    ],
+    "human_gate": false
+  },
+  {
+    "id": "originality-auditor",
+    "version": "0.2.0",
+    "role": "originality-auditor",
+    "purpose": "Similarity/originality review.",
+    "required_artifacts": [
+      "bookforge/manifest.yaml",
+      "bookforge/state/book-state.yaml"
+    ],
+    "outputs": [
+      "result",
+      "findings",
+      "next_workflow"
+    ],
+    "scopes": [
+      "book-project"
+    ],
+    "human_gate": false
+  },
+  {
+    "id": "outline-architect",
+    "version": "0.2.0",
+    "role": "outline-architect",
+    "purpose": "Build hierarchical outline and dependencies.",
+    "required_artifacts": [
+      "bookforge/manifest.yaml",
+      "bookforge/state/book-state.yaml"
+    ],
+    "outputs": [
+      "result",
+      "findings",
+      "next_workflow"
+    ],
+    "scopes": [
+      "book-project"
+    ],
+    "human_gate": false
+  },
+  {
+    "id": "packaging-director",
+    "version": "0.2.0",
+    "role": "packaging-director",
+    "purpose": "Cover, interior, illustration and production brief.",
+    "required_artifacts": [
+      "bookforge/manifest.yaml",
+      "bookforge/state/book-state.yaml"
+    ],
+    "outputs": [
+      "result",
+      "findings",
+      "next_workflow"
+    ],
+    "scopes": [
+      "book-project"
+    ],
+    "human_gate": false
+  },
+  {
+    "id": "plagiarism-auditor",
+    "version": "0.3.0",
+    "role": "plagiarism-auditor",
+    "purpose": "Evidence-based similarity and attribution risk review.",
+    "required_artifacts": [
+      "bookforge/manifest.yaml",
+      "bookforge/state/book-state.yaml"
+    ],
+    "outputs": [
+      "result",
+      "findings",
+      "next_workflow"
+    ],
+    "scopes": [
+      "book-project"
+    ],
+    "human_gate": false
+  },
+  {
+    "id": "release-gatekeeper",
+    "version": "0.2.0",
+    "role": "release-gatekeeper",
+    "purpose": "Final risk review and release decision.",
+    "required_artifacts": [
+      "bookforge/manifest.yaml",
+      "bookforge/state/book-state.yaml"
+    ],
+    "outputs": [
+      "result",
+      "findings",
+      "next_workflow"
+    ],
+    "scopes": [
+      "book-project"
+    ],
+    "human_gate": true
+  },
+  {
+    "id": "researcher",
+    "version": "0.2.0",
+    "role": "researcher",
+    "purpose": "Research, source, synthesize and track evidence.",
+    "required_artifacts": [
+      "bookforge/manifest.yaml",
+      "bookforge/state/book-state.yaml"
+    ],
+    "outputs": [
+      "result",
+      "findings",
+      "next_workflow"
+    ],
+    "scopes": [
+      "book-project"
+    ],
+    "human_gate": false
+  },
+  {
+    "id": "voice-director",
+    "version": "0.2.0",
+    "role": "voice-director",
+    "purpose": "Model author's voice, tone and style constraints.",
+    "required_artifacts": [
+      "bookforge/manifest.yaml",
+      "bookforge/state/book-state.yaml"
+    ],
+    "outputs": [
+      "result",
+      "findings",
+      "next_workflow"
+    ],
+    "scopes": [
+      "book-project"
+    ],
+    "human_gate": false
+  },
+  {
+    "id": "writer",
+    "version": "0.2.0",
+    "role": "writer",
+    "purpose": "Draft bounded manuscript units.",
+    "required_artifacts": [
+      "bookforge/manifest.yaml",
+      "bookforge/state/book-state.yaml"
+    ],
+    "outputs": [
+      "result",
+      "findings",
+      "next_workflow"
+    ],
+    "scopes": [
+      "book-project"
+    ],
+    "human_gate": false
+  }
+]

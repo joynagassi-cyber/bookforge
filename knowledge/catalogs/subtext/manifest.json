@@ -1,0 +1,60 @@
+{
+  "id": "subtext",
+  "name": "Subtext & Implicit Meaning",
+  "domain": "prose",
+  "purpose": "Catalogue des écarts entre paroles, intentions, émotions et rapports de pouvoir.",
+  "priority": "P0",
+  "entry_schema": [
+    "id",
+    "name",
+    "type",
+    "definition",
+    "purpose",
+    "when_to_use",
+    "when_not_to_use",
+    "variants",
+    "strengths",
+    "risks",
+    "anti_patterns",
+    "related_ids",
+    "tags",
+    "genres",
+    "formats",
+    "agent_hints",
+    "confidence",
+    "sources",
+    "surface_meaning",
+    "hidden_intent",
+    "emotional_truth",
+    "power_move",
+    "signals"
+  ],
+  "taxonomies": [
+    "avoidance",
+    "deception",
+    "seduction",
+    "intimidation",
+    "reassurance",
+    "testing",
+    "concealment",
+    "manipulation",
+    "deflection",
+    "status_negotiation"
+  ],
+  "relations": [
+    "implemented_by_dialogue",
+    "changes_relationship",
+    "reveals_character"
+  ],
+  "primary_consumers": [
+    "Dialogue Agent",
+    "Relationship Agent",
+    "Line Editor"
+  ],
+  "reference_sources": [
+    "Internal synthesis"
+  ],
+  "master_version": "1.0.0",
+  "integration_status": "new",
+  "legacy_source": null
+}

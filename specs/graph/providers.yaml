@@ -1,0 +1,18 @@
+providers:
+  json:
+    role: local_fallback
+    persistence: bookforge/graph/events.jsonl
+    network: false
+  neo4j:
+    role: primary_external
+    transport: bolt_or_http
+    integration: neo4j-mcp
+    notes: official Neo4j MCP supports structured graph access for MCP clients
+  neo4j-agent-memory:
+    role: memory_external
+    integration: neo4j-agent-memory-mcp
+    notes: hybrid graph/vector memory surface
+  memorygraph:
+    role: experimental_external
+    integration: memory-graph MCP
+    notes: community graph memory server

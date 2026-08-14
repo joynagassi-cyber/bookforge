@@ -1,0 +1,212 @@
+[
+  {
+    "id": "accessibility.logical_reading_order",
+    "name": "Logical Reading Order",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Exigences et pratiques pour rendre livres numériques et documents plus accessibles.",
+    "tags": [
+      "content",
+      "navigation",
+      "visual",
+      "audio",
+      "language",
+      "interaction"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "accessibility.toc_navigation",
+    "name": "Toc Navigation",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Exigences et pratiques pour rendre livres numériques et documents plus accessibles.",
+    "tags": [
+      "content",
+      "navigation",
+      "visual",
+      "audio",
+      "language",
+      "interaction"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "accessibility.alt_text",
+    "name": "Alt Text",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Exigences et pratiques pour rendre livres numériques et documents plus accessibles.",
+    "tags": [
+      "content",
+      "navigation",
+      "visual",
+      "audio",
+      "language",
+      "interaction"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "accessibility.extended_description",
+    "name": "Extended Description",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Exigences et pratiques pour rendre livres numériques et documents plus accessibles.",
+    "tags": [
+      "content",
+      "navigation",
+      "visual",
+      "audio",
+      "language",
+      "interaction"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "accessibility.accessible_tables",
+    "name": "Accessible Tables",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Exigences et pratiques pour rendre livres numériques et documents plus accessibles.",
+    "tags": [
+      "content",
+      "navigation",
+      "visual",
+      "audio",
+      "language",
+      "interaction"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "accessibility.text_resizing",
+    "name": "Text Resizing",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Exigences et pratiques pour rendre livres numériques et documents plus accessibles.",
+    "tags": [
+      "content",
+      "navigation",
+      "visual",
+      "audio",
+      "language",
+      "interaction"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "accessibility.reflow",
+    "name": "Reflow",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Exigences et pratiques pour rendre livres numériques et documents plus accessibles.",
+    "tags": [
+      "content",
+      "navigation",
+      "visual",
+      "audio",
+      "language",
+      "interaction"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "accessibility.language_metadata",
+    "name": "Language Metadata",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Exigences et pratiques pour rendre livres numériques et documents plus accessibles.",
+    "tags": [
+      "content",
+      "navigation",
+      "visual",
+      "audio",
+      "language",
+      "interaction"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "accessibility.page_navigation",
+    "name": "Page Navigation",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Exigences et pratiques pour rendre livres numériques et documents plus accessibles.",
+    "tags": [
+      "content",
+      "navigation",
+      "visual",
+      "audio",
+      "language",
+      "interaction"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "accessibility.semantic_structure",
+    "name": "Semantic Structure",
+    "type": "catalog_entry",
+    "domain": "production",
+    "definition": null,
+    "purpose": "Exigences et pratiques pour rendre livres numériques et documents plus accessibles.",
+    "tags": [
+      "content",
+      "navigation",
+      "visual",
+      "audio",
+      "language",
+      "interaction"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  }
+]

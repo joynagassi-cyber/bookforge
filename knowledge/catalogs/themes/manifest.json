@@ -1,0 +1,60 @@
+{
+  "id": "themes",
+  "name": "Themes, Questions & Philosophical Tensions",
+  "domain": "conception",
+  "purpose": "Bibliothèque de thèmes et tensions pouvant relier intrigue, personnages, symboles et scènes.",
+  "priority": "P0",
+  "entry_schema": [
+    "id",
+    "name",
+    "type",
+    "definition",
+    "purpose",
+    "when_to_use",
+    "when_not_to_use",
+    "variants",
+    "strengths",
+    "risks",
+    "anti_patterns",
+    "related_ids",
+    "tags",
+    "genres",
+    "formats",
+    "agent_hints",
+    "confidence",
+    "sources",
+    "theme_question",
+    "opposing_values",
+    "theme_claim",
+    "counterclaim",
+    "manifestations"
+  ],
+  "taxonomies": [
+    "moral",
+    "psychological",
+    "social",
+    "political",
+    "existential",
+    "philosophical",
+    "relational"
+  ],
+  "relations": [
+    "manifests_in",
+    "contrasted_by",
+    "embodied_by",
+    "symbolized_by",
+    "resolved_by"
+  ],
+  "primary_consumers": [
+    "Theme Architect",
+    "Character Architect",
+    "Plot Architect",
+    "Symbolism Agent"
+  ],
+  "reference_sources": [
+    "Internal synthesis"
+  ],
+  "master_version": "1.0.0",
+  "integration_status": "new",
+  "legacy_source": null
+}

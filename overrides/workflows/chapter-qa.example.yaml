@@ -1,0 +1,10 @@
+workflow: chapter-qa
+override:
+  validators:
+    - structure-validator
+    - continuity-validator
+    - voice-validator
+    - repetition-validator
+    - cliche-validator
+    - ai-slop-validator
+  minimum_pass: true

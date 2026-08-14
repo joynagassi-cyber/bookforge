@@ -1,0 +1,57 @@
+{
+  "id": "plot_patterns",
+  "name": "Plot & Causality Patterns",
+  "domain": "narrative",
+  "purpose": "Patterns de causalité, escalade, enquête, quête, transformation et résolution.",
+  "priority": "P0",
+  "entry_schema": [
+    "id",
+    "name",
+    "type",
+    "definition",
+    "purpose",
+    "when_to_use",
+    "when_not_to_use",
+    "variants",
+    "strengths",
+    "risks",
+    "anti_patterns",
+    "related_ids",
+    "tags",
+    "genres",
+    "formats",
+    "agent_hints",
+    "confidence",
+    "sources",
+    "causal_chain",
+    "escalation_logic",
+    "resolution_logic",
+    "failure_modes"
+  ],
+  "taxonomies": [
+    "goal_obstacle",
+    "mystery",
+    "quest",
+    "survival",
+    "transformation",
+    "competition",
+    "relationship"
+  ],
+  "relations": [
+    "uses_conflict",
+    "uses_stakes",
+    "uses_beats",
+    "creates_subplots"
+  ],
+  "primary_consumers": [
+    "Plot Architect",
+    "Genre Agent",
+    "Conflict Agent"
+  ],
+  "reference_sources": [
+    "Internal synthesis"
+  ],
+  "master_version": "1.0.0",
+  "integration_status": "new",
+  "legacy_source": null
+}

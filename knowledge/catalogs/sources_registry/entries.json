@@ -1,0 +1,178 @@
+[
+  {
+    "id": "sources_registry.official_standard",
+    "name": "Official Standard",
+    "type": "catalog_entry",
+    "domain": "governance",
+    "definition": null,
+    "purpose": "Registre des sources et de leur qualité, licence, date et statut de vérification.",
+    "tags": [
+      "primary",
+      "standard",
+      "official",
+      "academic",
+      "professional",
+      "community",
+      "secondary"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "sources_registry.academic_paper",
+    "name": "Academic Paper",
+    "type": "catalog_entry",
+    "domain": "governance",
+    "definition": null,
+    "purpose": "Registre des sources et de leur qualité, licence, date et statut de vérification.",
+    "tags": [
+      "primary",
+      "standard",
+      "official",
+      "academic",
+      "professional",
+      "community",
+      "secondary"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "sources_registry.book",
+    "name": "Book",
+    "type": "catalog_entry",
+    "domain": "governance",
+    "definition": null,
+    "purpose": "Registre des sources et de leur qualité, licence, date et statut de vérification.",
+    "tags": [
+      "primary",
+      "standard",
+      "official",
+      "academic",
+      "professional",
+      "community",
+      "secondary"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "sources_registry.professional_guide",
+    "name": "Professional Guide",
+    "type": "catalog_entry",
+    "domain": "governance",
+    "definition": null,
+    "purpose": "Registre des sources et de leur qualité, licence, date et statut de vérification.",
+    "tags": [
+      "primary",
+      "standard",
+      "official",
+      "academic",
+      "professional",
+      "community",
+      "secondary"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "sources_registry.dataset",
+    "name": "Dataset",
+    "type": "catalog_entry",
+    "domain": "governance",
+    "definition": null,
+    "purpose": "Registre des sources et de leur qualité, licence, date et statut de vérification.",
+    "tags": [
+      "primary",
+      "standard",
+      "official",
+      "academic",
+      "professional",
+      "community",
+      "secondary"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "sources_registry.open_lexicon",
+    "name": "Open Lexicon",
+    "type": "catalog_entry",
+    "domain": "governance",
+    "definition": null,
+    "purpose": "Registre des sources et de leur qualité, licence, date et statut de vérification.",
+    "tags": [
+      "primary",
+      "standard",
+      "official",
+      "academic",
+      "professional",
+      "community",
+      "secondary"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "sources_registry.industry_metadata",
+    "name": "Industry Metadata",
+    "type": "catalog_entry",
+    "domain": "governance",
+    "definition": null,
+    "purpose": "Registre des sources et de leur qualité, licence, date et statut de vérification.",
+    "tags": [
+      "primary",
+      "standard",
+      "official",
+      "academic",
+      "professional",
+      "community",
+      "secondary"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  },
+  {
+    "id": "sources_registry.community_resource",
+    "name": "Community Resource",
+    "type": "catalog_entry",
+    "domain": "governance",
+    "definition": null,
+    "purpose": "Registre des sources et de leur qualité, licence, date et statut de vérification.",
+    "tags": [
+      "primary",
+      "standard",
+      "official",
+      "academic",
+      "professional",
+      "community",
+      "secondary"
+    ],
+    "confidence": "experimental",
+    "sources": [],
+    "status": "generated_seed",
+    "needs_review": true,
+    "version": "1.0.0"
+  }
+]
