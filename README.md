@@ -3,7 +3,7 @@
 [![npm version](https://img.shields.io/npm/v/bookforge.svg)](https://www.npmjs.com/package/bookforge)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Node.js](https://img.shields.io/badge/node-%3E%3D20.12.0-brightgreen.svg)](https://nodejs.org/)
-[![Tests](https://img.shields.io/badge/tests-45%2F45%20passing-brightgreen.svg)](https://github.com/JOYDA-PY-ARCH/bookforge)
+[![Tests](https://img.shields.io/badge/tests-45%2F45%20passing-brightgreen.svg)](https://github.com/joynagassi-cyber/bookforge)
 
 BookForge is a platform-agnostic, specification-driven framework for turning a general-purpose AI agent into a disciplined book-production system capable of working on long manuscripts without relying on chat history as the source of truth.
 
@@ -40,7 +40,7 @@ bookforge validate
 npm install -g bookforge
 
 # From GitHub (development)
-npx --yes github:JOYDA-PY-ARCH/bookforge install --host auto
+npx --yes github:joynagassi-cyber/bookforge install --host auto
 
 # All hosts
 npx bookforge install --host all
@@ -229,6 +229,6 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 ## 🔗 Links
 
-- [GitHub Repository](https://github.com/JOYDA-PY-ARCH/bookforge)
+- [GitHub Repository](https://github.com/joynagassi-cyber/bookforge)
 - [npm Package](https://www.npmjs.com/package/bookforge)
-- [Issue Tracker](https://github.com/JOYDA-PY-ARCH/bookforge/issues)
+- [Issue Tracker](https://github.com/joynagassi-cyber/bookforge/issues)
