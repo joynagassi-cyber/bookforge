@@ -1,4 +1,4 @@
-# bookforge-help
+# bookforge-graph-sync
 
 This is a generated BookForge launcher.
 

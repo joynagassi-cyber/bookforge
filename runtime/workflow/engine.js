@@ -33,11 +33,15 @@ function saveRun(project, run) {
 }
 
 export function loadWorkflow(project, id) {
+  // Try bookforge/manifests first, then root manifests
   const manifestPath = bfPath(project, 'manifests', 'workflows.json');
-  if (!exists(manifestPath)) {
-    throw new Error(`Workflow manifest not found: ${manifestPath}`);
+  const rootManifestPath = path.join(project, 'manifests', 'workflows.json');
+  const pathToCheck = exists(manifestPath) ? manifestPath : rootManifestPath;
+
+  if (!exists(pathToCheck)) {
+    throw new Error(`Workflow manifest not found: ${pathToCheck}`);
   }
-  const workflows = readJson(manifestPath);
+  const workflows = readJson(pathToCheck);
   const wf = workflows.find(x => x.id === id);
   if (!wf) throw new Error(`Unknown workflow: ${id}`);
   return wf;

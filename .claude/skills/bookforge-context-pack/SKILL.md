@@ -1,4 +1,4 @@
-# bookforge-help
+# bookforge-context-pack
 
 This is a generated BookForge launcher.
 

@@ -1,4 +1,4 @@
-# bookforge-help
+# bookforge-workflow
 
 This is a generated BookForge launcher.
 
