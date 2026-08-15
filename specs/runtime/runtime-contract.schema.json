@@ -1,0 +1,48 @@
+{
+  "schema_version": "0.6.0",
+  "framework_version": "2.2.0",
+  "components": {
+    "plugin": {
+      "api_version": "1.0.0",
+      "manifest_schema": "specs/plugins/plugin.schema.json"
+    },
+    "workflow": {
+      "schema_version": "1.0.0",
+      "state_machine": {
+        "states": ["READY", "CONTEXT_BUILT", "EXECUTING", "VALIDATING", "REVISING", "GATED", "COMMITTED", "FAILED", "ABORTED"]
+      }
+    },
+    "context": {
+      "packet_schema": "schemas/task-packet.schema.json",
+      "router_schema": "schemas/route-decision.schema.json"
+    },
+    "graph": {
+      "contract_schema": "specs/graph/graph-contract.schema.json",
+      "providers": ["jsonl", "neo4j"]
+    },
+    "host": {
+      "adapter_spec": "specs/hosts/host-adapters.json",
+      "capability_schema": "specs/hosts/host-capability.schema.json"
+    },
+    "quality": {
+      "report_schema": "schemas/validator-report.schema.json",
+      "validators": ["continuity", "ai-slop", "cliche", "fact", "originality", "human-voice", "style", "structure"]
+    }
+  },
+  "contracts": {
+    "artifact_envelope": "schemas/artifact-envelope.schema.json",
+    "book_contract": "schemas/book-contract.schema.json",
+    "task_packet": "schemas/task-packet.schema.json",
+    "route_decision": "schemas/route-decision.schema.json",
+    "validator_report": "schemas/validator-report.schema.json"
+  },
+  "capabilities": {
+    "plugin_registry": true,
+    "workflow_engine": true,
+    "context_router": true,
+    "graph_synchronizer": true,
+    "host_generation": true,
+    "party_mode": true,
+    "quality_validation": true
+  }
+}

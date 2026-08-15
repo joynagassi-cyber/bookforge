@@ -1,0 +1,125 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://bookforge.dev/schemas/workflow/v1.0.0",
+  "version": "1.0.0",
+  "title": "BookForge Workflow Schema",
+  "description": "Defines the structure of a BookForge workflow. Workflows are multi-step compositions that orchestrate agents, skills, and validators.",
+  "type": "object",
+  "required": ["id", "version", "phase", "purpose", "entry"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9._-]+$",
+      "description": "Unique workflow identifier"
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$",
+      "description": "Workflow schema version (separate from runtime contract)"
+    },
+    "phase": {
+      "type": "string",
+      "enum": ["upstream", "execution", "editing", "quality", "governance", "downstream"],
+      "description": "Workflow phase in the book production lifecycle"
+    },
+    "purpose": {
+      "type": "string",
+      "description": "Human-readable purpose of this workflow"
+    },
+    "entry": {
+      "type": "string",
+      "description": "Path to the workflow definition file relative to project root"
+    },
+    "requires": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Artifact paths that must exist before this workflow can run"
+    },
+    "human_approval": {
+      "type": "boolean",
+      "default": false,
+      "description": "Whether this workflow requires human approval before commit"
+    },
+    "scale": {
+      "type": "string",
+      "enum": ["tiny", "small", "medium", "large", "book-scale"],
+      "description": "Expected scale of work this workflow handles"
+    },
+    "steps": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "action"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Unique step identifier within this workflow"
+          },
+          "action": {
+            "type": "string",
+            "description": "Action to perform (context.build, agent.run, validator.run, etc.)"
+          },
+          "agent": {
+            "type": "string",
+            "description": "Agent ID to use for this step (optional)"
+          },
+          "validator": {
+            "type": "string",
+            "description": "Validator ID to run (optional)"
+          },
+          "requires": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Step IDs that must complete before this step"
+          },
+          "produces": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Artifact IDs produced by this step"
+          },
+          "conditions": {
+            "type": "object",
+            "description": "Conditional execution rules"
+          }
+        }
+      }
+    },
+    "outputs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Artifact IDs produced by this workflow"
+    },
+    "validators": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Validators to run after workflow completion"
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "created_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "updated_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "author": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}

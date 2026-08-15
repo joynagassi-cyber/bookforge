@@ -1,0 +1,21 @@
+{
+  "id": "bookforge.demo",
+  "version": "0.1.0",
+  "type": "module",
+  "name": "BookForge Demo Module",
+  "description": "Example module demonstrating BookForge extension capabilities",
+  "provides": [
+    "demo.agent",
+    "demo.workflow",
+    "demo.skill"
+  ],
+  "dependencies": [],
+  "config": {
+    "sample_setting": "default_value"
+  },
+  "entrypoints": {
+    "agents": ["demo-agent"],
+    "workflows": ["demo-workflow"],
+    "skills": ["demo-skill"]
+  }
+}
