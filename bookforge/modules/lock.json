@@ -1,0 +1,10 @@
+{
+  "modules": {
+    "test.module": {
+      "version": "1.0.0",
+      "resolved": "local",
+      "integrity": null,
+      "installed_at": "2026-08-15T07:29:44.748Z"
+    }
+  }
+}

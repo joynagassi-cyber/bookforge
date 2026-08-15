@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0.0",
+  "agents": {
+    "test-writer": {
+      "id": "test-writer",
+      "version": "1.0.0",
+      "module": "test.module",
+      "skills": [
+        "skill-1"
+      ],
+      "knowledge": [],
+      "validators": [
+        "validator-1"
+      ],
+      "registered_at": "2026-08-15T07:29:45.087Z"
+    },
+    "packet-agent": {
+      "id": "packet-agent",
+      "version": "1.0.0",
+      "module": "test",
+      "skills": [],
+      "knowledge": [],
+      "validators": [],
+      "registered_at": "2026-08-15T07:29:45.193Z"
+    }
+  },
+  "workflows": {},
+  "skills": {},
+  "validators": {},
+  "modules": {}
+}

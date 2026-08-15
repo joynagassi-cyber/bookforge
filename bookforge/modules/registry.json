@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0.0",
+  "modules": [
+    {
+      "id": "test.module",
+      "version": "1.0.0",
+      "type": "module",
+      "provides": [],
+      "source": null,
+      "enabled": true,
+      "registered_at": "2026-08-15T07:29:44.748Z"
+    }
+  ]
+}
