@@ -31,7 +31,7 @@ function main() {
   console.log('Project:');
   allPassed &= check('project initialized', () => fs.existsSync(path.join(projectDir, 'bookforge', 'project.json')));
   allPassed &= check('configuration valid', () => {
-    return fs.existsSync(path.join(projectDir, 'bookforge', 'config.yaml')) || fs.existsSync(path.join(projectDir, 'bookforge', '_bmad', 'config.yaml')) ? 'valid' : 'missing';
+    return fs.existsSync(path.join(projectDir, 'bookforge', 'config.yaml')) || fs.existsSync(path.join(projectDir, 'bookforge', 'bookforge-config', 'config.yaml')) ? 'valid' : 'missing';
   });
   
   console.log('\nVersions:');
