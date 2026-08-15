@@ -12,7 +12,7 @@
       "validators": [
         "validator-1"
       ],
-      "registered_at": "2026-08-15T12:41:29.518Z"
+      "registered_at": "2026-08-15T12:50:37.226Z"
     },
     "packet-agent": {
       "id": "packet-agent",
@@ -21,7 +21,7 @@
       "skills": [],
       "knowledge": [],
       "validators": [],
-      "registered_at": "2026-08-15T12:41:29.582Z"
+      "registered_at": "2026-08-15T12:50:37.287Z"
     }
   },
   "workflows": {},
