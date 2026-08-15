@@ -1,0 +1,12 @@
+{
+  "version": "0.5.0",
+  "template": "book",
+  "host": "auto",
+  "graph": "none",
+  "created_at": "2026-08-15T12:54:48.537Z",
+  "canonical": {
+    "artifacts": "bookforge/artifacts",
+    "state": "bookforge/state",
+    "knowledge": "bookforge/knowledge"
+  }
+}
