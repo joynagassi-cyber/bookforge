@@ -1,8 +1,0 @@
-cli:
-  auto_validate: true
-  show_progress: true
-  verbose: false
-communication_language: English
-document_output_language: English
-output_folder: '{project-root}/bookforge-output'
-user_name: Test User

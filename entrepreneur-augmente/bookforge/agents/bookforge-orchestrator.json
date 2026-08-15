@@ -1,1 +1,0 @@
-{"id":"bookforge-orchestrator","type":"orchestrator","authority":"workflow-routing-only","forbidden":["invent-canonical-facts","bypass-human-gate","write-graph-without-event"]}

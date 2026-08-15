@@ -1,9 +1,0 @@
-validator: human-voice-editor
-checks:
-  - specificity
-  - cadence
-  - intentionality
-  - concrete_detail
-  - authorial_constraints
-false_positive_rule: "Do not flatten a distinctive style toward a generic professional voice."
-repair: "Preserve idiosyncrasy while removing accidental artificiality."
