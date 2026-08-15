@@ -1,0 +1,13 @@
+{
+  "host": "windsurf",
+  "capabilities": [
+    "skills",
+    "mcp",
+    "filesystem"
+  ],
+  "installation": {
+    "skills": ".agents/skills/"
+  },
+  "skills_root": ".agents/skills",
+  "generated_at": "2026-08-15T20:16:52.355Z"
+}

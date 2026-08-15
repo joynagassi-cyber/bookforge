@@ -1,0 +1,14 @@
+{
+  "host": "cursor",
+  "capabilities": [
+    "skills",
+    "mcp",
+    "filesystem"
+  ],
+  "installation": {
+    "skills": ".agents/skills/",
+    "mcp": ".cursor/mcp.json"
+  },
+  "skills_root": ".agents/skills",
+  "generated_at": "2026-08-15T20:16:51.815Z"
+}

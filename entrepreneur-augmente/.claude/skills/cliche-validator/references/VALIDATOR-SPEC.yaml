@@ -1,0 +1,8 @@
+validator: cliche-validator
+checks:
+  - worn_phrases
+  - dead_metaphors
+  - genre_cliches
+  - generic_promises
+false_positive_rule: "Common phrases are not automatically clichés; preserve intentional reuse."
+repair: "Replace with concrete, context-specific language."

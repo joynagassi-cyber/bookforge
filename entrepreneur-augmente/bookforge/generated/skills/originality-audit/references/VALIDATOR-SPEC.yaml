@@ -1,0 +1,8 @@
+validator: originality-audit
+checks:
+  - internal_similarity
+  - project_corpus_similarity
+  - external_similarity
+  - attribution_gaps
+false_positive_rule: "Similarity is evidence for review, not a plagiarism verdict."
+repair: "Inspect source context, attribution and author intent."

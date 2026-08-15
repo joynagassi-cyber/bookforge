@@ -1,0 +1,22 @@
+{
+  "version": "0.6.0",
+  "generated_at": "2026-08-15T20:16:46.378Z",
+  "modules": [
+    "core",
+    "writing",
+    "research",
+    "quality"
+  ],
+  "catalogs": [
+    "genres",
+    "voices",
+    "writing-styles",
+    "validators",
+    "routing-rules",
+    "chapter-patterns",
+    "ai-slop-patterns",
+    "cliches",
+    "reader-profiles",
+    "story_structures"
+  ]
+}

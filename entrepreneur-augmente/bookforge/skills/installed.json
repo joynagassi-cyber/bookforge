@@ -1,0 +1,187 @@
+{
+  "version": "0.6.0",
+  "generated_at": "2026-08-15T20:16:46.374Z",
+  "host": "claude-code,cursor,windsurf,kiro,codex-cli,devin,opencode,kilocode,gemini,github-copilot",
+  "detected_hosts": [
+    "claude-code",
+    "cursor",
+    "windsurf",
+    "kiro",
+    "codex-cli",
+    "devin",
+    "opencode",
+    "kilocode",
+    "gemini",
+    "github-copilot"
+  ],
+  "skills": [
+    {
+      "id": "ai-slop-detector",
+      "version": "1.0.0",
+      "enabled": true,
+      "source": "skills/ai-slop-detector/SKILL.md"
+    },
+    {
+      "id": "ai-slop-validator",
+      "version": "1.0.0",
+      "enabled": true,
+      "source": "skills/ai-slop-validator/SKILL.md"
+    },
+    {
+      "id": "book-contract",
+      "version": "1.0.0",
+      "enabled": true,
+      "source": "skills/book-contract/SKILL.md"
+    },
+    {
+      "id": "chapter-generator",
+      "version": "1.0.0",
+      "enabled": true,
+      "source": "skills/chapter-generator/SKILL.md"
+    },
+    {
+      "id": "claim-ledger",
+      "version": "1.0.0",
+      "enabled": true,
+      "source": "skills/claim-ledger/SKILL.md"
+    },
+    {
+      "id": "cliche-detector",
+      "version": "1.0.0",
+      "enabled": true,
+      "source": "skills/cliche-detector/SKILL.md"
+    },
+    {
+      "id": "cliche-validator",
+      "version": "1.0.0",
+      "enabled": true,
+      "source": "skills/cliche-validator/SKILL.md"
+    },
+    {
+      "id": "context-compressor",
+      "version": "1.0.0",
+      "enabled": true,
+      "source": "skills/context-compressor/SKILL.md"
+    },
+    {
+      "id": "context-packer",
+      "version": "1.0.0",
+      "enabled": true,
+      "source": "skills/context-packer/SKILL.md"
+    },
+    {
+      "id": "context-router",
+      "version": "1.0.0",
+      "enabled": true,
+      "source": "skills/context-router/SKILL.md"
+    },
+    {
+      "id": "continuity-checker",
+      "version": "1.0.0",
+      "enabled": true,
+      "source": "skills/continuity-checker/SKILL.md"
+    },
+    {
+      "id": "fact-checker",
+      "version": "1.0.0",
+      "enabled": true,
+      "source": "skills/fact-checker/SKILL.md"
+    },
+    {
+      "id": "filler-detector",
+      "version": "1.0.0",
+      "enabled": true,
+      "source": "skills/filler-detector/SKILL.md"
+    },
+    {
+      "id": "human-editor-panel",
+      "version": "1.0.0",
+      "enabled": true,
+      "source": "skills/human-editor-panel/SKILL.md"
+    },
+    {
+      "id": "human-voice-editor",
+      "version": "1.0.0",
+      "enabled": true,
+      "source": "skills/human-voice-editor/SKILL.md"
+    },
+    {
+      "id": "humanize-prose",
+      "version": "1.0.0",
+      "enabled": true,
+      "source": "skills/humanize-prose/SKILL.md"
+    },
+    {
+      "id": "launch-kit",
+      "version": "1.0.0",
+      "enabled": true,
+      "source": "skills/launch-kit/SKILL.md"
+    },
+    {
+      "id": "mermaid-diagramer",
+      "version": "1.0.0",
+      "enabled": true,
+      "source": "skills/mermaid-diagramer/SKILL.md"
+    },
+    {
+      "id": "metadata-optimizer",
+      "version": "1.0.0",
+      "enabled": true,
+      "source": "skills/metadata-optimizer/SKILL.md"
+    },
+    {
+      "id": "originality-audit",
+      "version": "1.0.0",
+      "enabled": true,
+      "source": "skills/originality-audit/SKILL.md"
+    },
+    {
+      "id": "outline-builder",
+      "version": "1.0.0",
+      "enabled": true,
+      "source": "skills/outline-builder/SKILL.md"
+    },
+    {
+      "id": "packaging-director",
+      "version": "1.0.0",
+      "enabled": true,
+      "source": "skills/packaging-director/SKILL.md"
+    },
+    {
+      "id": "plagiarism-risk-audit",
+      "version": "1.0.0",
+      "enabled": true,
+      "source": "skills/plagiarism-risk-audit/SKILL.md"
+    },
+    {
+      "id": "repetition-detector",
+      "version": "1.0.0",
+      "enabled": true,
+      "source": "skills/repetition-detector/SKILL.md"
+    },
+    {
+      "id": "revision-loop",
+      "version": "1.0.0",
+      "enabled": true,
+      "source": "skills/revision-loop/SKILL.md"
+    },
+    {
+      "id": "source-ledger",
+      "version": "1.0.0",
+      "enabled": true,
+      "source": "skills/source-ledger/SKILL.md"
+    },
+    {
+      "id": "voice-drift-detector",
+      "version": "1.0.0",
+      "enabled": true,
+      "source": "skills/voice-drift-detector/SKILL.md"
+    },
+    {
+      "id": "voice-modeler",
+      "version": "1.0.0",
+      "enabled": true,
+      "source": "skills/voice-modeler/SKILL.md"
+    }
+  ]
+}

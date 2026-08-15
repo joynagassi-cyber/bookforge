@@ -1,0 +1,13 @@
+{
+  "host": "codex-cli",
+  "capabilities": [
+    "filesystem",
+    "cli",
+    "mcp_if_supported"
+  ],
+  "installation": {
+    "skills": "bookforge/generated/skills/"
+  },
+  "skills_root": "bookforge/generated/skills",
+  "generated_at": "2026-08-15T20:16:54.129Z"
+}

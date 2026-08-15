@@ -1,0 +1,14 @@
+{
+  "host": "opencode",
+  "capabilities": [
+    "skills",
+    "mcp",
+    "filesystem",
+    "cli"
+  ],
+  "installation": {
+    "skills": ".agents/skills"
+  },
+  "skills_root": "bookforge/generated/skills",
+  "generated_at": "2026-08-15T20:16:55.450Z"
+}
