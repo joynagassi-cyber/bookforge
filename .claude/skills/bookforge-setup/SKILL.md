@@ -19,13 +19,13 @@ Installs and configures BookForge in a project. Collects user preferences and wr
 
 The installer writes to three files:
 
-1. **`bookforge/_bmad/config.yaml`** — Shared project config with core settings and module configuration
-2. **`bookforge/_bmad/config.user.yaml`** — Personal settings (gitignored): `user_name`, `communication_language`
-3. **`bookforge/_bmad/module-help.csv`** — Registers BookForge capabilities for the help system
+1. **`bookforge/bookforge-config/config.yaml`** — Shared project config with core settings and module configuration
+2. **`bookforge/bookforge-config/config.user.yaml`** — Personal settings (gitignored): `user_name`, `communication_language`
+3. **`bookforge/bookforge-config/module-help.csv`** — Registers BookForge capabilities for the help system
 
 ## On Activation
 
-1. Check if `bookforge/_bmad/config.yaml` exists — if present, this is an update; otherwise it's a fresh install
+1. Check if `bookforge/bookforge-config/config.yaml` exists — if present, this is an update; otherwise it's a fresh install
 2. Check for legacy config at `bookforge/config.yaml` and migrate if needed
 3. Collect configuration from the user (or use arguments if `--headless` or `--yes` is passed)
 4. Run the merge-config.py script to write configuration
@@ -57,11 +57,11 @@ Ask the user for values. Show defaults in brackets. Present all values together 
 Run the merge-config script:
 
 ```bash
-python3 bookforge/_bmad/scripts/merge-config.py \
-  --config-path "bookforge/_bmad/config.yaml" \
-  --module-yaml "bookforge/_bmad/assets/module.yaml" \
+python3 bookforge/bookforge-config/scripts/merge-config.py \
+  --config-path "bookforge/bookforge-config/config.yaml" \
+  --module-yaml "bookforge/bookforge-config/assets/module.yaml" \
   --answers <temp-file> \
-  --user-config-path "bookforge/_bmad/config.user.yaml" \
+  --user-config-path "bookforge/bookforge-config/config.user.yaml" \
   --legacy-dir "bookforge"
 ```
 
