@@ -76,7 +76,7 @@ describe('Workflow Engine', () => {
     const planData = plan(project, 'help', { task: 'Step test' });
     const run = start(project, planData);
     const wf = loadWorkflow(project, 'help');
-    const result = executeStep(project, run.run_id, 'route', { output: 'routed' });
+    const result = await executeStep(project, run.run_id, 'route', { output: 'routed' });
     assert.equal(result.status, 'completed');
   });
 

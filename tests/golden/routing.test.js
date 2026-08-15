@@ -5,7 +5,7 @@ import path, { join } from 'node:path';
 import { loadFixture } from '../../harness/loader.js';
 import { route } from '../../runtime/context/router.js';
 
-const TEST_PROJECT = join(process.cwd(), 'test-project-golden');
+const TEST_PROJECT = join(process.cwd(), 'test-project-golden-routing');
 
 function setupTestProject() {
   rmSync(TEST_PROJECT, { recursive: true, force: true });
