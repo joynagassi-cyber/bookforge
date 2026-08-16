@@ -9,7 +9,7 @@
       "source_file": "bin\\bookforge-doctor.js",
       "source_location": "L1",
       "id": "bin_bookforge_doctor_js",
-      "community": 3,
+      "community": 4,
       "norm_label": "bookforge-doctor.js"
     },
     {
@@ -18,7 +18,7 @@
       "source_file": "bin\\bookforge-doctor.js",
       "source_location": "L9",
       "id": "bookforge_doctor_check",
-      "community": 3,
+      "community": 4,
       "norm_label": "check()"
     },
     {
@@ -27,7 +27,7 @@
       "source_file": "bin\\bookforge-doctor.js",
       "source_location": "L25",
       "id": "bookforge_doctor_main",
-      "community": 3,
+      "community": 4,
       "norm_label": "main()"
     },
     {
@@ -108,7 +108,7 @@
       "source_file": "bookforge\\bookforge-config\\scripts\\merge-config.py",
       "source_location": "L1",
       "id": "bookforge_bookforge_config_scripts_merge_config_py",
-      "community": 4,
+      "community": 2,
       "norm_label": "merge-config.py"
     },
     {
@@ -117,7 +117,7 @@
       "source_file": "bookforge\\bookforge-config\\scripts\\merge-config.py",
       "source_location": "L29",
       "id": "merge_config_parse_args",
-      "community": 4,
+      "community": 2,
       "norm_label": "parse_args()"
     },
     {
@@ -126,7 +126,7 @@
       "source_file": "bookforge\\bookforge-config\\scripts\\merge-config.py",
       "source_location": "L65",
       "id": "merge_config_load_yaml_file",
-      "community": 4,
+      "community": 2,
       "norm_label": "load_yaml_file()"
     },
     {
@@ -135,7 +135,7 @@
       "source_file": "bookforge\\bookforge-config\\scripts\\merge-config.py",
       "source_location": "L75",
       "id": "merge_config_save_yaml_file",
-      "community": 4,
+      "community": 2,
       "norm_label": "save_yaml_file()"
     },
     {
@@ -144,7 +144,7 @@
       "source_file": "bookforge\\bookforge-config\\scripts\\merge-config.py",
       "source_location": "L83",
       "id": "merge_config_load_json_file",
-      "community": 4,
+      "community": 2,
       "norm_label": "load_json_file()"
     },
     {
@@ -153,7 +153,7 @@
       "source_file": "bookforge\\bookforge-config\\scripts\\merge-config.py",
       "source_location": "L102",
       "id": "merge_config_load_legacy_values",
-      "community": 4,
+      "community": 2,
       "norm_label": "load_legacy_values()"
     },
     {
@@ -162,7 +162,7 @@
       "source_file": "bookforge\\bookforge-config\\scripts\\merge-config.py",
       "source_location": "L138",
       "id": "merge_config_apply_legacy_defaults",
-      "community": 4,
+      "community": 2,
       "norm_label": "apply_legacy_defaults()"
     },
     {
@@ -171,7 +171,7 @@
       "source_file": "bookforge\\bookforge-config\\scripts\\merge-config.py",
       "source_location": "L159",
       "id": "merge_config_merge_config",
-      "community": 4,
+      "community": 2,
       "norm_label": "merge_config()"
     },
     {
@@ -180,7 +180,7 @@
       "source_file": "bookforge\\bookforge-config\\scripts\\merge-config.py",
       "source_location": "L243",
       "id": "merge_config_main",
-      "community": 4,
+      "community": 2,
       "norm_label": "main()"
     },
     {
@@ -188,7 +188,7 @@
       "file_type": "rationale",
       "source_file": "bookforge\\bookforge-config\\scripts\\merge-config.py",
       "source_location": "L66",
-      "community": 4,
+      "community": 2,
       "norm_label": "load a yaml file, returning empty dict if file doesn't exist.",
       "id": "merge_config_rationale_66"
     },
@@ -197,7 +197,7 @@
       "file_type": "rationale",
       "source_file": "bookforge\\bookforge-config\\scripts\\merge-config.py",
       "source_location": "L76",
-      "community": 4,
+      "community": 2,
       "norm_label": "save data to a yaml file.",
       "id": "merge_config_rationale_76"
     },
@@ -206,7 +206,7 @@
       "file_type": "rationale",
       "source_file": "bookforge\\bookforge-config\\scripts\\merge-config.py",
       "source_location": "L103",
-      "community": 4,
+      "community": 2,
       "norm_label": "read legacy config files and return core/module value dicts.",
       "id": "merge_config_rationale_103"
     },
@@ -215,7 +215,7 @@
       "file_type": "rationale",
       "source_file": "bookforge\\bookforge-config\\scripts\\merge-config.py",
       "source_location": "L139",
-      "community": 4,
+      "community": 2,
       "norm_label": "apply legacy values as fallback defaults.",
       "id": "merge_config_rationale_139"
     },
@@ -288,7 +288,7 @@
       "source_file": "harness\\loader.js",
       "source_location": "L1",
       "id": "harness_loader_js",
-      "community": 2,
+      "community": 3,
       "norm_label": "loader.js"
     },
     {
@@ -297,7 +297,7 @@
       "source_file": "harness\\loader.js",
       "source_location": "L8",
       "id": "loader_loadfixture",
-      "community": 2,
+      "community": 3,
       "norm_label": "loadfixture()"
     },
     {
@@ -306,7 +306,7 @@
       "source_file": "harness\\loader.js",
       "source_location": "L16",
       "id": "loader_listfixtures",
-      "community": 2,
+      "community": 3,
       "norm_label": "listfixtures()"
     },
     {
@@ -315,7 +315,7 @@
       "source_file": "harness\\loader.js",
       "source_location": "L23",
       "id": "loader_loadallfixtures",
-      "community": 2,
+      "community": 3,
       "norm_label": "loadallfixtures()"
     },
     {
@@ -324,7 +324,7 @@
       "source_file": "harness\\loader.js",
       "source_location": "L27",
       "id": "loader_generatetaskpacket",
-      "community": 2,
+      "community": 3,
       "norm_label": "generatetaskpacket()"
     },
     {
@@ -333,7 +333,7 @@
       "source_file": "harness\\loader.js",
       "source_location": "L40",
       "id": "loader_graderesult",
-      "community": 2,
+      "community": 3,
       "norm_label": "graderesult()"
     },
     {
@@ -342,7 +342,7 @@
       "source_file": "harness\\loader.js",
       "source_location": "L89",
       "id": "loader_createrunlog",
-      "community": 2,
+      "community": 3,
       "norm_label": "createrunlog()"
     },
     {
@@ -351,7 +351,7 @@
       "source_file": "harness\\loader.js",
       "source_location": "L98",
       "id": "loader_saverunlog",
-      "community": 2,
+      "community": 3,
       "norm_label": "saverunlog()"
     },
     {
@@ -360,7 +360,7 @@
       "source_file": "harness\\orchestrator.js",
       "source_location": "L1",
       "id": "harness_orchestrator_js",
-      "community": 2,
+      "community": 3,
       "norm_label": "orchestrator.js"
     },
     {
@@ -369,7 +369,7 @@
       "source_file": "harness\\orchestrator.js",
       "source_location": "L8",
       "id": "orchestrator_rungoldencase",
-      "community": 2,
+      "community": 3,
       "norm_label": "rungoldencase()"
     },
     {
@@ -378,7 +378,7 @@
       "source_file": "harness\\orchestrator.js",
       "source_location": "L26",
       "id": "orchestrator_runallgoldencases",
-      "community": 2,
+      "community": 3,
       "norm_label": "runallgoldencases()"
     },
     {
@@ -387,7 +387,7 @@
       "source_file": "harness\\orchestrator.js",
       "source_location": "L40",
       "id": "orchestrator_summarizeresults",
-      "community": 2,
+      "community": 3,
       "norm_label": "summarizeresults()"
     },
     {
@@ -396,7 +396,7 @@
       "source_file": "harness\\orchestrator.js",
       "source_location": "L54",
       "id": "orchestrator_generatereport",
-      "community": 2,
+      "community": 3,
       "norm_label": "generatereport()"
     },
     {
@@ -405,7 +405,7 @@
       "source_file": "harness\\reporter.js",
       "source_location": "L1",
       "id": "harness_reporter_js",
-      "community": 2,
+      "community": 3,
       "norm_label": "reporter.js"
     },
     {
@@ -414,7 +414,7 @@
       "source_file": "harness\\reporter.js",
       "source_location": "L5",
       "id": "reporter_report",
-      "community": 2,
+      "community": 3,
       "norm_label": "report()"
     },
     {
@@ -630,7 +630,7 @@
       "source_file": "runtime\\plugin\\installer.js",
       "source_location": "L71",
       "id": "installer_status",
-      "community": 4,
+      "community": 5,
       "norm_label": "status()"
     },
     {
@@ -648,7 +648,7 @@
       "source_file": "lib\\installer\\installer.js",
       "source_location": "L481",
       "id": "installer_doctor",
-      "community": 3,
+      "community": 4,
       "norm_label": "doctor()"
     },
     {
@@ -675,23 +675,23 @@
       "source_file": "lib\\installer\\wizard.js",
       "source_location": "L1",
       "id": "lib_installer_wizard_js",
-      "community": 3,
+      "community": 4,
       "norm_label": "wizard.js"
     },
     {
       "label": "log()",
       "file_type": "code",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L213",
+      "source_location": "L249",
       "id": "wizard_log",
-      "community": 3,
+      "community": 4,
       "norm_label": "log()"
     },
     {
       "label": "clearLine()",
       "file_type": "code",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L214",
+      "source_location": "L250",
       "id": "wizard_clearline",
       "community": 10,
       "norm_label": "clearline()"
@@ -700,225 +700,216 @@
       "label": "printBanner()",
       "file_type": "code",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L219",
+      "source_location": "L255",
       "id": "wizard_printbanner",
-      "community": 3,
+      "community": 4,
       "norm_label": "printbanner()"
     },
     {
       "label": "setTotalSteps()",
       "file_type": "code",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L240",
+      "source_location": "L276",
       "id": "wizard_settotalsteps",
-      "community": 3,
+      "community": 4,
       "norm_label": "settotalsteps()"
     },
     {
       "label": "printProgress()",
       "file_type": "code",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L242",
+      "source_location": "L278",
       "id": "wizard_printprogress",
-      "community": 3,
+      "community": 4,
       "norm_label": "printprogress()"
     },
     {
       "label": "printStep()",
       "file_type": "code",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L252",
+      "source_location": "L288",
       "id": "wizard_printstep",
-      "community": 3,
+      "community": 4,
       "norm_label": "printstep()"
     },
     {
       "label": "printTip()",
       "file_type": "code",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L261",
+      "source_location": "L297",
       "id": "wizard_printtip",
-      "community": 3,
+      "community": 4,
       "norm_label": "printtip()"
     },
     {
       "label": "printCoaching()",
       "file_type": "code",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L265",
+      "source_location": "L301",
       "id": "wizard_printcoaching",
-      "community": 3,
+      "community": 4,
       "norm_label": "printcoaching()"
     },
     {
       "label": "printDivider()",
       "file_type": "code",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L269",
+      "source_location": "L305",
       "id": "wizard_printdivider",
-      "community": 3,
+      "community": 4,
       "norm_label": "printdivider()"
     },
     {
       "label": "ask()",
       "file_type": "code",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L276",
+      "source_location": "L312",
       "id": "wizard_ask",
-      "community": 3,
+      "community": 4,
       "norm_label": "ask()"
     },
     {
       "label": "confirm()",
       "file_type": "code",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L285",
+      "source_location": "L321",
       "id": "wizard_confirm",
-      "community": 3,
+      "community": 4,
       "norm_label": "confirm()"
     },
     {
       "label": "selectOne()",
       "file_type": "code",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L293",
+      "source_location": "L329",
       "id": "wizard_selectone",
-      "community": 3,
+      "community": 4,
       "norm_label": "selectone()"
     },
     {
       "label": "multiSelect()",
       "file_type": "code",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L312",
+      "source_location": "L348",
       "id": "wizard_multiselect",
-      "community": 3,
+      "community": 4,
       "norm_label": "multiselect()"
     },
     {
       "label": "detectHosts()",
       "file_type": "code",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L380",
+      "source_location": "L416",
       "id": "wizard_detecthosts",
-      "community": 3,
+      "community": 4,
       "norm_label": "detecthosts()"
     },
     {
       "label": "getGitUserName()",
       "file_type": "code",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L402",
+      "source_location": "L438",
       "id": "wizard_getgitusername",
-      "community": 3,
+      "community": 4,
       "norm_label": "getgitusername()"
     },
     {
       "label": "stepMode()",
       "file_type": "code",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L411",
+      "source_location": "L447",
       "id": "wizard_stepmode",
-      "community": 3,
+      "community": 4,
       "norm_label": "stepmode()"
     },
     {
       "label": "stepProject()",
       "file_type": "code",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L440",
+      "source_location": "L476",
       "id": "wizard_stepproject",
-      "community": 3,
+      "community": 4,
       "norm_label": "stepproject()"
     },
     {
-      "label": "stepAgents()",
+      "label": "stepModules()",
       "file_type": "code",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L479",
-      "id": "wizard_stepagents",
-      "community": 3,
-      "norm_label": "stepagents()"
+      "source_location": "L516",
+      "id": "wizard_stepmodules",
+      "community": 4,
+      "norm_label": "stepmodules()"
     },
     {
-      "label": "stepSkills()",
+      "label": "expandModuleSelection()",
       "file_type": "code",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L508",
-      "id": "wizard_stepskills",
-      "community": 3,
-      "norm_label": "stepskills()"
-    },
-    {
-      "label": "stepWorkflows()",
-      "file_type": "code",
-      "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L535",
-      "id": "wizard_stepworkflows",
-      "community": 3,
-      "norm_label": "stepworkflows()"
+      "source_location": "L568",
+      "id": "wizard_expandmoduleselection",
+      "community": 4,
+      "norm_label": "expandmoduleselection()"
     },
     {
       "label": "stepHosts()",
       "file_type": "code",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L556",
+      "source_location": "L589",
       "id": "wizard_stephosts",
-      "community": 3,
+      "community": 4,
       "norm_label": "stephosts()"
     },
     {
       "label": "stepGraph()",
       "file_type": "code",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L596",
+      "source_location": "L629",
       "id": "wizard_stepgraph",
-      "community": 3,
+      "community": 4,
       "norm_label": "stepgraph()"
     },
     {
       "label": "stepQuality()",
       "file_type": "code",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L618",
+      "source_location": "L651",
       "id": "wizard_stepquality",
-      "community": 3,
+      "community": 4,
       "norm_label": "stepquality()"
     },
     {
       "label": "stepLanguage()",
       "file_type": "code",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L630",
+      "source_location": "L663",
       "id": "wizard_steplanguage",
-      "community": 3,
+      "community": 4,
       "norm_label": "steplanguage()"
     },
     {
       "label": "stepReview()",
       "file_type": "code",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L650",
+      "source_location": "L683",
       "id": "wizard_stepreview",
-      "community": 3,
+      "community": 4,
       "norm_label": "stepreview()"
     },
     {
       "label": "printInfoBox()",
       "file_type": "code",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L685",
+      "source_location": "L718",
       "id": "wizard_printinfobox",
-      "community": 3,
+      "community": 4,
       "norm_label": "printinfobox()"
     },
     {
       "label": "interactiveInstall()",
       "file_type": "code",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L699",
+      "source_location": "L732",
       "id": "wizard_interactiveinstall",
-      "community": 3,
+      "community": 4,
       "norm_label": "interactiveinstall()"
     },
     {
@@ -972,7 +963,7 @@
       "source_file": "runtime\\retrieval.js",
       "source_location": "L1",
       "id": "runtime_retrieval_js",
-      "community": 2,
+      "community": 3,
       "norm_label": "retrieval.js"
     },
     {
@@ -981,7 +972,7 @@
       "source_file": "runtime\\retrieval.js",
       "source_location": "L2",
       "id": "retrieval_load",
-      "community": 2,
+      "community": 3,
       "norm_label": "load()"
     },
     {
@@ -990,7 +981,7 @@
       "source_file": "runtime\\retrieval.js",
       "source_location": "L3",
       "id": "retrieval_walk",
-      "community": 2,
+      "community": 3,
       "norm_label": "walk()"
     },
     {
@@ -999,7 +990,7 @@
       "source_file": "runtime\\retrieval.js",
       "source_location": "L4",
       "id": "retrieval_search",
-      "community": 2,
+      "community": 3,
       "norm_label": "search()"
     },
     {
@@ -1008,7 +999,7 @@
       "source_file": "runtime\\retrieval.js",
       "source_location": "L10",
       "id": "retrieval_score",
-      "community": 2,
+      "community": 3,
       "norm_label": "score()"
     },
     {
@@ -1017,7 +1008,7 @@
       "source_file": "runtime\\retrieval.js",
       "source_location": "L11",
       "id": "retrieval_contextpack",
-      "community": 2,
+      "community": 3,
       "norm_label": "contextpack()"
     },
     {
@@ -1503,7 +1494,7 @@
       "source_file": "runtime\\context\\packer.js",
       "source_location": "L1",
       "id": "runtime_context_packer_js",
-      "community": 2,
+      "community": 3,
       "norm_label": "packer.js"
     },
     {
@@ -1512,7 +1503,7 @@
       "source_file": "runtime\\context\\packer.js",
       "source_location": "L4",
       "id": "packer_pack",
-      "community": 2,
+      "community": 3,
       "norm_label": "pack()"
     },
     {
@@ -1521,7 +1512,7 @@
       "source_file": "runtime\\context\\packer.js",
       "source_location": "L40",
       "id": "packer_estimatetokens",
-      "community": 2,
+      "community": 3,
       "norm_label": "estimatetokens()"
     },
     {
@@ -1530,7 +1521,7 @@
       "source_file": "runtime\\context\\packer.js",
       "source_location": "L48",
       "id": "packer_truncatepacket",
-      "community": 2,
+      "community": 3,
       "norm_label": "truncatepacket()"
     },
     {
@@ -1539,7 +1530,7 @@
       "source_file": "runtime\\context\\router.js",
       "source_location": "L1",
       "id": "runtime_context_router_js",
-      "community": 2,
+      "community": 3,
       "norm_label": "router.js"
     },
     {
@@ -1548,7 +1539,7 @@
       "source_file": "runtime\\context\\router.js",
       "source_location": "L6",
       "id": "router_safe",
-      "community": 2,
+      "community": 3,
       "norm_label": "safe()"
     },
     {
@@ -1557,7 +1548,7 @@
       "source_file": "runtime\\context\\router.js",
       "source_location": "L10",
       "id": "router_loadmaps",
-      "community": 2,
+      "community": 3,
       "norm_label": "loadmaps()"
     },
     {
@@ -1566,7 +1557,7 @@
       "source_file": "runtime\\context\\router.js",
       "source_location": "L20",
       "id": "router_flatten",
-      "community": 2,
+      "community": 3,
       "norm_label": "flatten()"
     },
     {
@@ -1575,7 +1566,7 @@
       "source_file": "runtime\\context\\router.js",
       "source_location": "L28",
       "id": "router_detecttasktype",
-      "community": 2,
+      "community": 3,
       "norm_label": "detecttasktype()"
     },
     {
@@ -1584,7 +1575,7 @@
       "source_file": "runtime\\context\\router.js",
       "source_location": "L38",
       "id": "router_extracthints",
-      "community": 2,
+      "community": 3,
       "norm_label": "extracthints()"
     },
     {
@@ -1593,7 +1584,7 @@
       "source_file": "runtime\\context\\router.js",
       "source_location": "L52",
       "id": "router_route",
-      "community": 2,
+      "community": 3,
       "norm_label": "route()"
     },
     {
@@ -1863,7 +1854,7 @@
       "source_file": "runtime\\host\\bridge.js",
       "source_location": "L1",
       "id": "runtime_host_bridge_js",
-      "community": 13,
+      "community": 6,
       "norm_label": "bridge.js"
     },
     {
@@ -1872,7 +1863,7 @@
       "source_file": "runtime\\host\\bridge.js",
       "source_location": "L5",
       "id": "bridge_loadhostspecs",
-      "community": 13,
+      "community": 6,
       "norm_label": "loadhostspecs()"
     },
     {
@@ -1881,7 +1872,7 @@
       "source_file": "runtime\\host\\bridge.js",
       "source_location": "L27",
       "id": "bridge_resolvecapabilities",
-      "community": 13,
+      "community": 6,
       "norm_label": "resolvecapabilities()"
     },
     {
@@ -1890,7 +1881,7 @@
       "source_file": "runtime\\host\\bridge.js",
       "source_location": "L41",
       "id": "bridge_findbesthost",
-      "community": 13,
+      "community": 6,
       "norm_label": "findbesthost()"
     },
     {
@@ -1899,7 +1890,7 @@
       "source_file": "runtime\\host\\bridge.js",
       "source_location": "L56",
       "id": "bridge_generatehostbridge",
-      "community": 13,
+      "community": 6,
       "norm_label": "generatehostbridge()"
     },
     {
@@ -1908,7 +1899,7 @@
       "source_file": "runtime\\host\\bridge.js",
       "source_location": "L69",
       "id": "bridge_mapcapabilitytohost",
-      "community": 13,
+      "community": 6,
       "norm_label": "mapcapabilitytohost()"
     },
     {
@@ -1989,7 +1980,7 @@
       "source_file": "runtime\\memory\\extractor.js",
       "source_location": "L1",
       "id": "runtime_memory_extractor_js",
-      "community": 6,
+      "community": 13,
       "norm_label": "extractor.js"
     },
     {
@@ -1998,7 +1989,7 @@
       "source_file": "runtime\\memory\\extractor.js",
       "source_location": "L6",
       "id": "extractor_extractl0",
-      "community": 6,
+      "community": 13,
       "norm_label": "extractl0()"
     },
     {
@@ -2007,7 +1998,7 @@
       "source_file": "runtime\\memory\\extractor.js",
       "source_location": "L34",
       "id": "extractor_extractl1",
-      "community": 6,
+      "community": 13,
       "norm_label": "extractl1()"
     },
     {
@@ -2016,7 +2007,7 @@
       "source_file": "runtime\\memory\\extractor.js",
       "source_location": "L74",
       "id": "extractor_extractl2",
-      "community": 6,
+      "community": 13,
       "norm_label": "extractl2()"
     },
     {
@@ -2025,7 +2016,7 @@
       "source_file": "runtime\\memory\\extractor.js",
       "source_location": "L102",
       "id": "extractor_extractall",
-      "community": 6,
+      "community": 13,
       "norm_label": "extractall()"
     },
     {
@@ -2034,7 +2025,7 @@
       "source_file": "runtime\\memory\\extractor.js",
       "source_location": "L126",
       "id": "extractor_saveextracted",
-      "community": 6,
+      "community": 13,
       "norm_label": "saveextracted()"
     },
     {
@@ -2160,7 +2151,7 @@
       "source_file": "runtime\\plugin\\registry.js",
       "source_location": "L79",
       "id": "registry_list",
-      "community": 1,
+      "community": 2,
       "norm_label": "list()"
     },
     {
@@ -2169,7 +2160,7 @@
       "source_file": "runtime\\plugin\\registry.js",
       "source_location": "L91",
       "id": "registry_get",
-      "community": 4,
+      "community": 2,
       "norm_label": "get()"
     },
     {
@@ -2205,7 +2196,7 @@
       "source_file": "runtime\\module\\registry.js",
       "source_location": "L146",
       "id": "registry_listcapabilities",
-      "community": 1,
+      "community": 2,
       "norm_label": "listcapabilities()"
     },
     {
@@ -2358,7 +2349,7 @@
       "source_file": "runtime\\plugin\\activation.js",
       "source_location": "L6",
       "id": "activation_items",
-      "community": 4,
+      "community": 2,
       "norm_label": "items()"
     },
     {
@@ -2394,7 +2385,7 @@
       "source_file": "runtime\\plugin\\installer.js",
       "source_location": "L1",
       "id": "runtime_plugin_installer_js",
-      "community": 1,
+      "community": 5,
       "norm_label": "installer.js"
     },
     {
@@ -2403,7 +2394,7 @@
       "source_file": "runtime\\plugin\\installer.js",
       "source_location": "L8",
       "id": "installer_copydir",
-      "community": 1,
+      "community": 5,
       "norm_label": "copydir()"
     },
     {
@@ -2412,7 +2403,7 @@
       "source_file": "runtime\\plugin\\installer.js",
       "source_location": "L13",
       "id": "installer_readmanifest",
-      "community": 1,
+      "community": 5,
       "norm_label": "readmanifest()"
     },
     {
@@ -2421,7 +2412,7 @@
       "source_file": "runtime\\plugin\\installer.js",
       "source_location": "L22",
       "id": "installer_stagenpm",
-      "community": 1,
+      "community": 5,
       "norm_label": "stagenpm()"
     },
     {
@@ -2430,7 +2421,7 @@
       "source_file": "runtime\\plugin\\installer.js",
       "source_location": "L31",
       "id": "installer_stagegithub",
-      "community": 1,
+      "community": 5,
       "norm_label": "stagegithub()"
     },
     {
@@ -2439,7 +2430,7 @@
       "source_file": "runtime\\plugin\\installer.js",
       "source_location": "L38",
       "id": "installer_stagefile",
-      "community": 1,
+      "community": 5,
       "norm_label": "stagefile()"
     },
     {
@@ -2448,7 +2439,7 @@
       "source_file": "runtime\\plugin\\installer.js",
       "source_location": "L42",
       "id": "installer_install",
-      "community": 1,
+      "community": 5,
       "norm_label": "install()"
     },
     {
@@ -2466,7 +2457,7 @@
       "source_file": "runtime\\plugin\\installer.js",
       "source_location": "L86",
       "id": "installer_listinstalled",
-      "community": 1,
+      "community": 5,
       "norm_label": "listinstalled()"
     },
     {
@@ -2511,7 +2502,7 @@
       "source_file": "runtime\\plugin\\registry.js",
       "source_location": "L130",
       "id": "registry_ensurenamespace",
-      "community": 1,
+      "community": 5,
       "norm_label": "ensurenamespace()"
     },
     {
@@ -3087,7 +3078,7 @@
       "source_file": "runtime\\workflow\\pipeline.js",
       "source_location": "L1",
       "id": "runtime_workflow_pipeline_js",
-      "community": 5,
+      "community": 0,
       "norm_label": "pipeline.js"
     },
     {
@@ -3096,7 +3087,7 @@
       "source_file": "runtime\\workflow\\pipeline.js",
       "source_location": "L29",
       "id": "pipeline_runpipeline",
-      "community": 5,
+      "community": 0,
       "norm_label": "runpipeline()"
     },
     {
@@ -3114,7 +3105,7 @@
       "source_file": "runtime\\workflow\\pipeline.js",
       "source_location": "L219",
       "id": "pipeline_loadprogress",
-      "community": 5,
+      "community": 0,
       "norm_label": "loadprogress()"
     },
     {
@@ -3123,7 +3114,7 @@
       "source_file": "runtime\\workflow\\pipeline.js",
       "source_location": "L230",
       "id": "pipeline_saveprogress",
-      "community": 5,
+      "community": 0,
       "norm_label": "saveprogress()"
     },
     {
@@ -3132,7 +3123,7 @@
       "source_file": "runtime\\workflow\\pipeline.js",
       "source_location": "L239",
       "id": "pipeline_getpipelinestatus",
-      "community": 5,
+      "community": 0,
       "norm_label": "getpipelinestatus()"
     },
     {
@@ -3141,7 +3132,7 @@
       "source_file": "runtime\\workflow\\pipeline.js",
       "source_location": "L267",
       "id": "pipeline_resetpipelineprogress",
-      "community": 5,
+      "community": 0,
       "norm_label": "resetpipelineprogress()"
     },
     {
@@ -3150,8 +3141,26 @@
       "source_file": "runtime\\workflow\\pipeline.js",
       "source_location": "L278",
       "id": "pipeline_runparallelchapters",
-      "community": 5,
+      "community": 0,
       "norm_label": "runparallelchapters()"
+    },
+    {
+      "label": "rewrite-wizard-modules.js",
+      "file_type": "code",
+      "source_file": "scripts\\rewrite-wizard-modules.js",
+      "source_location": "L1",
+      "id": "scripts_rewrite_wizard_modules_js",
+      "community": 32,
+      "norm_label": "rewrite-wizard-modules.js"
+    },
+    {
+      "label": "rewrite-wizard-modules.mjs",
+      "file_type": "code",
+      "source_file": "scripts\\rewrite-wizard-modules.mjs",
+      "source_location": "L1",
+      "id": "scripts_rewrite_wizard_modules_mjs",
+      "community": 33,
+      "norm_label": "rewrite-wizard-modules.mjs"
     },
     {
       "label": "build_agent_maps.py",
@@ -3159,7 +3168,7 @@
       "source_file": "scripts\\catalog\\build_agent_maps.py",
       "source_location": "L1",
       "id": "scripts_catalog_build_agent_maps_py",
-      "community": 32,
+      "community": 34,
       "norm_label": "build_agent_maps.py"
     },
     {
@@ -3168,7 +3177,7 @@
       "source_file": "scripts\\catalog\\build_indexes.py",
       "source_location": "L1",
       "id": "scripts_catalog_build_indexes_py",
-      "community": 33,
+      "community": 35,
       "norm_label": "build_indexes.py"
     },
     {
@@ -3177,7 +3186,7 @@
       "source_file": "scripts\\catalog\\build_relations.py",
       "source_location": "L1",
       "id": "scripts_catalog_build_relations_py",
-      "community": 34,
+      "community": 36,
       "norm_label": "build_relations.py"
     },
     {
@@ -3186,7 +3195,7 @@
       "source_file": "scripts\\catalog\\build_workflow_maps.py",
       "source_location": "L1",
       "id": "scripts_catalog_build_workflow_maps_py",
-      "community": 35,
+      "community": 37,
       "norm_label": "build_workflow_maps.py"
     },
     {
@@ -3195,7 +3204,7 @@
       "source_file": "scripts\\catalog\\catalog_diff.py",
       "source_location": "L1",
       "id": "scripts_catalog_catalog_diff_py",
-      "community": 36,
+      "community": 38,
       "norm_label": "catalog_diff.py"
     },
     {
@@ -3204,7 +3213,7 @@
       "source_file": "scripts\\catalog\\catalog_report.py",
       "source_location": "L1",
       "id": "scripts_catalog_catalog_report_py",
-      "community": 37,
+      "community": 39,
       "norm_label": "catalog_report.py"
     },
     {
@@ -3213,7 +3222,7 @@
       "source_file": "scripts\\catalog\\catalog_search.py",
       "source_location": "L1",
       "id": "scripts_catalog_catalog_search_py",
-      "community": 38,
+      "community": 40,
       "norm_label": "catalog_search.py"
     },
     {
@@ -3222,7 +3231,7 @@
       "source_file": "scripts\\catalog\\check_ids.py",
       "source_location": "L1",
       "id": "scripts_catalog_check_ids_py",
-      "community": 39,
+      "community": 41,
       "norm_label": "check_ids.py"
     },
     {
@@ -3231,7 +3240,7 @@
       "source_file": "scripts\\catalog\\check_references.py",
       "source_location": "L1",
       "id": "scripts_catalog_check_references_py",
-      "community": 40,
+      "community": 42,
       "norm_label": "check_references.py"
     },
     {
@@ -3240,7 +3249,7 @@
       "source_file": "scripts\\catalog\\check_sources.py",
       "source_location": "L1",
       "id": "scripts_catalog_check_sources_py",
-      "community": 41,
+      "community": 43,
       "norm_label": "check_sources.py"
     },
     {
@@ -3249,7 +3258,7 @@
       "source_file": "scripts\\catalog\\convert_formats.py",
       "source_location": "L1",
       "id": "scripts_catalog_convert_formats_py",
-      "community": 42,
+      "community": 44,
       "norm_label": "convert_formats.py"
     },
     {
@@ -3258,7 +3267,7 @@
       "source_file": "scripts\\catalog\\deduplicate_entries.py",
       "source_location": "L1",
       "id": "scripts_catalog_deduplicate_entries_py",
-      "community": 43,
+      "community": 45,
       "norm_label": "deduplicate_entries.py"
     },
     {
@@ -3267,7 +3276,7 @@
       "source_file": "scripts\\catalog\\generate_stats.py",
       "source_location": "L1",
       "id": "scripts_catalog_generate_stats_py",
-      "community": 44,
+      "community": 46,
       "norm_label": "generate_stats.py"
     },
     {
@@ -3276,7 +3285,7 @@
       "source_file": "scripts\\catalog\\generate_templates.py",
       "source_location": "L1",
       "id": "scripts_catalog_generate_templates_py",
-      "community": 45,
+      "community": 47,
       "norm_label": "generate_templates.py"
     },
     {
@@ -3285,7 +3294,7 @@
       "source_file": "scripts\\catalog\\load_master_catalog.py",
       "source_location": "L1",
       "id": "scripts_catalog_load_master_catalog_py",
-      "community": 46,
+      "community": 48,
       "norm_label": "load_master_catalog.py"
     },
     {
@@ -3294,7 +3303,7 @@
       "source_file": "scripts\\catalog\\merge_catalogs.py",
       "source_location": "L1",
       "id": "scripts_catalog_merge_catalogs_py",
-      "community": 47,
+      "community": 49,
       "norm_label": "merge_catalogs.py"
     },
     {
@@ -3303,7 +3312,7 @@
       "source_file": "scripts\\catalog\\normalize_catalogs.py",
       "source_location": "L1",
       "id": "scripts_catalog_normalize_catalogs_py",
-      "community": 48,
+      "community": 50,
       "norm_label": "normalize_catalogs.py"
     },
     {
@@ -3312,7 +3321,7 @@
       "source_file": "scripts\\catalog\\split_catalogs.py",
       "source_location": "L1",
       "id": "scripts_catalog_split_catalogs_py",
-      "community": 49,
+      "community": 51,
       "norm_label": "split_catalogs.py"
     },
     {
@@ -3321,7 +3330,7 @@
       "source_file": "scripts\\catalog\\validate_catalogs.py",
       "source_location": "L1",
       "id": "scripts_catalog_validate_catalogs_py",
-      "community": 50,
+      "community": 52,
       "norm_label": "validate_catalogs.py"
     },
     {
@@ -3330,7 +3339,7 @@
       "source_file": "scripts\\catalog\\_lib.py",
       "source_location": "L1",
       "id": "scripts_catalog_lib_py",
-      "community": 4,
+      "community": 2,
       "norm_label": "_lib.py"
     },
     {
@@ -3339,7 +3348,7 @@
       "source_file": "scripts\\catalog\\_lib.py",
       "source_location": "L7",
       "id": "lib_load_master",
-      "community": 4,
+      "community": 2,
       "norm_label": "load_master()"
     },
     {
@@ -3348,7 +3357,7 @@
       "source_file": "scripts\\catalog\\_lib.py",
       "source_location": "L15",
       "id": "lib_write_json",
-      "community": 4,
+      "community": 2,
       "norm_label": "write_json()"
     },
     {
@@ -3357,7 +3366,7 @@
       "source_file": "scripts\\catalog\\_lib.py",
       "source_location": "L18",
       "id": "lib_stable_hash",
-      "community": 4,
+      "community": 2,
       "norm_label": "stable_hash()"
     },
     {
@@ -3366,7 +3375,7 @@
       "source_file": "scripts\\catalog\\_lib.py",
       "source_location": "L21",
       "id": "lib_slug",
-      "community": 4,
+      "community": 2,
       "norm_label": "slug()"
     },
     {
@@ -3375,7 +3384,7 @@
       "source_file": "scripts\\graph\\build_book_graph.py",
       "source_location": "L1",
       "id": "scripts_graph_build_book_graph_py",
-      "community": 4,
+      "community": 2,
       "norm_label": "build_book_graph.py"
     },
     {
@@ -3384,7 +3393,7 @@
       "source_file": "scripts\\graph\\build_book_graph.py",
       "source_location": "L4",
       "id": "build_book_graph_main",
-      "community": 4,
+      "community": 2,
       "norm_label": "main()"
     },
     {
@@ -3393,7 +3402,7 @@
       "source_file": "scripts\\graph\\emit_event.py",
       "source_location": "L1",
       "id": "scripts_graph_emit_event_py",
-      "community": 4,
+      "community": 2,
       "norm_label": "emit_event.py"
     },
     {
@@ -3402,7 +3411,7 @@
       "source_file": "scripts\\graph\\emit_event.py",
       "source_location": "L4",
       "id": "emit_event_main",
-      "community": 4,
+      "community": 2,
       "norm_label": "main()"
     },
     {
@@ -3411,7 +3420,7 @@
       "source_file": "scripts\\graph\\export_mcp_configs.py",
       "source_location": "L1",
       "id": "scripts_graph_export_mcp_configs_py",
-      "community": 4,
+      "community": 2,
       "norm_label": "export_mcp_configs.py"
     },
     {
@@ -3420,7 +3429,7 @@
       "source_file": "scripts\\graph\\export_mcp_configs.py",
       "source_location": "L4",
       "id": "export_mcp_configs_main",
-      "community": 4,
+      "community": 2,
       "norm_label": "main()"
     },
     {
@@ -3429,7 +3438,7 @@
       "source_file": "scripts\\graph\\validate_graph.py",
       "source_location": "L1",
       "id": "scripts_graph_validate_graph_py",
-      "community": 4,
+      "community": 2,
       "norm_label": "validate_graph.py"
     },
     {
@@ -3438,7 +3447,7 @@
       "source_file": "scripts\\graph\\validate_graph.py",
       "source_location": "L4",
       "id": "validate_graph_main",
-      "community": 4,
+      "community": 2,
       "norm_label": "main()"
     },
     {
@@ -3447,7 +3456,7 @@
       "source_file": "scripts\\packaging\\generate-skills.py",
       "source_location": "L1",
       "id": "scripts_packaging_generate_skills_py",
-      "community": 4,
+      "community": 2,
       "norm_label": "generate-skills.py"
     },
     {
@@ -3456,7 +3465,7 @@
       "source_file": "scripts\\packaging\\generate-skills.py",
       "source_location": "L4",
       "id": "generate_skills_main",
-      "community": 4,
+      "community": 2,
       "norm_label": "main()"
     },
     {
@@ -3465,7 +3474,7 @@
       "source_file": "scripts\\runtime\\build_host_matrix.py",
       "source_location": "L1",
       "id": "scripts_runtime_build_host_matrix_py",
-      "community": 51,
+      "community": 53,
       "norm_label": "build_host_matrix.py"
     },
     {
@@ -3474,7 +3483,7 @@
       "source_file": "scripts\\runtime\\graph_snapshot.py",
       "source_location": "L1",
       "id": "scripts_runtime_graph_snapshot_py",
-      "community": 52,
+      "community": 54,
       "norm_label": "graph_snapshot.py"
     },
     {
@@ -3483,7 +3492,7 @@
       "source_file": "scripts\\runtime\\plugin_scaffold.py",
       "source_location": "L1",
       "id": "scripts_runtime_plugin_scaffold_py",
-      "community": 53,
+      "community": 55,
       "norm_label": "plugin_scaffold.py"
     },
     {
@@ -3492,7 +3501,7 @@
       "source_file": "scripts\\runtime\\validate_runtime_contract.py",
       "source_location": "L1",
       "id": "scripts_runtime_validate_runtime_contract_py",
-      "community": 54,
+      "community": 56,
       "norm_label": "validate_runtime_contract.py"
     },
     {
@@ -3501,7 +3510,7 @@
       "source_file": "scripts\\runtime\\workflow_lint.py",
       "source_location": "L1",
       "id": "scripts_runtime_workflow_lint_py",
-      "community": 55,
+      "community": 57,
       "norm_label": "workflow_lint.py"
     },
     {
@@ -3528,7 +3537,7 @@
       "source_file": "tests\\golden\\golden-path.test.js",
       "source_location": "L1",
       "id": "tests_golden_golden_path_test_js",
-      "community": 56,
+      "community": 58,
       "norm_label": "golden-path.test.js"
     },
     {
@@ -3573,7 +3582,7 @@
       "source_file": "tests\\runtime\\agent-resolver.test.js",
       "source_location": "L1",
       "id": "tests_runtime_agent_resolver_test_js",
-      "community": 57,
+      "community": 59,
       "norm_label": "agent-resolver.test.js"
     },
     {
@@ -3618,7 +3627,7 @@
       "source_file": "tests\\runtime\\host-bridge.test.js",
       "source_location": "L1",
       "id": "tests_runtime_host_bridge_test_js",
-      "community": 58,
+      "community": 60,
       "norm_label": "host-bridge.test.js"
     },
     {
@@ -3627,7 +3636,7 @@
       "source_file": "tests\\runtime\\memory-extraction.test.js",
       "source_location": "L1",
       "id": "tests_runtime_memory_extraction_test_js",
-      "community": 59,
+      "community": 61,
       "norm_label": "memory-extraction.test.js"
     },
     {
@@ -3636,7 +3645,7 @@
       "source_file": "tests\\runtime\\memory-quality-graph.test.js",
       "source_location": "L1",
       "id": "tests_runtime_memory_quality_graph_test_js",
-      "community": 60,
+      "community": 62,
       "norm_label": "memory-quality-graph.test.js"
     },
     {
@@ -3663,7 +3672,7 @@
       "source_file": "tests\\runtime\\party-mode.test.js",
       "source_location": "L1",
       "id": "tests_runtime_party_mode_test_js",
-      "community": 61,
+      "community": 63,
       "norm_label": "party-mode.test.js"
     },
     {
@@ -3690,7 +3699,7 @@
       "source_file": "tests\\runtime\\quality-engine-v6.test.js",
       "source_location": "L1",
       "id": "tests_runtime_quality_engine_v6_test_js",
-      "community": 62,
+      "community": 64,
       "norm_label": "quality-engine-v6.test.js"
     },
     {
@@ -3699,7 +3708,7 @@
       "source_file": "tests\\runtime\\runtime.test.js",
       "source_location": "L1",
       "id": "tests_runtime_runtime_test_js",
-      "community": 63,
+      "community": 65,
       "norm_label": "runtime.test.js"
     },
     {
@@ -3708,7 +3717,7 @@
       "source_file": "tests\\runtime\\versioning.test.js",
       "source_location": "L1",
       "id": "tests_runtime_versioning_test_js",
-      "community": 64,
+      "community": 66,
       "norm_label": "versioning.test.js"
     },
     {
@@ -5961,7 +5970,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L213",
+      "source_location": "L249",
       "weight": 1.0,
       "_src": "lib_installer_wizard_js",
       "_tgt": "wizard_log",
@@ -5973,7 +5982,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L214",
+      "source_location": "L250",
       "weight": 1.0,
       "_src": "lib_installer_wizard_js",
       "_tgt": "wizard_clearline",
@@ -5985,7 +5994,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L219",
+      "source_location": "L255",
       "weight": 1.0,
       "_src": "lib_installer_wizard_js",
       "_tgt": "wizard_printbanner",
@@ -5997,7 +6006,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L240",
+      "source_location": "L276",
       "weight": 1.0,
       "_src": "lib_installer_wizard_js",
       "_tgt": "wizard_settotalsteps",
@@ -6009,7 +6018,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L242",
+      "source_location": "L278",
       "weight": 1.0,
       "_src": "lib_installer_wizard_js",
       "_tgt": "wizard_printprogress",
@@ -6021,7 +6030,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L252",
+      "source_location": "L288",
       "weight": 1.0,
       "_src": "lib_installer_wizard_js",
       "_tgt": "wizard_printstep",
@@ -6033,7 +6042,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L261",
+      "source_location": "L297",
       "weight": 1.0,
       "_src": "lib_installer_wizard_js",
       "_tgt": "wizard_printtip",
@@ -6045,7 +6054,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L265",
+      "source_location": "L301",
       "weight": 1.0,
       "_src": "lib_installer_wizard_js",
       "_tgt": "wizard_printcoaching",
@@ -6057,7 +6066,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L269",
+      "source_location": "L305",
       "weight": 1.0,
       "_src": "lib_installer_wizard_js",
       "_tgt": "wizard_printdivider",
@@ -6069,7 +6078,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L276",
+      "source_location": "L312",
       "weight": 1.0,
       "_src": "lib_installer_wizard_js",
       "_tgt": "wizard_ask",
@@ -6081,7 +6090,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L285",
+      "source_location": "L321",
       "weight": 1.0,
       "_src": "lib_installer_wizard_js",
       "_tgt": "wizard_confirm",
@@ -6093,7 +6102,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L293",
+      "source_location": "L329",
       "weight": 1.0,
       "_src": "lib_installer_wizard_js",
       "_tgt": "wizard_selectone",
@@ -6105,7 +6114,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L312",
+      "source_location": "L348",
       "weight": 1.0,
       "_src": "lib_installer_wizard_js",
       "_tgt": "wizard_multiselect",
@@ -6117,7 +6126,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L380",
+      "source_location": "L416",
       "weight": 1.0,
       "_src": "lib_installer_wizard_js",
       "_tgt": "wizard_detecthosts",
@@ -6129,7 +6138,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L402",
+      "source_location": "L438",
       "weight": 1.0,
       "_src": "lib_installer_wizard_js",
       "_tgt": "wizard_getgitusername",
@@ -6141,7 +6150,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L411",
+      "source_location": "L447",
       "weight": 1.0,
       "_src": "lib_installer_wizard_js",
       "_tgt": "wizard_stepmode",
@@ -6153,7 +6162,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L440",
+      "source_location": "L476",
       "weight": 1.0,
       "_src": "lib_installer_wizard_js",
       "_tgt": "wizard_stepproject",
@@ -6165,43 +6174,31 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L479",
+      "source_location": "L516",
       "weight": 1.0,
       "_src": "lib_installer_wizard_js",
-      "_tgt": "wizard_stepagents",
+      "_tgt": "wizard_stepmodules",
       "source": "lib_installer_wizard_js",
-      "target": "wizard_stepagents",
+      "target": "wizard_stepmodules",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L508",
+      "source_location": "L568",
       "weight": 1.0,
       "_src": "lib_installer_wizard_js",
-      "_tgt": "wizard_stepskills",
+      "_tgt": "wizard_expandmoduleselection",
       "source": "lib_installer_wizard_js",
-      "target": "wizard_stepskills",
+      "target": "wizard_expandmoduleselection",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L535",
-      "weight": 1.0,
-      "_src": "lib_installer_wizard_js",
-      "_tgt": "wizard_stepworkflows",
-      "source": "lib_installer_wizard_js",
-      "target": "wizard_stepworkflows",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L556",
+      "source_location": "L589",
       "weight": 1.0,
       "_src": "lib_installer_wizard_js",
       "_tgt": "wizard_stephosts",
@@ -6213,7 +6210,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L596",
+      "source_location": "L629",
       "weight": 1.0,
       "_src": "lib_installer_wizard_js",
       "_tgt": "wizard_stepgraph",
@@ -6225,7 +6222,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L618",
+      "source_location": "L651",
       "weight": 1.0,
       "_src": "lib_installer_wizard_js",
       "_tgt": "wizard_stepquality",
@@ -6237,7 +6234,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L630",
+      "source_location": "L663",
       "weight": 1.0,
       "_src": "lib_installer_wizard_js",
       "_tgt": "wizard_steplanguage",
@@ -6249,7 +6246,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L650",
+      "source_location": "L683",
       "weight": 1.0,
       "_src": "lib_installer_wizard_js",
       "_tgt": "wizard_stepreview",
@@ -6261,7 +6258,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L685",
+      "source_location": "L718",
       "weight": 1.0,
       "_src": "lib_installer_wizard_js",
       "_tgt": "wizard_printinfobox",
@@ -6273,7 +6270,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L699",
+      "source_location": "L732",
       "weight": 1.0,
       "_src": "lib_installer_wizard_js",
       "_tgt": "wizard_interactiveinstall",
@@ -6285,7 +6282,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L223",
+      "source_location": "L259",
       "weight": 1.0,
       "_src": "wizard_printbanner",
       "_tgt": "wizard_log",
@@ -6297,7 +6294,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L246",
+      "source_location": "L282",
       "weight": 1.0,
       "_src": "wizard_printprogress",
       "_tgt": "wizard_log",
@@ -6309,7 +6306,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L254",
+      "source_location": "L290",
       "weight": 1.0,
       "_src": "wizard_printstep",
       "_tgt": "wizard_log",
@@ -6321,7 +6318,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L262",
+      "source_location": "L298",
       "weight": 1.0,
       "_src": "wizard_printtip",
       "_tgt": "wizard_log",
@@ -6333,7 +6330,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L266",
+      "source_location": "L302",
       "weight": 1.0,
       "_src": "wizard_printcoaching",
       "_tgt": "wizard_log",
@@ -6345,7 +6342,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L270",
+      "source_location": "L306",
       "weight": 1.0,
       "_src": "wizard_printdivider",
       "_tgt": "wizard_log",
@@ -6357,31 +6354,19 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L490",
+      "source_location": "L530",
       "weight": 1.0,
-      "_src": "wizard_stepagents",
+      "_src": "wizard_stepmodules",
       "_tgt": "wizard_log",
       "source": "wizard_log",
-      "target": "wizard_stepagents",
+      "target": "wizard_stepmodules",
       "confidence_score": 1.0
     },
     {
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L519",
-      "weight": 1.0,
-      "_src": "wizard_stepskills",
-      "_tgt": "wizard_log",
-      "source": "wizard_log",
-      "target": "wizard_stepskills",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L563",
+      "source_location": "L596",
       "weight": 1.0,
       "_src": "wizard_stephosts",
       "_tgt": "wizard_log",
@@ -6393,7 +6378,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L680",
+      "source_location": "L713",
       "weight": 1.0,
       "_src": "wizard_stepreview",
       "_tgt": "wizard_log",
@@ -6405,7 +6390,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L687",
+      "source_location": "L720",
       "weight": 1.0,
       "_src": "wizard_printinfobox",
       "_tgt": "wizard_log",
@@ -6417,7 +6402,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L715",
+      "source_location": "L748",
       "weight": 1.0,
       "_src": "wizard_interactiveinstall",
       "_tgt": "wizard_log",
@@ -6465,7 +6450,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L713",
+      "source_location": "L746",
       "weight": 1.0,
       "_src": "wizard_interactiveinstall",
       "_tgt": "wizard_printbanner",
@@ -6477,7 +6462,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L413",
+      "source_location": "L449",
       "weight": 1.0,
       "_src": "wizard_stepmode",
       "_tgt": "wizard_printprogress",
@@ -6489,7 +6474,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L442",
+      "source_location": "L478",
       "weight": 1.0,
       "_src": "wizard_stepproject",
       "_tgt": "wizard_printprogress",
@@ -6501,43 +6486,19 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L481",
+      "source_location": "L518",
       "weight": 1.0,
-      "_src": "wizard_stepagents",
+      "_src": "wizard_stepmodules",
       "_tgt": "wizard_printprogress",
       "source": "wizard_printprogress",
-      "target": "wizard_stepagents",
+      "target": "wizard_stepmodules",
       "confidence_score": 1.0
     },
     {
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L510",
-      "weight": 1.0,
-      "_src": "wizard_stepskills",
-      "_tgt": "wizard_printprogress",
-      "source": "wizard_printprogress",
-      "target": "wizard_stepskills",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L537",
-      "weight": 1.0,
-      "_src": "wizard_stepworkflows",
-      "_tgt": "wizard_printprogress",
-      "source": "wizard_printprogress",
-      "target": "wizard_stepworkflows",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L558",
+      "source_location": "L591",
       "weight": 1.0,
       "_src": "wizard_stephosts",
       "_tgt": "wizard_printprogress",
@@ -6549,156 +6510,12 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L598",
+      "source_location": "L631",
       "weight": 1.0,
       "_src": "wizard_stepgraph",
       "_tgt": "wizard_printprogress",
       "source": "wizard_printprogress",
       "target": "wizard_stepgraph",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L620",
-      "weight": 1.0,
-      "_src": "wizard_stepquality",
-      "_tgt": "wizard_printprogress",
-      "source": "wizard_printprogress",
-      "target": "wizard_stepquality",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L632",
-      "weight": 1.0,
-      "_src": "wizard_steplanguage",
-      "_tgt": "wizard_printprogress",
-      "source": "wizard_printprogress",
-      "target": "wizard_steplanguage",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L652",
-      "weight": 1.0,
-      "_src": "wizard_stepreview",
-      "_tgt": "wizard_printprogress",
-      "source": "wizard_printprogress",
-      "target": "wizard_stepreview",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L414",
-      "weight": 1.0,
-      "_src": "wizard_stepmode",
-      "_tgt": "wizard_printstep",
-      "source": "wizard_printstep",
-      "target": "wizard_stepmode",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L443",
-      "weight": 1.0,
-      "_src": "wizard_stepproject",
-      "_tgt": "wizard_printstep",
-      "source": "wizard_printstep",
-      "target": "wizard_stepproject",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L482",
-      "weight": 1.0,
-      "_src": "wizard_stepagents",
-      "_tgt": "wizard_printstep",
-      "source": "wizard_printstep",
-      "target": "wizard_stepagents",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L511",
-      "weight": 1.0,
-      "_src": "wizard_stepskills",
-      "_tgt": "wizard_printstep",
-      "source": "wizard_printstep",
-      "target": "wizard_stepskills",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L538",
-      "weight": 1.0,
-      "_src": "wizard_stepworkflows",
-      "_tgt": "wizard_printstep",
-      "source": "wizard_printstep",
-      "target": "wizard_stepworkflows",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L559",
-      "weight": 1.0,
-      "_src": "wizard_stephosts",
-      "_tgt": "wizard_printstep",
-      "source": "wizard_printstep",
-      "target": "wizard_stephosts",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L599",
-      "weight": 1.0,
-      "_src": "wizard_stepgraph",
-      "_tgt": "wizard_printstep",
-      "source": "wizard_printstep",
-      "target": "wizard_stepgraph",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L621",
-      "weight": 1.0,
-      "_src": "wizard_stepquality",
-      "_tgt": "wizard_printstep",
-      "source": "wizard_printstep",
-      "target": "wizard_stepquality",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L633",
-      "weight": 1.0,
-      "_src": "wizard_steplanguage",
-      "_tgt": "wizard_printstep",
-      "source": "wizard_printstep",
-      "target": "wizard_steplanguage",
       "confidence_score": 1.0
     },
     {
@@ -6707,6 +6524,126 @@
       "source_file": "lib\\installer\\wizard.js",
       "source_location": "L653",
       "weight": 1.0,
+      "_src": "wizard_stepquality",
+      "_tgt": "wizard_printprogress",
+      "source": "wizard_printprogress",
+      "target": "wizard_stepquality",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "lib\\installer\\wizard.js",
+      "source_location": "L665",
+      "weight": 1.0,
+      "_src": "wizard_steplanguage",
+      "_tgt": "wizard_printprogress",
+      "source": "wizard_printprogress",
+      "target": "wizard_steplanguage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "lib\\installer\\wizard.js",
+      "source_location": "L685",
+      "weight": 1.0,
+      "_src": "wizard_stepreview",
+      "_tgt": "wizard_printprogress",
+      "source": "wizard_printprogress",
+      "target": "wizard_stepreview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "lib\\installer\\wizard.js",
+      "source_location": "L450",
+      "weight": 1.0,
+      "_src": "wizard_stepmode",
+      "_tgt": "wizard_printstep",
+      "source": "wizard_printstep",
+      "target": "wizard_stepmode",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "lib\\installer\\wizard.js",
+      "source_location": "L479",
+      "weight": 1.0,
+      "_src": "wizard_stepproject",
+      "_tgt": "wizard_printstep",
+      "source": "wizard_printstep",
+      "target": "wizard_stepproject",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "lib\\installer\\wizard.js",
+      "source_location": "L519",
+      "weight": 1.0,
+      "_src": "wizard_stepmodules",
+      "_tgt": "wizard_printstep",
+      "source": "wizard_printstep",
+      "target": "wizard_stepmodules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "lib\\installer\\wizard.js",
+      "source_location": "L592",
+      "weight": 1.0,
+      "_src": "wizard_stephosts",
+      "_tgt": "wizard_printstep",
+      "source": "wizard_printstep",
+      "target": "wizard_stephosts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "lib\\installer\\wizard.js",
+      "source_location": "L632",
+      "weight": 1.0,
+      "_src": "wizard_stepgraph",
+      "_tgt": "wizard_printstep",
+      "source": "wizard_printstep",
+      "target": "wizard_stepgraph",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "lib\\installer\\wizard.js",
+      "source_location": "L654",
+      "weight": 1.0,
+      "_src": "wizard_stepquality",
+      "_tgt": "wizard_printstep",
+      "source": "wizard_printstep",
+      "target": "wizard_stepquality",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "lib\\installer\\wizard.js",
+      "source_location": "L666",
+      "weight": 1.0,
+      "_src": "wizard_steplanguage",
+      "_tgt": "wizard_printstep",
+      "source": "wizard_printstep",
+      "target": "wizard_steplanguage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "lib\\installer\\wizard.js",
+      "source_location": "L686",
+      "weight": 1.0,
       "_src": "wizard_stepreview",
       "_tgt": "wizard_printstep",
       "source": "wizard_printstep",
@@ -6717,7 +6654,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L476",
+      "source_location": "L512",
       "weight": 1.0,
       "_src": "wizard_stepproject",
       "_tgt": "wizard_printtip",
@@ -6729,7 +6666,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L416",
+      "source_location": "L452",
       "weight": 1.0,
       "_src": "wizard_stepmode",
       "_tgt": "wizard_printcoaching",
@@ -6741,7 +6678,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L445",
+      "source_location": "L481",
       "weight": 1.0,
       "_src": "wizard_stepproject",
       "_tgt": "wizard_printcoaching",
@@ -6753,43 +6690,19 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L484",
+      "source_location": "L521",
       "weight": 1.0,
-      "_src": "wizard_stepagents",
+      "_src": "wizard_stepmodules",
       "_tgt": "wizard_printcoaching",
       "source": "wizard_printcoaching",
-      "target": "wizard_stepagents",
+      "target": "wizard_stepmodules",
       "confidence_score": 1.0
     },
     {
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L513",
-      "weight": 1.0,
-      "_src": "wizard_stepskills",
-      "_tgt": "wizard_printcoaching",
-      "source": "wizard_printcoaching",
-      "target": "wizard_stepskills",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L540",
-      "weight": 1.0,
-      "_src": "wizard_stepworkflows",
-      "_tgt": "wizard_printcoaching",
-      "source": "wizard_printcoaching",
-      "target": "wizard_stepworkflows",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L568",
+      "source_location": "L601",
       "weight": 1.0,
       "_src": "wizard_stephosts",
       "_tgt": "wizard_printcoaching",
@@ -6801,7 +6714,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L609",
+      "source_location": "L642",
       "weight": 1.0,
       "_src": "wizard_stepgraph",
       "_tgt": "wizard_printcoaching",
@@ -6813,7 +6726,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L623",
+      "source_location": "L656",
       "weight": 1.0,
       "_src": "wizard_stepquality",
       "_tgt": "wizard_printcoaching",
@@ -6825,7 +6738,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L714",
+      "source_location": "L747",
       "weight": 1.0,
       "_src": "wizard_interactiveinstall",
       "_tgt": "wizard_printcoaching",
@@ -6837,7 +6750,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L449",
+      "source_location": "L485",
       "weight": 1.0,
       "_src": "wizard_stepproject",
       "_tgt": "wizard_ask",
@@ -6849,7 +6762,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L626",
+      "source_location": "L659",
       "weight": 1.0,
       "_src": "wizard_stepquality",
       "_tgt": "wizard_ask",
@@ -6861,7 +6774,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L625",
+      "source_location": "L658",
       "weight": 1.0,
       "_src": "wizard_stepquality",
       "_tgt": "wizard_confirm",
@@ -6873,7 +6786,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L678",
+      "source_location": "L711",
       "weight": 1.0,
       "_src": "wizard_stepreview",
       "_tgt": "wizard_confirm",
@@ -6885,7 +6798,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L418",
+      "source_location": "L454",
       "weight": 1.0,
       "_src": "wizard_stepmode",
       "_tgt": "wizard_selectone",
@@ -6897,7 +6810,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L465",
+      "source_location": "L501",
       "weight": 1.0,
       "_src": "wizard_stepproject",
       "_tgt": "wizard_selectone",
@@ -6909,7 +6822,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L611",
+      "source_location": "L644",
       "weight": 1.0,
       "_src": "wizard_stepgraph",
       "_tgt": "wizard_selectone",
@@ -6921,7 +6834,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L646",
+      "source_location": "L679",
       "weight": 1.0,
       "_src": "wizard_steplanguage",
       "_tgt": "wizard_selectone",
@@ -6933,43 +6846,19 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L492",
+      "source_location": "L544",
       "weight": 1.0,
-      "_src": "wizard_stepagents",
+      "_src": "wizard_stepmodules",
       "_tgt": "wizard_multiselect",
       "source": "wizard_multiselect",
-      "target": "wizard_stepagents",
+      "target": "wizard_stepmodules",
       "confidence_score": 1.0
     },
     {
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L521",
-      "weight": 1.0,
-      "_src": "wizard_stepskills",
-      "_tgt": "wizard_multiselect",
-      "source": "wizard_multiselect",
-      "target": "wizard_stepskills",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L549",
-      "weight": 1.0,
-      "_src": "wizard_stepworkflows",
-      "_tgt": "wizard_multiselect",
-      "source": "wizard_multiselect",
-      "target": "wizard_stepworkflows",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L585",
+      "source_location": "L618",
       "weight": 1.0,
       "_src": "wizard_stephosts",
       "_tgt": "wizard_multiselect",
@@ -6981,7 +6870,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L427",
+      "source_location": "L463",
       "weight": 1.0,
       "_src": "wizard_stepmode",
       "_tgt": "wizard_detecthosts",
@@ -6993,7 +6882,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L561",
+      "source_location": "L594",
       "weight": 1.0,
       "_src": "wizard_stephosts",
       "_tgt": "wizard_detecthosts",
@@ -7005,7 +6894,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L451",
+      "source_location": "L487",
       "weight": 1.0,
       "_src": "wizard_stepproject",
       "_tgt": "wizard_getgitusername",
@@ -7017,7 +6906,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L718",
+      "source_location": "L751",
       "weight": 1.0,
       "_src": "wizard_interactiveinstall",
       "_tgt": "wizard_stepmode",
@@ -7029,7 +6918,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L725",
+      "source_location": "L758",
       "weight": 1.0,
       "_src": "wizard_interactiveinstall",
       "_tgt": "wizard_stepproject",
@@ -7041,11 +6930,23 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L726",
+      "source_location": "L553",
+      "weight": 1.0,
+      "_src": "wizard_stepmodules",
+      "_tgt": "wizard_expandmoduleselection",
+      "source": "wizard_stepmodules",
+      "target": "wizard_expandmoduleselection",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "lib\\installer\\wizard.js",
+      "source_location": "L759",
       "weight": 1.0,
       "_src": "wizard_interactiveinstall",
-      "_tgt": "wizard_stepagents",
-      "source": "wizard_stepagents",
+      "_tgt": "wizard_stepmodules",
+      "source": "wizard_stepmodules",
       "target": "wizard_interactiveinstall",
       "confidence_score": 1.0
     },
@@ -7053,31 +6954,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L727",
-      "weight": 1.0,
-      "_src": "wizard_interactiveinstall",
-      "_tgt": "wizard_stepskills",
-      "source": "wizard_stepskills",
-      "target": "wizard_interactiveinstall",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L728",
-      "weight": 1.0,
-      "_src": "wizard_interactiveinstall",
-      "_tgt": "wizard_stepworkflows",
-      "source": "wizard_stepworkflows",
-      "target": "wizard_interactiveinstall",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L729",
+      "source_location": "L760",
       "weight": 1.0,
       "_src": "wizard_interactiveinstall",
       "_tgt": "wizard_stephosts",
@@ -7089,7 +6966,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L601",
+      "source_location": "L634",
       "weight": 1.0,
       "_src": "wizard_stepgraph",
       "_tgt": "wizard_printinfobox",
@@ -7101,7 +6978,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L730",
+      "source_location": "L761",
       "weight": 1.0,
       "_src": "wizard_interactiveinstall",
       "_tgt": "wizard_stepgraph",
@@ -7113,7 +6990,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L731",
+      "source_location": "L762",
       "weight": 1.0,
       "_src": "wizard_interactiveinstall",
       "_tgt": "wizard_stepquality",
@@ -7125,7 +7002,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L732",
+      "source_location": "L763",
       "weight": 1.0,
       "_src": "wizard_interactiveinstall",
       "_tgt": "wizard_steplanguage",
@@ -7137,7 +7014,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L676",
+      "source_location": "L709",
       "weight": 1.0,
       "_src": "wizard_stepreview",
       "_tgt": "wizard_printinfobox",
@@ -7149,7 +7026,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "lib\\installer\\wizard.js",
-      "source_location": "L733",
+      "source_location": "L764",
       "weight": 1.0,
       "_src": "wizard_interactiveinstall",
       "_tgt": "wizard_stepreview",

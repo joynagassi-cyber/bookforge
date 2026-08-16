@@ -1,11 +1,11 @@
 # Graph Report - bookforge-runtime-v0.5.0  (2026-08-16)
 
 ## Corpus Check
-- 100 files · ~105,658 words
+- 102 files · ~106,462 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 416 nodes · 905 edges · 17 communities detected
+- 417 nodes · 894 edges · 17 communities detected
 - Extraction: 66% EXTRACTED · 34% INFERRED · 0% AMBIGUOUS · INFERRED: 305 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
@@ -32,55 +32,55 @@
 1. `exists()` - 52 edges
 2. `bfPath()` - 38 edges
 3. `mkdir()` - 33 edges
-4. `log()` - 29 edges
+4. `log()` - 28 edges
 5. `loadRegistry()` - 25 edges
 6. `readJson()` - 22 edges
 7. `main()` - 20 edges
 8. `writeJson()` - 20 edges
-9. `interactiveInstall()` - 15 edges
-10. `initProject()` - 14 edges
+9. `initProject()` - 14 edges
+10. `interactiveInstall()` - 13 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `mkdir()` --calls--> `write_json()`  [INFERRED]
   runtime\core\io.js → scripts\catalog\_lib.py
 - `exists()` --calls--> `listGeneratedSkills()`  [INFERRED]
   runtime\core\io.js → runtime\host\skill-generator.js
+- `list()` --calls--> `listInstalled()`  [INFERRED]
+  runtime\plugin\registry.js → runtime\plugin\installer.js
 - `main()` --calls--> `log()`  [INFERRED]
   bin\bookforge-party.js → lib\installer\wizard.js
 - `main()` --calls--> `find()`  [INFERRED]
   bin\bookforge-party.js → runtime\graph\api.js
-- `main()` --calls--> `mkdir()`  [INFERRED]
-  bookforge\bookforge-config\scripts\cleanup-legacy.py → runtime\core\io.js
 
 ## Communities
 
 ### Community 0 - "Community 0"
-Cohesion: 0.1
-Nodes (39): autoBuildPacket(), buildBatchPackets(), buildQualityTargets(), extractField(), getRelevantPatterns(), loadBookContract(), loadContinuityNotes(), loadStyleBible() (+31 more)
+Cohesion: 0.08
+Nodes (44): autoBuildPacket(), buildBatchPackets(), buildQualityTargets(), extractField(), getRelevantPatterns(), loadBookContract(), loadContinuityNotes(), loadStyleBible() (+36 more)
 
 ### Community 1 - "Community 1"
-Cohesion: 0.11
-Nodes (41): copyDir(), install(), listInstalled(), readManifest(), stageFile(), stageGithub(), stageNpm(), uninstall() (+33 more)
+Cohesion: 0.15
+Nodes (31): uninstall(), checkCompatibility(), count(), detectType(), disable(), enable(), getAgent(), getPluginPath() (+23 more)
 
 ### Community 2 - "Community 2"
 Cohesion: 0.1
-Nodes (21): createRunLog(), gradeResult(), listFixtures(), loadAllFixtures(), loadFixture(), saveRunLog(), generateReport(), runAllGoldenCases() (+13 more)
+Nodes (23): items(), main(), main(), main(), main(), load_master(), write_json(), apply_legacy_defaults() (+15 more)
 
 ### Community 3 - "Community 3"
-Cohesion: 0.22
-Nodes (28): check(), main(), doctor(), ask(), confirm(), detectHosts(), getGitUserName(), interactiveInstall() (+20 more)
+Cohesion: 0.1
+Nodes (21): createRunLog(), gradeResult(), listFixtures(), loadAllFixtures(), loadFixture(), saveRunLog(), generateReport(), runAllGoldenCases() (+13 more)
 
 ### Community 4 - "Community 4"
-Cohesion: 0.09
-Nodes (22): items(), main(), main(), main(), main(), status(), load_master(), write_json() (+14 more)
+Cohesion: 0.21
+Nodes (27): check(), main(), doctor(), ask(), confirm(), detectHosts(), expandModuleSelection(), getGitUserName() (+19 more)
 
 ### Community 5 - "Community 5"
-Cohesion: 0.11
-Nodes (16): createExecutionPacket(), sync(), projectRoot(), arg(), has(), main(), positionals(), projectDir() (+8 more)
+Cohesion: 0.1
+Nodes (20): createExecutionPacket(), sync(), copyDir(), install(), listInstalled(), readManifest(), stageFile(), stageGithub() (+12 more)
 
 ### Community 6 - "Community 6"
 Cohesion: 0.13
-Nodes (19): activate(), extractAll(), extractL0(), extractL1(), extractL2(), saveExtracted(), generate(), hostSpec() (+11 more)
+Nodes (19): activate(), findBestHost(), generateHostBridge(), loadHostSpecs(), mapCapabilityToHost(), resolveCapabilities(), generate(), hostSpec() (+11 more)
 
 ### Community 7 - "Community 7"
 Cohesion: 0.16
@@ -107,8 +107,8 @@ Cohesion: 0.29
 Nodes (11): checkAISlop(), checkCliches(), checkContinuity(), checkRepetition(), checkVoice(), extractDescription(), getValidators(), hasCriticalFindings() (+3 more)
 
 ### Community 13 - "Community 13"
-Cohesion: 0.6
-Nodes (5): findBestHost(), generateHostBridge(), loadHostSpecs(), mapCapabilityToHost(), resolveCapabilities()
+Cohesion: 0.53
+Nodes (5): extractAll(), extractL0(), extractL1(), extractL2(), saveExtracted()
 
 ### Community 14 - "Community 14"
 Cohesion: 0.6
@@ -129,12 +129,12 @@ Nodes (3): benchmark(), main(), setupBenchmarkProject()
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `exists()` connect `Community 7` to `Community 0`, `Community 1`, `Community 4`, `Community 5`, `Community 6`, `Community 8`, `Community 9`, `Community 12`, `Community 13`?**
-  _High betweenness centrality (0.188) - this node is a cross-community bridge._
-- **Why does `log()` connect `Community 3` to `Community 2`, `Community 4`, `Community 5`, `Community 6`, `Community 9`, `Community 10`, `Community 11`, `Community 16`?**
-  _High betweenness centrality (0.130) - this node is a cross-community bridge._
-- **Why does `main()` connect `Community 5` to `Community 2`, `Community 3`, `Community 4`, `Community 6`, `Community 7`, `Community 10`?**
-  _High betweenness centrality (0.115) - this node is a cross-community bridge._
+- **Why does `exists()` connect `Community 7` to `Community 0`, `Community 1`, `Community 2`, `Community 5`, `Community 6`, `Community 8`, `Community 9`, `Community 12`?**
+  _High betweenness centrality (0.186) - this node is a cross-community bridge._
+- **Why does `log()` connect `Community 4` to `Community 3`, `Community 5`, `Community 6`, `Community 9`, `Community 10`, `Community 11`, `Community 16`?**
+  _High betweenness centrality (0.128) - this node is a cross-community bridge._
+- **Why does `main()` connect `Community 5` to `Community 0`, `Community 3`, `Community 4`, `Community 6`, `Community 7`, `Community 10`?**
+  _High betweenness centrality (0.112) - this node is a cross-community bridge._
 - **Are the 51 inferred relationships involving `exists()` (e.g. with `find_skills_in_dir()` and `main()`) actually correct?**
   _`exists()` has 51 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 37 inferred relationships involving `bfPath()` (e.g. with `registryPath()` and `loadBookContract()`) actually correct?**
