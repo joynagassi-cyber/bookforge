@@ -1,7 +1,7 @@
 # Graph Report - bookforge-runtime-v0.5.0  (2026-08-16)
 
 ## Corpus Check
-- 100 files · ~104,235 words
+- 100 files · ~105,658 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
