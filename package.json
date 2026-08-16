@@ -1,6 +1,6 @@
 {
   "name": "bookforge-framework",
-  "version": "2.5.22",
+  "version": "2.5.23",
   "description": "Agnostic agentic framework for rigorous book production with plugin, workflow, context and graph runtimes.",
   "license": "MIT",
   "type": "module",
