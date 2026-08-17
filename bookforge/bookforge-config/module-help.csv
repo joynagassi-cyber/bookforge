@@ -1,5 +1,4 @@
 module,skill,display-name,menu-code,description,action,args,phase,preceded-by,followed-by,required,output-location,outputs
-This file registers BookForge capabilities for the help and routing system.
 module,skill,display-name,menu-code,description,action,args,phase,preceded-by,followed-by,required,output-location,outputs
 module,skill,display-name,menu-code,description,action,args,phase,preceded-by,followed-by,required,output-location,outputs
 BookForge Core,bookforge-help,Help & Route,HR,"Show current phase and next recommended step.",run,,anytime,,,false,bookforge/_bmad,bookforge-state.md
