@@ -1,12 +1,12 @@
-# Graph Report - bookforge-runtime-v0.5.0  (2026-08-16)
+# Graph Report - bookforge-runtime-v0.5.0  (2026-08-17)
 
 ## Corpus Check
-- 102 files · ~106,462 words
+- 100 files · ~105,740 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 417 nodes · 894 edges · 17 communities detected
-- Extraction: 66% EXTRACTED · 34% INFERRED · 0% AMBIGUOUS · INFERRED: 305 edges (avg confidence: 0.8)
+- 415 nodes · 895 edges · 17 communities detected
+- Extraction: 66% EXTRACTED · 34% INFERRED · 0% AMBIGUOUS · INFERRED: 306 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Community Hubs (Navigation)
@@ -130,11 +130,11 @@ Nodes (3): benchmark(), main(), setupBenchmarkProject()
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `exists()` connect `Community 7` to `Community 0`, `Community 1`, `Community 2`, `Community 5`, `Community 6`, `Community 8`, `Community 9`, `Community 12`?**
-  _High betweenness centrality (0.186) - this node is a cross-community bridge._
+  _High betweenness centrality (0.188) - this node is a cross-community bridge._
 - **Why does `log()` connect `Community 4` to `Community 3`, `Community 5`, `Community 6`, `Community 9`, `Community 10`, `Community 11`, `Community 16`?**
-  _High betweenness centrality (0.128) - this node is a cross-community bridge._
+  _High betweenness centrality (0.129) - this node is a cross-community bridge._
 - **Why does `main()` connect `Community 5` to `Community 0`, `Community 3`, `Community 4`, `Community 6`, `Community 7`, `Community 10`?**
-  _High betweenness centrality (0.112) - this node is a cross-community bridge._
+  _High betweenness centrality (0.113) - this node is a cross-community bridge._
 - **Are the 51 inferred relationships involving `exists()` (e.g. with `find_skills_in_dir()` and `main()`) actually correct?**
   _`exists()` has 51 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 37 inferred relationships involving `bfPath()` (e.g. with `registryPath()` and `loadBookContract()`) actually correct?**
