@@ -1,15 +1,8 @@
-# BookForge Module Help Catalog
-
+module,skill,display-name,menu-code,description,action,args,phase,preceded-by,followed-by,required,output-location,outputs
 This file registers BookForge capabilities for the help and routing system.
-
-## Format
-
 ```csv
 module,skill,display-name,menu-code,description,action,args,phase,preceded-by,followed-by,required,output-location,outputs
 ```
-
-## Entries
-
 module,skill,display-name,menu-code,description,action,args,phase,preceded-by,followed-by,required,output-location,outputs
 BookForge Core,bookforge-help,Help & Route,HR,"Show current phase and next recommended step.",run,,anytime,,,false,bookforge/_bmad,bookforge-state.md
 BookForge Core,bookforge-validate,Validate Project,VA,"Validate project state and configuration.",run,,anytime,,,false,bookforge/,project.json
